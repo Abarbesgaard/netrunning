@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/rust/language-basics/constants/","title":"Constants","tags":["Rust","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/content/rust/language-basics/constants/","title":"Constants","tags":["Rust","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 > [!tldr] 
