@@ -2,9 +2,8 @@
 {"dg-publish":true,"permalink":"/content/portfolie/debugland/","title":"Debugland","tags":["Portfolie"]}
 ---
 
-
-> [!tldr] 
-> Jeg har udviklet _Debugland_, et .NET debugging bibliotek, for at imødekomme et behov for dybere forståelse af koden under kørsel. Med dette værktøj kan udviklere nemt spore og analysere nøjagtige tidspunkter for metodekald, variabeltilstande og SQL-kommandoer i realtid, hvilket giver klarhed over koden under eksekvering
+> [!tldr]
+> Jeg har udviklet *Debugland*, et .NET debugging bibliotek, for at imødekomme et behov for dybere forståelse af koden under kørsel. Med dette værktøj kan udviklere nemt spore og analysere nøjagtige tidspunkter for metodekald, variabeltilstande og SQL-kommandoer i realtid, hvilket giver klarhed over koden under eksekvering
 
 | Links                                                                             | Beskrivelse                              |
 | --------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -14,7 +13,7 @@
 
 ## Debugland: Et .NET Debugging Bibliotek
 
-_Debugland_ er et debugging bibliotek til .NET, som er tilgængeligt på GitHub. Det tilbyder en række metoder til at spore udførelsen af metoder, timing, udførelse af SQL-kommandoer, variabeldeklarationer og kontrolstrømsudtalelser inden for en .NET-applikation. Ved at bruge Debugland kan udviklere få værdifuld indsigt i deres kodes opførsel og identificere potentielle problemer under udvikling og testning.
+*Debugland* er et debugging bibliotek til .NET, som er tilgængeligt på GitHub. Det tilbyder en række metoder til at spore udførelsen af metoder, timing, udførelse af SQL-kommandoer, variabeldeklarationer og kontrolstrømsudtalelser inden for en .NET-applikation. Ved at bruge Debugland kan udviklere få værdifuld indsigt i deres kodes opførsel og identificere potentielle problemer under udvikling og testning.
 
 Siden er sat op med DocFX, som hiver XML kommentarerne direkte over på siden.
 
@@ -54,7 +53,4 @@ using (var reader = ...)
 }
 Debugger.MethodTerminated("MyMethodName");
 ```
-
-
-
 

@@ -3,10 +3,10 @@
 ---
 
 > [!tldr] 
-> Content
+> Rust har fire primære scalar typer: **integers**, **floating-point numbers**, **bools**, og **characters**. Derudover har Rust sammensatte typer som **tuples** og **arrays**, der kan gruppere flere værdier sammen. Integers kan være signerede eller usignerede og varierer i størrelse. Floating-point numbers inkluderer `f32` og `f64`. Boolean typen specificeres som `bool` og har værdierne `true` og `false`. Character typen er `char` og kan repræsentere Unicode karakterer. Tuples kan gruppere forskellige typer, mens arrays skal have elementer af samme type.
 
 > [!summary] 
-> Content
+> Scalar typer i Rust repræsenterer en enkelt værdi og inkluderer fire hovedtyper: **integers**, **floating-point numbers**, **booleans** og **characters**. Integers kan være signerede (`i8`, `i16`, `i32`, `i64`, `i128`, `isize`) eller usignerede (`u8`, `u16`, `u32`, `u64`, `u128`, `usize`) og varierer i størrelse. Floating-point numbers (`f32`, `f64`) bruges til tal med decimaler. Boolean typen (`bool`) har to værdier: `true` og `false`. Character typen (`char`) kan repræsentere Unicode karakterer. Rust har også to sammensatte typer: tuples, der kan indeholde forskellige typer, og arrays, der indeholder elementer af samme type og har fast længde.
 
 Scalar typer repræsenterer en enkelt værdi. Rust har 4 primær scalar typer:
 1. integers
