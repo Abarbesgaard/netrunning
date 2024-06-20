@@ -3,14 +3,14 @@
 ---
 
 > [!tldr] 
-> Skygning i Rust tillader, at en ny variabel kan erklæres med samme navn som en tidligere variabel, og overskriver den oprindelige værdi i den nye scope.   
+> Shadowing i Rust tillader, at en ny variabel kan erklæres med samme navn som en tidligere variabel, og overskriver den oprindelige værdi i den nye scope.   
 
 > [!summary] 
-> Skygning i Rust gør det muligt at erklære en ny variabel med samme navn som en tidligere variabel. Dette skaber en ny variabel, som overskygger den oprindelige variabel inden for den nye scope. Skygning tillader transformationer af en variabels værdi og type uden at ændre variablen selv. Dette er anderledes end at bruge `mut`, da skygning tillader at ændre typen på variablen ved at bruge `let` igen. Dette gør koden mere fleksibel og nemmere at læse, da man undgår behovet for at finde på forskellige navne til variabler af forskellig type.
+> Shadowing i Rust gør det muligt at erklære en ny [[content/Rust/Language Basics/Variables\|variabel]] med samme navn som en tidligere variabel. Dette skaber en ny [[content/Rust/Language Basics/Variables\|variabel]], som overskygger den oprindelige [[content/Rust/Language Basics/Variables\|variabel]] inden for den nye scope. Shadowing tillader transformationer af en [[content/Rust/Language Basics/Variables\|variabels]] værdi og type uden at ændre [[content/Rust/Language Basics/Variables\|variabel]] selv. Dette er anderledes end at bruge `mut`, da Shadowing tillader at ændre typen på [[content/Rust/Language Basics/Variables\|variablen]] ved at bruge `let` igen. Dette gør koden mere fleksibel og nemmere at læse, da man undgår behovet for at finde på forskellige navne til [[content/Rust/Language Basics/Variables\|variabler]] af forskellig type.
 
 ### Shadowing
 
-Du kan erklære en ny variabel med samme navn som en tidligere variabel. Man siger, at den første variabel er skygget af den anden, hvilket betyder, at den anden variabel er det, kompilatoren vil se, når du bruger variabelnavnet. Effektivt skygger den anden variabel den første, og tager alle brug af [[content/Rust/Language Basics/Variables and Muteability\|variabelnavnet]] til sig selv, indtil den selv er skygget eller scopet slutter. Vi kan skygge en [[content/Rust/Language Basics/Variables and Muteability\|variabel]] ved at bruge det samme variabelnavn og gentage brugen af `let`-nøgleordet som følger:
+Du kan erklære en ny [[content/Rust/Language Basics/Variables\|variabel]] med samme navn som en tidligere [[content/Rust/Language Basics/Variables\|variabel]]. Man siger, at den første variabel er skygget af den anden, hvilket betyder, at den anden variabel er det, kompilatoren vil se, når du bruger variabelnavnet. Effektivt skygger den anden [[content/Rust/Language Basics/Variables\|variabel]] den første, og tager alle brug af [[content/Rust/Language Basics/Variables\|variabelnavnet]] til sig selv, indtil den selv er skygget eller scopet slutter. Vi kan skygge en [[content/Rust/Language Basics/Variables\|variabel]] ved at bruge det samme variabelnavn og gentage brugen af `let`-nøgleordet som følger:
 
 Filnavn: `src/main.rs`
 
@@ -29,7 +29,7 @@ fn main() {
 }
 ```
 
-Dette program binder først `x` til værdien 5. Derefter skaber det en ny [[content/Rust/Language Basics/Variables and Muteability\|variabel]] `x` ved at gentage `let x =`, tage den oprindelige værdi og lægge 1 til, så værdien af `x` derefter er 6. Derefter, inden for et indre scope oprettet med krøllede parenteser, skygger den tredje `let`-erklæring også `x` og skaber en ny [[content/Rust/Language Basics/Variables and Muteability\|variabel]], der multiplicerer den tidligere værdi med 2, så `x` får værdien 12. Når det scope slutter, slutter den indre skygning, og `x` vender tilbage til at være 6. Når vi kører dette program, vil det udskrive følgende:
+Dette program binder først `x` til værdien 5. Derefter skaber det en ny [[content/Rust/Language Basics/Variables\|variabel]] `x` ved at gentage `let x =`, tage den oprindelige værdi og lægge 1 til, så værdien af `x` derefter er 6. Derefter, inden for et indre scope oprettet med krøllede parenteser, skygger den tredje `let`-erklæring også `x` og skaber en ny [[content/Rust/Language Basics/Variables\|variabel]], der multiplicerer den tidligere værdi med 2, så `x` får værdien 12. Når det scope slutter, slutter den indre skygning, og `x` vender tilbage til at være 6. Når vi kører dette program, vil det udskrive følgende:
 ```sh
 $ cargo run
    Compiling variables v0.1.0 (file:///projects/variables)
@@ -40,20 +40,20 @@ Værdien af x er: 6
 
 ```
 
-Skygning er forskellig fra at markere en [[content/Rust/Language Basics/Variables and Muteability\|variabel]], som `mut`, fordi vi får en kompileringstidfejl, hvis vi ved et uheld forsøger at tildele denne [[content/Rust/Language Basics/Variables and Muteability\|variabel]] uden at bruge `let`-nøgleordet. Ved at bruge `let` kan vi udføre nogle transformationer på en værdi, men have variablen være uforanderlig efter disse transformationer er fuldført.
+Skygning er forskellig fra at markere en [[content/Rust/Language Basics/Variables\|variabel]], som `mut`, fordi vi får en kompileringstidfejl, hvis vi ved et uheld forsøger at tildele denne [[content/Rust/Language Basics/Variables\|variabel]] uden at bruge `let`-nøgleordet. Ved at bruge `let` kan vi udføre nogle transformationer på en værdi, men have variablen være uforanderlig efter disse transformationer er fuldført.
 
-Den anden forskel mellem `mut` og skygning er, at fordi vi effektivt opretter en ny [[content/Rust/Language Basics/Variables and Muteability\|variabel]], når vi bruger `let`-nøgleordet igen, kan vi ændre typen af værdien, men genbruge det samme navn. For eksempel, hvis vores program beder en bruger om at vise, hvor mange mellemrum de ønsker mellem noget tekst ved at indtaste mellemrumstegn, og vi derefter vil gemme denne indtastning som et tal:
+Den anden forskel mellem `mut` og skygning er, at fordi vi effektivt opretter en ny [[content/Rust/Language Basics/Variables\|variabel]], når vi bruger `let`-nøgleordet igen, kan vi ændre typen af værdien, men genbruge det samme navn. For eksempel, hvis vores program beder en bruger om at vise, hvor mange mellemrum de ønsker mellem noget tekst ved at indtaste mellemrumstegn, og vi derefter vil gemme denne indtastning som et tal:
 ```rust
 let spaces = "   ";
 let spaces = spaces.len();
 ```
-Den første `spaces` [[content/Rust/Language Basics/Variables and Muteability\|variabel]] er en strengtype, og den anden `spaces` [[content/Rust/Language Basics/Variables and Muteability\|variabel]] er en taltype. Skygning sparer os således fra at skulle finde på forskellige navne, såsom `spaces_str` og `spaces_num`; i stedet kan vi genbruge det enklere `spaces` navn. Men hvis vi forsøger at bruge `mut` til dette, som vist her, vil vi få en kompileringstidfejl:
+Den første `spaces` [[content/Rust/Language Basics/Variables\|variabel]] er en strengtype, og den anden `spaces` [[content/Rust/Language Basics/Variables\|variabel]] er en taltype. Skygning sparer os således fra at skulle finde på forskellige navne, såsom `spaces_str` og `spaces_num`; i stedet kan vi genbruge det enklere `spaces` navn. Men hvis vi forsøger at bruge `mut` til dette, som vist her, vil vi få en kompileringstidfejl:
 ```rust
 let mut spaces = "   ";
 spaces = spaces.len(); // [Denne kode kompilerer ikke!]
 ```
 
-Fejlen siger, at vi ikke må ændre en [[content/Rust/Language Basics/Variables and Muteability\|variabels]] type:
+Fejlen siger, at vi ikke må ændre en [[content/Rust/Language Basics/Variables\|variabels]] type:
 
 ```sh
 $ cargo run

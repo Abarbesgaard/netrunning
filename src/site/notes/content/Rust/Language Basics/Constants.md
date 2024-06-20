@@ -3,14 +3,14 @@
 ---
 
 > [!tldr] 
-> Konstanter i Rust er altid uforanderlige og erklæres med `const`. De skal have typeannotering og kan ikke ændres ved runtime.
+> Konstanter i Rust er altid [[content/Rust/Language Basics/Muteability\|uforanderlige]] og erklæres med `const`. De skal have typeannotering og kan ikke ændres ved runtime.
 
 > [!summary] 
 > Konstanter i Rust, erklæret med `const`, er altid uforanderlige og kræver typeannotering. De kan deklareres i ethvert scope og er nyttige for værdier, der bruges mange steder i koden. Konstanter skal sættes til et konstant udtryk og kan ikke ændres ved runtime. At bruge konstanter gør koden mere forståelig og nemmere at vedligeholde, da de giver en centraliseret måde at ændre værdier på, hvis det bliver nødvendigt.
 
-Ligesom uforanderlige [[content/Rust/Language Basics/Variables and Muteability\|variabler]] er `constants` værdier, der er bundet til et navn og ikke må ændres, men der er nogle få forskelle mellem konstanter og variabler. 
+Ligesom uforanderlige [[content/Rust/Language Basics/Variables\|variabler]] er `constants` værdier, der er bundet til et navn og ikke må ændres, men der er nogle få forskelle mellem konstanter og variabler. 
 
-For det første er det **ikke tilladt** at bruge `mut` med konstanter. Konstanter er ikke bare uforanderlige som standard – de er altid uforanderlige. Du erklærer konstanter ved hjælp af `const`-nøgleordet i stedet for `let`-nøgleordet, og typen af værdien skal annoteres. Vi dækker typer og typeannoteringer i det næste afsnit, "Data Typer", så du behøver ikke bekymre dig om detaljerne lige nu. Bare vid, at du altid skal annotere typen.
+For det første er det **ikke tilladt** at bruge `mut` med konstanter. Konstanter er ikke bare [[content/Rust/Language Basics/Muteability\|uforanderlige]] som standard – de er altid [[content/Rust/Language Basics/Muteability\|uforanderlige]]. Du erklærer konstanter ved hjælp af `const`-nøgleordet i stedet for `let`-nøgleordet, og typen af værdien skal annoteres. 
 
 Konstanter kan erklæres i ethvert scope, inklusive det globale scope, hvilket gør dem nyttige for værdier, som mange dele af koden skal kende til.
 
@@ -28,7 +28,7 @@ Rust's navngivningskonvention for konstanter er at bruge **store bogstaver** med
 
 Konstanter er gyldige for hele den tid, et program kører, inden for det scope, hvori de blev erklæret. Denne egenskab gør konstanter nyttige for værdier i dit applikationsdomæne, som flere dele af programmet måske skal kende til, såsom det maksimale antal point, som en spiller af et spil må tjene, eller lysets hastighed.
 
-Navngivning af hårdkodede værdier, der bruges gennem hele dit program som konstanter, er nyttigt til at formidle betydningen af den værdi til fremtidige vedligeholdere af koden. Det hjælper også at have kun ét sted i din kode, som du skal ændre, hvis den hårdkodede værdi skal opdateres i fremtiden.
+Navngivning af hardcoded værdier, der bruges gennem hele dit program som konstanter, er nyttigt til at formidle betydningen af den værdi til fremtidige vedligeholdere af koden. Det hjælper også at have kun ét sted i din kode, som du skal ændre, hvis den hårdkodede værdi skal opdateres i fremtiden.
 
 | Kilder                                                                            | Beskrivelse  |
 | --------------------------------------------------------------------------------- | ------------ |
