@@ -23,7 +23,7 @@ Efter cirka 3 måneders brug fornemmede jeg, at jeg begyndte at læne mig for me
 
 Hvor jeg før skriv kode som
 
-```
+```C#
 public string FunMethod(){
 // masser af super fantastisk kode
 }
@@ -31,7 +31,7 @@ public string FunMethod(){
 
 Skrev jeg i stedet:
 
-```
+```C#
 public str
 ```
 
