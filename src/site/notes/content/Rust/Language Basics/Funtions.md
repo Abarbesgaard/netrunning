@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/rust/language-basics/funtions/","title":"Scalar","tags":["Rust"]}
+{"dg-publish":true,"permalink":"/content/rust/language-basics/funtions/","title":"Scalar","hide":true,"tags":["Rust"]}
 ---
 
 > [!tldr]

@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/content/rust/language-basics/variables/","title":"Variables","tags":["Rust"]}
+{"dg-publish":true,"permalink":"/content/rust/language-basics/variables/","title":"Variables","hide":true,"tags":["Rust"]}
 ---
 
-på 
+ 
 > [!tldr] 
 > Variabler i Rust er som standard [[content/Rust/Language Basics/Muteability\|uforanderlige]]. Brug `mut` for at gøre dem [[content/Rust/Language Basics/Muteability\|foranderlige]].
 

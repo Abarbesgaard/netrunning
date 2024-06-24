@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/rust/language-basics/ownership/"}
+{"dg-publish":true,"permalink":"/content/rust/language-basics/ownership/","hide":true}
 ---
 
 > [!tldr] 

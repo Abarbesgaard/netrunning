@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/rust/language-basics/constants/","title":"Constants","tags":["Rust"]}
+{"dg-publish":true,"permalink":"/content/rust/language-basics/constants/","title":"Constants","hide":true,"tags":["Rust"]}
 ---
 
 > [!tldr] 

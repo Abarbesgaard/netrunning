@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/rust/language-basics/shadowing/","title":"Shadowing","tags":["Rust"]}
+{"dg-publish":true,"permalink":"/content/rust/language-basics/shadowing/","title":"Shadowing","hide":true,"tags":["Rust"]}
 ---
 
 > [!tldr] 

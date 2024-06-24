@@ -27,8 +27,6 @@ Siden er sat op med DocFX, som hiver XML kommentarerne direkte over på siden.
 
 I din projekts kodefil, tilføj en reference til Debugland Namespace ved hjælp af følgende linje:
 
-C#
-
 ```csharp
 using Debugger = Debugland.Debugger;
 ```
