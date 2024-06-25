@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/velkommen/","title":"index","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/content/velkommen/","title":"Velkommen","tags":["gardenEntry"]}
 ---
 
 ## Velkommen
@@ -7,8 +7,9 @@
 > - Email: [abarbesgaard@gmail.com](mailto:abarbesgaard@gmail.com)
 > - LinkedIn: [linkedin.com/in/andreasbarbesgaard](https://www.linkedin.com/in/andreasbarbesgaard)
 
-> [!important]
+> [!important] Hvem er jeg på 10 sekunder
 > Mit navn er **Andreas**, og jeg er i gang med min online datamatiker-uddannelse, hvor jeg arbejder med programmeringssprog som **C#**, **SQL**, **XAML** og senest **Rust**. Jeg er passioneret omkring både brætspil og programmering, og jeg elsker at bruge tid på disse interesser. Som en del af min uddannelse søger jeg nu efter et *studiejob*, hvor jeg kan anvende mine færdigheder i praksis og samtidig fortsætte med at forbedre mig kontinuerligt. Jeg er målrettet og engageret i mit arbejde og ser frem til at bidrage til et team, hvor jeg kan udvikle mine kompetencer yderligere og opnå mine personlige mål.
+
 
 # [[content/Afsluttede Projekter/Afsluttede projekter\|Se mine afsluttede projekter her]]
 ## CV
@@ -19,14 +20,14 @@ Aarhus, Region Midtjylland, Danmark
 ---
 
 ## Kontakt
-- Email: [abarbesgaard@gmail.com](mailto:abarbesgaard@gmail.com)
-- LinkedIn: [linkedin.com/in/andreasbarbesgaard](https://www.linkedin.com/in/andreasbarbesgaard)
+- ✉️ Email: [abarbesgaard@gmail.com](mailto:abarbesgaard@gmail.com)
+- 🌐 LinkedIn: [linkedin.com/in/andreasbarbesgaard](https://www.linkedin.com/in/andreasbarbesgaard)
 
 ---
 
 ## Sprog
-- Dansk (Native or Bilingual)
-- Engelsk (Professional Working)
+- 🇩🇰 Dansk (Native or Bilingual)
+- 🇬🇧 Engelsk (Professional Working)
 
 ---
 
