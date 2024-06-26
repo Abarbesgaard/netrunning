@@ -11,7 +11,7 @@
 > Mit navn er **Andreas**, og jeg er i gang med min online datamatiker-uddannelse, hvor jeg arbejder med programmeringssprog som **C#**, **SQL**, **XAML** og senest **Rust**. Jeg er passioneret omkring både brætspil og programmering, og jeg elsker at bruge tid på disse interesser. Som en del af min uddannelse søger jeg nu efter et *studiejob*, hvor jeg kan anvende mine færdigheder i praksis og samtidig fortsætte med at forbedre mig kontinuerligt. Jeg er målrettet og engageret i mit arbejde og ser frem til at bidrage til et team, hvor jeg kan udvikle mine kompetencer yderligere og opnå mine personlige mål.
 
 
-# [[content/Projekter/Projekter\|Se minenuværende og afsluttede projekter her]]
+# [[content/Projekter/Projekter\|Se mine nuværende og afsluttede projekter her]]
 ## CV
 # Andreas Barbesgaard
 Datamatiker studerende
