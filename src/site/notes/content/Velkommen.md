@@ -12,100 +12,79 @@
 
 
 # [[content/Projekter/Projekter\|Se mine nuværende og afsluttede projekter her]]
-## CV
-# Andreas Barbesgaard
-Datamatiker studerende
-Aarhus, Region Midtjylland, Danmark
-
----
+## # Andreas Barbesgaard
+**Datamatiker studerende**  
+Aarhus, Region Midtjylland, Danmark  
 
 ## Kontakt
-- ✉️ Email: [abarbesgaard@gmail.com](mailto:abarbesgaard@gmail.com)
-- 🌐 LinkedIn: [linkedin.com/in/andreasbarbesgaard](https://www.linkedin.com/in/andreasbarbesgaard)
+- **Mobil:** 21762615
+- **Email:** [abarbesgaard@gmail.com](mailto:abarbesgaard@gmail.com)
+- **LinkedIn:** [linkedin.com/in/andreasbarbesgaard](https://www.linkedin.com/in/andreasbarbesgaard)
 
----
+## Resumé
+**Kreativ problemløser:** Kombinerer teknisk viden med en passion for at skabe brugervenlig og effektiv software.
 
-## Sprog
-- 🇩🇰 Dansk (Native or Bilingual)
-- 🇬🇧 Engelsk (Professional Working)
+**Effektiv kommunikator:** Min pædagogiske baggrund styrker min evne til at formidle komplekse ideer på en klar og forståelig måde.
 
----
+**Dedikeret teamplayer:** Loyal, engageret og altid villig til at gå den ekstra mil for at nå fælles mål.
 
-## Kort om mig
-> [!important] Kreativ problemløser
-> Kombinerer teknisk viden med en passion for at skabe brugervenlig og effektiv software.
+**Stærk arbejdsmoral:** Stræber efter kontinuerlig læring og forbedring, og leverer altid et dedikeret og vedholdende stykke arbejde.
 
-> [!important] Effektiv kommunikator
-> Min pædagogiske baggrund styrker min evne til at formidle komplekse ideer på en klar og forståelig måde.
-
-> [!important] Dedikeret teamplayer
-> Loyal, engageret og altid villig til at gå den ekstra mil for at nå fælles mål.
-
-> [!important] Stærk arbejdsmoral
-> Stræber efter kontinuerlig læring og forbedring, og leverer altid et dedikeret og vedholdende stykke arbejde.
-
-> [!important] Samarbejdsorienteret 
-> Trives i et teammiljø og værdsætter den positive og produktive energi, der skabes gennem gensidig støtte og respekt.
-
----
+**Samarbejdsorienteret:** Trives i et teammiljø og værdsætter den positive og produktive energi, der skabes gennem gensidig støtte og respekt.
 
 ## Erfaring
-
-### UCL
-#### Datamatiker Studerende  
-Februar 2023 - Present (1 år 5 måneder)  
-Odense, Syddanmark, Danmark  
-Har været en del af lektie caféen for 1. Semester studerende.
-
-#### Studentermedhjælper  
-Marts 2024 - Juni 2024 (4 måneder)  
-Her er jeg med til at støtte nye studerende i deres udvikling mod at blive bedre programmører.
+### UCL Erhvervsakademi og Professionshøjskole
+**Studentermedhjælper**  
+*Mart 2024 - Juni 2024 (4 måneder)*  
+- Støtter nye studerende i deres udvikling mod at blive bedre programmører.
 
 **Tutor**  
-Marts 2024 - Juni 2024 (4 måneder)  
-I denne stilling har jeg ansvaret for at sikre udvikling i programmeringsever hos et enkelt individ.
+*Mart 2024 - Juni 2024 (4 måneder)*  
+- Ansvar for at sikre udvikling i programmeringsevner hos et enkelt individ.
 
-### [Luudos Studio](https://luudos.storyy.design/)
-#### Boardgame designer
-Januar 2022 - August 2022 (8 måneder)  
-København, Hovedstaden, Danmark  
-Under min tid hos Luudos Studio arbejdede jeg med Kickstarter for at sikre finansiering til brætspil. Mit hovedfokus var på udvikling af brætspil og skabelse af regler til spillene.
+### Luudos Studio
+**Boardgame Designer**  
+*Januar 2022 - August 2022 (8 måneder)*  
+- Arbejdede med Kickstarter for at sikre funding til brætspil.
+- Fokus på brætspilsudvikling og skabelse af regler.
+- Skabte og designede 9 regelbøger, der modtog positiv feedback.
 
-#### Design Developer
-Juni 2020 - August 2022 (2 år 3 måneder)  
-Som spiludvikler havde jeg til opgave at skabe spil fra bunden. Jeg finpudsede mine færdigheder i at identificere essentielle mekanikker og eliminere overflødige, hvilket sikrede, at hvert aspekt af spillet bidrog til den samlede oplevelse.
+**Design Developer**  
+*Juni 2020 - August 2022 (2 år 3 måneder)*  
+- Skabte spil fra bunden med fokus på essentielle mekanikker.
+- Sikrede en sammenhængende spiloplevelse ved at fortælle den samme historie gennem alle spillets elementer.
 
 ### Stemmernes Tårn
-#### Author & illustrator
-Oktober 2018 - Juni 2020 (1 år 9 måneder)  
+**Author & Illustrator**  
+*Oktober 2018 - Juni 2020 (1 år 9 måneder)*
 
 ### Børnehuset Bakkely
-#### Pædagog
-November 2017 - August 2019 (1 år 10 måneder)  
-Ry, Midtjylland, Danmark  
-Som pædagog arbejdede jeg med en gruppe fantastiske børn og sikrede, at hver dag var meningsfuld og engagerende. Som tillidsmand arbejdede jeg for at skabe en sund balance mellem arbejdsliv og privatliv for mine kolleger.
+**Pædagog**  
+*November 2017 - August 2019 (1 år 10 måneder)*  
+- Arbejdede med børn for at sikre meningsfulde og engagerende dage.
+- Tillidsmand med ansvar for at sikre et sundt arbejdsmiljø for over 100 kolleger.
 
 ### Cackleberry Studio
-#### Illustrator
-Marts 2018 - Juli 2018 (5 måneder)  
-Cypern
-
----
+**Illustrator**  
+*Marts 2018 - Juli 2018 (5 måneder)*
 
 ## Uddannelse
-#### Kurser v. Prosa
-- **Adfærdsdesign** – gør det lettere for andre at gøre det rigtige (april 2024)
-- **Test I:** Introduktion til Selenium (februar 2024)
-- **Github Actions** (december 2023)
-- **Pentest I** – Introduktion og basale metoder (november 2023)
-- **Pentest II:** Introduktion til webbaserede angreb (november 2023)
-- **Design Patterns**: introduktion til designmønstre med udgangspunkt i C#
+### UCL Erhvervsakademi og Professionshøjskole
+**Datamatiker**  
+*Februar 2023 - August 2024*
 
-#### VIAUC Jydsk
-Bachelor i pædagogik, sundhed, krop og bevægelse
-2011 - 2015
+### Prosa
+- **Adfærdsdesign – gør det lettere for andre at gøre det rigtige**  
+  *April 2024 - April 2024*
+- **Test I: Introduktion til Selenium**  
+  *Februar 2024 - Februar 2024*
+- **Github Actions**  
+  *December 2023 - December 2023*
+- **Pentest I – Introduktion og basale metoder**  
+  *November 2023 - November 2023*
 
-> [!faq] Kontakt information
-> - Email: [abarbesgaard@gmail.com](mailto:abarbesgaard@gmail.com)
-> - LinkedIn: [linkedin.com/in/andreasbarbesgaard](https://www.linkedin.com/in/andreasbarbesgaard)
+## Sprog
+- **Dansk:** Modersmål
+- **Engelsk:** Professionelt niveau
+
 
