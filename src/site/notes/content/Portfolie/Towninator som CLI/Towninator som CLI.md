@@ -6,8 +6,9 @@
 > Ideen er simpel, lav en CLI funktion hvor man kan generere byer som man gør i towninator. På sigt skal det være lidt a la en tamagochi, hvor man kan træffe beslutninger og byen vil så enten nyde vækst eller skrumpe alt efter valg.
 
 # Dev Log
-| File                                                                          | file.name    |
-| ----------------------------------------------------------------------------- | ------------ |
-| [[content/Portfolie/Towninator som CLI/Forløb/Ons 26. jun.\|Ons 26. jun.]] | Ons 26. jun. |
+| File                                                                                | file.name       |
+| ----------------------------------------------------------------------------------- | --------------- |
+| [[content/Portfolie/Towninator som CLI/Forløb/Ons 26. jun.\|Ons 26. jun.]]       | Ons 26. jun.    |
+| [[content/Portfolie/Towninator som CLI/Forløb/Fredag 28. jun.\|Fredag 28. jun.]] | Fredag 28. jun. |
 
 { .block-language-dataview}

@@ -12,7 +12,7 @@
 
 
 # [[content/Projekter/Projekter\|Se mine nuværende og afsluttede projekter her]]
-## # Andreas Barbesgaard
+## Andreas Barbesgaard
 **Datamatiker studerende**  
 Aarhus, Region Midtjylland, Danmark  
 
