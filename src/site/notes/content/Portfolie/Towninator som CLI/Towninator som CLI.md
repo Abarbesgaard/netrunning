@@ -10,5 +10,6 @@
 | ----------------------------------------------------------------------------------- | --------------- |
 | [[content/Portfolie/Towninator som CLI/Forløb/Ons 26. jun.\|Ons 26. jun.]]       | Ons 26. jun.    |
 | [[content/Portfolie/Towninator som CLI/Forløb/Fredag 28. jun.\|Fredag 28. jun.]] | Fredag 28. jun. |
+| [[content/Portfolie/Towninator som CLI/Forløb/Man. 15 Juli\|Man. 15 Juli]]       | Man. 15 Juli    |
 
 { .block-language-dataview}
