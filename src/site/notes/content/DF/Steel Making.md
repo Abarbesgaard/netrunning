@@ -1,22 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/content/df/soap-making/","title":"Soap Making","tags":["DwarfFortress"]}
+{"dg-publish":true,"permalink":"/content/df/steel-making/","title":"Steel Making","tags":["DwarfFortress"]}
 ---
 
 > [!tldr] 
-> Soap is dwarven happiness juice that fights dirt and infection. Make it from wood and fat, then let your dwarves take soapy baths to boost morale. Also useful for hospitals and emergency soap walls!
+> Steel is the best metal for crafting weapons and armor in Dwarf Fortress, made by combining **iron**, **flux**, and **fuel** in a two-step process. Find iron in sedimentary layers and use charcoal or coke to power your smelter. Just remember to keep your materials stocked!
 
 > [!summary] 
-> Soap is crucial for dwarven health and happiness, preventing infections and boosting moods. It’s made from lye (produced from wood ash) and fat (tallow or oil). The production process involves chopping wood, making ash, producing lye, and rendering fat or pressing oil. Use soap for baths and in hospitals to reduce infection risk. Dwarves clean up with or without it, but a soapy bath makes them happier. Store soap in bar/block stockpiles and build emergency soap walls to keep reserves handy.
-
-# Diagram
-Below is a diagram of how to setup a Soap Making Industry in Dwarf Fortress
-There are 3 Paths to choose from:
-1. Path of Lye
-2. Path of Tallow
-3. Path of Oil
-
-
-Each path have some boxes and ind these boxes there are requirements and actions that needs some of the requirements to be activated.
+> Steel, an alloy of iron and carbon, is the top choice for forging weapons and armor in Dwarf Fortress. To produce steel, you need **iron bars**, **flux stone** (such as calcite or limestone), and **fuel** (charcoal or coke) at a smelter operated by a dwarf.
 
 *Example of an action*
 `Action Name`(`requirement`) : `Output`
@@ -364,88 +354,71 @@ skinparam file {
 !startsub gantt
 
 !endsub
-package "Path of Lye" as PathLye{
-	class "Wood" as Wood{
-	-- Requirements --
-	$Property(+,,Dwarf, Any)
-	$Property(+,,BattleAxe, Any)
-	-- Actions --
-	$Method(,Log, ,Wood)
-	}
-	class "Wood Furnace" as WoodFurnace{
-	-- Requirements --
-	$Property(+,,Wood,Any)
-	-- Actions --
-	$Method(,Burn, Wood, Ash)
-	}
-	class "Ashery" as Ashery{
-	-- Requirements --
-	$Property(+,,Ash,Bar)
-	$Property(+,,Bucket,Any)
-	-- Actions --
-	$Method(,MakeLye,Ash,Lye)
-	}
 
-}
-package "Path of Tallow" as PathTallow{
-	class "Butcher" as Butcher{
-	-- Requirements --
-	$Property(+,,Dwarf, Any)
-	$Property(+,,Animal, Any)
-	-- Actions --
-	$Method(,Butcher, ,Fat)
-	}
-	class "Kitchen" as Kitchen{
-	-- Requirements --
-	$Property(+,,Fat,Any)
-	-- Actions --
-	$Method(,RenderFat, Fat, Tallow)
-	}
-	
-
-}
-package "Path of Oil" as PathOil{
-	class "Quern" as Quern{
-	-- Requirements --
-	$Property(+,,Dwarf, Any)
-	$Property(+,,Seeds, Oily)
-	-- Actions --
-	$Method(,MillSeeds,Seeds,Paste)
-	}
-	class "Screw Press" as ScrewPress{
-	-- Requirements --
-	$Property(+,,Paste,Any)
-	-- Actions --
-	$Method(,PressOil, Paste, Oil)
-	}
-	
-
-}
-class "Soap Maker's Workshop" as Soap{
+class "Stone" as FluxStone1{
 -- Requirements --
-$Property(+,,Oil, Any)
-$Property(+,,Tallow, Any)
-$Property(+,,Lye, Any)
--- Actions --
-$Method(,MakeSoap, Lye; Oil, Soap)
-$Method(,MakeSoap, Lye; Tallow, Soap)
-
+$Property(,,Pick, Any)
+$Property(,, Stone, Flux)
+-- Action --
+$Method(,Dig, Pick, Flux)
 }
-$InherritsFromConcrete(Wood,WoodFurnace)
-$InherritsFromConcrete(WoodFurnace, Ashery)
-$InherritsFromConcrete(Butcher,Kitchen)
-$InherritsFromConcrete(Kitchen,Soap)
-$InherritsFromConcrete(Ashery, Soap)
-$InherritsFromConcrete(Quern, ScrewPress)
-$InherritsFromConcrete(ScrewPress, Soap)
+class "Stone" as IronStone{
+-- Requirements --
+$Property(,,Pick, Any)
+$Property(,, Stone, Hematite)
+$Property(,, Stone, Magnetite)
+$Property(,, Stone, Limonite)
+-- Actions --
+$Method(, Dig, Hematite, Hematite Ore)
+$Method(, Dig, Magnetite, Magnetite Ore)
+$Method(, Dig, Limonite, Limonite Ore)
+}
+class "Smelter" as IronSmelter{
+-- Requirements --
+$Property(,, Fuel, Any)
+$Property(,,Hematite, Ore)
+$Property(,,Magnetite, Ore)
+$Property(,,Limonite, Ore)
+-- Actions --
+$Method(,Melt, Ore, Iron Bar)
+}
+
+
+class "Smelter" as PigIronSmelter{
+-- Requirements --
+$Property(,,Flux, Stone)
+$Property(,,Iron,Bar)
+$Property(,,Fuel,Any)
+-- Actions --
+$Method(,MakePigIron,Flux; Iron; Fuel, PigIron)
+}
+class "Smelter" as SteelSmelter{
+-- Requirements --
+$Property(,,Flux, Stone)
+$Property(,,Pig Iron,Bar)
+$Property(,,Iron,Bar)
+$Property(,,Fuel,Any)
+-- Actions --
+$Method(,MakeSteel,Flux;PigIron;Iron;Fuel,Steel)
+}
+
+note left of FluxStone1 : Flux Stones;\n Calsite,\n Chalk,\n Dolomite,\n Limestone,\n Marble
+$InherritsFromConcrete(FluxStone1,PigIronSmelter)
+$InherritsFromConcrete(IronStone,IronSmelter)
+$InherritsFromConcrete(IronSmelter, PigIronSmelter)
+$InherritsFromConcrete(PigIronSmelter, SteelSmelter)
+$InherritsFromConcrete(FluxStone1, SteelSmelter)
+$InherritsFromConcrete(IronSmelter, SteelSmelter)
+
+
 ```
 
 
 
 # Sources
 
-| Source                                                                       | Description                         |
-| ---------------------------------------------------------------------------- | ----------------------------------- |
-| [Wiki - Dwarf Fortress](https://dwarffortresswiki.org/index.php/DF2014:Soap) | Wikipedia article about soap making |
+| Source                                                                        | Description                          |
+| ----------------------------------------------------------------------------- | ------------------------------------ |
+| [Wiki - Dwarf Fortress](https://dwarffortresswiki.org/index.php/DF2014:Steel) | Wikipedia article about steel making |
 
 
