@@ -367,21 +367,21 @@ skinparam file {
 package "Path of Lye" as PathLye{
 	class "Wood" as Wood{
 	-- Requirements --
-	$Property(+,,Dwarf, Any)
-	$Property(+,,BattleAxe, Any)
+	$Property(,,Dwarf, Any)
+	$Property(,,BattleAxe, Any)
 	-- Actions --
-	$Method(,Log, ,Wood)
+	$Method(,Log,Dwarf;Wood,Log)
 	}
 	class "Wood Furnace" as WoodFurnace{
 	-- Requirements --
-	$Property(+,,Wood,Any)
+	$Property(,,Log,Any)
 	-- Actions --
-	$Method(,Burn, Wood, Ash)
+	$Method(,Burn,Log, Ash Bar)
 	}
 	class "Ashery" as Ashery{
 	-- Requirements --
-	$Property(+,,Ash,Bar)
-	$Property(+,,Bucket,Any)
+	$Property(,,Ash,Bar)
+	$Property(,,Bucket,Any)
 	-- Actions --
 	$Method(,MakeLye,Ash,Lye)
 	}
@@ -390,14 +390,14 @@ package "Path of Lye" as PathLye{
 package "Path of Tallow" as PathTallow{
 	class "Butcher" as Butcher{
 	-- Requirements --
-	$Property(+,,Dwarf, Any)
-	$Property(+,,Animal, Any)
+	$Property(,,Dwarf, Any)
+	$Property(,,Animal, Any)
 	-- Actions --
 	$Method(,Butcher, ,Fat)
 	}
 	class "Kitchen" as Kitchen{
 	-- Requirements --
-	$Property(+,,Fat,Any)
+	$Property(,,Fat,Any)
 	-- Actions --
 	$Method(,RenderFat, Fat, Tallow)
 	}
@@ -407,14 +407,18 @@ package "Path of Tallow" as PathTallow{
 package "Path of Oil" as PathOil{
 	class "Quern" as Quern{
 	-- Requirements --
-	$Property(+,,Dwarf, Any)
-	$Property(+,,Seeds, Oily)
+	$Property(,,Dwarf, Any)
+	$Property(,,Cotton,Seed)
+	$Property(,,Flax,Seed)
+	$Property(,,Hemp,Seed)
+	$Property(,,Rock Nuts,Seed)
+	
 	-- Actions --
-	$Method(,MillSeeds,Seeds,Paste)
+	$Method(,MillSeeds,Seed,Paste)
 	}
 	class "Screw Press" as ScrewPress{
 	-- Requirements --
-	$Property(+,,Paste,Any)
+	$Property(,,Paste,Any)
 	-- Actions --
 	$Method(,PressOil, Paste, Oil)
 	}

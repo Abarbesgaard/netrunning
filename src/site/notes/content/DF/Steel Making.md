@@ -358,29 +358,33 @@ skinparam file {
 class "Stone" as FluxStone1{
 -- Requirements --
 $Property(,,Pick, Any)
-$Property(,, Stone, Flux)
+$Property(,,Calsite,Stone)
+$Property(,,Chalk,Stone)
+$Property(,,Dolomite,Stone)
+$Property(,,Limestone,Stone)
+$Property(,,Marble,Stone)
 -- Action --
-$Method(,Dig, Pick, Flux)
+$Method(,Dig, Pick; Stone,Flux Stone)
 }
 class "Stone" as IronStone{
 -- Requirements --
 $Property(,,Pick, Any)
-$Property(,, Stone, Hematite)
-$Property(,, Stone, Magnetite)
-$Property(,, Stone, Limonite)
+$Property(,,Stone,Hematite)
+$Property(,,Stone,Magnetite)
+$Property(,,Stone,Limonite)
 -- Actions --
-$Method(, Dig, Hematite, Hematite Ore)
-$Method(, Dig, Magnetite, Magnetite Ore)
-$Method(, Dig, Limonite, Limonite Ore)
+$Method(, Dig,Hematite,Hematite Ore)
+$Method(, Dig,Magnetite,Magnetite Ore)
+$Method(, Dig,Limonite,Limonite Ore)
 }
 class "Smelter" as IronSmelter{
 -- Requirements --
-$Property(,, Fuel, Any)
-$Property(,,Hematite, Ore)
-$Property(,,Magnetite, Ore)
-$Property(,,Limonite, Ore)
+$Property(,,Fuel,Any)
+$Property(,,Hematite,Ore)
+$Property(,,Magnetite,Ore)
+$Property(,,Limonite,Ore)
 -- Actions --
-$Method(,Melt, Ore, Iron Bar)
+$Method(,Melt,Ore,Iron Bar)
 }
 
 
@@ -402,7 +406,6 @@ $Property(,,Fuel,Any)
 $Method(,MakeSteel,Flux;PigIron;Iron;Fuel,Steel)
 }
 
-note left of FluxStone1 : Flux Stones;\n Calsite,\n Chalk,\n Dolomite,\n Limestone,\n Marble
 $InherritsFromConcrete(FluxStone1,PigIronSmelter)
 $InherritsFromConcrete(IronStone,IronSmelter)
 $InherritsFromConcrete(IronSmelter, PigIronSmelter)
