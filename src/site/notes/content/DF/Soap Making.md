@@ -10,6 +10,16 @@
 
 # Diagram
 Below is a diagram of how to setup a Soap Making Industry in Dwarf Fortress
+There are 3 Paths to choose from:
+1. Path of Lye
+2. Path of Tallow
+3. Path of Oil
+Each path have some boxes and ind these boxes there are requirements and actions that needs some of the requirements to be activated.
+*Example of an action*
+`Action Name`(`requirement`) : `Output`
+
+*Example of a requirement*
+`Requirement Name` :  `Type`
 ```plantuml
 
 !if %not(%variable_exists("$BGCOLOR"))
