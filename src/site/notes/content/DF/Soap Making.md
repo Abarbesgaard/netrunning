@@ -424,7 +424,10 @@ $InherritsFromConcrete(Quern, ScrewPress)
 $InherritsFromConcrete(ScrewPress, Soap)
 ```
 
-| Kilder                                                                       | Beskrivelse                         |
+
+# Sources
+
+| Source                                                                       | Description                         |
 | ---------------------------------------------------------------------------- | ----------------------------------- |
 | [Wiki - Dwarf Fortress](https://dwarffortresswiki.org/index.php/DF2014:Soap) | Wikipedia article about soap making |
 
