@@ -377,6 +377,7 @@ package "Path of Lye" as PathLye{
 	class "Ashery" as Ashery{
 	-- Requirements --
 	$Property(+,,Ash,Bar)
+	$Property(+,,Bucket,Any)
 	-- Actions --
 	$Method(,MakeLye,Ash,Lye)
 	}
@@ -422,7 +423,8 @@ $Property(+,,Oil, Any)
 $Property(+,,Tallow, Any)
 $Property(+,,Lye, Any)
 -- Actions --
-$Method(,MakeSoap, Lye; Oil or Tallow, Soap)
+$Method(,MakeSoap, Lye; Oil, Soap)
+$Method(,MakeSoap, Lye; Tallow, Soap)
 
 }
 $InherritsFromConcrete(Wood,WoodFurnace)
