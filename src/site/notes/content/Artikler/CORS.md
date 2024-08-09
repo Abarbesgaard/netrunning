@@ -3,14 +3,14 @@
 ---
 
 
-
-![](https://cskarp2.wordpress.com/wp-content/uploads/2024/04/cors-1.png?w=1024)
+![Cors](https://cskarp2.wordpress.com/wp-content/uploads/2024/04/cors-1.png?w=1024)
 
 # [CORS i… Dybden](https://cskarp2.wordpress.com/2024/04/09/cors-i-dybden/)
 
-Dette opslag vil lave en mere dybdegående forklaring om hvad **CORS** er og hvordan det bruges i en ASP.NET Core app.
+Dette opslag vil lave en mere dybdegående forklaring om hvad **CORS** er og
+hvordan det bruges i en ASP.NET Core app.
 
-## Hvar er CORS?
+## Hvad er CORS?
 
 **CORS** er et akronym, som står for:
 
@@ -24,7 +24,7 @@ Dette opslag vil lave en mere dybdegående forklaring om hvad **CORS** er og hvo
 
 Browser sikkerhed forhindrer en web side i at foretage anmodninger til et andet domæne end den, der tjente web siden. Denne begrænsning kaldes **same-origin-policy**.
 
-## Problem:
+## Problem
 
 ![](https://cskarp2.wordpress.com/wp-content/uploads/2024/04/cors2.png?w=1024)
 
@@ -34,9 +34,9 @@ Derudover er der en backend, som kører på domænet `https://backend.com`. Begg
 
 Men når **frontend**-komponenterne forsøger at foretage anmodninger til **backenden**, modtager de en **CORS**-fejl, fordi standardbrowsere implementerer en same-origin-politik, der forhindrer anmodninger fra at blive sendt til andre domæner end det, hvor frontendkoden blev indlæst.
 
-## Løsning:
+## Løsning
 
-Du kan konfigurere din backend-server til at tillade anmodninger fra både `https://frontend1.com` og `https://frontend2.com`-domænerne ved hjælp af **CORS**. 
+Du kan konfigurere din backend-server til at tillade anmodninger fra både `https://frontend1.com` og `https://frontend2.com`-domænerne ved hjælp af **CORS**.
 
 Dette indebærer typisk at tilføje **CORS-headers** til svar fra backend-serveren.
 
@@ -96,10 +96,10 @@ CORS-middleware håndterer cross-origin-anmodninger. Følgende kode anvender en 
 
 koden ovenfor:
 
-- Sætter policy-name til __myAllowSpecificOrigins_. Politikkens navn er arbitrært.
-- Kalder **UseCors**-udvidelsesmetoden og specificerer __myAllowSpecificOrigins_ **CORS**-politikken. UseCors tilføjer CORS-middleware. _Kaldet til **UseCors** skal placeres efter **UseRouting**, men før **UseAuthorization**_.
+- Sætter policy-name til \__myAllowSpecificOrigins_. Politikkens navn er arbitrært.
+- Kalder **UseCors**-udvidelsesmetoden og specificerer \__myAllowSpecificOrigins_ **CORS**-politikken. UseCors tilføjer CORS-middleware. _Kaldet til **UseCors** skal placeres efter **UseRouting**, men før **UseAuthorization**_.
 - Kalder **AddCors** med et lambda-udtryk. Lambdaen tager et **CorsPolicyBuilder**-objekt. Konfigurationsmuligheder, såsom WithOrigins, beskrives senere i denne artikel.
-- Aktiverer _myAllowSpecificOrigins CORS-politikken for alle controller-slutpunkter. Se slutpunktrouting for at anvende en CORS-politik på specifikke slutpunkter.
+- Aktiverer \_myAllowSpecificOrigins CORS-politikken for alle controller-slutpunkter. Se slutpunktrouting for at anvende en CORS-politik på specifikke slutpunkter.
 - Når du bruger Response Caching Middleware, skal du kalde UseCors før UseResponseCaching.
 
 Med slutpunktsrouting skal CORS-middlewaren konfigureres til at eksekvere mellem opkaldene til UseRouting og UseEndpoints.
@@ -110,11 +110,10 @@ Opkaldet til AddCors-metoden tilføjer CORS-tjenester til appens tjenestecontain
 
 Hvis du vil lære mere om CORS vil jeg anbefale [denne](https://learn.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-8.0#dp) fra Microsoft’s dokumentation. Jeg har brugt kode eksemplet i mit opslag, men der er meget mere at finde.
 
-## Litteratur brugt til ovenstående:
+## Litteratur brugt til ovenstående
 
 [https://aws.amazon.com/what-is/cross-origin-resource-sharing/](https://aws.amazon.com/what-is/cross-origin-resource-sharing/)
 
 [https://learn.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-8.0#dp](https://learn.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-8.0#dp)
 
 [https://hackernoon.com/understanding-cors-why-its-important-and-how-it-works](https://hackernoon.com/understanding-cors-why-its-important-and-how-it-works)
-
