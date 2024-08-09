@@ -3,14 +3,23 @@
 ---
 
 
+## Vigtigste pointer
+
+- **Guildmøder**: Peer-baseret vejledning i grupper med fælles interesser.
+- **Indholdsansvar**: Studerende præsenterer fremskridt og udfordringer.
+- **Samarbejde**: Fokus på gensidig læring, feedback og idéudveksling.
+- **Underviserens rolle**: Støtte og vejlede diskussioner.
+- **Læringsfordele**: Styrker individuelle kompetencer og bredere forståelse.
+
 ## Hvad er guild møder
 
 **Guildmøder** er en form for peer-baseret vejledning, hvor studerende samles i
 grupper kaldet guilds for at dele viden, diskutere fremskridt, og
 samarbejde om fælles interesser.
-Begrebet "guild" har sine rødder i middelalderen, hvor det refererede til en
-sammenslutning af håndværkere eller handelsmænd, der arbejdede sammen for at beskytte
-og forbedre deres faglige interesser.
+
+> Begrebet "guild" har sine rødder i middelalderen, hvor det refererede til en
+> sammenslutning af håndværkere eller handelsmænd, der arbejdede sammen for at beskytte
+> og forbedre deres faglige interesser.
 
 I en moderne kontekst bruges ordet til at beskrive en gruppe af individer,
 der deler fælles interesser og mål, og som arbejder sammen for at

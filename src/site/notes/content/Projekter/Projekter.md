@@ -24,5 +24,4 @@ mission at udforske og afdække mysterierne i rummet.
 ## Dracula Theme til PlantUML
 
 Jeg har lavet et [[content/Portfolie/Plantuml Dracula Theme\|dracula tema]] til [plantuml](https://plantuml.com/)
-som bruges i VSCode til at afdækkke dokumentationen
-
+som bruges i VSCode til at afdække dokumentationen
