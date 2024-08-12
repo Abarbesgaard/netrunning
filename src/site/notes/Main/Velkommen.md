@@ -21,6 +21,9 @@ fortsætte med at forbedre mig kontinuerligt. Jeg er målrettet og engageret i
 mit arbejde og ser frem til at bidrage til et team, hvor jeg kan udvikle mine
 kompetencer yderligere og opnå mine personlige mål.
 
+## Min Disk-Profil
+![Disk-profil.png](/img/user/Main/Images/Disk-profil.png)
+
 ## [[Main/Projekter/Projekter\|Se mine nuværende og afsluttede projekter her]]
 
 ### Andreas Barbesgaard

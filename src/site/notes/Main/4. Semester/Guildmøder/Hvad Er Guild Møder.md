@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/guildmoder/hvad-er-guild-moder/","title":"Hvad Er Guild Møder","tags":["Systemudvikling","Guild"],"created":"2024-08-09T15:04:16.047+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/guildmoder/hvad-er-guild-moder/","title":"Hvad Er Guild Møder","tags":["Systemudvikling","Guild"],"created":"2024-08-12T10:46:35.269+02:00"}
 ---
 
 
 ## Vigtigste pointer
 
-- **Guildmøder**: Peer-baseret vejledning i grupper med fælles interesser.
+- **Peer-Review**: Peer-baseret vejledning i grupper med fælles interesser.
 - **Indholdsansvar**: Studerende præsenterer fremskridt og udfordringer.
 - **Samarbejde**: Fokus på gensidig læring, feedback og idéudveksling.
 - **Underviserens rolle**: Støtte og vejlede diskussioner.
