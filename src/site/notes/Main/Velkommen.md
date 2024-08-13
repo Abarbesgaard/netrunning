@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/velkommen/","title":"Velkommen","tags":["gardenEntry"],"created":"2024-08-09T10:03:46.047+02:00"}
+{"dg-publish":true,"permalink":"/main/velkommen/","title":"Velkommen","tags":["gardenEntry"],"created":"2024-08-12T12:40:26.955+02:00"}
 ---
 
 
@@ -22,13 +22,12 @@ mit arbejde og ser frem til at bidrage til et team, hvor jeg kan udvikle mine
 kompetencer yderligere og opnå mine personlige mål.
 
 ## Min Disk-Profil
-![Disk-profil.png](/img/user/Main/Images/Disk-profil.png)
 
-## [[Main/Projekter/Projekter\|Se mine nuværende og afsluttede projekter her]]
+![Disk-profil.png](/img/user/Main/Images/Disk-profil.png)
 
 ### Andreas Barbesgaard
 
-**Datamatiker studerende**  
+**Datamatiker studerende**
 Aarhus, Region Midtjylland, Danmark
 
 ## Kontakt
@@ -58,22 +57,23 @@ energi, der skabes gennem gensidig støtte og respekt.
 
 ### UCL Erhvervsakademi
 
-**Studentermedhjælper**  
+**Studentermedhjælper**
 _Mart 2024 - Juni 2024 (4 måneder)_
 
 - Støtter nye studerende i deres udvikling mod at blive bedre programmører.
 
-**Tutor**  
+**Tutor**
 _Mart 2024 - Juni 2024 (4 måneder)_
 
 - Ansvar for at sikre udvikling i programmeringsevner hos et enkelt individ.
 
 ### Luudos Studio
 
-**Boardgame Designer**  
+**Boardgame Designer**
 _Januar 2022 - August 2022 (8 måneder)_
 
-- Arbejdede med Kickstarter for at sikre funding til brætspil.
+- Arbejdede med [Kickstarter](https://www.kickstarter.com/) for at sikre funding
+til brætspil.
 - Fokus på brætspilsudvikling og skabelse af regler.
 - Skabte og designede 9 regelbøger, der modtog positiv feedback.
 
@@ -86,12 +86,12 @@ _Juni 2020 - August 2022 (2 år 3 måneder)_
 
 ### Stemmernes Tårn
 
-**Author & Illustrator**  
+**Author & Illustrator**
 _Oktober 2018 - Juni 2020 (1 år 9 måneder)_
 
 ### Børnehuset Bakkely
 
-**Pædagog**  
+**Pædagog**
 _November 2017 - August 2019 (1 år 10 måneder)_
 
 - Arbejdede med børn for at sikre meningsfulde og engagerende dage.
@@ -99,14 +99,14 @@ _November 2017 - August 2019 (1 år 10 måneder)_
 
 ### Cackleberry Studio
 
-**Illustrator**  
+**Illustrator**
 _Marts 2018 - Juli 2018 (5 måneder)_
 
 ## Uddannelse
 
 ### UCL Erhvervsakademi og Professionshøjskole
 
-**Datamatiker**  
+**Datamatiker**
 _Februar 2023 - August 2024_
 
 ### Prosa
