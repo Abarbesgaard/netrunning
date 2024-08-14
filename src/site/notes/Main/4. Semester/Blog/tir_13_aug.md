@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/blog/tir-13-aug/","title":"Tir 13 Aug","created":"2024-08-13T14:21:25.863+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/blog/tir-13-aug/","title":"Tir d. 13. Aug","created":"2024-08-14T09:20:18.229+02:00"}
 ---
 
+[[ons14aug\| Næste blog post]]
 ## Hvad er dit mål med emnerne (som I ser det lige nu)
 
 Mine emner er:
@@ -47,6 +48,7 @@ Jeg kan nå derhen ved at læse litteraturen og ressourcerne.
 
 | File                                                                                           | Progress |
 | ---------------------------------------------------------------------------------------------- | -------- |
+| [[Main/4. Semester/Blog/Ons_14_Aug\|Ons_14_Aug]]                                            | \-       |
 | [[Main/4. Semester/Blog/tir_13_aug\|tir_13_aug]]                                            | \-       |
 | [[Main/4. Semester/Emner/Backend/Unavngivet\|Unavngivet]]                                   | \-       |
 | [[Main/4. Semester/Emner/Mindmap\|Mindmap]]                                                 | \-       |
