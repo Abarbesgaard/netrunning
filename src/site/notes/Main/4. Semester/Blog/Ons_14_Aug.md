@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/blog/ons-14-aug/","title":"Ons d. 14. Aug","created":"2024-08-14T09:42:44.261+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/blog/ons-14-aug/","title":"Ons d. 14. Aug","created":"2024-08-14T09:46:20.375+02:00"}
 ---
 
 [[tir13aug\|Forrige blog post]]
@@ -9,7 +9,7 @@
 Jeg har påbegyndt et mindmap i Miró, som jeg vil bruge til at holde styr på
 mine tanker og idéer i forbindelse med semesterprojektet.
 
-[Link til mindmappet](https://miro.com/app/board/uXjVMYEO0vk=/?share_link_id=654288064214)
+[[Main/4. Semester/Emner/Mindmap\|Link til mindmappet]]
 
 Den måde jeg bruger mindmappet på er at hver linje vil have en farve.
 Rød, gul eller grøn.
