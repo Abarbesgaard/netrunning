@@ -1,18 +1,38 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/emner/mindmap/","created":"2024-08-13T18:29:44.803+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/emner/mindmap/","title":"Mindmap","created":"2024-08-14T06:38:41.202+02:00"}
 ---
 
- 
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-
-
-
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
-
-
-# Excalidraw Data
-## Text Elements
-
-
-</div></div>
+```plantuml
+@startmindmap
++[#goldenrod] center
+++ right 1
++++ right 1.1
+++++_ right 1.1.1
+++++_ right 1.1.2
++++[#B4A7E5] right 1.2
++++ right 1.3
+++ right 2
++++ right 2.1
+++++ right 2.1.1
+-- left 1
+-- **left 2**
+--- left 2.1\n1-left 2.1\n2-left 2.1
+---_ left 2.2
+---- left 2.2.1
+----[#limegreen] left 2.2.2
+---- left 2.2.3
+--- left 2.3
+-- <s>left 3</s>
+caption Figure
+Title Title
+header
+header
+endheader
+center footer footer
+legend right
+legend-1
+legend-2
+endlegend
+@endmindmap
+```
