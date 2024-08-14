@@ -1,23 +1,26 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/blog/ons-14-aug/","title":"Ons d. 14. Aug","created":"2024-08-14T09:46:20.375+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/blog/ons-14-aug/","title":"Ons d. 14. Aug","created":"2024-08-14T10:39:03.309+02:00"}
 ---
 
-[[tir13aug\|Forrige blog post]]
+[[Main/4. Semester/Blog/Tir_13_Aug\| Forrige blog post]]
 
-## Mindmap
+## Microservices
 
 Jeg har påbegyndt et mindmap i Miró, som jeg vil bruge til at holde styr på
 mine tanker og idéer i forbindelse med semesterprojektet.
+
+Jeg har taget udganspunkt i Microservices som overordnet "tema" for dette
+semester og lavet et mindmap over de emner jeg mener er relevante for dette.
 
 [[Main/4. Semester/Emner/Mindmap\|Link til mindmappet]]
 
 Den måde jeg bruger mindmappet på er at hver linje vil have en farve.
 Rød, gul eller grøn.
 
-- Rød betyder at jeg på nuværende tidspunkt føler at jeg ikke har nogen forståelse
+- **Rød** betyder at jeg på nuværende tidspunkt føler at jeg ikke har nogen forståelse
 af emnet.
-- Gul betyder at jeg har en lille forståelse af emnet
-- Grøn betyder at jeg har en god forståelse af emnet.
+- **Gul** betyder at jeg har en lille forståelse af emnet
+- **Grøn** betyder at jeg har en god forståelse af emnet.
 
 Som det ser ud lige nu efter at have dannet overblik over mit tema om
 Microservices, så er der en del røde og gule linjer.
