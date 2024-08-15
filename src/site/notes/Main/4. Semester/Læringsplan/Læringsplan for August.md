@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-15T09:53:34.776+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan-for-august/","title":"Læringsplan for August","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-15T10:16:30.021+02:00"}
 ---
 
 
@@ -44,17 +44,3 @@ Vigtige spørgsmål jeg vil have besvaret er:
 - Hvordan er arkitekturen for sikkerhed i en microservice arkitektur?
 
 #### Litteratur, IT-sikkerhed, august
-
-## September
-
-### Backend, september
-
-Inden udgangen af september vil jeg have en dybdegående forståelse for
-hvad der kræves for at implementere en microservice arkitektur.
-
-### IT-Sikkerhed, september
-
-Yderligere vil jeg have en dybdegående forståelse for hvordan
-sikkerhedkritikeske elementer kan implementeres i en microservice arkitektur for
-at sikre at data er beskyttet.
-
