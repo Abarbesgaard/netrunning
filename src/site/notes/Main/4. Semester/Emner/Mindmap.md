@@ -10,4 +10,4 @@ overblik over de emner som er relevante for semesterprojektet.
 
 [Link til mindmappet](https://miro.com/app/board/uXjVMYEO0vk=/?share_link_id=654288064214)
 
-Det blev udarbejdet den [[Main/4. Semester/Blog/Ons_14_Aug\|14. august 2019.]]
+Det blev udarbejdet den [[Main/4. Semester/Blog/2024-08-14\|14. august 2019.]]
