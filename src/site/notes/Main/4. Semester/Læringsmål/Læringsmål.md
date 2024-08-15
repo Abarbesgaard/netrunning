@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsmal/laeringsmal/","title":"Læringmål","created":"2024-08-14T10:35:05.442+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsmal/laeringsmal/","title":"Læringmål","created":"2024-08-14T11:15:19.924+02:00"}
 ---
 
 

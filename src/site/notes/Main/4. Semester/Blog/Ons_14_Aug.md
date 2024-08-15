@@ -1,18 +1,27 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/blog/ons-14-aug/","title":"Ons d. 14. Aug","created":"2024-08-14T10:39:03.309+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/blog/ons-14-aug/","title":"Ons d. 14. Aug","created":"2024-08-15T08:28:36.571+02:00"}
 ---
 
-[[Main/4. Semester/Blog/Tir_13_Aug\| Forrige blog post]]
+[[Main/4. Semester/Blog/Tir_13_Aug\| Forrige blog post]] [[Main/4. Semester/Blog/Tors_15_Aug\| Næste blog post]]
 
 ## Microservices
 
-Jeg har påbegyndt et mindmap i Miró, som jeg vil bruge til at holde styr på
-mine tanker og idéer i forbindelse med semesterprojektet.
+Jeg har påbegyndt et mindmap i [Miró](https://miro.com/), som jeg vil bruge
+til at holde styr på mine tanker og idéer i
+forbindelse med semesterprojektet.
 
-Jeg har taget udganspunkt i Microservices som overordnet "tema" for dette
+Udgangspunktet i Microservices som overordnet "tema" for dette
 semester og lavet et mindmap over de emner jeg mener er relevante for dette.
 
 [[Main/4. Semester/Emner/Mindmap\|Link til mindmappet]]
+
+Jeg har forsøgt at tager udgangspunkt i de emner jeg har valgt at fokusere på
+i udarbejdelsen af mindmappet.
+Derfor er det inddelt i følgende kategorier:
+
+- Backend Arkitektur
+- IT-sikkerhed
+- Test
 
 Den måde jeg bruger mindmappet på er at hver linje vil have en farve.
 Rød, gul eller grøn.

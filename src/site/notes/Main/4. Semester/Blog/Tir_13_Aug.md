@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/blog/tir-13-aug/","title":"Tir d. 13. Aug","created":"2024-08-14T10:30:01.835+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/blog/tir-13-aug/","title":"Tir d. 13. Aug","created":"2024-08-15T08:28:08.347+02:00"}
 ---
 
 [[Main/4. Semester/Blog/Ons_14_Aug\| Næste blog post]]
@@ -51,11 +51,14 @@ Jeg kan nå derhen ved at læse litteraturen og ressourcerne.
 | ---------------------------------------------------------------------------------------------- | -------- |
 | [[Main/4. Semester/Blog/Ons_14_Aug\|Ons_14_Aug]]                                            | \-       |
 | [[Main/4. Semester/Blog/Tir_13_Aug\|Tir_13_Aug]]                                            | \-       |
+| [[Main/4. Semester/Blog/Tors_15_Aug\|Tors_15_Aug]]                                          | \-       |
 | [[Main/4. Semester/Emner/Backend/Unavngivet\|Unavngivet]]                                   | \-       |
 | [[Main/4. Semester/Emner/Mindmap\|Mindmap]]                                                 | \-       |
 | [[Main/4. Semester/Guildmøder/Hvad Er Guild Møder\|Hvad Er Guild Møder]]                    | \-       |
+| [[Main/4. Semester/Litteratur/LitteraturListe\|LitteraturListe]]                            | \-       |
+| [[Main/4. Semester/Læringsmål/Læringsmål\|Læringsmål]]                                      | \-       |
+| [[Main/4. Semester/Læringsplan\|Læringsplan]]                                               | \-       |
 | [[Main/4. Semester/Processvejledning/Hvad Er Processvejledning\|Hvad Er Processvejledning]] | \-       |
 | [[Main/4. Semester/Produktvejledning/Hvad Er Produktvejledning\|Hvad Er Produktvejledning]] | \-       |
-| [[Main/4. Semester/Læringsmål/Læringsmål\|Læringsmål]]                                      | \-       |
 
 { .block-language-dataview}
