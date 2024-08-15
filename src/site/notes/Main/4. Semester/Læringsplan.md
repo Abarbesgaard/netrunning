@@ -1,18 +1,18 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-15T08:24:32.032+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-15T09:30:29.497+02:00"}
 ---
 
 
-Senest opdateret d. 14 Aug. 2012
+Senest opdateret d. 15 Aug. 2012
 
 Følgende læringsplan er udarbejdet i  starten af semesteret, for at skabe et
 overblik over de emner som er relevante for semesterprojektet, og opfylde de
-[[Main/4. Semester/Læringsmål/Læringsmål\|læringsmål]] som er sat for semesteret.
+[[Main/4. Semester/Læringsmål/Læringsmål\|læringsmål]], som er sat for semesteret.
 
 Det store mål for mig i dette semester er at få en dybere forståelse for
 hvordan man laver **Microservices**.
 
-Med udgangspunkt i dette [[Main/4. Semester/Emner/Mindmap\|mindmap]] og [[Main/Systemudvikling/Smart_Mål\|Smart_Mål]] har jeg udarbejdet
+Med udgangspunkt i dette [[Main/4. Semester/Emner/Mindmap\|mindmap]] og [[Main/Systemudvikling/Smart_Mål\|smart mål]] har jeg udarbejdet
 følgende læringsplan:
 
 ## August
