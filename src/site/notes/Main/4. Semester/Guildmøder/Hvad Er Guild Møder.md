@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/guildmoder/hvad-er-guild-moder/","title":"Hvad Er Guild Møder","tags":["Systemudvikling","Guild"],"created":"2024-08-12T10:46:35.269+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/guildmoder/hvad-er-guild-moder/","title":"Hvad Er Guild Møder","hide":true,"tags":["Systemudvikling","Guild"],"created":"2024-08-16T11:20:34.684+02:00"}
 ---
 
 

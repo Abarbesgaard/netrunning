@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/processvejledning/hvad-er-processvejledning/","title":"Hvad Er Processvejledning","tags":["Systemudvikling","Processvejledning"],"created":"2024-08-10T07:34:37.840+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/processvejledning/hvad-er-processvejledning/","title":"Hvad Er Processvejledning","hide":true,"tags":["Systemudvikling","Processvejledning"],"created":"2024-08-16T11:20:44.684+02:00"}
 ---
 
 

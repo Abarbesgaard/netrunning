@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/litteratur/litteratur-liste/","title":"Literatur Liste","created":"2024-08-15T12:20:18.121+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/litteratur/litteratur-liste/","title":"Literatur Liste","hide":true,"created":"2024-08-16T11:24:25.568+02:00"}
 ---
 
 
@@ -8,6 +8,7 @@
 [Microservices Explained - YouTube](https://www.youtube.com/watch?v=rv4LlmLmVWk)
 
 [Microservices fundamentals - Linkedin Learning](https://www.linkedin.com/learning/microservices-foundations-23469069/welcome?u=57075649)
+[[Microserivce_fundamentals\|Note til artiklen]]
 
 [What Are Microservices Really All About? -YouTube](https://www.youtube.com/watch?v=lTAcCNbJ7KE)
 

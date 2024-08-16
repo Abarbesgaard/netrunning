@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/emner/backend/microservice/","title":"Microservice","tags":["Backend","Microservice","Projektarbejde"],"created":"2024-08-16T08:35:11.460+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/emner/backend/microservice/","title":"Microservice","hide":true,"tags":["Backend","Microservice","Projektarbejde"],"created":"2024-08-16T11:21:14.556+02:00"}
 ---
 
 ![Microservice.png](/img/user/Main/Images/Microservice.png)

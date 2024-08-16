@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/produktvejledning/hvad-er-produktvejledning/","title":"Hvad Er Produktvejledning","tags":["Systemudvikling","Produktvejledning"],"created":"2024-08-11T12:58:15.356+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/produktvejledning/hvad-er-produktvejledning/","title":"Hvad Er Produktvejledning","hide":true,"tags":["Systemudvikling","Produktvejledning"],"created":"2024-08-16T11:20:51.580+02:00"}
 ---
 
 
