@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsmal/it-sikkerhed/","title":"It-Sikkerheds Læringmål","created":"2024-08-15T13:52:30.434+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsmal/it-sikkerhed/","title":"It-Sikkerheds Læringmål","created":"2024-08-16T08:28:29.339+02:00"}
 ---
 
 
