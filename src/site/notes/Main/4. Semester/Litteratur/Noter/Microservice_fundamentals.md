@@ -1,9 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/microservice-fundamentals/","title":"Microservice Fundamentals","hide":true,"created":"2024-08-16T13:21:57.196+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/microservice-fundamentals/","title":"Microservice Fundamentals","hide":true,"created":"2024-08-19T11:01:46.704+02:00"}
 ---
 
-Troværdighed: 4
+Troværdighed: 5
 Relevans: 5
+
+[Video](https://www.linkedin.com/learning/microservices-foundations-23469069/next-steps?autoSkip=true&resume=false&u=57075649)
+
+> Denne note handler om de grundlæggende principper bag microservices og hvordan
+> de adskiller sig fra andre arkitekturmodeller. Forfatteren diskuterer fordele
+> og ulemper ved microservices og giver praktiske råd til implementering af en
+> microservices-arkitektur.
 
 ## Historien om service-baserede arkitekturer
 
@@ -695,3 +702,282 @@ og ydeevnen skal vurderes for at sikre, at Message Broker's ikke bliver forsinke
 Forfatteren opfordrer til at tage tid i dit systemdesign og undersøge, hvordan
 udnyttelse af asynkron kommunikation kan hjælpe dit team med at opnå reduceret
 latenstid og øget gennemløb.
+
+## Logging og Tracing i en Microservices Arkitektur
+
+- **Vigtig Udfordring:** Evaluering af kaldskæder og aggregering af logs på
+tværs af microservices er vanskeligt, især med flere virtuelle maskiner
+eller containere.
+- **Tidlig Planlægning:** Planlæg for enhedlig observability tidligt for at
+undgå omfattende revidering senere. Enhedlig logging på tværs af
+organisationen er afgørende.
+- **Logging i Microservices:**
+  - Kritisk for drift, fejlfinding og vedligeholdelse.
+  - Udfordringer skyldes det store antal artefakter og forskellige
+  loggingsstrategier på tværs af teams.
+  - Manglende ensretning af logdata komplicerer evaluering af systemet,
+  især med logaggregatorer.
+  
+- **Tracing:**
+  - **Koncept:** Brug en unik token (trace ID) på tværs af alle services i
+  en kaldskæde.
+  - **Metode:** Indsæt trace ID i logs og videregiv den til alle efterfølgende services.
+  - **Fordel:** Gør det lettere at spore en enkelt brugerinteraktion gennem
+  systemet, hvilket forbedrer fejlfinding og overvågning.
+- **Best Practice:** Strukturér logbeskeder ensartet og inkluder trace IDs for
+at maksimere fordelene.
+
+## Continuous Delivery som et Krav
+
+- **Agilitet i Microservices:** Microservices arkitektur har som mål at øge
+agiliteten i udviklingsteams. Når systemet vokser, kan det blive udfordrende at
+opretholde denne agilitet.
+- **Udfordring:** Uden automatisering kan deployment blive kompliceret, selvom
+microservices gør deployment af små artefakter lettere.
+- **Vigtighed af CI/CD:** Investér tidligt i en CI/CD-pipeline. Dette sikrer en
+automatiseret måde at bygge og deployere services på, hvilket er afgørende
+for succes i microservices.
+
+- **CI/CD Pipeline:**
+  - **Build Step:** Automatisk kompilering af kode, inklusive enhedstest.
+  - **Automatisk Deployment:** Deployment til en ikke-produktionsmiljø,
+  hvor integrationstests, systemtests og penetrationstests køres.
+  - **Produktion:** Når koden er valideret, deployeres den til produktion.
+  Routing teknikker som blue-green deployment kan bruges for at sikre
+  en glat overgang.
+
+- **Automatisering:** Hver mulighed for automatisering bør udnyttes for
+at øge effektiviteten og agiliteten.
+- **Krav om Automatisering:** Uden automatisering i leveringsprocessen
+opnår microservices ikke den ønskede agilitet. Start med små trin og
+udvid med avancerede automatiseringsteknikker over tid.
+
+## Hybridarkitekturer: Hierarki og Service-baserede Modeller
+
+- **Udfordring ved Rene Microservices:** At indføre en fuld microservices
+arkitektur kan være overvældende på grund af kompleksitet og ukendte
+udfordringer som databasesegmentering og servicegrænser.
+
+### Hierarkisk Servicemodel
+
+- **Struktur:** Definerer strenge regler for, hvilke services der kan konsumere
+andre, ofte baseret på N-tier modellen.
+  - **Serviceklasser:**
+    - **Data Services:** Eksponerer domænespecifik logik og data.
+    - **Forretningsprocess Services:** Håndterer højniveau forretningsprocesser.
+    - **Gateway Services:** Abstraherer eksterne afhængigheder.
+    - **Edge Services:** Grænseflade til omverdenen.
+  - **Fordele:** Reducerer risikoen for cirkulære afhængigheder ved at
+  kontrollere serviceinteraktioner.
+  - **Risici:** Kan føre til kunstige kompleksiteter, såsom unødvendige
+  forretningsprocesser eller gennemgangsservices, der tilføjer forsinkelse.
+
+### Service-baseret Arkitektur
+
+- **Struktur:** Ligner SOA, hvor eksisterende databaser forbliver intakte, og
+services udskæres.
+  - **Fordele:** Tilbyder noget af microservices-arkitekturens agilitet uden
+  behov for databaseopdeling.
+  - **Risici:** Kan føre til en "monolit af monolitter", hvis service-domæner
+  ikke er klart defineret, hvilket hæmmer skalerbarhed.
+
+### Overvejelser, hybridarkitekturer
+
+- **Hybridmodeller:** Brugbare som overgangsløsninger, men med kompromiser.
+- **Forsigtighed:** Vurder både fordele og potentielle ulemper, før du fuldt
+ud forpligter dig til en hybridmodel.
+
+## Design Overvejelser
+
+Når du starter designet af dine microservices, er der nogle nøglepunkter, du
+skal overveje, før du skriver en eneste linje kode. Her er en sammenfatning
+af de vigtigste overvejelser:
+
+- **CI/CD Pipelines:**
+  - **Prioritet:** Planlæg din continuous integration og continuous delivery
+  pipeline, før du skriver kode.
+  - **Handling:** Model en eksempel-pipeline og dokumentér og automatisér de
+  kritiske trin i din SDLC (softwareudviklingslivscyklus).
+
+- **Logging, Tracing og Telemetri:**
+  - **Design:** Design frameworks til logging, tracing, og telemetri som en
+  primær funktion for hver service.
+  - **Implementering:** Skab en fælles bibliotek for logging og metrics, og
+  overvej logaggregatorer og søgemekanismer tidligt.
+
+- **Domain-Driven Design (DDD):**
+  - **Analyse:** Foretag grundig analyse af systemet og brug denne viden til at
+  definere servicegrænser.
+  - **Overvejelser:** Overvej brugen af dedikerede dataservices eller
+  inkorporering af dataadgang i forretningsprocesser. Planlæg for
+  asset-transaktioner eller eventual consistency.
+
+- **Latency og Standardisering:**
+  - **Latency:** Design mekanismer til evaluering og kontrol af latency.
+  Overvej ikke-blokerende kode, hvis muligt.
+  - **Standardisering:** Standardiser din stack for lettere ressourceflytning
+  som forretningsbehov ændrer sig. En standardiseret kodebase øger effektiviteten.
+
+- **Asynkron Design:**
+  - **Asynkron Først:** Design hver service som asynkron, medmindre det er
+  bevist nødvendigt at være synkron. Dette reducerer systemlatency og
+  forbedrer dine færdigheder i asynkrone operationer.
+
+- **Overordnet Fokus:**
+  - Design af microservices handler mindre om selve koden og mere om de
+  understøttende processer, operationer og infrastruktur.
+
+## Trade-offs ved Microservices Arkitektur
+
+At bygge en microservices arkitektur er ikke en "sølvkugle" for
+softwareudvikling. Her er nogle væsentlige trade-offs at overveje:
+
+- **Distributionsomkostninger:**
+  - **Fordele:** Klart definerede modulgrænser og nemmere skalering af systemet.
+  - **Udfordringer:** Øgede omkostninger ved at bygge og vedligeholde et
+  distribueret system. Eksempler som Amazon viser, hvordan fordelene
+  ved global forretning og høj tilgængelighed kan opveje
+  distributionsomkostningerne.
+
+- **Deploymentskompleksitet:**
+  - **Fordele:** Skaleringsevne i microservices arkitektur.
+  - **Udfordringer:** Øget kompleksitet i deployment-processen på grund af
+  mange bevægelige dele. Vigtigheden af continuous delivery til at håndtere
+  denne kompleksitet og reducere spild.
+
+- **Teknologisk Diversitet:**
+  - **Fordele:** Mulighed for at vælge forskellige teknologier til forskellige services.
+  - **Udfordringer:** Øgede driftsomkostninger og kompleksitet ved at styre
+  services, der bruger forskellige teknologier. Det kan være lettere at
+  begrænse teknologierne til en mindre, ensartet samling for bedre
+  operationel styring.
+
+### Generelle Overvejelser
+
+- **Evaluering:** Brug tid på at vurdere disse trade-offs i din egen systemarkitektur.
+- **Strategi:** Udnyt dine styrker og kontroller dine svagheder for at opnå
+bedre resultater. Planlæg omhyggeligt i stedet for blot at kaste dig ud i det.
+
+## Argument for Edge Services
+
+I en microservices-arkitektur kan edge services spille en væsentlig rolle
+i at håndtere forskellige klientbehov og abstrahere fra tredjepartsafhængigheder.
+Her er nogle nøglepunkter for edge services:
+
+### Udfordringer med Tidligere Tilgange
+
+- **SOA og Bloat:** I Service-Oriented Architecture (SOA) kunne den fælles
+bus blive overbelastet med kode, hvilket gjorde infrastrukturen svær at håndtere.
+- **API Proxy:** Selvom API-proxies kan skjule implementeringen af tjenester,
+kan de også blive overbelastet, hvis der er mange transformationer baseret på klientbehov.
+
+### Typer af Edge Services
+
+1. **Inbound Edge Services (Abstraktionslag):**
+   - **Formål:** Abstrahere fra tredjepartsafhængigheder, som f.eks. e-mail
+   marketing systemer.
+   - **Fordele:**
+     - **Kontrol:** Centraliserer håndteringen af ændringer i tredjeparts-API'er,
+     hvilket reducerer virkningen af ændringer til et enkelt sted.
+     - **Udskiftning:** Giver en vej til at udskifte tredjepartsleverandører,
+     hvis nødvendigt.
+     - **Mindre Risiko:** Reducerer virkningen af brud på API'er og forbedrer
+     systemets sundhed.
+
+2. **Outbound Edge Services (Klient-specifikke Transformationer):**
+   - **Formål:** Tilpasse datapayloads til forskellige klienter, f.eks. mobile
+   enheder, der har brug for mindre data.
+   - **Fordele:**
+     - **Lettere Vedligeholdelse:** Håndtering af transformationer i dedikeret
+     kode gør det lettere at administrere.
+     - **Konsistent Interface:** Muliggør versionering og sikrer en konsekvent
+     grænseflade for klienter, selv når de underliggende tjenester ændrer sig.
+
+### Overvejelser, Edge Services
+
+- **Yderligere Lag:** Introducerer et ekstra hop i kald til eksterne tjenester,
+men kan håndteres gennem asynkrone operationer.
+- **Design og Implementering:** Design og kodning af edge services kræver ekstra
+indsats, men belønningen i form af øget kontrol og konsistens er værd at overveje.
+
+Ved at bruge edge services kan du effektivt styre både klient-specifikke krav
+og tredjepartsafhængigheder, hvilket gør det lettere at vedligeholde og
+skalere dit system.
+
+## At Omfavne DevOps
+
+I en microservices-arkitektur er kultur en afgørende faktor for succes. Her er,
+hvorfor DevOps er en perfekt tilpasning:
+
+### DevOps og Microservices
+
+- **Kulturel Integration:** DevOps handler om at bringe operationer og udvikling
+sammen. Denne integration er essentiel for at håndtere de udfordringer, som
+microservices medfører.
+  
+### Operational Complexity
+
+- **Distribution Tax:** Udfordringer som latens og kompleksitet kræver tæt
+overvågning. En platform med kontinuerlig overvågning og automatiserede svar er nødvendigt.
+- **Automatisering:** Med en enhedlig og veldefineret datamodel kan
+automatiserede reaktioner implementeres, som f.eks. genopbygning af
+infrastruktur ved høj responstid eller fejl.
+
+### Deployment Komplexitet
+
+- **CI/CD:** Automatisering af deployments og tests er en nødvendighed. Det
+forbedrer teamets agilitet og reducerer manuel håndtering, hvilket øger
+teamets samlede produktivitet.
+
+### Fordele ved DevOps Kultur
+
+- **Skalering og Agilitet:** DevOps understøtter de positive aspekter af
+microservices, såsom skalering, agilitet og global distribution.
+- **Automatisering:** For at maksimere fordelene og reducere latens og
+kompleksitet, er automatisering afgørende.
+
+### Konklusion, devOps og Microservices
+
+- **Kulturens Rolle:** DevOps og microservices går hånd i hånd. DevOps-kultur
+fremmer en succesfuld microservices-platform, som igen styrker DevOps-kulturen.
+
+Omfavn DevOps som en integreret del af din microservices-arkitektur for at
+maksimere fordelene og håndtere kompleksiteten effektivt.
+
+## Monolithic Microservices
+
+### Introduktion
+
+- **Monolithic Microservice**: Når du ikke er klar til fuld microservices-
+arkitektur, kan en monolitisk tilgang forberede dig til en fremtidig opdeling.
+
+### Grundlæggende Ide
+
+- **Data Services**: Design data services, så de nemt kan opdeles senere.
+- **Domæner og API'er**: Byg dine domæner med solide API'er. Skjul API'er fra
+omverdenen for lettere opdeling.
+- **Database Skemaer**: Design dine databaser med fremtidig opdeling for øje.
+- **Præsentationslag**: Kapsl så mange potentielle tjenester som muligt.
+
+### Argumenter for Monolitisk Tilgang
+
+- **Startups**: Tidlige startups kan finde det udfordrende at implementere
+komplekse microservices. Fokus på produkt-markedstilpasning er vigtigere.
+- **Team Størrelse**: Små teams kan være tilstrækkeligt agile i en
+monolitisk kodebase. Microservices-kompleksitet kan være overflødig.
+- **Fremtidssikring**: Brugen af solid CI/CD og kapsling i en monolitisk
+struktur kan forberede dig til fremtidige opdelinger.
+
+### Fordele ved Solid Design
+
+- **God Observabilitet**: Effektiv overvågning og fejlfinding i både
+monolitiske og microservices-systemer.
+- **API'er og UI**: Stærke API'er og brugergrænseflader gavner enhver
+systemdesign.
+- **Skalérbarhed**: En monolitisk arkitektur bygget på solide principper vil
+være lettere at skalere senere.
+
+### Konklusion, Monolitisk Microservices
+
+- **Fleksibilitet**: Der er ikke én "rigtig" tilgang. En monolitisk arkitektur
+kan være en god start og forberede dig til en fremtidig microservices-struktur.
