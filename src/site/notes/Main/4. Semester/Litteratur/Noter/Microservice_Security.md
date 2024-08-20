@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/microservice-security/","title":"Microservice Security","hide":true,"created":"2024-08-19T12:56:07.027+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/microservice-security/","title":"Microservice Security","hide":true,"created":"2024-08-20T13:21:24.314+02:00"}
 ---
 
 Troværdighed: 5
@@ -580,3 +580,321 @@ flows for at forenkle brugen for førstpartikunder.
 
 Dette giver et overblik over hvordan tokens bliver udstedt og anvendt i
 OAuth 2.0, og hvordan processen understøtter sikker adgang til beskyttede ressourcer.
+
+## Noter om Issuing Identity Tokens med OIDC
+
+### Baggrund: OAuth 2.0 og dets Begrænsninger
+
+- **OAuth 2.0 Fokus**: Autorisation, ikke identifikation eller autentifikation
+af brugere.
+- **Begrænsning**: Mangler standard for brugeridentifikation og -autentifikation.
+
+### Introduktion til OpenID Connect (OIDC)
+
+- **Formål**: Tilføje et identitetslag til OAuth 2.0 for at adressere
+ovennævnte begrænsninger.
+- **Komponenter**:
+  - **Authentication Request**: Indleder brugerautentifikation.
+  - **ID Token**: Indeholder brugeridentitet og autentifikationsdetaljer.
+  - **UserInfo Endpoint**: Returnerer brugerinformation baseret på access token.
+  
+### Arkitektur og Anvendelsesområder
+
+- **Standalone Identity Provider**:
+  - Kan anvendes af flere klientapplikationer.
+  - Reducerer behovet for, at hver applikation udvikler egne autentifikationssystemer.
+- **Eksempler**: LinkedIn, Google, Facebook – Sign in with-knapper.
+- **Enterprise Brug**: Central autentifikation for en virksomheds applikationssuite.
+
+### OIDC's Rolle i Autorisationsflowet
+
+- **OIDC Tilføjelser til OAuth**:
+  - Tilføjelse af `openid` scope til auth request.
+  - Tilføjelse af ID Token ved token-udveksling.
+- **Autentifikationsflow**:
+  1. **Initial Redirect**: Klient sender bruger til identitetsudbyderen.
+  2. **Autentifikation og Samtykke**: Bruger logger ind og giver samtykke.
+  3. **Kodeudveksling**: Klient modtager ID Token og Access Token.
+- **ID Token**:
+  - Format: JWT (Jot) med kryptografisk signatur (HS256).
+  - Indeholder claims om autentifikationsevent, tokenudsteder, bruger og udløb.
+
+### Verifikation og Anvendelse af Tokens
+
+- **ID Token Verifikation**: Signatur valideres for at sikre integritet.
+- **Brug af Tokens**:
+  - **ID Token**: Bruges kun af klienten til brugeridentifikation.
+  - **Access Token**: Bruges af mikroservices til at hente brugerinfo via
+  UserInfo endpoint.
+
+### OpenID Connect Playground
+
+- **Værktøj**: Auth0's OpenID Connect Playground demonstrerer OIDC i praksis.
+- **Funktion**: Simulerer auth flow og viser detaljeret tokenudveksling og verifikation.
+
+## Vigtigste Pointer
+
+- **OIDC Udfylder OAuth 2.0's Mangler**: Tilføjer brugeridentifikation og
+autentifikation til en ellers autorisationsfokuseret standard.
+- **Modulært og Centraliseret Design**: Tillader flere applikationer at bruge
+samme identitetsudbyder, hvilket reducerer udviklingsbyrden.
+- **Struktureret Token Administration**: ID Token leverer sikker og verificerbar
+brugerinformation, mens Access Tokens muliggør datatilgang i mikroservices.
+- **Relevans for Moderne Applikationer**: Anvendt bredt i både offentlige og
+private systemer for at forbedre sikkerhed og brugeroplevelse.
+
+## Noter om Token Validation
+
+### Introduktion til Token Validation
+
+- **Tokens**: Følsomme informationer, der giver adgang til mikroservices via en API.
+- **Klientens ansvar**: Holder og sender token til resource serveren ved hver anmodning.
+- **Resource Serverens ansvar**: Skal validere token for at forhindre adgang med
+stjålne eller manipulerede tokens.
+
+### Token Valideringsprocessen
+
+- **Reference Tokens**:
+  - Skal introspekteres ved autorisationsserveren for at verificere gyldighed.
+  - **OAuth 2.0 Token Introspection Standard**: Beskriver processen.
+  - **API Gateway**: Bør centralisere introspektion for effektivitet.
+  - **Krav til Autorisationsserveren**: Skal kunne håndtere belastning via
+  clustering og caching.
+
+- **Strukturerede Tokens**:
+  - Beskyttes via JSON Object Signing and Encryption (JOSE) specifikationer.
+  - **JOSE Specifikationer**: Fire standarder, der sikrer token integritet og
+  fortrolighed gennem signering og kryptering.
+  - **JWT (JSON Web Token)**: Grundstrukturen i JOSE, som specificerer, hvordan
+  token er opbygget.
+
+### JWT Signering og Verifikation
+
+- **JSON Web Signature (JWS)**: Beskriver, hvordan en JWT signatur oprettes.
+  - **Signeringsproces**:
+    - Header og payload Base64 URL-enkodes og sammenkædes.
+    - En nøgle bruges til at beregne signaturen, som derefter føjes til JWT.
+  - **HS256 Algoritme**: Symmetrisk signeringsalgoritme (samme nøgle til
+  signering og verifikation).
+  
+- **Eksempel på JWT Verifikation**:
+  - **Forkert Nøgle**: Meddeler ugyldig signatur.
+  - **Korrekt Nøgle**: Bekræfter gyldig signatur.
+  
+- **RS256 Algoritme**:
+  - Kræver offentlig og privat nøglepar for signering og verifikation.
+  - **JSON Web Key Set (JWKS)**: Offentlige nøgler tilgængelige via endpoint
+  til verifikation af tokens.
+  
+### Praktisk Anvendelse af JWT Verifikation
+
+- **JWT.io Værktøj**: Muliggør encoding, decoding, og verifikation af JWT’er.
+- **Auth0 Eksempel**: Viser hvordan en JWKS kan bruges til at verificere en
+token's signatur.
+
+## Konklusion, token validering
+
+### Vigtigste Pointer, token validering
+
+- **Tokens kræver nøje validering**: Forhindrer uautoriseret adgang og sikrer integritet.
+- **Reference Tokens vs. Strukturerede Tokens**: Validering afhænger af
+token-type; introspektion for reference tokens, signering for strukturerede tokens.
+- **JOSE Specifikationer**: Kritiske for sikker tokenadministration, især ved
+brug af JWT'er.
+- **Værktøjer og Algoritmer**: JWT.io og standardalgoritmer som HS256 og RS256
+er centrale for token signering og validering.
+- **Offentlige Nøglesæt**: Gør det muligt for klienter at verificere
+signaturer uden direkte adgang til privat nøgle.
+
+## Noter om Tokenvedligeholdelse og Beskyttelse
+
+### Tokenvedligeholdelse
+
+- **Token Livscyklus**:
+  - Tokens bruges typisk indtil deres udløbsdato.
+  - Ved udløb kan de ikke længere bruges til adgang til mikroservices.
+  
+- **Udløbsdato**:
+  - **Expires In Claim**: Sættes på access token for at angive udløbsdato.
+  - **Kortvarige Tokens**: Generelt anbefales det at holde access tokens
+  kortvarige for at begrænse skader ved kompromittering.
+
+- **Refresh Tokens**:
+  - Giver mulighed for at få en ny access token uden brugerens deltagelse.
+  - Nyttigt når brugeren er offline.
+  - **Rotation**: For at mindske risikoen ved stjålne refresh tokens, kan nye
+  refresh tokens udstedes hver gang en ny access token opnås.
+
+### Token Revokation
+
+- **Problemer med Token Revokation**:
+  - Hvis tokens ikke er godt beskyttede og kompromitteres, skal de revokeres.
+  - **Opbevaring**: Tokens skal være persistent for at kunne revokeres effektivt.
+  - **Revokation**: Kan ske naturligt ved logout eller når en klient bliver afregistreret.
+
+- **Token Revokationsspecifikation**:
+  - Udvider OAuth med et endpoint til token revokation.
+  - Efter revokation kan token ikke længere anvendes.
+
+### Generelle Best Practices
+
+- **Transport**:
+  - Alle OAuth-relaterede kald skal ske over TLS for at beskytte credentials og
+  tokens mod kompromittering.
+  - **Ingen Klartekst**: Transport af information bør ikke ske i klartekst.
+
+- **Beskyttelse**:
+  - Tokens bør beskyttes som passwords.
+  - **Client ID og Client Secret**: Skal også beskyttes.
+
+- **Udløbsdatoer**:
+  - Sørg for at inkludere en udløbsdato på alle access tokens.
+  - Hold udløbsdatoen kort for at begrænse adgangstiden.
+
+- **Sensible Information**:
+  - Undgå at inkludere meget følsom information i token payload, der er
+  udenfor din kontrol.
+  - Brug sikre mønstre for at få adgang til følsomme oplysninger fra mikroservices.
+
+## Konklusion, token vedligeholdelse og beskyttelse
+
+### Vigtigste Pointer, token vedligeholdelse og beskyttelse
+
+- **Token Livscyklus**: Kortvarige tokens og refresh tokens med rotation er
+anbefalede for at sikre kontrol.
+- **Revokation**: Tokens skal opbevares og kunne revokeres effektivt ved kompromittering.
+- **Sikker Transport**: Brug TLS for alle token-relaterede kommunikationer for
+at forhindre kompromittering.
+- **Token Beskyttelse**: Behandle tokens som passwords og beskyt dem nøje.
+- **Expiration Management**: Inkluder udløbsdatoer og begræns adgangsperioden.
+- **Sensitiv Information**: Undgå at inkludere følsomme data i tokens; brug
+sikre mønstre til at håndtere denne information.
+
+## Noter om mTLS (Mutual TLS) for Microservices
+
+### Zero Trust Prinsippet
+
+- **Mikroservices** bør ikke stole på eksterne parter som standard.
+- **Defense in Depth**: Mikroservices bør være deres egne tillidsgrænser.
+- **Zero Trust**: Mikroservices skal verificere identiteten af enhver kaldende
+part og informationens integritet.
+
+### Digital Certifikater
+
+- **Digital Certifikat**: Indeholder information om en enhed, en offentlig
+nøgle og information om den udstedende certifikatmyndighed (CA).
+- **TLS (Transport Layer Security)**: Bruges til at etablere en krypteret
+kommunikationskanal ved hjælp af et certifikat og en krypteringsnøgle.
+- **One-Way Authentication**: Kun klienten verificerer serverens identitet via
+dens certifikat.
+
+### Mutual TLS (mTLS)
+
+- **mTLS**: Både klient og server autentificerer hinanden ved at udveksle
+digitale certifikater udstedt af en fælles betroet certifikatmyndighed.
+- **Fordele ved mTLS**:
+  - Tillader tjenester at identificere og bekræfte hinandens identitet, inden
+  de kommunikerer.
+  - Forstærker sikkerheden mellem API gateway og mikroservice-deployments.
+  - Forhindrer angribere i at kalde mikroservices uden et betroet digitalt certifikat.
+
+### Udfordringer ved mTLS
+
+- **Certifikatstyring**:
+  - Provisionering af certifikater skal automatiseres, især i dynamiske
+  miljøer med containeriserede mikroservices.
+  - **Certifikatrotation**: Skal også automatiseres på grund af den høje
+  forekomst af mikroservice-instanser.
+- **Løsninger**:
+  - Container orkestratorer og service mesh-løsninger kan håndtere
+  mTLS-konfiguration og styring automatisk.
+
+### Anbefalinger, mTLS
+
+- Implementering af mTLS tilføjer et ekstra sikkerhedslag, som er både
+effektivt og nødvendigt.
+- Hvis du vælger at stole på netværket uden mTLS, risikerer du at
+kompromittere mikroservices-sikkerheden.
+
+## Konklusion, mTLS
+
+### Vigtigste Pointer, mTLS
+
+- **Zero Trust**: Implementer mikroservices som deres egne tillidsgrænser for
+at styrke sikkerheden.
+- **mTLS**: Giver tovejsautentificering mellem mikroservices, hvilket skaber en
+mere sikker kommunikationskanal.
+- **Automatisering**: Automatiser certifikatstyring og rotation for at håndtere
+mTLS i dynamiske miljøer.
+- **Sikkerhedspraksis**: Vælg mTLS frem for at stole på netværket alene for
+at forhindre sikkerhedsbrud.
+
+## Noter om Sikring af Øst-Vest Trafik i Microservices
+
+### Mikroservices og Øst-Vest Trafik
+
+- **Enkelt Ansvars-Princippet**: Microservices er designet til at udføre en
+specifik opgave godt.
+- **Øst-Vest Trafik**: Trafik mellem microservices inden for en klynge, hvilket
+skaber nye sikkerhedskrav.
+- **Identificering og Adgangsstyring**: Vigtigt for at beskytte brugeridentitet
+og sikre korrekt adgangskontrol inden for klyngen.
+
+### Anti-Pattern: Delte Adgangstokener
+
+- **Delte Tokener**: Brug af et enkelt adgangstoken med fælles scope til flere tjenester.
+- **Problemer**:
+  - Skaber **distribueret monolit**, hvor scopes skal være ens på tværs af tjenester.
+  - **Brud på mindste privilegium**: Token kan bruges direkte af klienten eller
+  ressourceejeren til at tilgå følsomme tjenester.
+
+### Forbedret Strategi: Client Credentials Grant
+
+- **Nyt Token**: Ordretjenesten anmoder om et nyt adgangstoken med kun det
+nødvendige scope til betalingstjenesten.
+- **Fordele**:
+  - Decouplerer scopes mellem ordretjenesten og betalingstjenesten.
+  - Forhindrer klienten i at få forhøjet adgang.
+
+### Udfordringer med Identitetsoplysning
+
+- **Manglende Brugeridentitet**: Betalingstjenesten har ingen information om
+brugerens identitet uden det oprindelige token.
+- **Risiko**: Hvis ordretjenesten kompromitteres, kan angriberen foretage
+betalinger uden tilladelse.
+
+### Løsning: JWT med Brugerclaims
+
+- **JWT Claims**: Inkluderer brugerclaims i en ny adgangstoken, der sendes fra
+ordretjenesten til betalingstjenesten.
+- **Verifikation**: Betalingstjenesten kan verificere tokenens integritet og
+identificere brugeren, før betalingen autoriseres.
+
+### Sikkerhedsmønster: Reference Token og Structured Token
+
+- **Reference Token**: Klienten får udstedt en reference token, der bruges til
+at tilgå microservices.
+- **Token Udveksling**: Ved API-gatewayen udveksles reference token med en JWT,
+der indeholder brugerclaims.
+- **Fordele**:
+  - Beskytter brugerens information ved ikke at sende strukturerede tokens til klienten.
+  - JWT bruges kun internt mellem microservices for at opretholde en sikker brugeridentitet.
+
+### Anbefalinger for Sikker Øst-Vest Trafik
+
+- Undgå sammenflettede scopes eller claims, der kan føre til tæt kobling mellem microservices.
+- Brug strukturerede tokens og sikre kommunikation for at opretholde
+brugerkontekst uden at lagre tilstand mellem tjenester.
+
+## Konklusion, sikring af øst-vest trafik
+
+### Vigtigste Pointer, sikring af øst-vest trafik
+
+- **Undgå delte adgangstokener** for at forhindre sikkerhedsbrud og opretholde
+mindste privilegium.
+- **Brug JWT med brugerclaims** for at sikre korrekt identifikation og
+adgangsstyring mellem microservices.
+- **Implementer reference tokens og strukturerede tokens** for at beskytte
+brugerens oplysninger og styrke sikkerheden.
+- **Sørg for at decouplere services** for at undgå en distribueret monolit og
+bevare fleksibilitet og sikkerhed.
