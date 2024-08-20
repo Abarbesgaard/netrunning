@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/ressourcer/api/tutorial/api-trin-6/","title":"Trin 6","tags":["ressource","API","Web Api","Tutorial"],"created":"2024-08-16T10:56:32.236+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/ressourcer/api/tutorial/api-trin-6/","title":"Trin 6","tags":["ressource","API","Web Api","Tutorial"],"created":"2024-08-20T08:58:49.207+02:00"}
 ---
 
 
