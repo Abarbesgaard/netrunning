@@ -1,9 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/microservice-security/","title":"Microservice Security","hide":true,"created":"2024-08-20T13:21:24.314+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/microservice-security/","title":"Microservice Security","hide":true,"created":"2024-08-21T11:26:23.366+02:00"}
 ---
 
 Troværdighed: 5
 Relevans: 5
+
+Til at lave noterne har jeg brugt metoden [[Main/4. Semester/Ressourcer/PathGPT/LearnGPT\|LearnGPT]].
 
 [Video](https://www.linkedin.com/learning/microservices-security/microservice-security-challenges?autoSkip=true&resume=false&u=57075649)
 
@@ -898,3 +900,431 @@ adgangsstyring mellem microservices.
 brugerens oplysninger og styrke sikkerheden.
 - **Sørg for at decouplere services** for at undgå en distribueret monolit og
 bevare fleksibilitet og sikkerhed.
+
+## Monitoring and Logging i Microservices Arkitekturer
+
+### Vigtigheden af Overvågning og Logning
+
+- Overvågning af systemaktiviteter er afgørende, især fra et sikkerhedsperspektiv.
+- Logs giver synlighed og kan advare om mistænkelig adfærd, hvilket hjælper
+med at opdage igangværende angreb.
+- Ved gode logningsmetoder kan man identificere angrebsvektorer, omfanget af
+angrebet og potentielt angriberen.
+- Logs kan bruges til at etablere revisionsspor for følsomme operationer, der
+kan udnyttes af insider-trusler.
+
+### Udfordringer ved Microservices
+
+- Microservices introducerer unikke udfordringer, da følsomme operationer nu
+foregår over flere distribuerede komponenter.
+- Logning bliver fragmenteret på tværs af flere tjenester, hvilket kan føre
+til uoverensstemmelser mellem forskellige teams’ logningsstrategier.
+
+### Tracing i Microservices
+
+- Tracing er vigtigt for at overvinde logningsudfordringer i microservices-arkitekturer.
+- En korrelations-ID tilknyttet hver anmodning kan bruges til at spore en
+begivenhed, der distribueres over flere microservices.
+- Når hver microservice inkluderer korrelations-ID'et i deres logs, kan
+begivenheden rekonstrueres senere for at understøtte sikkerhedsanalyser eller fejlfinding.
+
+### Anbefalede Logningsstrategier
+
+- Et fælles logningsformat bør etableres på tværs af teams, der bygger microservices.
+- Logs bør inkludere oplysninger om: tidspunkt for begivenheden, involverede
+personer, begivenhedstype, og hvilken kode der blev aktiveret.
+- Brug af en standard logningsramme og konfigurationsfil anbefales, især hvis
+der bruges det samme sprog på tværs af microservices.
+
+### Logning af Mislykkede Aktiviteter
+
+- Teams bør også logge mislykkede forsøg såsom autorisationsfejl, fejl i
+HTTP-koder, og ugyldige endpoints.
+- Disse fejl kan indikere forsøg på angreb eller scanningsaktiviteter.
+
+### Centralisering af Logs
+
+- Alle logs bør sendes til en central vært, hvor de kan indsamles og aggregeres.
+- Centralisering gør det muligt at få et samlet overblik over aktiviteter i
+det distribuerede system.
+- Der findes både open-source og kommercielle værktøjer til dette formål, fx
+Elastic Stack.
+
+### Automatiseret Overvågning
+
+- Efter central logning kan automatiseret overvågning identificere og advare
+udviklere om mistænkelig adfærd.
+- Advarsler kan fokusere på trafik, der fejler pga. mutual TLS, ugyldige
+adgangstokens, eller overdreven trafik, som kan indikere en angribers forsøg
+på at sonde systemet.
+
+### Værdi af Logs i Sikkerhed
+
+- Logs er uvurderlige ikke kun for fejlfinding men også for sikkerhed.
+- Monolitiske logningsstrategier fungerer ikke godt i microservices-arkitekturer.
+- Implementering af de rigtige strategier giver et holistisk billede af
+systemets sikkerhedsposition.
+
+## Konklusion, overvågning og logning
+
+### Vigtigste Pointer, overvågning og logning
+
+- **Overvågning og logning** i microservices er kritiske for sikkerheden og
+kræver specielle tilgange.
+- **Tracing og korrelations-ID'er** hjælper med at samle begivenheder på
+tværs af microservices.
+- **Standardiserede logningsstrategier** og centralisering af logs er
+essentielle for effektiv overvågning.
+- **Automatiserede overvågningssystemer** kan hurtigt identificere og
+rapportere mistænkelig adfærd.
+- **Holistisk logningsstrategi** er nødvendig for at få en fuld forståelse af
+systemets sikkerhed og performance.
+
+## Service Mesh i Microservices Arkitekturer
+
+### Introduktion til Service Mesh
+
+- En service mesh hjælper med at håndtere kompleksiteten af
+service-til-service kommunikation i et microservices-baseret system.
+- Microservices skal køre i containere (Docker er standard) og være udrullet i
+et container orkestrationssystem som Kubernetes.
+- Service mesh etablerer et netværk af sidecar proxies ved siden af
+containerne, som håndterer trafikken mellem microservices.
+
+### Funktionalitet og Fordele ved Service Mesh
+
+- **Sidecar proxies**: Disse interceptorer håndterer trafik og anvender
+sikkerhedsforanstaltninger som mutual TLS, adgangspolitikker,
+og audit logs.
+- Efterhånden som flere instanser af en microservice udrulles, udrulles
+tilsvarende proxies, hvilket skaber et sammenhængende mesh-netværk.
+- **Transparens**: Service mesh er gennemsigtigt for microservices, da proxies
+kører i samme pod som microservices, hvilket muliggør centraliseret styring.
+
+### Istio som Eksempel
+
+- **Arkitektur**: Istio består af en data plane og en control plane.
+  - **Data plane**: Indeholder de proxies, som microservices bruger til at kommunikere.
+  - **Control plane**: Håndterer og distribuerer politikker og konfigurationer
+  til proxies via en komponent kaldet Pilot.
+- **Sikkerhedspolitikker**: Politikker kan definere autorisationsroller, fra
+generelle kommunikationsregler til specifikke krav som JOT-tokens.
+- **Tracing og Logging**: Istio understøtter tracing og logging, der forbedrer
+overvågningsmulighederne for microservices, f.eks. gennem request ID og trace
+ID headers.
+- **Mutual TLS**: Istio leverer mutual TLS nemt med minimal konfiguration via
+Citadel, som også kan håndtere certifikater og nøglerotation i Kubernetes pods.
+
+### Fordele ved Service Mesh
+
+- Øger sikkerheden og gør administration af service-til-service kommunikation
+mere håndterbar.
+- Tilbyder funktioner som mutual TLS, tracing, og logning, hvilket forbedrer
+observabiliteten og sikkerheden i microservices-arkitekturer.
+- Forventet at spille en større rolle i fremtiden, da teknologien er
+forholdsvis ny og stadig udvikles.
+
+## Konklusion, service mesh
+
+## Vigtigste Pointer, service mesh
+
+- **Service mesh** er en kraftfuld løsning til at håndtere kompleksiteten i
+microservices-kommunikation.
+- **Istio** er et eksempel på en service mesh, der tilbyder avanceret
+sikkerhed, tracing, og automatiserede funktioner som mutual TLS.
+- **Sidecar proxies** gør det muligt at anvende sikkerhedspolitikker og loggin
+g uden ændringer i selve microservices.
+- **Fremtidspotentiale**: Service meshes forventes at blive endnu mere
+integrerede i microservices-arkitekturer som teknologien udvikler sig.
+
+## Throttling og Rate Limiting i Microservices Arkitekturer
+
+### Vigtigheden af Throttling og Rate Limiting
+
+- Når en API får øget anvendelse, er det vigtigt at opretholde ydelsen og
+stabiliteten for klienterne.
+- API'er bygger ofte på en række microservices, der skal forblive stabile,
+selv når trafikken stiger.
+- Skalering er den første strategi, når efterspørgslen overstiger
+kapaciteten, men har sine begrænsninger (fx omkostninger og
+ressourcer).
+
+### Udfordringer med Skalering
+
+- **Auto-skalering**: Effektivt men begrænset af omkostninger og tilgængelige ressourcer.
+- I tilfælde som denial of service-angreb er skalering ikke ønskværdigt.
+
+### Throttling som Strategi
+
+- Throttling er en metode til at begrænse API-forbrug for at forhindre overbelastning.
+- Tanken er, at det er bedre at nægte noget trafik for at bevare
+systemstabiliteten end at lade systemet kollapse.
+
+### Grundlæggende Throttling Strategier
+
+- **Universel cap**: En simpel metode, der anvender et generelt loft på
+samtidige anmodninger.
+  - Ulemper: Kan tillade en enkelt klient at udnytte kapaciteten urimeligt.
+- **Kvote og rate limit**: Bedre strategi, hvor hver klient har en individuel
+kvote og rate limit.
+  - **Kvote**: Antal tilladte kald over en længere periode (fx dag eller måned).
+  - **Rate limit**: Forhindrer burst af samtidige kald på kort tid.
+
+### Differentiering af Throttling Strategier
+
+- Nogle klienter kan have højere rate limits og kvoter end andre
+(fx first-party klienter vs. third-party).
+- Admin-værktøjer kan undtages fra throttling for at sikre, at problemer kan
+løses hurtigt.
+- Monetiserede API'er tilbyder forskellige tiers, hvor forbrugere kan købe
+større kvoter eller højere rate limits.
+
+### Granulær Throttling
+
+- Kvoter kan håndhæves på mere granulære niveauer, såsom per slutbruger,
+for at sikre retfærdig fordeling af ressourcer.
+  - JOT-claims kan bruges til at identificere slutbruger og klient.
+- **Operation-specifik throttling**: Forskellige operationer på en API kan have
+forskellige throttling-limits afhængigt af deres ressourceforbrug.
+
+### Sikkerhed og Tilgængelighed
+
+- Tilgængelighed er en ofte overset del af sikkerhed, især når det er
+legitime brugere, der bringer en tjeneste ned.
+- Flere teknikker er tilgængelige til throttling for at holde microservices tilgængelige.
+
+## Konklusion, throttling og rate limiting
+
+### Vigtigste Pointer, throttling og rate limiting
+
+- **Throttling og rate limiting** er essentielle for at opretholde stabiliteten
+og tilgængeligheden af microservices under høj belastning.
+- **Universel cap** kan være ineffektiv, mens **individuelle kvoter og rate
+limits** giver bedre kontrol og retfærdighed.
+- **Granulær throttling** tillader ressourceallokering på slutbrugerniveau og
+pr. operation, hvilket sikrer optimal udnyttelse af systemressourcer.
+- **Tilgængelighed** er kritisk, og passende throttling-strategier kan
+forhindre systemnedbrud, selv under ekstreme forhold.
+
+## Sikkerhed i Container Runtime i Microservices Arkitekturer
+
+### Vigtigheden af Containersikkerhed
+
+- Microservice-arkitekturer kræver et fleksibelt miljø for hurtige og stabile
+udrulninger, hvilket gør containere (især Docker) til et populært valg.
+- Containere introducerer nye angrebsflader og vektorer, som kræver
+specifikke sikkerhedsforanstaltninger.
+
+### Sikring af Host og Container Runtime
+
+- **Host Sikkerhed**:
+  - Begræns direkte adgang til hosten, især ved brug af container
+  orchestrators som Kubernetes.
+  - Brug en minimal og container-specifik OS-distribution, fx Fedora CoreOS, for
+  at reducere angrebsfladen.
+  - Hardening af hosten bør følge de samme strategier som andre virtuelle maskiner.
+
+- **Runtime Sikkerhedskonfigurationer**:
+  - Konfigurer containere til at køre med mindst mulige rettigheder.
+  - Start med at droppe alle kernekapaciteter og tilføj kun de nødvendige.
+  - Brug `no-new-privileges` flaget for at forhindre, at processer i containeren
+  får nye rettigheder.
+  - Undgå at bruge `privileged` flaget, da det giver omfattende adgang, der kan
+  misbruges til angreb på hosten.
+  - Angiv altid en specifik bruger, når containeren kører; hvis ikke, kører
+  containeren som root, hvilket giver fuld adgang til hosten ved en container-flugt.
+  - Brug et skrivebeskyttet filsystem og volumener for at minimere skaderne ved
+  en eventuel kompromittering.
+
+### Sikkerhedsværktøjer og Automatisering
+
+- **Docker Bench**:
+  - Et værktøj, der hjælper med at sikre korrekt konfiguration af containere
+  ved at scanne for afvigelser fra industristandarder.
+- **Automatisering og Standardisering**:
+  - Sikring af containersikkerhed skal standardiseres og automatiseres for at
+  reducere risici og forbedre sikkerheden i hele organisationen.
+
+## Konklusion, containers
+
+## Vigtigste Pointer, containers
+
+- Containersikkerhed er kritisk i microservice-arkitekturer for at beskytte mod
+nye angrebsvektorer.
+- Hostens angrebsflade bør minimeres ved at bruge en minimal OS-distribution og
+
+## Sikkerhed i Containere: Fokus på Billedsikkerhed
+
+### Vigtigheden af Billedsikkerhed
+
+- Sikkerhed i containerbaserede microservices omfatter ikke kun
+runtime-konfigurationer, men også hvordan billeder bygges og hentes.
+- Et containerbillede oprettes fra en Dockerfile, som indeholder instruktioner
+til at tilføje og konfigurere microservicen.
+- Dockerfiles kan sammenlignes med kildekode for et miljø, og containerbilleder
+ligner kompilerede objekter.
+
+### Sikring af Base Images
+
+- **Brug af officielle base images**:
+  - Det er afgørende, at base images stammer fra officielle, pålidelige
+  kilder, som Microsoft, Red Hat eller officielle Linux-distributioner.
+  - Brug af uofficielle eller upålidelige base images kan føre til
+  forsyningskædeangreb, hvor ondsindet kode bliver indført i miljøet.
+
+### Styring af Image Registries
+
+- Mange organisationer opretholder deres egne billedregistre for at kontrollere,
+hvilke images der kan trækkes og bruges i deres miljø.
+- Kun godkendte og sikkerhedsscannede billeder tillades i disse registries, og
+udviklere kan kun tilføje billeder via godkendte CI/CD pipelines.
+
+### Hold Billeder Opdateret
+
+- **Sårbarheder og CVEs**:
+  - Et billede, der tidligere var sikkert, kan senere blive sårbart, når nye
+  CVEs (Common Vulnerabilities and Exposures) opdages.
+  - Udbydere af officielle billeder opdaterer dem rutinemæssigt for at lukke
+  kritiske sårbarheder, hvilket kræver, at brugerne følger med og sørger for
+  at bruge den nyeste version.
+  
+## Scanning og Automatisering
+
+- **Automatiserede sikkerhedsscanninger**:
+  - Regelmæssig scanning af billedregistrene med værktøjer som Snyk kan
+  identificere potentielle sårbarheder og sikre, at de nyeste sikre billeder
+  bruges.
+  - Opdatering af containerne kræver ofte genopbygning af billeder med den
+  nyeste base image-version og genudrulning.
+
+## Konklusion, billedsikkerhed
+
+- Billedsikkerhed er en kritisk del af en sikker containerstrategi. Officielle
+og opdaterede base images samt automatiserede sikkerhedsscanninger er
+essentielle for at minimere risikoen for sårbarheder i containerbaserede
+microservices.
+
+## Sikker Håndtering af Secrets i Microservices
+
+### Problemer med Traditionel Secret Håndtering
+
+- Microservices kræver opbevaring af følsomme oplysninger såsom
+klientlegitimation, databaseadgangskoder og SSL-certifikater.
+- Uhensigtsmæssige teknikker som at gemme secrets i egenskabsfiler, hårdkodede
+strenge, Docker-filer, containerbilleder eller miljøvariabler kan føre til kompromittering.
+- Med adgang til kildekontrol, billedregistre eller værtsmaskiner kan disse
+secrets nemt udsættes.
+
+### Løsninger Med Container Orchestrators
+
+- **Indbyggede Secret Management Funktioner**:
+  - Kubernetes, OpenShift og andre container orchestrators tilbyder sikre
+  metoder til at håndtere secrets.
+  - Secrets kan injiceres i en container som miljøvariabler eller monteres i en
+  fil via et volumen. Montering af en fil via et volumen er den mest sikre metode.
+  - Disse metoder sikrer, at secrets ikke indbages i containerbilleder, hvilket
+  forbedrer sikkerheden betydeligt.
+
+### Begrænsninger ved Container Orchestrators
+
+- Orchestrators som Kubernetes kan effektivt håndtere secrets inden for en
+microservice-klynge, men kan ikke dele secrets på tværs af forskellige klynger
+eller udenfor.
+- Dette begrænser deres anvendelighed i organisationer, der har behov for at
+administrere secrets på tværs af flere systemer eller miljøer.
+
+### Eksterne Secrets Management Løsninger
+
+- **Vault fra HashiCorp**:
+  - Vault er en populær platform til secrets management, som tilbyder
+  forskellige strategier til sikker opbevaring og adgang til secrets,
+  herunder API-nøgler, adgangskoder og certifikater.
+  - Vault tilbyder en API til at hente secrets, og en Vault Agent, der
+  integreres tæt med container orchestrators via en Sidecar-model.
+  - Vault Agenten automatiserer håndtering af secrets og eliminerer behovet for
+  at skrive kode, der manuelt henter secrets via HTTP-kald.
+
+### Dynamiske Secrets
+
+- **Dynamiske Credentials**:
+  - Vault kan generere dynamiske credentials, som roteres automatisk, hvilket
+  forbedrer sikkerheden, da stjålne credentials hurtigt bliver ubrugelige.
+  - **Leases**: Vault kan udstede kortvarige credentials hver gang en klient
+  anmoder om adgang til en beskyttet ressource, hvilket yderligere øger sikkerheden.
+
+## Anbefalinger
+
+- Overvej at bruge en tredjepartsløsning som Vault for effektiv secrets
+management i dynamiske miljøer som microservices.
+- Hvis en ekstern løsning ikke er mulig, brug i det mindste de indbyggede
+muligheder, som container orchestrators tilbyder, for at sikre, at secrets
+håndteres på en sikker måde.
+
+## Konklusion, secrets management
+
+- Effektiv secrets management er afgørende for at beskytte microservices mod
+sikkerhedsbrud. Container orchestrators tilbyder grundlæggende, men sikre
+metoder, mens tredjepartsløsninger som Vault giver avancerede funktioner til
+håndtering af secrets i dynamiske og distribuerede miljøer.
+
+## Secure Pipelines
+
+### DevOps Pipelines
+
+- DevOps pipelines muliggør hurtig levering ved hjælp af microservices.
+- Pipeline fungerer som en funktion:
+  - Input: Kodecommits fra udviklere.
+  - Output: Container med software, der matcher commit'en.
+- CI (Continuous Integration) del:
+  - Bygger og tester softwaren.
+- CD (Continuous Deployment) del:
+  - Pakker containeren og distribuerer den til container runtime via orchestrator.
+
+### Automatiserede Sikkerhedskontroller
+
+- Mulighed for at integrere automatiserede sikkerhedskontroller.
+- Sikkerhedskontroller fungerer som porte, der forhindrer sårbar kode i at
+blive distribueret.
+- Det er bedst at opdage og rette sikkerhedsvulnerabiliteter tidligt i processen.
+
+### Statisk Kodeanalyse
+
+- Kodeanalyseværktøjer på udviklerarbejdsstationer som første forsvarslinje.
+- Advarer udviklere om sikkerhedsproblemer før kode kommer til repository.
+- Kodeanalyse bør også køres på CI-build og fejle byggeriet ved sikkerhedsbrud.
+
+### Kildekode Repository
+
+- Adgang bør begrænses til reelle bidragsydere.
+- Pull request model for at begrænse, hvem der kan committe kode til release branches.
+- Værktøjer som Sneak kan inkorporere sikkerhedsscanninger direkte i pull requests.
+
+### Tredjeparts Biblioteker
+
+- Tredjeparts biblioteker bør komme fra en betroet artifact repository.
+- Artefakter skal gennemgå en række enhedstests og integrationstests.
+
+### Interaktive Sikkerhedstests
+
+- Test under eksekvering af koden for at finde sikkerhedsproblemer.
+- Yderligere feedback om tekniske sårbarheder.
+
+### Registreringsscanner
+
+- Bruges i artifact repository for at opdage nye sårbarheder i containeren.
+- Adgang til artifact repository bør være strengt kontrolleret.
+
+### Deployment og Kontrol
+
+- CI pipeline afsluttes, og CD pipeline udløser deployment til lavere miljøer.
+- Strenge kontrolmekanismer for version af artefaktet.
+- Artefakter skal være gennemgået gennem tidligere sikkerhedskontroller før produktionsrelease.
+
+## Konklusion, secure pipelines
+
+- DevOps pipelines muliggør hurtigere udvikling, men kræver integrerede
+sikkerhedskontroller for at forhindre sårbarheder.
+- Automatiserede værktøjer til statisk og interaktiv sikkerhedsanalyse er afgørende.
+- Adgang til repositories og artefakt-lagre skal være strengt kontrolleret.
+- Kontrolmekanismer skal sikre, at artefakter er testet og godkendt før
+deployment til produktion.
