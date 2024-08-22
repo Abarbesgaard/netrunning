@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan U. 33 - 34","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-22T11:08:13.868+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-22T11:11:24.770+02:00"}
 ---
 
 
