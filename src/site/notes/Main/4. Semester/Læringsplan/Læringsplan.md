@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-22T11:11:24.770+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-23T14:58:26.842+02:00"}
 ---
 
 
@@ -27,6 +27,12 @@ Nedenfor ses den læringsplan som jeg har udarbejdet for 4. Semester.
 
 **Fokus**: Backend, IT-Sikkerhed og grundlæggende forståelse af microservices.
 At finde ukendte og ukendte ukendte.
+
+##### Blog opslag i denne periode
+
+[[Main/4. Semester/Blog/2024-08-13\|2024-08-13]], [[Main/4. Semester/Blog/2024-08-14\|2024-08-14]], [[Main/4. Semester/Blog/2024-08-15\|2024-08-15]], [[Main/4. Semester/Blog/2024-08-16\|2024-08-16]],
+[[Main/4. Semester/Blog/2024-08-19\|2024-08-19]], [[Main/4. Semester/Blog/2024-08-20\|2024-08-20]], [[Main/4. Semester/Blog/2024-08-21\|2024-08-21]],
+[[Main/4. Semester/Blog/2024-08-22\|2024-08-22]], [[Main/4. Semester/Blog/2024-08-23\|2024-08-23]]
 
 ### **Uge**: [[Main/4. Semester/Læringsplan/35_36\|35 - 36]]
 
