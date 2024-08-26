@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-23T14:58:26.842+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-26T06:15:48.688+02:00"}
 ---
 
 
@@ -51,6 +51,10 @@ på design.
 fungerer, og lær om messaging-systemer som RabbitMQ og Kafka.
 - Opgave: Implementér en simpel event-baseret kommunikation ved hjælp af
 RabbitMQ eller Kafka.
+
+##### Blog opslag i denne periode, 35-36
+
+[[Main/4. Semester/Blog/2024-08-26\|2024-08-26]],
 
 ### **Uge**: [[37_38\|37 - 38]]
 

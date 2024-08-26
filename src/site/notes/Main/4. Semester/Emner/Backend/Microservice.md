@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/emner/backend/microservice/","title":"Microservice","hide":true,"tags":["Backend","Microservice","Projektarbejde"],"created":"2024-08-16T11:21:14.556+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/emner/backend/microservice/","title":"Microservice","hide":true,"tags":["Backend","Microservice","Projektarbejde"],"created":"2024-08-26T09:47:12.708+02:00"}
 ---
 
 ![Microservice.png](/img/user/Main/Images/Microservice.png)
@@ -28,3 +28,4 @@ via REST API'er, message brokers eller service mesh.
 
 [[Main/4. Semester/Litteratur/Noter/Microservices_Explained\|Microservices Explained - Youtube]]
 [[Main/4. Semester/Litteratur/Noter/What_Are_Microservices_IBM\|What Are Microservices - IBM]]
+
