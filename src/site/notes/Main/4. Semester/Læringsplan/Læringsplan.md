@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-26T06:15:48.688+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-28T06:17:33.785+02:00"}
 ---
 
 
@@ -34,6 +34,8 @@ At finde ukendte og ukendte ukendte.
 [[Main/4. Semester/Blog/2024-08-19\|2024-08-19]], [[Main/4. Semester/Blog/2024-08-20\|2024-08-20]], [[Main/4. Semester/Blog/2024-08-21\|2024-08-21]],
 [[Main/4. Semester/Blog/2024-08-22\|2024-08-22]], [[Main/4. Semester/Blog/2024-08-23\|2024-08-23]]
 
+---
+
 ### **Uge**: [[Main/4. Semester/Læringsplan/35_36\|35 - 36]]
 
 - Introduktion til Microservices: Forstå grundprincipperne og fordelene ved
@@ -54,7 +56,9 @@ RabbitMQ eller Kafka.
 
 ##### Blog opslag i denne periode, 35-36
 
-[[Main/4. Semester/Blog/2024-08-26\|2024-08-26]],
+[[Main/4. Semester/Blog/2024-08-26\|2024-08-26]], [[Main/4. Semester/Blog/2024-08-28\|2024-08-28]]
+
+---
 
 ### **Uge**: [[37_38\|37 - 38]]
 
