@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-28T06:17:33.785+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-09-02T10:34:59.934+02:00"}
 ---
 
 
@@ -56,7 +56,7 @@ RabbitMQ eller Kafka.
 
 ##### Blog opslag i denne periode, 35-36
 
-[[Main/4. Semester/Blog/2024-08-26\|2024-08-26]], [[Main/4. Semester/Blog/2024-08-28\|2024-08-28]]
+[[Main/4. Semester/Blog/2024-08-26\|2024-08-26]], [[Main/4. Semester/Blog/2024-08-28\|2024-08-28]], [[Main/4. Semester/Blog/2024-09-02\|2024-09-02]],
 
 ---
 
