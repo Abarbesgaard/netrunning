@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/event-driven-architecture/","title":"Event-Driven Architecture","hide":true,"created":"2024-09-05T09:00:41.650+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/event-driven-architecture/","title":"Event-Driven Architecture","hide":true,"created":"2024-09-06T07:57:03.511+02:00"}
 ---
 
 
 ## Event-driven arkitektur (EDA) - En dybere forståelse
 
-![EventDrivenArchitecture.png](/img/user/EventDrivenArchitecture.png)
+![image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsoftobiz.com%2Fwp-content%2Fuploads%2F2019%2F09%2FUnderstanding-the-Event-driven-Architecture.jpg&f=1&nofb=1&ipt=67183bebc9b879542dbfa44cec4462549cffd90d85e70e310d47a35ede39ebce&ipo=images)
 
 Event-driven arkitektur (EDA) er en softwarearkitektur, der fokuserer på at
 fange, kommunikere og bearbejde begivenheder (events) i et system, hvor
@@ -19,7 +19,6 @@ reaktion på ændringer. Denne arkitektur kan implementeres i ethvert
 programmeringssprog, fordi event-drevenhed er en tilgang og ikke bundet
 til et specifikt sprog.
 
-![EventRounter.png](/img/user/EventRounter.png)
 ### Hovedkomponenter i event-driven arkitektur
 
 1. **Event-producenter**: De enheder, der skaber begivenheder, såsom en
