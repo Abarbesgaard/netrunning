@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/microservice-fundamentals/","title":"Microservice Fundamentals","hide":true,"created":"2024-08-19T11:01:46.704+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/microservice-fundamentals/","title":"Microservice Fundamentals","created":"2024-09-06T08:19:23.253+02:00"}
 ---
 
 Troværdighed: 5

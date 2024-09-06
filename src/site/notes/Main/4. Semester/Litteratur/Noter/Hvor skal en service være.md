@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/hvor-skal-en-service-vaere/","title":"Hvor skal en service være?","hide":true,"created":"2024-09-05T09:18:13.542+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/hvor-skal-en-service-vaere/","title":"Hvor skal en service være?","created":"2024-09-06T08:19:23.237+02:00"}
 ---
 
 

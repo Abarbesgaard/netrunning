@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/microservices-explained/","title":"Literatur Liste","hide":true,"created":"2024-08-16T13:25:37.711+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/microservices-explained/","title":"Literatur Liste","created":"2024-09-06T08:19:23.257+02:00"}
 ---
 
 Troværdighed: 3/5

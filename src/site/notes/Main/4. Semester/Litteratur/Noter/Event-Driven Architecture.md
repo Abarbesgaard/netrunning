@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/event-driven-architecture/","title":"Event-Driven Architecture","hide":true,"created":"2024-09-06T07:57:03.511+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/event-driven-architecture/","title":"Event-Driven Architecture","created":"2024-09-06T08:19:23.233+02:00"}
 ---
 
 

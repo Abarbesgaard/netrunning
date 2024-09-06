@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/what-are-microservices-ibm/","title":"What Are Microsevices - IBM","hide":true,"created":"2024-08-16T13:25:37.719+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/what-are-microservices-ibm/","title":"What Are Microsevices - IBM","created":"2024-09-06T08:19:23.261+02:00"}
 ---
 
 Troværdighed: 4/5

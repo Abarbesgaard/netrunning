@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/saga-pattern/","title":"Saga Pattern","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-08-26T12:11:52.323+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/litteratur/noter/saga-pattern/","title":"Saga Pattern","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-09-06T08:17:28.852+02:00"}
 ---
-
 
 
 ## Problem
