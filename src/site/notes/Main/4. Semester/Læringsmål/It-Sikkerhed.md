@@ -1,32 +1,40 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsmal/it-sikkerhed/","title":"It-Sikkerheds Læringmål","created":"2024-08-16T08:28:29.339+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsmal/it-sikkerhed/","title":"It-Sikkerheds Læringmål","created":"2024-09-10T13:33:03.941+02:00"}
 ---
+
 
 
 ## Viden
 
-- Jeg har viden om OWASP Top 10 sikkerhedstrusler for specifikt API'er og for webapplikationer.
-- Jeg har basal viden om DDoS-angreb og deres effekt på både monolitiske og
-microservice-baserede systemer.
-- Jeg har viden om sikkerhedsudfordringer specifikt for microservices, herunder
-autentificering, autorisation, og beskyttelse mod man-in-the-middle-angreb.
-- Jeg har kendskab til sikkerhedsmekanismer som TLS, OAuth2, og API Gateways,
-der bruges til at sikre microservices.
+- Jeg har viden om OWASP Top 10 sikkerhedstrusler med særlig fokus på API'er,
+som ofte udgør kernen i microservice-arkitekturer.
+- Jeg har basal viden om DDoS-angreb og deres effekt på både monolitiske
+systemer og microservice-baserede systemer, herunder hvordan microservices
+kan segmenteres for at begrænse spredning af angreb.
+- Jeg har dybere indsigt i sikkerhedsudfordringer i microservices, herunder
+autentificering og autorisation mellem services, samt beskyttelse mod
+man-in-the-middle-angreb gennem sikring af service-til-service kommunikation.
+- Jeg har erfaring med sikkerhedsmekanismer som TLS, OAuth2, og API Gateways,
+der bruges til at sikre kommunikation og dataudveksling mellem microservices.
 
 ## Færdigheder
 
-- Jeg kan udvikle et simpelt DDoS-script til at simulere et angreb på en
-webserver og analysere resultaterne.
-- Jeg kan implementere sikkerhedsmekanismer som API Gateways og OAuth2 i en
-microservice-arkitektur.
+- Jeg kan udvikle et simpelt DDoS-script til at simulere et angreb på et
+microservice-system og analysere resultaterne for at forbedre robusthed.
+- Jeg kan implementere sikkerhedsmekanismer som API Gateways og OAuth2 for at
+beskytte en microservice-arkitektur mod uautoriseret adgang.
 - Jeg kan identificere og afhjælpe sårbarheder i microservices ved hjælp af
-værktøjer som penetrationstests og sikkerhedsscanninger.
+værktøjer som penetrationstests og sikkerhedsscanninger, specifikt målrettet
+mod de distribuerede komponenter i en microservice-arkitektur.
 
 ## Kompetencer
 
 - Jeg vil bruge min viden og færdigheder til at designe og implementere en
-sikker microservice-arkitektur i mit projekt.
+sikker microservice-arkitektur i mit projekt, hvor fokus er på robusthed og
+skalerbarhed.
 - Jeg kan forklare og argumentere for de sikkerhedsmekanismer, jeg har valgt,
-med udgangspunkt i aktuelle trusler og bedste praksis inden for IT-sikkerhed.
+med udgangspunkt i aktuelle trusler og bedste praksis inden for IT-sikkerhed,
+særligt rettet mod microservices.
 - Jeg kan arbejde proaktivt med sikkerhed ved at integrere sikkerhedstests i
-CI/CD-processen og kontinuerligt overvåge systemet for sårbarheder.
+CI/CD-processen og kontinuerligt overvåge systemet for sårbarheder, med
+særligt fokus på dynamisk miljøer som microservices.

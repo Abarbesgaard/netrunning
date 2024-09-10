@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-09-06T13:01:36.957+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-09-09T11:07:15.365+02:00"}
 ---
 
 
@@ -62,19 +62,29 @@ RabbitMQ eller Kafka.
 
 ### **Uge**: [[Main/4. Semester/Læringsplan/37_38\|37 - 38]]
 
-#### Cloud-baseret Arkitektur og API-Gateway
+#### Sikkerhed i Database via MongoDB
 
-- Cloud-tjenester: Læs om de grundlæggende tjenester på AWS, Azure, og
-Google Cloud.
-- Opsætning i Cloud: Deploy en grundlæggende microservice på en af disse
-cloud-platforme.
-- Opgave: Konfigurer en simpel service på din valgte cloud-platform og
-dokumenter processen.
+- **Brugerautentifikation og Autorisation**:
+  Læs om MongoDB's rollebaserede adgangskontrol (RBAC), og hvordan du opsætter
+brugere med forskellige rettigheder. Undersøg, hvordan du opretter sikre
+roller og begrænser adgang til bestemte operationer.
 
-#### Hybrid Arkitektur og API-Gateway
+- **Kryptering**:
+  Udforsk, hvordan MongoDB understøtter kryptering, både af data i transit
+(SSL/TLS) og data i hvile (encrypted storage engines). Læs om
+sikkerhedspraksis for krypteringsnøgler og nøglehåndtering.
 
-- Hybrid Arkitektur: Forstå hierarkiske og service-baserede modeller.
-- API-Gateway: Læs om API-gateways og hvordan de styrer adgang til microservices.
-- Opgave: Design en hybrid arkitektur og opsæt en API-gateway ved hjælp af en løsning
-som Kong eller NGINX.
+- **Netværkssikkerhed**:
+  Forstå, hvordan man sikrer MongoDB-netværk ved hjælp af firewalls,
+IP-whitelisting, og VPN’er. Lær om vigtigheden af at isolere databaser
+på private netværk og anvende VPN'er for adgang.
 
+- **Sårbarheder og Overvågning**:
+  Udforsk MongoDB’s indbyggede værktøjer til overvågning og logning af
+sikkerhedshændelser. Læs om fælles sikkerhedssårbarheder og best practices
+for at overvåge og reagere på sikkerhedshændelser.
+
+- **Opgave**:
+  Konfigurer en MongoDB-database med korrekt adgangskontrol, kryptering,
+og netværkssikkerhed, og dokumenter de trin, der sikrer databasen mod
+eksterne trusler.
