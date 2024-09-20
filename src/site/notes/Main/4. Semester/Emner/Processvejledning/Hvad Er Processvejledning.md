@@ -45,7 +45,7 @@ man har udviklet sig gennem projektet.
 
 ## Læringsprocessen
 
-Derudover vil man bruge [[Main/Systemudvikling/Kolbs Læringscirkel\|Kolbs læringscirkel]], en model der hjælper med at
+Derudover vil man bruge [[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs læringscirkel]], en model der hjælper med at
 forstå og optimere læringsprocessen. Man vil diskutere, hvordan denne cirkel
 kan anvendes til at reflektere over erfaringer, planlægge næste skridt og
 forbedre måden at lære på.

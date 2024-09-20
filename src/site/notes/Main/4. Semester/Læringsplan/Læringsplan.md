@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-09-13T12:17:27.998+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-09-20T11:23:50.982+02:00"}
 ---
 
 
@@ -14,7 +14,7 @@ Men også de personlig mål som jeg selv har sat for [[Main/4. Semester/Lærings
 Det store mål for mig i dette semester er at få en dybere forståelse for
 hvordan man laver **Microservices**.
 
-Med udgangspunkt i dette [[Main/4. Semester/Emner/Mindmap\|mindmap]] og [[Main/Systemudvikling/Smart_Mål\|smart mål]] har jeg udarbejdet
+Med udgangspunkt i dette [[Main/4. Semester/Emner/Mindmap\|mindmap]] og [[Main/Noter/Systemudvikling/Smart_Mål\|smart mål]] har jeg udarbejdet
 følgende læringsplan:
 
 Nedenfor ses den læringsplan som jeg har udarbejdet for 4. Semester.
@@ -91,4 +91,4 @@ eksterne trusler.
 
 #### Blog opslag i denne periode, 37-38
 
-[[Main/4. Semester/Blog/2024-09-13\|2024-09-13]]
+[[Main/4. Semester/Blog/2024-09-13\|2024-09-13]] [[Main/4. Semester/Blog/2024-09-20\|2024-09-20]]
