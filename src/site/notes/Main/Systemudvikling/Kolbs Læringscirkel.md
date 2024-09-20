@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/systemudvikling/kolbs-laeringscirkel/","title":"Kolbs Læringscirkel","tags":["Systemudvikling","Læring"],"created":"2024-08-09T10:12:25.680+02:00"}
+{"dg-publish":true,"permalink":"/main/systemudvikling/kolbs-laeringscirkel/","title":"Kolbs Læringscirkel","hide":true,"tags":["Systemudvikling","Læring"],"created":"2024-09-20T10:05:41.518+02:00"}
 ---
 
 

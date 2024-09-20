@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-09-09T11:07:15.365+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/laeringsplan/laeringsplan/","title":"Læringsplan","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-09-13T12:17:27.998+02:00"}
 ---
 
 
@@ -88,3 +88,7 @@ for at overvåge og reagere på sikkerhedshændelser.
   Konfigurer en MongoDB-database med korrekt adgangskontrol, kryptering,
 og netværkssikkerhed, og dokumenter de trin, der sikrer databasen mod
 eksterne trusler.
+
+#### Blog opslag i denne periode, 37-38
+
+[[Main/4. Semester/Blog/2024-09-13\|2024-09-13]]

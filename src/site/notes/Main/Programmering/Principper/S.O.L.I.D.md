@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/programmering/principper/s-o-l-i-d/","title":"S.O.L.I.D","tags":["Principper","Programmering","SOLID"],"created":"2024-08-11T07:40:41.131+02:00"}
+{"dg-publish":true,"permalink":"/main/programmering/principper/s-o-l-i-d/","title":"S.O.L.I.D","hide":true,"tags":["Principper","Programmering","SOLID"],"created":"2024-09-20T10:05:41.534+02:00"}
 ---
 
 > **SOLID** er en akronym, der repræsenterer fem grundlæggende principper for

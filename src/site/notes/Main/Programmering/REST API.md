@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/programmering/rest-api/","title":"REST API","tags":["Programmering","API","REST_API"],"created":"2024-08-11T07:52:47.752+02:00"}
+{"dg-publish":true,"permalink":"/main/programmering/rest-api/","title":"REST API","hide":true,"tags":["Programmering","API","REST_API"],"created":"2024-09-20T10:05:41.530+02:00"}
 ---
 
 

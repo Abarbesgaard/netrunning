@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/systemudvikling/udrulning-og-vedligehold/valg-af-cutover-strategi/","title":"Valg Af Cutover Strategi","tags":["systemudvikling","Udrulning","Vedligehold"],"created":"2024-08-12T12:55:44.334+02:00"}
+{"dg-publish":true,"permalink":"/main/systemudvikling/udrulning-og-vedligehold/valg-af-cutover-strategi/","title":"Valg Af Cutover Strategi","hide":true,"tags":["systemudvikling","Udrulning","Vedligehold"],"created":"2024-09-20T10:05:41.526+02:00"}
 ---
 
 ## Forretningskrav og Mål

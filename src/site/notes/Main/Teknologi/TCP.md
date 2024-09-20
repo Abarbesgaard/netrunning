@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/teknologi/tcp/","title":"TCP","tags":["Web_Design","Web_Development"],"created":"2024-08-11T07:46:19.482+02:00"}
+{"dg-publish":true,"permalink":"/main/teknologi/tcp/","title":"TCP","hide":true,"tags":["Web_Design","Web_Development"],"created":"2024-09-20T10:05:41.514+02:00"}
 ---
 
 ## Kilder
