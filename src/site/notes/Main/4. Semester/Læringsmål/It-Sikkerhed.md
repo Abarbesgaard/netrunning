@@ -19,22 +19,22 @@ Jeg har erfaring med **sikkerhedsmekanismer** som TLS, OAuth2, og API Gateways, 
 Jeg har viden om **kryptering i microservices** og implementering af systematisk sikkerhedsovervågning for at kunne reagere på nye trusler.
 
 ### Færdigheder
-#### §1 
+#### §7
 Jeg kan **udvikle et simpelt DDoS-script** til at simulere et angreb på et microservice-system og analysere resultaterne for at forbedre robusthed.
-#### §2
+#### §8
 Jeg kan **implementere sikkerhedsmekanismer** som **API Gateways**, **OAuth2**, og **Zero Trust-principper** for at beskytte en microservice-arkitektur mod uautoriseret adgang.
-#### §3
+#### §9
 Jeg kan **identificere og afhjælpe sårbarheder i micro-services** ved hjælp af værktøjer som pensetrationtests og sikkerhedscanninger, specifikt målrettet mod de distribuerede komponenter i en microservice-arkitektur.
-#### §4
+#### §10
 Jeg kan sikre, at **sikkerhedsprincipper indarbejdes i hele udviklingscyklussen** fra DevOps og udviklingsteams.
-#### §5 
+#### §11
 Jeg kan **implementere en systematisk proces for sikkerhedsovervågning** og reagere proaktivt på nye sikkerhedstrusler.
 
 ### Kompetencer
 
-#### §1
+#### §12
 Jeg vil bruge min viden og færdigheder til at **designe og implementere en sikker microservice-arkitektur** i mit projekt, hvor fokus er på robusthed og skalerbarhed.
-#### §2 
+#### §13
 Jeg kan **forklare** og **argumentere** for de sikkerhedsmekanismer, jeg har valgt, med udgangspunkt i aktuelle trusler og bedste praksis inden for IT-sikkerhed, særligt rettet mod microservices.
-#### §3
+#### §14
 Jeg kan arbejde **proaktivt med sikkerhed ved at integrere sikkerhedstests** i CI/CD-processen og kontinuerligt overvåge systemet for sårbarheder, med et særligt fokus på reaktion over for nye trusler.
