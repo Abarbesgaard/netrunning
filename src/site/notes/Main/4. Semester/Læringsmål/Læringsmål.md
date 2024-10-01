@@ -5,22 +5,25 @@
 
 ## Viden
 
-- Den studerende har viden om det/de valgte emners teori og praksis Det/de
-valgte emners relevans i forhold til it‐faglig teori og praksis
+#### §1
+Den studerende har viden om det/de valgte emners teori og praksis Det/de valgte emners relevans i forhold til it‐faglig teori og praksis
 
 ## Færdigheder
 
-- Den studerende kan udvælge, beskrive og foretage litteratursøgning af en
-selvvalgt it‐faglig problemstilling.
-- Diskutere samfunds- og/eller branchemæssige aspekter knyttet til det/de valgte
+#### §1 
+Den studerende kan udvælge, beskrive og foretage litteratursøgning af en selvvalgt it‐faglig problemstilling.
+#### §2
+Diskutere samfunds- og/eller branchemæssige aspekter knyttet til det/de valgte
 emner.
-- Vurdere problemstillinger og opstille løsningsmuligheder i forhold
+#### §3 
+Vurdere problemstillinger og opstille løsningsmuligheder i forhold
 til det/de valgte emner
-- Formidle centrale resultater
+#### §4 
+Formidle centrale resultater
 
 ## Kompetencer
 
-- Den studerende kan selvstændigt sætte sig ind i nye emner inden for
-fagområdets teori og/eller praksis.
-- Perspektivere og relatere det/de valgte emner i forhold til uddannelsens
-øvrige emneområder kan du komme med et bud på læringsmålene.
+#### §1
+Den studerende kan selvstændigt sætte sig ind i nye emner inden for fagområdets teori og/eller praksis.
+#### §2 
+Perspektivere og relatere det/de valgte emner i forhold til uddannelsens øvrige emneområder kan du komme med et bud på læringsmålene.

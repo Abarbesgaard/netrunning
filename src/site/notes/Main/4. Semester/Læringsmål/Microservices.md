@@ -5,31 +5,27 @@
 
 ## Viden
 
-- Jeg har viden om, hvordan microservices fungerer, og deres fordele og ulemper
-  sammenlignet med monolitiske applikationer.
-- Jeg har viden om forskellige microservice-arkitekturer, såsom API Gateway,
-  Event-Driven, og Service Mesh.
-- Jeg har viden om forskellige kommunikationsmetoder mellem microservices,
-  såsom REST API'er, gRPC, og Message Brokers (f.eks. Kafka, RabbitMQ).
+#### §1
+Jeg har viden om, hvordan **microservices fungerer**, og deres **fordele** og **ulemper** sammenlignet med monolitiske applikationer.
+#### §2
+Jeg kan forklare forskellene mellem **microservices** og **monolitiske applikationer**, samt hvornår man bør vælge den ene arkitektur over den anden, baseret på applikationsstørrelse, vedligeholdelse og skalerbarhed.
+#### §3
+Jeg har viden om forskellige **kommunikationsmetoder** mellem microservices, såsom *REST* *API'er*, gRPC, og *Message Brokers* (f.eks. Kafka, RabbitMQ).
 
 ## Færdigheder
 
-- Jeg kan implementere et microservice-mønster, som f.eks. Saga-mønsteret, for
-  at håndtere distribuerede transaktioner.
-- Jeg kan designe og implementere en microservice-arkitektur, der inkluderer
-  sikkerhedsmekanismer som API Gateways og Service Mesh til at styre trafik og
-  beskytte mod trusler.
-- Jeg kan sammenligne forskellige microservice-arkitekturer med monolitiske
-  arkitekturer og evaluere deres sikkerhedsmæssige fordele og udfordringer.
+#### §1 
+Jeg kan implementere et **microservice-mønster** ved brug af *Saga-mønsteret* eller *Eventual Consistency* for at sikre håndtering af distribuerede transaktioner med minimal dataanomalier.
+#### §2
+Jeg kan implementere en **API Gateway** til at håndtere *autentifikation* og *autorisation* ved hjælp af OAuth2 eller JWT, samt implementere et **Service Mesh** som *Istio* for at styre trafik og sikre krypteret kommunikation mellem microservices.
+#### §3 
+Jeg kan evaluere **microservice-** og **monolitiske arkitekturer** baseret på deres *sikkerhed*, *vedligeholdelse* og *skalerbarhed*, og anvende denne viden til at anbefale den bedst egnede arkitektur til et specifikt projekt.
 
 ## Kompetencer
 
-- Jeg kan designe og implementere robuste backend-løsninger med
-  microservice-arkitektur.
-- Jeg kan **optimere** backend-performance ved at vælge og implementere effektive
-  datalagringsløsninger og caching-strategier i en microservice-arkitektur.
-- Jeg kan håndtere **distribuerede transaktioner** ved hjælp af designmønstre som
-  Saga-mønsteret og sikre korrekt koordinering mellem microservices.
-- Jeg kan sikre, at backend-tjenester er **skalerbare** og **vedligeholdelsesvenlige**
-  ved at anvende best practices i microservice-implementeringen og ved at
-  udnytte **container-teknologier** som Docker.
+#### §1 
+Jeg kan **designe** og **implementere** robuste microservice-løsninger, der sikrer høj tilgængelighed og fault tolerance ved brug af teknikker som *circuit breakers* og *retries*.
+#### §2
+Jeg kan *optimere backend-performance* ved at identificere bottlenecks, samt implementere caching-strategier og vælge den rette datalagringsløsning som MongoDB for høj skalerbarhed. 
+#### §3
+Jeg kan sikre, at backend-tjenester er **skalerbare** og **vedligeholdelsesvenlige** ved at anvende containerteknologier til at *automatisere deployment* og *skalering*, samt følge best practices for CI/CD.
