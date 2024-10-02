@@ -14,7 +14,7 @@ Men også de personlig mål som jeg selv har sat for [[Main/4. Semester/Lærings
 Det store mål for mig i dette semester er at få en dybere forståelse for
 hvordan man laver **Microservices**.
 
-Med udgangspunkt i dette [[Main/4. Semester/Emner/Mindmap\|mindmap]] og [[Main/Noter/Systemudvikling/Smart_Mål\|smart mål]] har jeg udarbejdet
+Med udgangspunkt i dette [[Main/Noter/Emner/Mindmap\|Mindmap]] og [[Main/Noter/Systemudvikling/Smart_Mål\|smart mål]] har jeg udarbejdet
 følgende læringsplan:
 
 Nedenfor ses den læringsplan som jeg har udarbejdet for 4. Semester.
