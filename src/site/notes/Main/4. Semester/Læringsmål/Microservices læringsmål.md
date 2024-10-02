@@ -14,7 +14,7 @@ Jeg kan forklare forskellene mellem **microservices** og **monolitiske applikati
 
 #Arkitektur #Skalerbarhed #Vedligeholdelse
 #### §3
-Jeg har viden om forskellige **kommunikationsmetoder** mellem microservices, såsom *REST* *API'er*, gRPC, og *Message Brokers* (f.eks. Kafka, RabbitMQ).
+Jeg har viden om forskellige **kommunikationsmetoder** mellem microservices, såsom *REST* *API'er*, *gRPC*, og *Message Brokers* (f.eks. Kafka, RabbitMQ).
 
 #Kommunikationsmetoder #RESTAPI #MessageBrokers
 ### Færdigheder
