@@ -7,9 +7,9 @@
 
 Følgende læringsplan er udarbejdet i  starten af semesteret, for at skabe et
 overblik over de emner som er relevante for semesterprojektet, og opfylde de
-[[Main/4. Semester/Læringsmål/Læringsmål\|Læringsmål]], som er sat for semesteret af underviserne.
-Men også de personlig mål som jeg selv har sat for [[Main/4. Semester/Læringsmål/Microservices\|Microservices]] og
-[[Main/4. Semester/Læringsmål/It-Sikkerhed\|It-Sikkerhed]].
+[[Main/4. Semester/Læringsmål/Læringsmål fra studiet\|Læringsmål fra studiet]], som er sat for semesteret af underviserne.
+Men også de personlig mål som jeg selv har sat for [[Main/4. Semester/Læringsmål/Microservices læringsmål\|Microservices læringsmål]] og
+[[Main/4. Semester/Læringsmål/It-Sikkerhedslæringsmål\|It-Sikkerhedslæringsmål]].
 
 Det store mål for mig i dette semester er at få en dybere forståelse for
 hvordan man laver **Microservices**.

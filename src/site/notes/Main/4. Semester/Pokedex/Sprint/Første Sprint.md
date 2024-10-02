@@ -29,4 +29,4 @@ Det som Oak bad om til at starte med var følgende:
     - Applikationen starter som monolitisk, men vi kan overveje at opdele den i microservices, hvis behovet for skalering opstår.
     - Mulige fremtidige microservices kunne håndtere specifikke områder som Pokémon-typer, udviklinger eller lokationsdata.
 
-De vigtigste elementer i dette er at jeg for øvet de [[Main/4. Semester/Læringsmål/Læringsmål\|Læringsmål]]som underviserne har sat.
+De vigtigste elementer i dette er at jeg for øvet de [[Main/4. Semester/Læringsmål/Læringsmål fra studiet\|Læringsmål fra studiet]]som underviserne har sat.
