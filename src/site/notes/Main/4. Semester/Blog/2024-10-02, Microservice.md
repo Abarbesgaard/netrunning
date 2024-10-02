@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/blog/2024-10-02-microservice/","hide":true,"created":"2024-10-02T09:21:54.218+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/blog/2024-10-02-microservice/","dgEnableSearch":true,"created":"2024-10-02T09:21:54.218+02:00"}
 ---
 
 
