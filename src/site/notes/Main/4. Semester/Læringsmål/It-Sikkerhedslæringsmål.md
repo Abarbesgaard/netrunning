@@ -65,3 +65,10 @@ Jeg kan **forklare** og **argumentere** for de sikkerhedsmekanismer, jeg har val
 Jeg kan arbejde **proaktivt med sikkerhed ved at integrere sikkerhedstests** i CI/CD-processen og kontinuerligt overvåge systemet for sårbarheder, med et særligt fokus på reaktion over for nye trusler.
 
 #CICD #Sikkerhedstest #Sikkerhedsovervågning 
+
+
+
+##### Change log
+*2024-09-12*: Næste udkast til læringsmål, godkendt af underviser.
+*2024-09-11*: Læringsmål sendt til underviser.
+*2024-08-13*: Udkast til læringsmål.

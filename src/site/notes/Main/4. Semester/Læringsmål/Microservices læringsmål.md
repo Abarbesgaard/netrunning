@@ -3,6 +3,7 @@
 ---
 
 ## Læringsmål 
+*change log ses i bunden*
 ### Viden
 
 #### §1
@@ -46,3 +47,9 @@ Jeg kan *optimere backend-performance* ved at identificere bottlenecks, samt imp
 Jeg kan sikre, at backend-tjenester er **skalerbare** og **vedligeholdelsesvenlige** ved at anvende containerteknologier til at *automatisere deployment* og *skalering*, samt følge best practices for CI/CD.
 
 #Skalerbarhed #Containerteknologi #CICD
+
+
+##### Change log
+
+*2024-10-02:* Var i dialog med en underviser om læringsmålene. Der blev sagt at de er ret 'tydelige'. For at opnå dem skal jeg lave et eksempel på en microserivce, med udgangspunkt i den monolit der er lavet til [[Main/4. Semester/VitaHus/Projekt VitaHus\|Vita hus projektet]].
+*2024-09-11:* Udkast sendt til underviser. krævede dog revison af læringsmålene
