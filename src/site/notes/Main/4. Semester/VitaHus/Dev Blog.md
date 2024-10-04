@@ -13,3 +13,4 @@ En **Microservice-del**, som har fokus på mine læringsmål for [[Main/4. Semes
 
 ## Dev blog It-Sikkerhed
 
+[[Main/4. Semester/Blog/2024-10-04, It-sikkerhed\|2024-10-04, It-sikkerhed]]
