@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/4-semester/blog/2024-10-04-microservice/","created":"2024-10-04T10:03:11.700+02:00"}
 ---
 
-Dette er det første spade stik på  vejen til at gøre [[Main/4. Semester/VitaHus/Projekt VitaHus\|Projekt VitaHus]]til en #Microservice e arkitektur.
+Dette er det første spade stik på  vejen til at gøre [[Main/4. Semester/VitaHus/Projekt VitaHus\|Projekt VitaHus]] til en #Microservice e arkitektur.
 
 Alt hvad jeg har læst indtil videre har på det kraftigste udtrykket, at et skift til en sådan arkitektur kan bringe flere fordele med sig men også rigtig mange udfordringer, som man skal forhold sig til som udvikler/firma.
 
@@ -56,6 +56,12 @@ Hvis valget bliver data først vil dette diagram vise fremgangsmåde:
 Hvis valget bliver kode først vil dette diagram vise fremgangsmåde:
 ![Vitahus, monolit Kode først.png](/img/user/Excalidraw/Vitahus,%20monolit%20Kode%20f%C3%B8rst.png)
 
-Der er også andre metoder så som [[Strangler fig pattern\|Strangler fig pattern]], [[Parallel Run\|Parallel Run]] og [[Feature Toggle\|Feature Toggle]]. Men disse er uden for scope, da vores system ikke er så stort endnu og det er et tænkt scenarie.
+Der er også andre metoder så som [[Main/Noter/Strangler fig pattern\|Strangler fig pattern]], [[Parallel Run\|Parallel Run]] og [[Feature Toggle\|Feature Toggle]]. Men disse er uden for scope, da vores system ikke er så stort endnu og det er et tænkt scenarie.
 
 Og med dette in mente vil jeg starte dette projekt med - kode først.
+
+
+## Læringsmål i spil
+[[Main/4. Semester/Læringsmål/Microservices læringsmål#§1\| Microservices: Viden §1]]
+[[Main/4. Semester/Læringsmål/Microservices læringsmål#§2\| Microservices: Viden §2]]
+[[Main/4. Semester/Læringsmål/Microservices læringsmål#§6\| Microservices: Færdigheder §6]]

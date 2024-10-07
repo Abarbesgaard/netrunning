@@ -8,8 +8,9 @@ En **Microservice-del**, som har fokus på mine læringsmål for [[Main/4. Semes
 
 
 ## Dev blog Microservices
-
+[[Main/4. Semester/Blog/2024-10-04, Microservice\|2024-10-04, Microservice]]
 [[Main/4. Semester/Blog/2024-10-02, Microservice\|2024-10-02, Microservice]]
+
 
 ## Dev blog It-Sikkerhed
 
