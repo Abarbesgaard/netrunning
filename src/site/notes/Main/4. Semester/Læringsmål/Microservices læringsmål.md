@@ -21,11 +21,11 @@ Jeg har viden om forskellige **kommunikationsmetoder** mellem microservices, så
 ### Færdigheder
 
 #### §4
-Jeg kan implementere et **microservice-mønster** ved brug af *Saga-mønsteret* eller *Eventual Consistency* for at sikre håndtering af distribuerede transaktioner med minimal dataanomalier.
+Jeg kan implementere et **microservice-mønster** for at sigte med *Eventual Consistency*. Dette for at sikre håndtering af distribuerede transaktioner med minimal dataanomalier.
 
 #SagaMønster #EventualConsistency #DistribueredeTransaktioner
 #### §5
-Jeg kan implementere en **API Gateway** til at håndtere *autentifikation* og *autorisation* ved hjælp af OAuth2 eller JWT, samt implementere et **Service Mesh** som for at styre trafik og sikre krypteret kommunikation mellem microservices.
+Jeg kan implementere en **API Gateway** til at håndtere *autentifikation* og *autorisation* ved hjælp af OAuth2 eller JWT.
 
 #APIGateway #ServiceMesh #Autorisation #Autentificering 
 #### §6
@@ -36,11 +36,11 @@ Jeg kan evaluere **microservice-** og **monolitiske arkitekturer** baseret på d
 ### Kompetencer
 
 #### §7
-Jeg kan **designe** og **implementere** robuste microservice-løsninger, der sikrer høj tilgængelighed og fault tolerance ved brug af teknikker som *circuit breakers* og *retries*.
+Jeg kan *designe* og *implementere* robuste microservice-løsninger, der sikrer høj tilgængelighed og fault tolerance ved brug af *message brokers*.
 
-#Tilgængelighed #CircuitBreakers #FaultTolerance
+#Tilgængelighed #MessageBrokers
 #### §8
-Jeg kan *optimere backend-performance* ved at identificere bottlenecks, samt implementere caching-strategier og vælge den rette datalagringsløsning som MongoDB for høj skalerbarhed. 
+Jeg kan *optimere backend-performance* ved at identificere bottlenecks, samt implementere caching-strategier og vælge den rette datalagringsløsning.
 
 #Backend-performance #Caching #Skalerbar
 #### §9

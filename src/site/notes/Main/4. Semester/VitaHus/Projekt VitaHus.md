@@ -20,6 +20,8 @@ Gå til dev blog [[Main/4. Semester/VitaHus/Dev Blog\|her]]for at få indsigt i 
 
 ### Change log
 
+*2024-10-11*: Jeg har fået implementeret [[Main/Noter/RabbitMQ\|RabbitMQ]]i mit microservice projekt. [[Main/4. Semester/Blog/2024-10-11, Microservice\|Læs mere her]]
+
 *2024-10-04*: Jeg parkerer mit arbejde med projektet, for nu og går i gang med at se hvordan en overgang til dette projekt som en microservice vil kunne se ud.
 
 *2024-10-03:* Vi er gået fra at bruge [[Main/Noter/Auth0\|Auth0]] til at bruge [[Main/Noter/Supabase\|Supabase]]. Dette valg grunder i at bruge [[Main/Noter/Auth0\|Auth0]] var for at sige det lige ud, møj besværligt - og med 2 timers arbejde og fejlfinding kunne vi let bruge [[Main/Noter/Supabase\|Supabase]]. Det kan på sigt give os mulighed for let at implementere real time komponenter.
