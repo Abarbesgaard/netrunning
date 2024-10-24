@@ -69,6 +69,7 @@ Jeg kan arbejde **proaktivt med sikkerhed ved at integrere sikkerhedstests** i C
 
 
 ##### Change log
+*2024-10-23*: Lavet nogle små rettelser i læringsmålene
 *2024-09-12*: Næste udkast til læringsmål, godkendt af underviser.
 *2024-09-11*: Læringsmål sendt til underviser.
 *2024-08-13*: Udkast til læringsmål.
