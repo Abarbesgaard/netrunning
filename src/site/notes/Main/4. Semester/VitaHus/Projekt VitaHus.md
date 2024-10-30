@@ -11,12 +11,9 @@ Det produkt vi har afleveret til firmaet ender med at blive en #Monolit, da den 
 
 Neden for vil du kunne finde *links* til GitHub hvor vores projekt ligger, *dokumentationen* og til sidst *Dev bloggen* som indeholder nogle af de refleksioner jeg har gjort mig i løbet af projektets levetid på 4. semester.
 
-### Links
-
-
 
 ## Dev Blog
-Gå til dev blog [[Main/4. Semester/VitaHus/Dev Blog\|her]]for at få indsigt i mine tanker og refleksioner om projektet
+Gå til dev blog [[Main/4. Semester/VitaHus/Dev Blog\|her]]for at få indsigt i mine tanker og refleksioner om projektet, proces og mine læringsmål.
 
 ### Change log
 
