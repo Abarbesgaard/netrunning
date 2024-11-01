@@ -25,7 +25,7 @@ Jeg kan implementere et **microservice-mønster** for at sigte med *Eventual Con
 
 #SagaMønster #EventualConsistency #DistribueredeTransaktioner
 #### §5
-Jeg kan implementere en **API Gateway** til at håndtere *autentifikation* og *autorisation* ved hjælp af OAuth2 eller JWT.
+Jeg kan implementere en **API Gateway** til at håndtere *autentifikation* og *autorisation* ved hjælp af **OAuth2** eller **JWT**.
 
 #APIGateway #ServiceMesh #Autorisation #Autentificering 
 #### §6
