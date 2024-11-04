@@ -16,12 +16,15 @@ I 2023 lavede de en opdatering af det trusselsbillede som udviklere står overfo
 Se hvad de indebærer her: [OWASP Top 10 API Security Risks - 2023](https://owasp.org/API-Security/editions/2023/en/0x11-t10/)
 
 I vores diagram, er der lige nu kun er **meget** basal sikkerhed: Auth og Load balancing.
-*Igen dette er et tænkt eksempel*
+
+> [!TODO] note 
+> Igen dette er et tænkt eksempel
 
 Jeg vil nu gennemgå det første punkt fra OWASP API top 10 med fokus på vores API. 
 
 *Klik ind på følgende overskrifter for at se hvordan jeg forholder mig til hver punkt*
 
 ## 1 
-[[Main/Noter/Vita/Vita Broken Object level Authorization\|Broken Object Level Authorization]]
+![2023 Broken Object Level Authorization.png](/img/user/2023%20Broken%20Object%20Level%20Authorization.png)
+## [[Main/Noter/Vita/Vita Broken Object level Authorization\|Broken Object Level Authorization]]
 ## 2
