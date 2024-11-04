@@ -54,7 +54,8 @@ Policies defineres som regel i *de enkelte microservices*. Hver microservice kan
 I API-metoderne kan man bruge `[Authorize(Policy = "CanAccessSensitiveData")]` til at sikre, at kun brugere, der opfylder politikken, kan tilgå bestemte endpoints.
 
 ```csharp
-[Authorize(Policy = "CanAccessSensitiveData")] [HttpGet("sensitive-data")] 
+[Authorize(Policy = "CanAccessSensitiveData")] 
+[HttpGet("sensitive-data")] 
 public IActionResult GetSensitiveData() { // Logic to retrieve sensitive data }
 ```
 
