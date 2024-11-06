@@ -28,3 +28,7 @@ Jeg vil nu gennemgå det første punkt fra OWASP API top 10 med fokus på vores 
 ![2023 Broken Object Level Authorization.png](/img/user/2023%20Broken%20Object%20Level%20Authorization.png)
 ## [[Main/Noter/Vita/Vita Broken Object level Authorization\|Broken Object Level Authorization]]
 ## 2
+## [[Main/Noter/Vita/Vita Broken Authentication\|Broken Authentication]]
+
+## 3
+## [[Main/Noter/Vita/Vita Broken Object Property Level Authorization\|Vita Broken Object Property Level Authorization]]
