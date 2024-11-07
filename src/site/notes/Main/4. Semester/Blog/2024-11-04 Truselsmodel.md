@@ -31,4 +31,14 @@ Jeg vil nu gennemgå det første punkt fra OWASP API top 10 med fokus på vores 
 ## [[Main/Noter/Vita/Vita Broken Authentication\|Broken Authentication]]
 
 ## 3
-## [[Main/Noter/Vita/Vita Broken Object Property Level Authorization\|Vita Broken Object Property Level Authorization]]
+## [[Main/Noter/Vita/Vita Broken Object Property Level Authorization\|Broken Object Property Level Authorization]]
+## 4
+## [[Main/Noter/Vita/Vita Unrestricted Resource Consumption\|Unrestricted Resource Consumption]]
+## 5
+## [[Main/Noter/Vita/Vita Broken Function Level Authorization\|Broken Function Level Authorization]]
+## 6
+## [[Main/Noter/Vita/Vita Unrestricted Access to Sensitive Business Flows\|Unrestricted Access to Sensitive Business Flows]]
+## 7
+## 8
+## 9
+## 10
