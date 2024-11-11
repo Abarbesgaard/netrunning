@@ -4,8 +4,10 @@
 
 
 ### Hvad er en DTO (Data Transfer Object)?
+![Data Transfer Object.png](/img/user/Data%20Transfer%20Object.png)
 
-En **DTO (Data Transfer Object)** er et designmønster, der bruges til at overføre data mellem forskellige lag eller komponenter i en applikation. DTO'er bruges ofte i situationer, hvor der er behov for at sende data over et netværk, eksempelvis mellem klient og server, eller mellem forskellige microservices i en distribueret applikation.
+> [!Important] 
+> En **DTO (Data Transfer Object)** er et designmønster, der bruges til at overføre data mellem forskellige lag eller komponenter i en applikation. DTO'er bruges ofte i situationer, hvor der er behov for at sende data over et netværk, eksempelvis mellem klient og server, eller mellem forskellige microservices i en distribueret applikation.
 
 DTO'er bruges primært til at forenkle og optimere dataoverførsel. De indeholder kun de data, der er nødvendige for den specifikke operation eller transaktion, og de er ofte enklere og lettere end de interne datamodeller, som bruges i systemets forretningslogik.
 
@@ -36,10 +38,13 @@ Dette DTO objekt kan bruges til at sende data om en bruger mellem lagene i en ap
 
 I en **microservice-arkitektur** bruges DTO'er til at kommunikere mellem de forskellige mikrotjenester. For eksempel, når en service skal hente data fra en anden service, kan det gøre det via en DTO, som indeholder den nødvendige information, men undgår at afsløre interne detaljer om datamodellen.
 
-Eksempelvis:
+> [!example] Eksempel 1
+ En **User Service** kunne bruge et **UserDto** til at sende oplysninger om en bruger til en **Notification Service**, som derefter bruger disse data til at sende en e-mail eller SMS.
 
-- En **User Service** kunne bruge et **UserDto** til at sende oplysninger om en bruger til en **Notification Service**, som derefter bruger disse data til at sende en e-mail eller SMS.
-- Når data skal sendes fra et API til frontend-applikationen, kan en DTO bruges til at formatere de nødvendige data, som derefter vises i brugergrænsefladen.
+> [!Example ] Eksempel 2
+> Når data skal sendes fra et [[Main/Noter/API\|API]]til frontend-applikationen, kan en DTO bruges til at formatere de nødvendige data, som derefter vises i brugergrænsefladen.
+
+
 
 #### Eksempel på brug i en microservice
 
