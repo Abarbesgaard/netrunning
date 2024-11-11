@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/vita/vita-unrestricted-access-to-sensitive-business-flows/","created":"2024-11-07T09:31:30.120+01:00"}
 ---
 
+![Unrestricted Access to Sensitive Business Flows.png](/img/user/Unrestricted%20Access%20to%20Sensitive%20Business%20Flows.png)
 > [!NOTE]- Opsummering af UASBF
 > APIs, der er sårbare over for denne risiko, eksponerer en forretningsproces – såsom at købe en billet eller poste en kommentar – uden at tage højde for, hvordan funktionaliteten kan skade virksomheden, hvis den bruges i overdreven grad på en automatiseret måde. Dette skyldes ikke nødvendigvis implementeringsfejl.
 

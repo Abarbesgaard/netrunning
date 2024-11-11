@@ -25,7 +25,7 @@ Jeg vil nu gennemgå det første punkt fra OWASP API top 10 med fokus på vores 
 *Klik ind på følgende overskrifter for at se hvordan jeg forholder mig til hver punkt*
 
 ## 1 
-![2023 Broken Object Level Authorization.png](/img/user/2023%20Broken%20Object%20Level%20Authorization.png)
+
 ## [[Main/Noter/Vita/Vita Broken Object level Authorization\|Broken Object Level Authorization]]
 ## 2
 ## [[Main/Noter/Vita/Vita Broken Authentication\|Broken Authentication]]
@@ -39,6 +39,10 @@ Jeg vil nu gennemgå det første punkt fra OWASP API top 10 med fokus på vores 
 ## 6
 ## [[Main/Noter/Vita/Vita Unrestricted Access to Sensitive Business Flows\|Unrestricted Access to Sensitive Business Flows]]
 ## 7
+## [[Main/Noter/Vita/Vita Server Side Request Forgery\|Server Side Request Forgery]]
 ## 8
+## [[Main/Noter/Vita/Vita Security Misconfiguration\|Security Misconfiguration]]
 ## 9
+## [[Main/Noter/Vita/Vita Improper Inventory Management\|Improper Inventory Management]]
 ## 10
+## [[Main/Noter/Vita/Vita Unsafe Consumption of APIs\|Unsafe Consumption of APIs]]

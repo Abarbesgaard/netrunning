@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/vita/vita-broken-function-level-authorization/","created":"2024-11-07T09:19:35.648+01:00"}
 ---
 
+![Broken Function Level Authorization.png](/img/user/Broken%20Function%20Level%20Authorization.png)
 > [!NOTE]- Opsummering af BFLA
 > **Komplekse adgangskontrolpolitikker** med forskellige *hierarkier*, *grupper* og *roller* samt en uklar adskillelse mellem administrative og almindelige funktioner har en tendens til at føre til autorisationsfejl. Ved at udnytte disse problemer kan angribere få adgang til andre brugeres ressourcer og/eller administrative funktioner.
 
@@ -9,12 +10,13 @@ For at løse sårbarheder med **Broken Funciton Level Authorization**
 1. Standardiser og centraliser autorisation med en fælles kontrolmodul
 2. Tildel adgang baseret på rolle- og gruppespecifikke tilladelser
 3. Brug et abstrakt administrativt controllerlag til administrative funktioner
-4. Begræns og gennemgå API-endepunkter mod autorisationsproblemer
+4. Begræns og gennemgå [[Main/Noter/API\|API-endepunkter]] mod autorisationsproblemer
 
 ## Standardiser og centraliser autorisation med en fælles kontrolmodul
 I en microservice-arkitektur er det afgørende at *sikre en standardiseret og central autorisationsmekanisme*, da hver service skal have ensartede sikkerhedsregler for at undgå sårbarheder. Ved at bruge et **fælles autorisationsmodul**, som håndterer adgangskontrol, kan du *sikre ensartede autorisationsregler* på tværs af services og minimere risikoen for utilsigtet adgang.
 
 Her bruger vi en centraliseret `AuthorizationService` til at håndtere autorisationskontrol. Dette modul kan bruges på tværs af services, så alle autorisationskontroller bliver samlet og administreret ét sted.
+
 ```csharp
 public class AuthorizationService
 {
@@ -46,7 +48,7 @@ public class SomeController
 ```
 
 #### Hvor bruges dette i en microservice arkitektur?
-I en microservice-arkitektur kan **en centraliseret autorisationsservice** bruges som en fælles komponent, der integreres i hver enkelt service. Dette hjælper med at håndtere ensartede adgangsregler på tværs af **API-gateways** og **services**, så alle kald til en service gennemgår den samme kontrolmekanisme for at sikre, at kun autoriserede brugere kan udføre funktioner baseret på deres rolle.
+I en microservice-arkitektur kan **en centraliseret autorisationsservice** bruges som en fælles komponent, der integreres i hver enkelt service. Dette hjælper med at håndtere ensartede adgangsregler på tværs af [[Main/Noter/API-Gateway\|API-gateways]] og **services**, så alle kald til en service gennemgår den samme kontrolmekanisme for at sikre, at kun autoriserede brugere kan udføre funktioner baseret på deres rolle.
 
 ## Tildel adgang baseret på rolle- og gruppespecifikke tilladelser
 **Rolle- og gruppespecifikke tilladelser** giver dig mulighed for præcist at definere, hvilke funktioner der er tilgængelige for bestemte brugerroller og grupper. 
@@ -86,7 +88,8 @@ public class GroupedController
 ```
 
 #### Hvor bruges dette i en microservice arkitektur?
-I en microservice-arkitektur bruges **rollebaserede kontroller** på **API-gateway-niveau** eller direkte i hver microservice for at sikre, at kun brugere med de nødvendige rettigheder kan få adgang til bestemte endpoints. Dette er især vigtigt i scenarier, hvor visse endpoints eller operationer kun bør være tilgængelige for bestemte brugergrupper, f.eks. administratorer eller teamledere.
+I en microservice-arkitektur bruges **rollebaserede kontroller** på [[Main/Noter/API-Gateway\|Api-Gateway-niveau]] eller direkte i hver microservice for at sikre, at kun brugere med de nødvendige rettigheder kan få adgang til bestemte endpoints. 
+Dette er især vigtigt i scenarier, hvor visse endpoints eller operationer kun bør være tilgængelige for bestemte brugergrupper, f.eks. administratorer eller teamledere.
 
 ## Brug et abstrakt administrativt controllerlag til administrative funktioner
 
@@ -121,7 +124,7 @@ Dette mønster bruges ofte til at håndtere administrative funktioner centralt i
 Dette sikrer, at *hver controller*, der arver fra `AdminControllerBase`, anvender samme adgangskontrol.
 
 ## Begræns og gennemgå API-endepunkter mod autorisationsproblemer
-I en applikation med *mange endpoints* er det nødvendigt **regelmæssigt at gennemgå API-strukturen** og sikre, at der er passende autorisationskontrol for alle endpoints. Dette inkluderer både administrative og regulære endpoints, da manglende kontrol kan føre til utilsigtet adgang.
+I en applikation med *mange endpoints* er det nødvendigt regelmæssigt at gennemgå [[Main/Noter/API\|API-strukturen]] og sikre, at der er passende autorisationskontrol for alle endpoints. Dette inkluderer både administrative og regulære endpoints, da manglende kontrol kan føre til utilsigtet adgang.
 
 Nedenfor er et *eksempel på en autorisationskontrol*, der implementeres for at gennemgå adgangskontrol for hvert endpoint i en routing-konfiguration.
 
@@ -149,6 +152,6 @@ app.UseEndpoints(endpoints =>
 ```
 
 #### Hvor bruges dette i en microservice arkitektur?
-I microservices bruges dette som en sikkerhedspraksis til at håndtere adgangskontrol på alle *services’ endpoints*, især for **API-gateways** og andre eksternt eksponerede services.
+I microservices bruges dette som en sikkerhedspraksis til at håndtere adgangskontrol på alle *services’ endpoints*, især for [[Main/Noter/API-Gateway\|API-gateways]] og andre eksternt eksponerede services.
 
 Denne praksis sikrer, at både *administrative og regulære endpoints* har korrekt adgangskontrol, så følsomme endpoints kun er tilgængelige for autoriserede brugere.

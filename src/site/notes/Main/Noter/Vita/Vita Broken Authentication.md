@@ -3,6 +3,7 @@
 ---
 
 ## Broken Authentication
+![Broken Auth.png](/img/user/Broken%20Auth.png)
 
 > [!note]- Opsummering af Broken Auth
 > API-sikkerhed er afgørende, især ved autentificering og følsomme operationer som "glemt adgangskode". En API betragtes som sårbar, hvis den tillader credential stuffing, mangler beskyttelse mod brute force-angreb, tillader svage adgangskoder, sender følsomme oplysninger i URL'en, og ikke kræver bekræftelse af brugerens identitet ved ændringer af følsomme data. Mikroservices er også udsatte, hvis de kan tilgås uden autentificering eller bruger svage tokens. For at forhindre disse sårbarheder bør man implementere strenge autentificeringsprotokoller, kræve re-autentificering ved kritiske ændringer, beskytte mod brute force-angreb og sikre, at API-nøgler kun anvendes til autentificering af API-klienter.
@@ -13,9 +14,9 @@ Måden vi kan løse denne sikkerhedsudfordring er ved blandt andet:
 3. Anvend en *Stærk Password Policy* og *To-Faktor Autentificering*. 
 4. *Validér* og Beskyt Tokens.
 
-## Kode eksempler
-### Rate Limiting
+## Rate Limiting
 **Rate limiting** forhindrer angribere i at udføre *brute force*-angreb ved at begrænse antallet af login-forsøg, hvilket beskytter brugerkonti mod **uautoriseret** adgang.
+
 ```csharp
 builder.services.AddRateLimiter(options => 
 { 
@@ -40,9 +41,9 @@ app.UseEndpoints(endpoints =>
 ```
 
 #### Hvor det bruges i microservices? 
-**Rate limiting** bruges typisk i **autentificeringstjenester** og **API-gateways** for at forhindre brute force-angreb på login-endpoints.
+**Rate limiting** bruges typisk i **autentificeringstjenester** og [[Main/Noter/API-Gateway\| API-Gateways]] for at forhindre brute force-angreb på login-endpoints.
 
-### Krav om Re-Autentificering ved Følsomme Handlinger
+## Krav om Re-Autentificering ved Følsomme Handlinger
 Ved at kræve **re-autentificering** ved *ændringer af følsomme oplysninger* som e-mail adresser sikres det, at kun autoriserede brugere kan foretage kritiske ændringer, hvilket reducerer risikoen for  misbrug.
 
 ```csharp
@@ -67,7 +68,7 @@ public async Task<IActionResult> UpdateEmail([FromBody] UpdateEmailRequest reque
 #### Hvor det bruges i microservices? 
 Dette punkt implementeres *i services, der håndterer brugeroplysninger,* som for eksempel bruger- eller konto-microservices.
 
-### Anvend Stærk Password Policy og To-Faktor Autentificering
+## Anvend Stærk Password Policy og To-Faktor Autentificering
 En stærk **adgangskodepolitik** kombineret med 2FA tilføjer ekstra lag af sikkerhed, hvilket gør det betydeligt sværere for angribere at få adgang til brugerkonti, selvom de lykkes med at stjæle adgangskoden.
 
 ```csharp
@@ -91,8 +92,9 @@ public async Task<IActionResult> Register(UserRegisterModel model)
 #### Hvor det bruges i microservices? 
 **2FA** kan implementeres i **autentificeringstjenester**, og *stærk adgangskodepolitik anvendes i enhver service, der håndterer brugerkonti.*
 
-### Validér og Beskyt Tokens
-Ved at **validere** og beskytte JWT-tokens forhindres uautoriseret adgang til API’en, og man sikrer, at kun gyldige og autentiske brugere kan få adgang til beskyttede ressourcer, hvilket reducerer risikoen for angreb som token-forgery og uautoriseret dataadgang.
+## Validér og Beskyt Tokens
+Ved at **validere** og beskytte JWT-tokens forhindres uautoriseret adgang til [[Main/Noter/API\|API’en]], og man sikrer, at kun gyldige og autentiske brugere kan få adgang til beskyttede ressourcer, hvilket reducerer risikoen for angreb som token-forgery og uautoriseret dataadgang.
+
 ```csharp
 
 builder.services.AddAuthentication(options =>
@@ -121,4 +123,4 @@ builder.services.AddAuthentication(options =>
 ```
 
 #### Hvor det bruges i microservices? 
-**Token-validéringsmekanismer** anvendes i alle services, der kræver autentificering, som f.eks. *API-gateways* og individuelle mikroservices, der håndterer brugeranmodninger.
+**Token-validéringsmekanismer** anvendes i alle services, der kræver autentificering, som f.eks.[[Main/Noter/API-Gateway\|API-gateways]]  og individuelle microservices, der håndterer brugeranmodninger.
