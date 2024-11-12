@@ -25,7 +25,7 @@ Jeg kan implementere et **microservice-mønster** for at sigte med *Eventual Con
 
 #SagaMønster #EventualConsistency #DistribueredeTransaktioner
 #### §5
-Jeg kan implementere en **API Gateway** til at håndtere *autentifikation* og *autorisation* ved hjælp af **OAuth2** eller **JWT**.
+Jeg kan implementere en **API Gateway** til at håndtere *autentifikation* og *autorisation* ved hjælp af **JWT**.
 
 #APIGateway #ServiceMesh #Autorisation #Autentificering 
 #### §6
@@ -36,11 +36,11 @@ Jeg kan evaluere **microservice-** og **monolitiske arkitekturer** baseret på d
 ### Kompetencer
 
 #### §7
-Jeg kan *designe* og *implementere* robuste microservice-løsninger, der sikrer høj tilgængelighed og fault tolerance ved brug af *message brokers*.
+Jeg kan *designe* og *implementere* robuste microservice-løsninger, der sikrer høj tilgængelighed ved brug af *message brokers*.
 
 #Tilgængelighed #MessageBrokers
 #### §8
-Jeg kan *optimere backend-performance* ved at identificere bottlenecks, samt implementere caching-strategier og vælge den rette datalagringsløsning.
+Jeg kan *optimere backend-performance* ved at implementere caching-strategier og vælge den rette datalagringsløsning.
 
 #Backend-performance #Caching #Skalerbar
 #### §9

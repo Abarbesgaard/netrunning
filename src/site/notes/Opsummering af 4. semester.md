@@ -4,74 +4,56 @@
 
 # Opsummering af læringsforløb - 4. semester
 
-Denne side opsummerer mit læringsforløb fra starten af august til slutningen af november, på 4. semester på datamatiker online. Jeg valgte at fokusere på microservices og it-sikkerhed.
-
+Denne opsummering gennemgår mit læringsforløb på 4. semester af datamatikeruddannelsen, fra begyndelsen af august til slutningen af november, med et særligt fokus på **microservices** og **it-sikkerhed**. 
+Den indledende interesse for mere konventionelle sikkerhedstemaer udviklede sig til en dybere forståelse af, hvordan sikkerhed kan indlejres i microservices-arkitektur.
 ## Indledning
+I starten af semesteret havde jeg en noget forenklet tilgang til it-sikkerhed. Som mange andre begyndte jeg med forestillingen om, at sikkerhed primært handler om trusselsmodeller som DDoS-angreb og penetrationstest. 
 
-I starten af [[Main/4. Semester/Læringsplan/33_34\|august]] var jeg overbevist om, at it-sikkerhed for mig ville handle om emner som DDoS, penetrationstest, white/black hat, etc. Dette afspejlede sig i mine [[Main/4. Semester/Læringsmål/It-Sikkerhedslæringsmål\|læringsmål]], som initialt fokuserede på viden og færdigheder indenfor disse emner. Men i løbet af semesteret har jeg opdaget nye, spændende emner og udvidet min forståelse af it-sikkerhed, især i relation til microservices og API-sikkerhed.
+Mine oprindelige læringsmål fokuserede på ekstern sikkerhed og trusselshåndtering, men gennem semesteret opdagede jeg, at it-sikkerhed i en microservices-arkitektur indebærer en bredere tilgang. 
+
+Sikkerheden bliver en del af både arkitekturen og udviklingsprocessen, med fokus på autentifikation, autorisation og beskyttelse af interne API'er. Dette skifte blev centralt for mit videre arbejde og min forståelse af sikkerhed som en kontinuerlig praksis.
 
 ## Diagram: Læringsforløb
 
 ![It-sikkerhed_Læringsforløb.png](/img/user/Excalidraw/It-sikkerhed_L%C3%A6ringsforl%C3%B8b.png)
 
-Den store røde bjælke i [[Main/4. Semester/Læringsplan/33_34\|uge 33 - 34]] markerer starten på projektet, hvor alt virkede interessant. Jeg havde oprindeligt meget bredt fokus, men hurtigt fandt jeg ud af, at it-sikkerhed i høj grad også handler om design og arkitektur – særligt med hensyn til, hvordan man håndterer *autentifikation*, *autorisation* og *beskyttelse* af API'er i en microservice-arkitektur.
+Diagrammet nedenfor illustrerer min læringsrejse, hvor det brede fokus i starten af semesteret gradvist blev indsnævret til et mere målrettet arbejde med API-beskyttelse og interne sikkerhedsprotokoller. Uge 33-34 er markeret med en fremtrædende rød bjælke for at symbolisere projektets start og mit oprindelige brede fokus, som senere blev justeret.
 
 ## Refleksion over ændringer i forståelse af It-sikkerhed
 
 ### Før og efter-billede
 
 **Før:**
-Jeg havde en grundlæggende forståelse af it-sikkerhed baseret på netværksangreb og penetrationstest. Jeg troede, at it-sikkerhed primært handlede om at beskytte eller angrive mod eksterne trusler som DDoS-angreb og hackerangreb.
+Min forståelse af it-sikkerhed centrerede sig om *netværksangreb* og *penetrationstest*, og jeg antog, at beskyttelse hovedsageligt handlede om forsvar mod eksterne trusler som DDoS-angreb og hackerangreb.
 
 **Efter:**
-Jeg indså, at it-sikkerhed i høj grad handler om at sikre applikationer mod interne fejl og menneskelige fejl, som kan opstå under *udvikling* og *implementering*. 
-Det var vigtigt, for mig, at forstå, hvordan sikkerhed *skal integreres i hele applikationen*, ikke kun som et sidste skridt. Jeg har lært meget om hvordan man beskytter APIs mod *autorisationsfejl*, *rate limiting*, og hvordan man bruger moderne sikkerhedsløsninger som OAuth2 og JWT.
+Jeg opdagede, at it-sikkerhed også handler om beskyttelse mod interne fejl og menneskelige fejl, som kan opstå under udvikling og implementering. 
 
-## Konkretisering af læringsmål og hvordan de er opnået
+>Især i en microservices-arkitektur er sikkerhed ikke et sidste trin, men snarere et integreret aspekt af designet. 
 
-### Opnåelse af læringsmål
+Jeg har derfor fokuseret på at beskytte API'er mod autorisationsfejl, gennemføre rate limiting og anvende moderne sikkerhedsløsninger som JWT, der beskytter mod misbrug og dataeksponering i API'er.
 
-I løbet af semesteret har jeg opnået mine mål om at få en dybere forståelse af distributed systems og eventuel konsistens, især i forbindelse med microservices-arkitektur. Et vigtigt element har været arbejdet med [[Main/Noter/RabbitMQ\|RabbitMQ]] til asynkrone beskeder og eventuel konsistens. 
-Jeg har implementeret [[Main/Noter/RabbitMQ\|RabbitMQ]] til at håndtere kommunikation mellem microservices, hvilket har givet mig et praktisk indblik i, hvordan man kan sikre, at systemet fungerer korrekt, selv når der er forsinkelser eller uoverensstemmelser mellem services.
+## Udvikling af Læringsmål og Hvordan De Er Opnået
 
-Jeg har arbejdet med at designe et system, hvor data kan blive opdateret på tværs af flere services uden at kræve øjeblikkelig konsistens. I stedet har systemet implementeret *eventual consistency*, hvilket betyder, at data i systemet vil blive synkroniseret over tid og ikke nødvendigvis med det samme. Jeg har anvendt RabbitMQ til at sikre, at opdateringer og ændringer sendes som beskeder mellem systemerne, hvilket tillader microservices at arbejde uafhængigt og samtidig opretholde dataintegritet over tid.
+Jeg opnåede mine læringsmål ved at dykke ned i *distributed systems* og _eventual consistency_, hvilket har været særligt relevant i microservices-arkitekturen. 
 
-### Justering af læringsmål
+Implementeringen af RabbitMQ som message queue for asynkron kommunikation har givet mig erfaring med at sikre systemets konsistens over tid. Dette har givet mig en praktisk forståelse af, hvordan microservices kan kommunikere og opretholde dataintegritet, selv under forsinkelser.
 
-Jeg justerede mine læringsmål undervejs og indså, at det ikke kun handler om at beskytte mod eksterne angreb, men også om at sikre funktioner, der kan udnyttes af en angriber via API'erne. Jeg har lært vigtigheden af at implementere grundig funktionel autorisation for at sikre, at brugere kun har adgang til de funktioner, de er autoriseret til.
 
-## Refleksion over udviklingsperioder
+## Proces og Refleksion
 
-### Uge 33-34: Projektstart og planlægning
+Jeg brugte **Kolbs læringscirkel** aktivt til at strukturere mit arbejde og reflektere over læringsprocessen. Mit oprindelige fokus var inspireret af _Getting Things Done (GTD)_-metoden, men denne viste sig for bred til de konkrete mål og milepæle, som jeg ønskede at nå i forbindelse med sikkerhed og microservices. Derfor skiftede jeg til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]], hvilket skabte en klarere ramme for både ambitioner og tidsplan.
+![Pasted image 20241112130322.png](/img/user/Pasted%20image%2020241112130322.png)
 
-Denne periode var fokuseret på at få projektet sat op og vælge emner. Jeg definerede mine mål og begyndte at forstå de basale principper omkring microservices og it-sikkerhed.
+**Refleksion:** Efter hvert sprint evaluerede jeg, hvilke dele af processen der fungerede optimalt, og hvilke der kunne forbedres. GTD-metoden viste sig mindre velegnet til min målsætning, hvilket førte til overgangen til SMART-mål som et mere fokuseret værktøj.
 
-### Uge 37-38: Microservices og API-sikkerhed
+**Abstrakt Begrebsdannelse:** Refleksionerne førte til en justering af læringsmålene. SMART-målene gjorde mine mål specifikke og målbare, hvilket hjalp mig til at opnå bedre overblik og mere præcise fremskridt.
 
-Jeg dykkede ned i API-sikkerhed og begyndte at implementere rate limiting i YARP og OAuth2 til API-gatewayen. Jeg lærte også om API-sårbarheder som Broken Function Level Authorization og hvordan man beskytter API'er mod uautoriseret adgang.
+**Aktiv Eksperimenteren:** Med [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-målene]] som fundament eksperimenterede jeg med konkrete løsninger, såsom rate limiting og OAuth2 i API-gatewayen, og kunne gennem denne strukturerede tilgang opnå kontinuerlig fremdrift.
 
-### Uge 39-40: Sikkerhedsdesign og implementering
+Kolbs læringscirkel blev således en integreret del af min proces og har hjulpet mig med at forfine og fokusere på realistiske læringsmål. Denne strukturerede fremgangsmåde gav mig en målrettet udvikling gennem hele semesteret.
+### Smart mål
+![Pasted image 20241112130348.png](/img/user/Pasted%20image%2020241112130348.png)
 
-I denne periode arbejdede jeg intensivt med sikkerhed i forbindelse med de funktionelle krav i microservices. Jeg lærte at integrere rate limiting og authorization checks effektivt i API-endpoints for at forhindre misbrug og forhindre unødvendig belastning af systemet.
 
-### Uge 41-42: Evaluering og implementering af avancerede sikkerhedsforanstaltninger
 
-Jeg fokuserede på at implementere ekstra sikkerhedsforanstaltninger som TLS i RabbitMQ og trusselsmodellering. Jeg lærte at identificere potentielle sårbarheder i systemet og planlægge passende modforanstaltninger.
-
-## Feedback og refleksioner
-
-Jeg har modtaget værdifuld feedback, især i forbindelse med **sikkerhed** ved **API-udvikling**. Jeg fik at vide, at det var vigtigt at overveje *rate limiting* og *API-gateways* som en måde at forhindre, at uautoriserede brugere får adgang til følsomme data. Jeg har taget denne feedback til mig og arbejdet med at integrere de anbefalede løsninger i min kode.
-
-## Fremtidig anvendelse og overføringsværdi
-
-De færdigheder, jeg har opnået i dette semester, vil have stor værdi i fremtidige projekter. Jeg ser mig selv bruge de teknologier og koncepter, jeg har lært om, især inden for API-sikkerhed og rate limiting, til at udvikle robuste, sikre applikationer. Jeg vil fortsat arbejde på at styrke mine færdigheder inden for trusselsmodellering og sikre applikationer mod både interne og eksterne trusler.
-
-## Afslutning
-
-Dette semester har været meget lærerigt, og jeg føler mig meget mere sikker på mine evner til at udvikle sikre microservices og API'er. Jeg ser frem til at implementere de teknologier og metoder, jeg har lært, i fremtidige projekter og udfordringer.
-
-### Mine vigtigste læringer:
-
-- Betydningen af funktionel autorisation og rate limiting i en microservice-arkitektur
-- Hvordan man integrerer OAuth2 og JWT korrekt
-- Vigtigheden af at forstå både eksterne og interne trusler i relation til sikkerhed

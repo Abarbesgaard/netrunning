@@ -5,6 +5,7 @@
 
 
 ## Hvad er SMART-modellen?
+![Pasted image 20241112130348.png](/img/user/Pasted%20image%2020241112130348.png)
 
 SMART-modellen er fem krav, du skal stille til din målsætning. Det er fem
 spørgsmål, din målsætning skal kunne svare på.
@@ -45,7 +46,7 @@ før, at du har nået dit mål og kan lade champagnepropperne springe.
 Og du skal også sætte målbare kriterier op, selvom det måske handler om blødere
 ting som personlig udvikling.
 
-### Attractivt
+### Attraktivt
 
 > hvorfor du at kæmpe for at nå det her mål?
 

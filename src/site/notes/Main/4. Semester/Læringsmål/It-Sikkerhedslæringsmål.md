@@ -66,9 +66,9 @@ Jeg kan **indarbejde sikkerhedsprincipper i udviklingsprocessen**, herunder auto
 
 #### §10
 
-Jeg kan **sikre adgang og datarettigheder i databaser**, så applikationen beskytter følsomme data gennem korrekt adgangsstyring og logning af databaserelaterede aktiviteter.
+Jeg kan **sikre kommunikation og datafortrolighed i RabbitMQ**, så applikationen beskytter følsomme data ved hjælp af TLS-kryptering for at forhindre uautoriseret adgang og opsnapning af beskeder mellem tjenester.
 
-#Adgangsstyring #DataRettigheder #Logning #Databasesikkerhed
+#TLS #RabbitMQ #Kryptering #Databeskyttelse #SikkerKommunikation
 
 
 ##### Change log
