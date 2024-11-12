@@ -14,7 +14,7 @@ En **Microservice-del**, som har fokus på mine læringsmål for [[Main/4. Semes
 
 
 ## Dev blog It-Sikkerhed
-[[Main/4. Semester/Blog/2024-11-04 Truselsmodel\|2024-11-04 Truselsmodel]]
+[[Main/4. Semester/Blog/2024-11-04 OWASP\|2024-11-04 OWASP]]
 [[Main/4. Semester/Blog/2024-11-01, It-sikkerhed\|2024-11-01, It-sikkerhed]]
 [[Main/4. Semester/Blog/2024-10-28, It-Sikkerhed\|2024-10-28, It-Sikkerhed]]
 [[Main/4. Semester/Blog/2024-10-24, It Sikkerhed\|2024-10-24, It Sikkerhed]]

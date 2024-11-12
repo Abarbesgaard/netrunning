@@ -34,7 +34,9 @@ Her kan du udforske det personlige projekt, som jeg har brugt til at eksperiment
 [[Main/4. Semester/Læringsmål/It-Sikkerhedslæringsmål\|It-Sikkerhedslæringsmål]]
 
 Jeg havde fokus på hvordan OWASP api top 10 kan se ud direkte i koden:
-[[Main/4. Semester/Blog/2024-11-04 Truselsmodel\|link til dette]]
+[[Main/4. Semester/Blog/2024-11-04 OWASP\|link til dette]]
+Jeg havde fokus på hvordan et truselsbillede kan se ud for en umiddelbar simpel Microservice
+[]
 
 ### Nøglekompetencer 
 - Praktisk erfaring med **OWASP API Top 10** .

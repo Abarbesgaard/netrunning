@@ -42,7 +42,7 @@ I en **microservice-arkitektur** bruges DTO'er til at kommunikere mellem de fors
  En **User Service** kunne bruge et **UserDto** til at sende oplysninger om en bruger til en **Notification Service**, som derefter bruger disse data til at sende en e-mail eller SMS.
 
 > [!Example ] Eksempel 2
-> Når data skal sendes fra et [[Main/Noter/API\|API]]til frontend-applikationen, kan en DTO bruges til at formatere de nødvendige data, som derefter vises i brugergrænsefladen.
+> Når data skal sendes fra et [[Main/Noter/API\|API]] til frontend-applikationen, kan en DTO bruges til at formatere de nødvendige data, som derefter vises i brugergrænsefladen.
 
 
 
