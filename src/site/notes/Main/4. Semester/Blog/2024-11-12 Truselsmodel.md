@@ -16,9 +16,9 @@ Den tilgang jeg har læst meget om i forhold til en traditionel monolittisk appl
 
 Alt der skulle snakke med appen ude fra skulle igennem muren først. Men når man så var forbi muren var der dømt "fri leg".
 
-Dette er efterhånden en saga blot.
+> Dette er efterhånden en saga blot.
 
-Fordet første kan appen nu være distribueret hvilket gør at muren som dækkede **hele** vejen rundt om **hele** appen nu kun indeholder en del af appen.
+For det første kan appen nu være distribueret hvilket gør at muren, som før dækkede **hele** vejen rundt om **hele** appen, nu kun indeholder en del af appen.
 
 ```plantuml
 title Distribueret app
@@ -61,6 +61,14 @@ I vores [[Main/Noter/API-Gateway\|gateway]] gjorde vi følgende tiltag for at st
 1. Vi implementerede *Authentication* og *Authorization* i [[Main/Noter/API-Gateway\|gateway]]
 2. Vi udliciterede ansvaret for bruger oprettelse og administration af dette til [[Main/Noter/Supabase\|Supabase]].
 
+## Hvad ligger kunden værdi på?
+Inden jeg går videre med implementeringen er det vigtigt at man som udvikler kan oplyse kunden om det sikkerhedsudfordringer som en app som de ønsker står over for.
+Til dette kan man gøre brug af en risiko analyse:
+![Pasted image 20241113081958.png](/img/user/Pasted%20image%2020241113081958.png)
+Her vil man som udvikler kunne præsentere kunden for en stuktureret tilgang til hvordan sikkerheden i appen er truet allerede inden der er reel kode.
+I vores tilfælde bruger vi som sådan ikke personfølsom data i vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|Projekt VitaHus]], men i tilfælde af at dette blev nødvendig vil en sikkerheds trussel som dette sagten kunne ende i det røde felt.
+
+Dette vil dermed skabe en prioritering i forhold til hvad det er som skal sikres først i udviklingen af systemet.
 ## Authentication og Authorization
 Vi sørgede for at når der kom et kald til vores [[Main/Noter/API-Gateway\|gateway]]så skulle det være autoriseret for at kunne benytte sig af vores endpoints. 
 I forhold til [OWASP API top 10](https://owasp.org/API-Security/editions/2023/en/0x11-t10/) så rammer denne tilgang flere af punkterne i top 10'en.
