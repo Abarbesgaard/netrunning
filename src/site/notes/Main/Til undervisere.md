@@ -47,14 +47,7 @@ Jeg havde fokus på hvordan et trusselsbillede kan se ud for en umiddelbar simpe
 ---
 ## Process
 ![Pasted image 20241106095904.png](/img/user/Pasted%20image%2020241106095904.png)
-Neden under er her en liste over de uger jeg har indført i læringsplanen.
-[[Main/4. Semester/Læringsplan/33_34\|Uge 33 - 34]]
-[[Main/4. Semester/Læringsplan/35_36\|Uge 35 - 36]]
-[[Main/4. Semester/Læringsplan/37_38\|Uge 37 - 38]]
-[[Main/4. Semester/Læringsplan/39_40\|Uge 39 - 40]]
-[[Main/4. Semester/Læringsplan/41_42\|Uge 41 - 42]]
-[[Main/4. Semester/Læringsplan/43_44\|Uge 43 - 44]]
-Hvis du vil se min opsummering og refleksion over læringsforløbet kan du klikke på følgende link:
+Opsummering og refleksion over læringsforløbet kan du se via følgende link:
 [[Opsummering af 4. semester\|Opsummering af 4. semester]]
 
 ---

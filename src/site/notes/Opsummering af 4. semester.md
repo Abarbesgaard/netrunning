@@ -55,5 +55,64 @@ Kolbs læringscirkel blev således en integreret del af min proces og har hjulpe
 ### Smart mål
 ![Pasted image 20241112130348.png](/img/user/Pasted%20image%2020241112130348.png)
 
+### Eksempel
+
+I starten af 4. semester hvor jeg havde fokus på at benytte mig af GTD metoden, fik jeg lavet rigtig mange "opgaver". Jeg benyttede mig af et systemet som hed Task Warrior til at strukturere dette.
+
+En konkret opgave kunne se sådan ud:
+
+> Læs om Microservice Arkitektur
+
+Jeg vil nu tage dig med i processen hvordan sådan en "opgave" kunne forløbe i GTD og på samme måde med et smart mål efter.
+
+#### GTD
+>Læs om Microservice Arkitektur
+
+**Kan det handles på?**
+ja det kan det. 
+**Kræver det flere trin?**
+Ja, denne vil kræve flere trin. Da den er ret vag defineret. Så det skulle ind i et projekt. Herefter skulle det indeles i flere trin som hver i sær lever op til GTD.
+**Tager det mindre end to minutter**
+Nej - hvis det gjorde skulle man gøre det med det samme.
+**kan det udelegeres?**
+Nej
+**Planlæg**
+Jeg vil gøre det den og den dato
+
+#### Smart mål
+> Læs om Microservice Arkitektur
+
+**Specifikt**
+Jeg vil gerne opnå viden om arkitekturen i microservices.
+
+**Målbart**
+Når jeg har læst om dette vil jeg have en brugbar viden om Microservice arkitektur.
+
+**Attraktivt**
+Jeg syntes emnet er utrolig interessant for min udvikling som programmør. 
+*Hvis det her var muligt at komme med et endnu mere konkret element der kunne gøre det attraktivt skal det være her i stedet*
+
+**Realistisk**
+Ja, jeg vil godt kunne opnå viden inden for emnet.
+
+**Tidsbestemt**
+Jeg vil gøre det nu/ Jeg sætter tid af man kl 8:45 - 9:45 til at gøre det
 
 
+Følgende er mine refleksioner om hvordan GTD og Smart mål virkede for mig.
+
+**GTD** blev hurtigt en metode til at få lavet en hulens masse ting. Når det er sagt er det også det den er lavet til. For mig var det *inbox'en* i denne metode det som virkede bedst. Det at have et sted hvor man kunne *læsse* alle tanker og ideer af var noget jeg endte med at gøre brug af i smart mål.
+**GTD** ligger også op til at man er i et team, ved at den har et trin hvor man skal, hvis man kan, udelegere ansvaret for opgaven. At have dette trin hver gang jeg skulle igennem når jeg lavede en opgave blev hurtigt trivielt.
+
+**Smart mål** blev derfor metoden jeg forsøgte at skifte **GTD** ud med. Det som lokkede mig ved denne metode var at jeg ikke skulle ind dele/ opdele min opgave når jeg havde en.
+Det var bare at gå i gang, og hvis der skulle opstå flere "opgaver" løbende smed jeg dem ind i min *inbox* som jeg har for vane at gennemgå hver morgen.
+Et andet godt element var at "time boxe" opgaverne. Lidt det samme som i *GTD*, dog valgte jeg at gøre mere ud af dette aspekt i Smart mål-metoden
+
+---
+Neden under er her en liste over de uger jeg har indført i læringsplanen.
+[[Main/4. Semester/Læringsplan/33_34\|Uge 33 - 34]]
+[[Main/4. Semester/Læringsplan/35_36\|Uge 35 - 36]]
+[[Main/4. Semester/Læringsplan/37_38\|Uge 37 - 38]]
+[[Main/4. Semester/Læringsplan/39_40\|Uge 39 - 40]]
+[[Main/4. Semester/Læringsplan/41_42\|Uge 41 - 42]]
+[[Main/4. Semester/Læringsplan/43_44\|Uge 43 - 44]]
