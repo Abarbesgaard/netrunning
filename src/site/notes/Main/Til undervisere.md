@@ -23,6 +23,8 @@ Siden er inddelt i de *fire* emner:
 
 Her kan du udforske det personlige projekt, som jeg har brugt til at eksperimentere med microservices:
 [link til vitahus microservice projekt](https://github.com/Abarbesgaard/Vita_Microservice)
+
+[[Main/Noter/Opsummering af Microservices\|Opsummering af Microservices]]
 ### Nøglekompetencer 
 - Erfaring med **RabbitMQ** og **message brokers**.
 - Opsætning af **API-gateway**.
@@ -35,8 +37,9 @@ Her kan du udforske det personlige projekt, som jeg har brugt til at eksperiment
 
 Jeg havde fokus på hvordan OWASP api top 10 kan se ud direkte i koden:
 [[Main/4. Semester/Blog/2024-11-04 OWASP\|link til dette]]
-Jeg havde fokus på hvordan et truselsbillede kan se ud for en umiddelbar simpel Microservice
-[]
+
+Jeg havde fokus på hvordan et trusselsbillede kan se ud for en umiddelbar simpel Microservice
+[[Main/4. Semester/Blog/2024-11-12 Truselsmodel\|link til dette]]
 
 ### Nøglekompetencer 
 - Praktisk erfaring med **OWASP API Top 10** .
