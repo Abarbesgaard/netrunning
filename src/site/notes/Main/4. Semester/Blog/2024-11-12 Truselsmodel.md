@@ -4,7 +4,7 @@
 
 ## "I gamle dage"
 
-Den tilgang jeg har læst meget om i forhold til en traditionel monolittisk applikation er:
+Den sikkerhedsmæssige tilgang jeg har læst meget om i forhold til en traditionel monolittisk applikation er:
  
  > the walled garden (Markeret med en rød linje)
  
@@ -34,8 +34,8 @@ front2 -- API
 
 *The walled garden* er ikke længere en brugbar metode
 
-## Nye tilgange 
-I en *distribueret app* som vi har lavet i vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|projekt]] løste vi denne nye udfordring med følgende tiltag
+## En Ny tilgang
+I en *distribueret app* som vi har lavet i vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|projekt]] løste vi denne nye udfordring med følgende tiltag. Vores app skulle både have en App, til telefonen, og en hjemmeside. Dermed var en [[Main/Noter/API\|API]]et godt valg, da den vil læse vores distribueringsproblematik.
 
 Vi startede med at gå væk fra konceptet om en "Walled Garden" og i stedet bevæge os mod en mere moderne tilgang.
 
@@ -61,10 +61,37 @@ I vores [[Main/Noter/API-Gateway\|gateway]] gjorde vi følgende tiltag for at st
 1. Vi implementerede *Authentication* og *Authorization* i [[Main/Noter/API-Gateway\|gateway]]
 2. Vi udliciterede ansvaret for bruger oprettelse og administration af dette til [[Main/Noter/Supabase\|Supabase]].
 
+#### Fordele ved Gateway'en
+Fordelene ved at have en [[Main/Noter/API-Gateway\|gateway]] i vores projekt gør at vi kunne have et fælles sted hvor al trafikken ind i vores [[Main/Noter/API\|API]] kunne autoriseres. 
+
+Vi vil kunne load balance vores strøm af trafik gennem systemet.
+
+Vi vil kunne lave en bedre monitorering.
+#### Ulemperne ved Gateway'en
+Der vil opstå et *single point of failure*
+
+Der vil opstå øget kompleksitet
+
+Den vil kunne øge latency og sænke ydeevnen
+
+Versionering kan blive en udfordring.
+
+#### Refleksioner om gateway
+Vi valgte at lave vores gateway selv. Tildels fordi at jeg skulle lære hvordan den bruges og opsættes. 
+Et argument, og et godt et, kan være at udeligere ansvaret for dette til en tredjepart, her kommer store spillere ind som AWS, GOOGLE etc. på banen som har services der kan lave en gateway løsning bedre end vi kan.
+Men de er dog stadig lavet af mennesker(for nu,) så i overvejelsen af hvilken tredjepart man indgår samarbejde med kan man overveje følgende:
+- Hvordan leverer de sikkerheden i deres løsning?
+- Hvilke muligheder er der for Autorisation og autentificering?
+- Hvad er prismodellen?
+- Er der funktioner som fx load balancing og caching?
+- Bliver man bundet til udbyderen?
+
 ## Hvad ligger kunden værdi på?
 Inden jeg går videre med implementeringen er det vigtigt at man som udvikler kan oplyse kunden om det sikkerhedsudfordringer som en app som de ønsker står over for.
 Til dette kan man gøre brug af en risiko analyse:
 ![Pasted image 20241113081958.png](/img/user/Pasted%20image%2020241113081958.png)
+[*kilde: risikoanalyse fra center for ledelse*](https://www.cfl.dk/artikler/risikoanalyse)
+
 Her vil man som udvikler kunne præsentere kunden for en stuktureret tilgang til hvordan sikkerheden i appen er truet allerede inden der er reel kode.
 I vores tilfælde bruger vi som sådan ikke personfølsom data i vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|Projekt VitaHus]], men i tilfælde af at dette blev nødvendig vil en sikkerheds trussel som dette sagten kunne ende i det røde felt.
 
@@ -105,7 +132,13 @@ gateway -> api : vis alle brugere, med JTW token
 api -> api : Claims bekræftes
 api -> user : data
 ```
-Ud fra ovenstående kan man argumentere for at vi har benyttet os af princippet **Zero trust**. Dette er mere held end en faktisk overvejelse.
+
+Ud fra ovenstående kan man argumentere for at vi har benyttet os af princippet **Zero trust**. 
+
+> [!INFORMATION] Hvad er zero trust?
+En sikkerhedsmodel, der går ud fra, at ingen brugere eller enheder kan stoles på – uanset om de befinder sig inden for eller uden for netværksperimeteren.
+
+Dette er mere held end en faktisk overvejelse.
 
 ## Tanker og Refleksioner
 Meget af det jeg har læst om it sikkerhed i og omkring microservices har været meget omfattende. 

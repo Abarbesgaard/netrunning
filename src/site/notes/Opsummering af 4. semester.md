@@ -57,13 +57,17 @@ Kolbs læringscirkel blev således en integreret del af min proces og har hjulpe
 
 ### Eksempel
 
-I starten af 4. semester hvor jeg havde fokus på at benytte mig af GTD metoden, fik jeg lavet rigtig mange "opgaver". Jeg benyttede mig af et systemet som hed Task Warrior til at strukturere dette.
+I starten af 4. semester hvor jeg havde fokus på at benytte mig af GTD metoden, fik jeg afsluttet rigtig mange "opgaver". Jeg benyttede mig af et systemet som hed Task Warrior til at strukturere dette.
 
 En konkret opgave kunne se sådan ud:
 
 > Læs om Microservice Arkitektur
 
-Jeg vil nu tage dig med i processen hvordan sådan en "opgave" kunne forløbe i GTD og på samme måde med et smart mål efter.
+Jeg fløj gennem de opgaver jeg havde sat mig for at få afsluttet, men noget føltes *off*.
+
+Jeg fik afsluttet de opgaver jeg satte mig for, men lærte jeg  egenlig også noget?
+
+Jeg vil nu tage dig med i processen hvordan sådan en "opgave" kunne forløbe i GTD og på samme måde med et smart mål efter. Så du kan se den process jeg gennemgik i løbet af 4. semester
 
 #### GTD
 >Læs om Microservice Arkitektur
