@@ -91,12 +91,18 @@ Det er [[Main/Noter/Systemudvikling/Smart_Mål#Realistisk\|realistisk]] da jeg f
 ##### [[Main/Noter/Systemudvikling/Smart_Mål#Tidsbestemt\|T]]
 Det er [[Main/Noter/Systemudvikling/Smart_Mål#Tidsbestemt\|tidsbestemt]] da der er en meget præcis dato for eksaminationen
 
-#### Hvad så nu?
-Nu hvor mit [[Opsummering af 4. semester#implementering af Smart_Mål SMART mål\|overordnede mål]] var sat på plads som et [[Main/Noter/Systemudvikling/Smart_Mål\|SMART mål]] kunne jeg nu begynde at dele min vej op i delmål for at nå mine læringsmål for hhv. [[Main/4. Semester/Læringsmål/Microservices læringsmål\|microservices]]og [[Main/4. Semester/Læringsmål/It-Sikkerhedslæringsmål\|It-Sikkerhed]].
+#### Smart mål i praksis
+Gennem refleksionen over mit oprindelige opgavehåndteringssystem, som bestod af [Taskwarrior](https://taskwarrior.org/) og GTD-metoden, blev det tydeligt, at jeg manglede en overordnet struktur og sporbarhed fra mine læringsmål helt ned til de daglige opgaver. 
 
-Jeg fik brudt det ned i del mål som helt lav praktisk mundede ud i de opgaver jeg har på min todo liste hver dag til dette er redskabet [Todoist](https://todoist.com/) blevet brugt.
+Selvom GTD hjalp mig med at gennemføre mange opgaver, skabte det ikke den klare forbindelse mellem hver dags indsats og mine langsigtede mål. Denne indsigt førte mig til at arbejde med [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] og til at indføre [Todoist](https://todoist.com/) som mit nye værktøj. Med [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-målene]] fik jeg mulighed for at definere [[Main/Noter/Systemudvikling/Smart_Mål#Specifikt\|specifikke]], [[Main/Noter/Systemudvikling/Smart_Mål#Målbart\|målbare]],[[Main/Noter/Systemudvikling/Smart_Mål#Attraktivt\|attraktive]] , [[Main/Noter/Systemudvikling/Smart_Mål#Realistisk\|realistiske]] og [[Main/Noter/Systemudvikling/Smart_Mål#Tidsbestemt\|tidsbestemte]] delmål, som gjorde min læringsproces mere fokuseret og struktureret.
 
-Når opgaverne er bundet sammen med det overordnede mål bliver det utroligt motiverende at få lavet dem. Kontra de opgaver som [[Main/Noter/Getting things done\|Getting things done]] metoden bragte på banen, som var opgaver der blot skulle udføres.
+Ved at bruge [Todoist](https://todoist.com/) til at opsætte opgaver, som direkte understøtter mine [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]], kan jeg nu sikre, at hver opgave har et klart formål, der bidrager til mit overordnede mål. Opgaverne er ikke længere blot opgaver, men bliver små skridt i retningen af mine læringsmål for [[Main/4. Semester/Læringsmål/Microservices læringsmål\|microservices]] og [[Main/4. Semester/Læringsmål/It-Sikkerhedslæringsmål\|it-sikkerhed]]. Denne opdeling skaber en stærkere motivation, da opgaverne tydeligt hænger sammen med det samlede mål, fremfor blot at være ting, der "skal gøres."
+
+### Perspektiv og fremtidig anvendelse
+
+Med [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] og [Todoist](https://todoist.com/) som grundlag, står jeg nu med en struktur, der effektivt understøtter min daglige læring og progression mod eksamen. [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-metoden]] sikrer, at mine mål er præcise og opnåelige, mens [Todoist](https://todoist.com/) giver mig overblikket og detaljerne til at arbejde målrettet på mine delmål hver dag. 
+
+Denne kombination vil ikke blot hjælpe mig til eksamen, men også fremadrettet i mine studier og arbejdsprojekter, hvor tydelig målstyring og effektiv opgavestyring er essentielle for succes.
 
 ---
 Nedenunder er her en liste over de uger jeg har indført i læringsplanen.
