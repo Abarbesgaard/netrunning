@@ -8,7 +8,7 @@ Denne portefølje fremhæver mine erfaringer og færdigheder inden for **microse
 > [!IMPORTANT] Vigtigt
 > Klik på de enkelte emner for at dykke ned i mine erfaringer.
 
-Jeg har lavet denne side så **du** hurtigt kan finde frem til det som vil være relevant for dig.
+Jeg har lavet denne side så **du** hurtigt kan finde frem til det, som vil være relevant for dig.
 
 Siden er inddelt i de *fire* emner:
 1. **Microservices**
@@ -19,7 +19,8 @@ Siden er inddelt i de *fire* emner:
 ---
 ## Microservices
 ![Pasted image 20241114113521.png](/img/user/Pasted%20image%2020241114113521.png)
-I løbet af mit 4. semester har jeg fordybet mig i mikroservices som arkitektur, hvilket har udmøntet sig i vore fælles projekt "Vita Microservice." Her har jeg arbejdet med [[Main/Noter/RabbitMQ\|RabbitMQ]] som [[Main/Noter/Message Brokers\|meddelelsesbroker]], opsat en [[Main/Noter/API-Gateway\|API-Gateway]] og udviklet CI/CD workflows, der inddrager [[Main/Noter/Docker\|Docker]] og [[Main/Noter/MongoDB\|MongoDB]]. Gennem dette arbejde har jeg opnået en dybere forståelse for, hvordan man skaber skalerbare og distribuerede systemer i praksis.
+I løbet af mit 4. semester har jeg fordybet mig i mikroservices som arkitektur, hvilket har udmøntet sig i mit eksperiment projekt ["Vita Microservice."](https://github.com/Abarbesgaard/Vita_Microservice) 
+Her har jeg arbejdet med [[Main/Noter/RabbitMQ\|RabbitMQ]] som [[Main/Noter/Message Brokers\|message broker]], opsat en [[Main/Noter/API-Gateway\|API-Gateway]] og udviklet CI/CD workflows, der inddrager [[Main/Noter/Docker\|Docker]] og [[Main/Noter/MongoDB\|MongoDB]]. Gennem dette arbejde har jeg opnået en dybere forståelse for, hvordan man skaber skalerbare og distribuerede systemer i praksis.
 
 ### Læringsmål
 [[Main/4. Semester/Læringsmål/Microservices læringsmål\|Microservices læringsmål]]
@@ -51,6 +52,9 @@ Jeg havde fokus på hvordan et trusselsbillede kan se ud for en umiddelbar simpe
 ---
 ## Process
 ![Pasted image 20241106095904.png](/img/user/Pasted%20image%2020241106095904.png)
+
+[[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]]hjalp mig med at strukturere mine refleksioner og evalueringer, og overgangen til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] har givet en ny ramme for effektiv opgaveløsning og målrettet fremgang.
+
 Opsummering og refleksion over læringsforløbet kan du se via følgende link:
 [[Opsummering af 4. semester\|Opsummering af 4. semester]]
 

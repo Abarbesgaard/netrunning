@@ -61,4 +61,7 @@ RabbitMQ er særligt nyttigt i scenarier som:
 - **Opgavekøer:** Fordeling af tidskrævende opgaver blandt arbejdende applikationer.
 - **Hændelsessstreaming:** Håndtering af realtids begivenhedsdatabehandling.
 
-Sammenfattende fungerer RabbitMQ som en robust løsning til meddelelseskøer, der forbedrer applikationsydelse og pålidelighed ved at muliggøre asynkron kommunikation mellem forskellige systemer.
+Sammenfattende fungerer **RabbitMQ** som en robust løsning til meddelelseskøer, der forbedrer applikationsydelse og pålidelighed ved at muliggøre asynkron kommunikation mellem forskellige systemer.
+
+## Kilder
+[RabbitMQ dokumentation](https://www.rabbitmq.com/)
