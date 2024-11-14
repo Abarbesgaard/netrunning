@@ -18,7 +18,7 @@ Siden er inddelt i de *fire* emner:
 
 ---
 ## Microservices
-![Pasted image 20241106095610.png](/img/user/Pasted%20image%2020241106095610.png)
+![Pasted image 20241114113521.png](/img/user/Pasted%20image%2020241114113521.png)
 I løbet af mit 4. semester har jeg fordybet mig i mikroservices som arkitektur, hvilket har udmøntet sig i vore fælles projekt "Vita Microservice." Her har jeg arbejdet med [[Main/Noter/RabbitMQ\|RabbitMQ]] som [[Main/Noter/Message Brokers\|meddelelsesbroker]], opsat en [[Main/Noter/API-Gateway\|API-Gateway]] og udviklet CI/CD workflows, der inddrager [[Main/Noter/Docker\|Docker]] og [[Main/Noter/MongoDB\|MongoDB]]. Gennem dette arbejde har jeg opnået en dybere forståelse for, hvordan man skaber skalerbare og distribuerede systemer i praksis.
 
 ### Læringsmål
@@ -35,7 +35,7 @@ Her kan du udforske det personlige projekt, som jeg har brugt til at eksperiment
 
 ---
 ## It-Sikkerhed
-![Pasted image 20241106095823.png](/img/user/Pasted%20image%2020241106095823.png)
+![Pasted image 20241114113642.png](/img/user/Pasted%20image%2020241114113642.png)
 ### Læringsmål
 [[Main/4. Semester/Læringsmål/It-Sikkerhedslæringsmål\|It-Sikkerhedslæringsmål]]
 
