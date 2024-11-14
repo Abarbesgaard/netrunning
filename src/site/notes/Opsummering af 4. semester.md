@@ -30,7 +30,7 @@ Min forståelse af it-sikkerhed centrerede sig om *netværksangreb* og *penetrat
 **Efter:**
 Jeg opdagede, at it-sikkerhed også handler om beskyttelse mod interne fejl og menneskelige fejl, som kan opstå under udvikling og implementering. 
 
->Især i en microservices-arkitektur er sikkerhed ikke et sidste trin, men snarere et integreret aspekt af designet. 
+>[!important] Især i en microservices-arkitektur er sikkerhed ikke et sidste trin, men snarere et integreret aspekt af designet. 
 
 Jeg har derfor fokuseret på at beskytte [[Main/Noter/API\|API'er]] mod autorisationsfejl, gennemføre rate limiting og anvende moderne sikkerhedsløsninger som [[Main/Noter/JWT token\|JWT]], der beskytter mod misbrug og dataeksponering i [[Main/Noter/API\|API'er]]
 
@@ -43,79 +43,63 @@ Implementeringen af [[Main/Noter/RabbitMQ\|RabbitMQ]] som [[Main/Noter/Message B
 
 ## Proces og Refleksion
 
-Jeg brugte [[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]] aktivt til at strukturere mit arbejde og reflektere over læringsprocessen. Mit oprindelige fokus var inspireret af [[Main/Noter/Getting things done\|Getting Things Done (GTD)-metoden]], men denne viste sig for bred til de konkrete mål og milepæle, som jeg ønskede at nå i forbindelse med sikkerhed og microservices. Derfor skiftede jeg til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]], hvilket skabte en klarere ramme for både ambitioner og tidsplan.
+Jeg brugte [[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]] aktivt til at strukturere mit arbejde og reflektere over læringsprocessen. Mit oprindelige fokus var inspireret af [[Main/Noter/Getting things done\|Getting Things Done (GTD)-metoden]], men denne viste sig for bred til de konkrete mål og milepæle, som jeg ønskede at nå i forbindelse med sikkerhed og microservices. 
+
+> [!note] Metoden hang ikke godt nok sammen med mine læringsplaner.
+
 ![Pasted image 20241112130322.png](/img/user/Pasted%20image%2020241112130322.png)
 
-**Refleksion:** Efter hvert sprint evaluerede jeg, hvilke dele af processen der fungerede optimalt, og hvilke der kunne forbedres. [[Main/Noter/Getting things done\|GTD-metoden]] viste sig mindre velegnet til min målsætning, hvilket førte til overgangen til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] som et mere fokuseret værktøj.
+Derfor skiftede jeg til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]], hvilket skabte en klarere ramme for både ambitioner og tidsplan.
+
+**Refleksion:** Efter hvert sprint evaluerede jeg, hvilke dele af processen der fungerede optimalt, og hvilke der kunne forbedres. [[Main/Noter/Getting things done\|GTD-metoden]] viste sig *mindre velegnet* til min målsætning, hvilket førte til overgangen til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] som et mere fokuseret værktøj.
 
 **Abstrakt Begrebsdannelse:** Refleksionerne førte til en justering af læringsmålene. [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-målene]] gjorde mine mål specifikke og målbare, hvilket hjalp mig til at opnå bedre overblik og mere præcise fremskridt.
 
-**Aktiv Eksperimenteren:** Med [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-målene]] som fundament eksperimenterede jeg med konkrete løsninger i [[Main/Noter/API-Gateway\|API-gateway'en]], og kunne gennem denne strukturerede tilgang opnå kontinuerlig fremdrift.
+**Aktiv Eksperimenteren:** Med [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-målene]] som fundament eksperimenterede jeg for eksempel med konkrete løsninger i [[Main/Noter/API-Gateway\|API-gateway'en]], og kunne gennem denne strukturerede tilgang opnå kontinuerlig fremdrift.
 
 [[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]] blev således en integreret del af *min proces* og har hjulpet mig med at forfine og fokusere på realistiske læringsmål. Denne strukturerede fremgangsmåde gav mig en målrettet udvikling gennem hele semesteret.
 ### Smart mål
-![Pasted image 20241112130348.png](/img/user/Pasted%20image%2020241112130348.png)
+![Pasted image 20241114063041.png](/img/user/Pasted%20image%2020241114063041.png)
 
 ### Eksempel
 
-I starten af 4. semester hvor jeg havde fokus på at benytte mig af [[Main/Noter/Getting things done\|GTD metoden]], fik jeg afsluttet rigtig mange "opgaver". Jeg benyttede mig af et systemet som hed [Task Warrior](https://taskwarrior.org/) til at strukturere dette.
-
-En konkret opgave kunne se sådan ud:
-
-> Læs om Microservice Arkitektur
+I starten af 4. semester hvor jeg havde fokus på at benytte mig af [[Main/Noter/Getting things done\|GTD metoden]], samt benytte mig af læringsplaner. Dette resulterede i at jeg fik afsluttet rigtig mange "opgaver". Jeg benyttede mig af et systemet som hed [Task Warrior](https://taskwarrior.org/) til at strukturere dette.
 
 Jeg fløj gennem de opgaver jeg havde sat mig for at få afsluttet, men noget føltes *off*.
 
-Jeg fik afsluttet de opgaver jeg satte mig for, men lærte jeg  egenlig også noget?
+#### Udfordringen
+Jeg manglede et overordnet mål med min læring ud over min læringsplan og den mængde af opgaver jeg løst. Jeg manglede **sporbarheden** fra mine læringsmål ned i mine opgaver jeg lavede hver dag.
 
-Jeg vil nu tage dig med i processen hvordan sådan en "opgave" kunne forløbe i [[Main/Noter/Getting things done\|GTD]] og på samme måde med [[Main/Noter/Systemudvikling/Smart_Mål\|et smart mål]]efter. Så du kan se den process jeg gennemgik i løbet af 4. semester
+#### implementering af [[Main/Noter/Systemudvikling/Smart_Mål\|SMART mål]]
+Implementeringen af [[Main/Noter/Systemudvikling/Smart_Mål\|SMART mål]] betød for mig at der nu var **sporbarhed** fra de overordnede mål - helt ned til de daglige todo's jeg havde sat mig for.
 
-#### GTD
->Læs om Microservice Arkitektur
+Mit overordnede mål *blev præciseret* til at at være:
 
-**Kan det handles på?**
-ja det kan det. 
-**Kræver det flere trin?**
-Ja, denne vil kræve flere trin. Da den er ret vag defineret. Så det skulle ind i et projekt. Herefter skulle det indeles i flere trin som hver i sær lever op til [[Main/Noter/Getting things done\|GTD]].
-**Tager det mindre end to minutter**
-Nej - hvis det gjorde skulle man gøre det med det samme.
-**kan det udelegeres?**
-Nej
-**Planlæg**
-Jeg vil gøre det den og den dato
+> [!important] Få et 7-tal til eksamen den 18. December
 
-#### Smart mål
-> Læs om Microservice Arkitektur
+##### [[Main/Noter/Systemudvikling/Smart_Mål#Specifikt\|S]]
+Mit mål er [[Main/Noter/Systemudvikling/Smart_Mål#Specifikt\|specifikt]] på den måde at hvis der fx havde stået: "*jeg vil være den bedste datamatiker i hele verden*" ville dette være alt for bredt.
+##### [[Main/Noter/Systemudvikling/Smart_Mål#Målbart\|M]]
+Det er [[Main/Noter/Systemudvikling/Smart_Mål#Målbart\|målbart]] da det er tydeligt efter eksaminationen at jeg har fået over eller under 7.
 
-**Specifikt**
-Jeg vil gerne opnå viden om arkitekturen i microservices.
+##### [[Main/Noter/Systemudvikling/Smart_Mål#Attraktivt\|A]]
+Det er [[Main/Noter/Systemudvikling/Smart_Mål#Attraktivt\|attraktivt]] da en karakter som 7 vil gøre mig faglig stolt.
 
-**Målbart**
-Når jeg har læst om dette vil jeg have en brugbar viden om Microservice arkitektur.
+##### [[Main/Noter/Systemudvikling/Smart_Mål#Realistisk\|R]]
+Det er [[Main/Noter/Systemudvikling/Smart_Mål#Realistisk\|realistisk]] da jeg før har fået karakterer i  dette niveau.
 
-**Attraktivt**
-Jeg syntes emnet er utrolig interessant for min udvikling som programmør. 
-*Hvis det her var muligt at komme med et endnu mere konkret element der kunne gøre det attraktivt skal det være her i stedet*
+##### [[Main/Noter/Systemudvikling/Smart_Mål#Tidsbestemt\|T]]
+Det er [[Main/Noter/Systemudvikling/Smart_Mål#Tidsbestemt\|tidsbestemt]] da der er en meget præcis dato for eksaminationen
 
-**Realistisk**
-Ja, jeg vil godt kunne opnå viden inden for emnet.
+#### Hvad så nu?
+Nu hvor mit [[Opsummering af 4. semester#implementering af Smart_Mål SMART mål\|overordnede mål]] var sat på plads som et [[Main/Noter/Systemudvikling/Smart_Mål\|SMART mål]] kunne jeg nu begynde at dele min vej op i delmål for at nå mine læringsmål for hhv. [[Main/4. Semester/Læringsmål/Microservices læringsmål\|microservices]]og [[Main/4. Semester/Læringsmål/It-Sikkerhedslæringsmål\|It-Sikkerhed]].
 
-**Tidsbestemt**
-Jeg vil gøre det nu / Jeg sætter tid af man kl 8:45 - 9:45 til at gøre det
+Jeg fik brudt det ned i del mål som helt lav praktisk mundede ud i de opgaver jeg har på min todo liste hver dag til dette er redskabet [Todoist](https://todoist.com/) blevet brugt.
 
-
-Følgende er mine refleksioner om hvordan [[Main/Noter/Getting things done\|GTD]] og [[Main/Noter/Systemudvikling/Smart_Mål\|Smart mål]] virkede for mig.
-
-[[Main/Noter/Getting things done\|GTD]] blev hurtigt en metode til at få lavet en hulens masse ting. Når det er sagt er det også det den er lavet til. For mig var det *inbox'en* i denne metode det som virkede bedst. Det at have et sted hvor man kunne *læsse* alle tanker og ideer af var noget jeg endte med at gøre brug af i smart mål.
-[[Main/Noter/Getting things done\|GTD]] ligger også op til at man er i et team, ved at den har et trin hvor man skal, hvis man kan, udelegere ansvaret for opgaven. At have dette trin hver gang jeg skulle igennem når jeg lavede en opgave blev hurtigt trivielt.
-
-[[Main/Noter/Systemudvikling/Smart_Mål\|Smart mål]] blev metoden jeg forsøgte at skifte [[Main/Noter/Getting things done\|GTD]] ud med. Det som lokkede mig ved denne metode var at jeg ikke skulle ind dele/ opdele min opgave når jeg havde en.
-Det var bare at gå i gang, og hvis der skulle opstå flere "opgaver" løbende smed jeg dem ind i min *inbox* som jeg har for vane at gennemgå hver morgen.
-
-Et andet godt element var at "[time boxe](https://clockify.me/timeboxing)" opgaverne. Lidt det samme som i [[Main/Noter/Getting things done\|GTD]], dog valgte jeg at gøre mere ud af dette aspekt i [[Main/Noter/Systemudvikling/Smart_Mål\|Smart mål-metoden]]. 
+Når opgaverne er bundet sammen med det overordnede mål bliver det utroligt motiverende at få lavet dem. Kontra de opgaver som [[Main/Noter/Getting things done\|Getting things done]] metoden bragte på banen, som var opgaver der blot skulle udføres.
 
 ---
-Neden under er her en liste over de uger jeg har indført i læringsplanen.
+Nedenunder er her en liste over de uger jeg har indført i læringsplanen.
 [[Main/4. Semester/Læringsplan/33_34\|Uge 33 - 34]]
 [[Main/4. Semester/Læringsplan/35_36\|Uge 35 - 36]]
 [[Main/4. Semester/Læringsplan/37_38\|Uge 37 - 38]]
