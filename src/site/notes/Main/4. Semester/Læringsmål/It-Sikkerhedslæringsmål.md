@@ -59,7 +59,7 @@ Jeg kan **forklare og forsvare valg af sikkerhedsmekanismer** baseret på bedste
 #Sikkerhedsmekanismer #BestPractice #Trusselsbillede
 
 #### §9
-
+ 
 Jeg kan **indarbejde sikkerhedsprincipper i udviklingsprocessen**, herunder automatiserede tests og logning, så sikkerhed bliver en del af kodekulturen og deployment-processen.
 
 #Sikkerhedsprincipper #AutomatiseredeTests #Kodekultur #Deployment
