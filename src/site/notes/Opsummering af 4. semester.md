@@ -2,9 +2,8 @@
 {"dg-publish":true,"permalink":"/opsummering-af-4-semester/","created":"2024-11-06T08:44:04.025+01:00"}
 ---
 
-## Opsummering af læringsforløb - 4. semester
 
-Denne opsummering gennemgår mit læringsforløb på 4. semester af datamatikeruddannelsen, fra begyndelsen af august til slutningen af november, med et særligt fokus på **microservices** og **it-sikkerhed**. 
+Dette er en gennemgang mit læringsforløb på 4. semester af datamatikeruddannelsen, fra begyndelsen af august til slutningen af november, med et særligt fokus på **microservices** og **it-sikkerhed**. 
 
 Den indledende interesse for mere konventionelle sikkerhedstemaer udviklede sig til en dybere forståelse af, hvordan sikkerhed kan indlejres i microservices-arkitektur.
 ## Indledning
@@ -14,7 +13,7 @@ Mine oprindelige læringsmål fokuserede på ekstern sikkerhed og trusselshåndt
 
 Sikkerheden bliver en del af både arkitekturen og udviklingsprocessen, med fokus på autentifikation, autorisation og beskyttelse af interne [[Main/Noter/API\|API'er]]. Dette skifte blev centralt for mit videre arbejde og min forståelse af sikkerhed som en kontinuerlig praksis.
 
-## Diagram: Læringsforløb
+## Diagram over mit Læringsforløb
 
 ![It-sikkerhed_Læringsforløb.png](/img/user/Excalidraw/It-sikkerhed_L%C3%A6ringsforl%C3%B8b.png)
 
@@ -30,13 +29,14 @@ Min forståelse af it-sikkerhed centrerede sig om *netværksangreb* og *penetrat
 **Efter:**
 Jeg opdagede, at it-sikkerhed også handler om beskyttelse mod interne fejl og menneskelige fejl, som kan opstå under udvikling og implementering. 
 
->[!important] Især i en microservices-arkitektur er sikkerhed ikke et sidste trin, men snarere et integreret aspekt af designet. 
+>[!important] Fremhævet læring 
+>Især i en microservices-arkitektur er sikkerhed ikke et sidste trin, men snarere et integreret aspekt af designet. 
 
 Jeg har derfor fokuseret på at beskytte [[Main/Noter/API\|API'er]] mod autorisationsfejl, gennemføre rate limiting og anvende moderne sikkerhedsløsninger som [[Main/Noter/JWT token\|JWT]], der beskytter mod misbrug og dataeksponering i [[Main/Noter/API\|API'er]]
 
 ## Udvikling af læringsmål og hvordan de er opnået
 
-Jeg opnåede mine læringsmål ved at dykke ned i *distributed systems*, *Microservices* og _eventual consistency_, hvilket har været særligt relevant i microservices-arkitekturen. 
+Jeg opnåede mine læringsmål ved at dykke ned i [[Distribuerede systemer\|Distribuerede systemer]], [[Main/Noter/Emner/Backend/Microservice\|Microservice]] og [[Eventual Consistency\|eventual consistency]] , hvilket har været særligt relevant for microservices-arkitekturen. 
 
 Implementeringen af [[Main/Noter/RabbitMQ\|RabbitMQ]] som [[Main/Noter/Message Brokers\|message broker]] for asynkron kommunikation har givet mig erfaring med [at sikre systemets konsistens over tid](https://en.wikipedia.org/wiki/Eventual_consistency). Dette har givet mig en praktisk forståelse af, hvordan microservices kan kommunikere og opretholde dataintegritet, selv under forsinkelser.
 
@@ -45,13 +45,13 @@ Implementeringen af [[Main/Noter/RabbitMQ\|RabbitMQ]] som [[Main/Noter/Message B
 
 Jeg brugte [[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]] aktivt til at strukturere mit arbejde og reflektere over læringsprocessen. Mit oprindelige fokus var inspireret af [[Main/Noter/Getting things done\|Getting Things Done (GTD)-metoden]], men denne viste sig for bred til de konkrete mål og milepæle, som jeg ønskede at nå i forbindelse med sikkerhed og microservices. 
 
-> [!note] Metoden hang ikke godt nok sammen med mine læringsplaner.
+> [!note] [[Main/Noter/Getting things done\|GTD-Metoden]] hang ikke godt nok sammen med mine læringsplaner.
 
 ![Pasted image 20241112130322.png](/img/user/Pasted%20image%2020241112130322.png)
 
-Derfor skiftede jeg til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]], hvilket skabte en klarere ramme for både ambitioner og tidsplan.
+Derfor skiftede jeg til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] efter efterårs ferien, hvilket skabte en klarere ramme for både mine *ambitioner* og *tidsplan*.
 
-**Refleksion:** Efter hvert sprint evaluerede jeg, hvilke dele af processen der fungerede optimalt, og hvilke der kunne forbedres. [[Main/Noter/Getting things done\|GTD-metoden]] viste sig *mindre velegnet* til min målsætning, hvilket førte til overgangen til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] som et mere fokuseret værktøj.
+**Refleksion:** Efter hvert sprint evaluerede jeg, hvilke dele af processen der fungerede optimalt, og hvilke der kunne forbedres. [[Main/Noter/Getting things done\|GTD-metoden]] viste sig *mindre velegnet* til min målsætning, hvilket førte til overgangen til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]], som et mere fokuseret værktøj.
 
 **Abstrakt Begrebsdannelse:** Refleksionerne førte til en justering af læringsmålene. [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-målene]] gjorde mine mål specifikke og målbare, hvilket hjalp mig til at opnå bedre overblik og mere præcise fremskridt.
 
@@ -68,7 +68,7 @@ I starten af 4. semester hvor jeg havde fokus på at benytte mig af [[Main/Noter
 Jeg fløj gennem de opgaver jeg havde sat mig for at få afsluttet, men noget føltes *off*.
 
 #### Udfordringen
-Jeg manglede et overordnet mål med min læring ud over min læringsplan og den mængde af opgaver jeg løst. Jeg manglede **sporbarheden** fra mine læringsmål ned i mine opgaver jeg lavede hver dag.
+På papiret syntes opgaverne at hænge sammen med målet, men ved nærmere eftertanke manglede der *en klar forbindelse*. Problemet var, at jeg ikke havde etableret en tydelig **sporbarhed** fra mine overordnede læringsmål til de konkrete opgaver, jeg arbejdede med i hverdagen. Dermed blev det svært at vurdere, om de daglige opgaver faktisk bidrog til at opfylde målene.
 
 #### implementering af [[Main/Noter/Systemudvikling/Smart_Mål\|SMART mål]]
 Implementeringen af [[Main/Noter/Systemudvikling/Smart_Mål\|SMART mål]] betød for mig at der nu var **sporbarhed** fra de overordnede mål - helt ned til de daglige todo's jeg havde sat mig for.
