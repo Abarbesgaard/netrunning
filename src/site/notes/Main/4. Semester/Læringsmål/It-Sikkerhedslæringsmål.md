@@ -8,7 +8,7 @@
 
 #### §1
 
-Jeg har viden om **OWASP Top 10 sikkerhedstrusler** og forstår, hvordan man opbygger forsvarsmekanismer i API'er og microservices for at reducere risici fra starten.
+Jeg har viden om **OWASP Top 10 sikkerhedstrusler** og forstår, hvordan man opbygger forsvarsmekanismer i [[Main/Noter/API\|API'er]] og [[Main/Noter/Emner/Backend/Microservice\|microservices]] for at reducere risici fra starten.
 
 #OWASP_Top_10 #API-Sikkerhed #Microservices
 
@@ -20,7 +20,7 @@ Jeg har kendskab til **DDoS-beskyttelse** og værktøjer til overvågning af bel
 
 #### §3
 
-Jeg har indsigt i **sikkerhedsudfordringer i microservices**, og kan bruge værktøjer som API Gateways, autentificeringsprotokoller og kryptering til at beskytte service-til-service kommunikation.
+Jeg har indsigt i **sikkerhedsudfordringer i [[Main/Noter/Emner/Backend/Microservice\|microservices]]**, og kan bruge værktøjer som [[Main/Noter/API-Gateway\|API Gateways]], autentificeringsprotokoller og kryptering til at beskytte service-til-service kommunikation.
 
 #Microservices #Autentificering #Kryptering #APIGateway
 
@@ -34,7 +34,7 @@ Jeg kan **bygge sikkerhedsmekanismer ind i kode**, herunder rate limiting, adgan
 
 #### §5
 
-Jeg kan **integrere API Gateways, OAuth2 og Zero Trust-principper** for at skabe et multi-lags forsvar, der hjælper med adgangskontrol og overvågning.
+Jeg kan **integrere [[Main/Noter/API-Gateway\|API Gateways]] og [[Zero Trust\|Zero Trust]]-principper** for at skabe et multi-lags forsvar, der hjælper med adgangskontrol og overvågning.
 
 #ZeroTrust #APIGateway #OAuth2 #Forsvar
 
@@ -63,13 +63,6 @@ Jeg kan **forklare og forsvare valg af sikkerhedsmekanismer** baseret på bedste
 Jeg kan **indarbejde sikkerhedsprincipper i udviklingsprocessen**, herunder automatiserede tests og logning, så sikkerhed bliver en del af kodekulturen og deployment-processen.
 
 #Sikkerhedsprincipper #AutomatiseredeTests #Kodekultur #Deployment
-
-#### §10
-
-Jeg kan **sikre kommunikation og datafortrolighed i RabbitMQ**, så applikationen beskytter følsomme data ved hjælp af TLS-kryptering for at forhindre uautoriseret adgang og opsnapning af beskeder mellem tjenester.
-
-#TLS #RabbitMQ #Kryptering #Databeskyttelse #SikkerKommunikation
-
 
 ##### Change log
 *2024-10-29*: læringsmål er rettet til og afventer godkendelse
