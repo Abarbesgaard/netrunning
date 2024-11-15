@@ -34,7 +34,7 @@ Jeg kan **bygge sikkerhedsmekanismer ind i kode**, herunder rate limiting, adgan
 
 #### §5
 
-Jeg kan **integrere [[Main/Noter/API-Gateway\|API Gateways]] og [[Zero Trust\|Zero Trust]]-principper** for at skabe et multi-lags forsvar, der hjælper med adgangskontrol og overvågning.
+Jeg kan **integrere [[Main/Noter/API-Gateway\|API Gateways]] og [[Main/Noter/Zero Trust\|Zero Trust]]-principper** for at skabe et multi-lags forsvar, der hjælper med adgangskontrol og overvågning.
 
 #ZeroTrust #APIGateway #OAuth2 #Forsvar
 

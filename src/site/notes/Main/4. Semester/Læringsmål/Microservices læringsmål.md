@@ -7,11 +7,11 @@
 ### Viden
 
 #### §1
-Jeg har viden om, hvordan **[[Main/Noter/Emner/Backend/Microservice\|microservices]] fungerer**, og deres **fordele** og **ulemper** sammenlignet med [[Monolitiske Applikationer\|monolitiske applikationer]].
+Jeg har viden om, hvordan **[[Main/Noter/Emner/Backend/Microservice\|microservices]] fungerer**, og deres **fordele** og **ulemper** sammenlignet med [[Main/Noter/Monolitiske Applikationer\|monolitiske applikationer]].
 
 #Microservices #Monolit 
 #### §2
-Jeg kan forklare forskellene mellem **[[Main/Noter/Emner/Backend/Microservice\|microservices]]** og **[[Monolitiske Applikationer\|monolitiske applikationer]]**, samt hvornår man bør vælge den ene arkitektur over den anden.
+Jeg kan forklare forskellene mellem **[[Main/Noter/Emner/Backend/Microservice\|microservices]]** og **[[Main/Noter/Monolitiske Applikationer\|monolitiske applikationer]]**, samt hvornår man bør vælge den ene arkitektur over den anden.
 
 #Arkitektur #Skalerbarhed #Vedligeholdelse
 #### §3
@@ -21,7 +21,7 @@ Jeg har viden om forskellige **kommunikationsmetoder** mellem [[Main/Noter/Emner
 ### Færdigheder
 
 #### §4
-Jeg kan implementere et [[Main/Noter/Emner/Backend/Microservice\|microservice-mønster]] for at sigte med [[Eventual Consistency\|Eventual Consistency]] . Dette for at sikre håndtering af distribuerede transaktioner med minimal dataanomalier.
+Jeg kan implementere et [[Main/Noter/Emner/Backend/Microservice\|microservice-mønster]] for at sigte med [[Main/Noter/Eventual Consistency\|Eventual Consistency]] . Dette for at sikre håndtering af distribuerede transaktioner med minimal dataanomalier.
 
 #SagaMønster #EventualConsistency #DistribueredeTransaktioner
 #### §5
@@ -29,7 +29,7 @@ Jeg kan implementere en [[Main/Noter/API-Gateway\|API Gateway]] til at håndtere
 
 #APIGateway #ServiceMesh #Autorisation #Autentificering 
 #### §6
-Jeg kan evaluere [[Main/Noter/Emner/Backend/Microservice\|microservice-]] og [[Monolitiske Applikationer\|monolitiske arkitekturer]] baseret på deres *sikkerhed*, *vedligeholdelse* og *skalerbarhed*, og anvende denne viden til at anbefale den bedst egnede arkitektur til et specifikt projekt.
+Jeg kan evaluere [[Main/Noter/Emner/Backend/Microservice\|microservice-]] og [[Main/Noter/Monolitiske Applikationer\|monolitiske arkitekturer]] baseret på deres *sikkerhed*, *vedligeholdelse* og *skalerbarhed*, og anvende denne viden til at anbefale den bedst egnede arkitektur til et specifikt projekt.
 
 #Arkitekturevaluering #Sikkerhed #Skalerbarhed
 
