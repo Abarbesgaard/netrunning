@@ -40,33 +40,18 @@ Et specifikt mål gør det tydeligt, hvornår du har opnået det, og hvilke hand
 
 ### Målbart
 
-> [!important] Hvornår er du i mål?
+> [!important] Hvordan kan man specifikt måle fremgangen i målet?
 
-For en datamatikerstuderende er det afgørende at sætte klare og målbare kriterier for både det endelige *mål* og *delmålene*, der fører derhen. På den måde kan man løbende vurdere sin fremgang og holde motivationen høj. 
-Svar på spørgsmål som: “*Hvad skal der helt konkret ske, før jeg kan sige, at jeg er i mål?*” og “*Hvilke trin skal jeg tage undervejs?*”
+For en datamatikerstuderende er det afgørende at sætte **klare og målbare kriterier** for både det endelige *mål* og *delmålene*, der fører derhen. På den måde kan man løbende vurdere sin fremgang og holde motivationen høj. 
 
 Eksempler på mål og delmål for en datamatiker:
 
->[!Example] Færdiggøre uddannelsen
->Aflevere og bestå min afsluttende eksamensopgave med en karakter på mindst 10 inden juni næste år.
-
 >[!Example] Færdigheder i programmering
-> Udvikle mindst 3 komplette projekter i C# og SQL, herunder en applikation, der bruger en [[Main/Noter/Programmering/REST API\|REST API]], inden slutningen af det nuværende semester.
+> Udvikle **mindst 3 komplette projekter** i C# og SQL, herunder en applikation, der bruger en [[Main/Noter/Programmering/REST API\|REST API]], inden **den 31. December**, slutningen af det nuværende semester.
 
 
 >[!Example] Samarbejde i grupper
->Deltage aktivt i mindst 5 gruppemøder i løbet af projektperioden, hvor jeg bidrager med mindst én løsningsidé og skriver referater for mindst to af møderne.
-
->[!Example] Automatiserede tests
->Implementere enhedstests i mindst 80 % af koden i mit afsluttende projekt, og sikre en testdækning på minimum 70 % inden aflevering.
-
->[!Example] Faglig profilering
->Opbygge en GitHub-portefølje med mindst 5 projekter, som skal inkludere dokumentation og en README-fil, inden jeg søger praktikplads i marts.
-
->[!Example] Netværk
->Kontakte mindst 10 virksomheder inden december for at høre om praktikmuligheder, hvoraf mindst 3 skal føre til konkrete samtaler.
-
-Ved at bryde dem ned i mindre delmål skabes en struktur, der sikrer løbende fremgang og høj motivation.
+>Deltage aktivt i **mindst 5 gruppemøder** i løbet af projektperioden fra den 1. August 2023 til 31. December 2023, hvor jeg bidrager med *mindst én løsningsidé* og skriver referater for mindst **to** af møderne.
 
 ### Attraktivt
 
