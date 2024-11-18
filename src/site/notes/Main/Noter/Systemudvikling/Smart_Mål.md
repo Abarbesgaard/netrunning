@@ -22,72 +22,103 @@ De **fem** krav i SMART-modellen er:
 
 ### Specifikt
 
-> [!important] hvad er det helt præcist, du vil opnå?
+> [!important] Hvad er det helt præcist, du vil opnå?
 
-Vær så præcis omkring, hvad det er du vil opnå, som du kan. Prøv at se
-forskellen på de her to mål:
-> [!example] Mål 1
-> Jeg vil være den bedste kok i verden.
+For at dit mål skal være specifikt, skal det defineres klart og uden tvetydighed. Jo mere præcis du er, desto lettere bliver det at forstå, hvad du stræber efter, og hvordan du når dertil. Se forskellen på de to mål:
 
-> [!Example] Mål 2
->  Jeg vil være kok på en trestjernet Michelin restaurant inden vi går ind i 2017.
+> [!example] Mål 1  
+> Jeg vil være en dygtig datamatiker.
 
-Det første mål er ikke særlig konkret.
+> [!example] Mål 2  
+> Jeg vil færdiggøre min datamatikeruddannelse med et gennemsnit på mindst 10 og sikre mig en praktikplads i en virksomhed, der arbejder med .NET, inden juni 2025.
 
-For hvad vil det egentlig sige at være den bedste. Det er jo individuelt.
-Det kan være, at du vil være den bedste kok på Bing Bongo John Kro for lige netop
-de gæster, som du laver mad til. Eller det kan være, at din definition af
-verdens bedste kok er tæt bundet op med Michelin guidens anbefalinger. Forskellen
-på de to mål er, at du rent faktisk kan sige, nu har jeg opnået et jeg ville
-med det her mål til nummer to. Det kan du ret beset ikke med mål nummer ét.
-For hvad vil det sige at være den bedste.
+**Det første mål** er vagt og mangler klare kriterier for, hvad det betyder at være en "dygtig datamatiker." Det kan betyde forskellige ting for forskellige mennesker – er det at få høje karakterer, at mestre programmering eller at få et job?
+
+**Det andet mål** er præcist og sætter en klar retning. Det definerer både, hvad der skal opnås (en uddannelse med et specifikt gennemsnit og en praktikplads), og hvornår det skal ske (juni 2025). 
+
+Et specifikt mål gør det tydeligt, hvornår du har opnået det, og hvilke handlinger der skal til for at nå det.
 
 ### Målbart
 
 > [!important] Hvornår er du i mål?
 
-Du skal kunne svare på, hvornår du er i mål. *Og du skal kunne svare på det
-i søvne.*
+For en datamatikerstuderende er det afgørende at sætte klare og målbare kriterier for både det endelige *mål* og *delmålene*, der fører derhen. På den måde kan man løbende vurdere sin fremgang og holde motivationen høj. 
+Svar på spørgsmål som: “*Hvad skal der helt konkret ske, før jeg kan sige, at jeg er i mål?*” og “*Hvilke trin skal jeg tage undervejs?*”
 
-For hvis du ikke ved det helt præcist, så er det let at lade deadline
-skride, slække på kravene og måske give op på halvvejen. Du skal
-simpelthen vide præcis, hvilke kriterier der skal være opfyldt
-før, at du har nået dit mål og kan lade champagnepropperne springe.
+Eksempler på mål og delmål for en datamatiker:
 
-Og du skal også sætte målbare kriterier op, selvom det måske handler om blødere
-ting som personlig udvikling.
+>[!Example] Færdiggøre uddannelsen
+>Aflevere og bestå min afsluttende eksamensopgave med en karakter på mindst 10 inden juni næste år.
+
+>[!Example] Færdigheder i programmering
+> Udvikle mindst 3 komplette projekter i C# og SQL, herunder en applikation, der bruger en [[Main/Noter/Programmering/REST API\|REST API]], inden slutningen af det nuværende semester.
+
+
+>[!Example] Samarbejde i grupper
+>Deltage aktivt i mindst 5 gruppemøder i løbet af projektperioden, hvor jeg bidrager med mindst én løsningsidé og skriver referater for mindst to af møderne.
+
+>[!Example] Automatiserede tests
+>Implementere enhedstests i mindst 80 % af koden i mit afsluttende projekt, og sikre en testdækning på minimum 70 % inden aflevering.
+
+>[!Example] Faglig profilering
+>Opbygge en GitHub-portefølje med mindst 5 projekter, som skal inkludere dokumentation og en README-fil, inden jeg søger praktikplads i marts.
+
+>[!Example] Netværk
+>Kontakte mindst 10 virksomheder inden december for at høre om praktikmuligheder, hvoraf mindst 3 skal føre til konkrete samtaler.
+
+Ved at bryde dem ned i mindre delmål skabes en struktur, der sikrer løbende fremgang og høj motivation.
 
 ### Attraktivt
 
->[!important] Hvorfor du at kæmpe for at nå det her mål?
+> [!important] Hvorfor vil du kæmpe for at nå det her mål?
 
-Hvad er det, der gør, at du gider spæne gennem ild, vand og alverdens farer for at nå det her mål? Hvis det er fordi, at din direktør siger, at du skal, så kan du godt regne med, at motivationen ikke er i toppen. Og den er i hvert fald slet ikke lige så meget på toppen, som hvis du finder motivationen inde i dig selv. 
+For at et mål skal være attraktivt, skal det være noget, der virkelig motiverer dig. Du skal finde den indre drivkraft, der gør, at du er villig til at investere tid, energi og måske også ofre nogle ting for at nå det. Se forskellen på de to tilgange:
 
-Det er dig, der skal kæmpe for at nå dit mål. 
+> [!example] Mål 1  
+> Jeg vil opnå mit mål, fordi min underviser siger, at det er vigtigt for min karriere.
 
-Dag og nat. 
+> [!example] Mål 2  
+> Jeg vil opnå mit mål, fordi jeg brænder for at udvikle software, der gør en forskel for andre, og jeg ønsker at sikre mig et job, hvor jeg kan arbejde med projekter, der kombinerer kreativitet og teknologi.
 
-Tidligt og sent. 
+**Det første mål** er baseret på andres forventninger, hvilket sjældent er nok til at opretholde motivationen i længere tid. Når motivationen ikke kommer indefra, kan det være svært at blive ved, når det bliver udfordrende.
 
-Hvis det er det, der skal til.
+**Det andet mål** fokuserer på din egen passion og dine personlige drømme. Når du selv tror på målet og kan se, hvordan det hænger sammen med det, du ønsker i livet, vil du være mere engageret og klar til at arbejde hårdt for det – dag og nat, hvis nødvendigt.
 
-> [!fact] Rigtig mange når ikke deres mål, fordi de stræber efter andres.
-
+Gør dit mål attraktivt ved at finde den indre grund, der får dig til at kæmpe for det, og sørg for, at det afspejler dine egne værdier og ambitioner frem for andres forventninger.
 ### Realistisk
 
->[!important] Har du de nødvendige ressourcer til at nå dit mål?
+> [!important] Har du de nødvendige ressourcer til at nå dit mål?
 
-Du kan have meget på listen over ting, som du gerne vil nå.
-Men virkeligheden er klog. 
+For at et mål skal være realistisk, skal det tage højde for dine ressourcer, tid og omstændigheder. Det handler ikke om at nedtone ambitionerne, men om at sikre, at dit mål kan opnås inden for de rammer, du har. Se forskellen på de to tilgange:
 
-Så du skal ikke blive overambitiøs og prøve at snyde realiteterne. Hvis du er alt for optimistisk med tiden, så risikerer du bare, at du helt mister pusten, når du for alvor begynder at sakke bagud.
+> [!example] Mål 1  
+> Jeg vil lære tre nye programmeringssprog, udvikle ti projekter og blive ekspert i AI inden for de næste tre måneder.
+
+> [!example] Mål 2  
+> Jeg vil mestre C# og SQL, færdiggøre to praktiske projekter og lære grundlæggende AI-koncepter inden for det næste år ved at afsætte 10 timer om ugen til målrettet læring.
+
+**Det første mål** er urealistisk, da det kræver en enorm mængde tid og ressourcer, som sandsynligvis ikke er tilgængelige. Resultatet vil ofte være frustration og risiko for at give op.
+
+**Det andet mål** er realistisk, fordi det tager højde for, hvad der faktisk kan opnås inden for en rimelig tidsramme. Det bygger på en vurdering af, hvor meget tid og energi der kan investeres, og hvordan ressourcer som studiematerialer og vejledning kan bruges optimalt.
+
+Et realistisk mål giver dig en klar plan og gør det muligt at opnå succes, uden at du overbelaster dig selv. Vurder dine ressourcer ærligt, og sørg for, at målet passer til dine omstændigheder og kapacitet.
 
 ### Tidsbestemt
 
 > [!important] Hvad er din deadline?
 
-Deadline er både noget vi frygter, og noget vi ser frem til. Hvis du sætter et godt mål. Måske endda gode delmål. Så bliver deadline også noget, som du ser frem til. For du er jo topmotiveret for alle de attraktive ting, det fører med sig, at du når dit mål.
+For at sikre, at dit mål bliver opnået, skal det have en klar deadline. Deadlines kan både motivere og skabe en struktur, der holder dig på sporet. Uden en fastlagt tidsramme risikerer du at udskyde opgaven og miste momentum. Se forskellen på de to tilgange:
 
-Så sæt en konkret deadline på fra starten. Hvis du ikke ved, hvilken dag og hvornår på dagen du skal være i mål, så er der ingen grund til at starte. Så kan du altid udskyde det.
+> [!example] Mål 1  
+> Jeg vil lære at kode i C#.
+
+> [!example] Mål 2  
+> Jeg vil lære at kode i C# og bygge et simpelt [[Main/Noter/API\|API]], som jeg kan fremvise, inden den 31. marts 2025.
+
+**Det første mål** mangler en tidsramme, hvilket gør det svært at prioritere og fastholde fremdriften. Det kan altid "vente til senere."
+
+**Det andet mål** er klart og tidsbestemt, hvilket skaber en følelse af ansvar og presser dig til at handle. Når du ved præcis, hvornår målet skal være opnået, kan du planlægge din indsats mere effektivt og sætte delmål, der hjælper dig med at nå i mål.
+
+En tydelig deadline skaber struktur, motivation og gør dit mål målbart. Vær konkret – skriv datoen ned og følg op regelmæssigt for at sikre, at du holder tidsplanen.
 
 
