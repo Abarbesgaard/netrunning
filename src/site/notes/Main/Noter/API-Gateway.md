@@ -41,11 +41,11 @@ Udover at dirigere trafik, kan API Gateway'er også tilbyde ekstra funktionalite
     
 2. **Kong**: [Kong](https://konghq.com/products/kong-gateway) er en open-source API Gateway, der tilbyder avancerede funktioner som autentificering, rate limiting, logging og monitoring, og den kan nemt integreres med microservices-arkitekturer.
     
-3. **Traefik**: [[Traefik\|Traefik]] er en moderne reverse proxy og load balancer, der er meget populær i Docker- og Kubernetes-miljøer. Den er dynamisk og automatisk opdager tjenester i et containerbaseret miljø.
+3. **Traefik**: [[Main/Noter/Traefik\|Traefik]] er en moderne reverse proxy og load balancer, der er meget populær i Docker- og Kubernetes-miljøer. Den er dynamisk og automatisk opdager tjenester i et containerbaseret miljø.
     
 4. **AWS API Gateway**: [AWS API Gateway](https://aws.amazon.com/api-gateway/) er en fuldt administreret service, der giver udviklere mulighed for at oprette, administrere og sikre [[Main/Noter/API\|API'er]] i cloudmiljøer.
 
-![Pasted image 20241119082400.png](/img/user/Pasted%20image%2020241119082400.png)
+![API-gateway example.png](/img/user/API-gateway%20example.png)
 *Billede fra [blog.treblle](https://blog.treblle.com/what-is-an-api-gateway-and-when-do-i-need-one/)*
 ### Fordele ved at bruge en Reverse Proxy/API Gateway
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/noter/systemudvikling/smart-mal/","title":"Smart Mål","hide":true,"tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-09-20T10:05:41.522+02:00"}
+{"dg-publish":true,"permalink":"/main/noter/systemudvikling/smart-mal/","title":"Smart Mål","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-09-20T10:05:41.522+02:00"}
 ---
 
 
@@ -24,7 +24,8 @@ De **fem** krav i SMART-modellen er:
 
 > [!important] Hvad er det helt præcist, du vil opnå?
 
-For at dit mål skal være specifikt, skal det defineres klart og uden tvetydighed. Jo mere præcis du er, desto lettere bliver det at forstå, hvad du stræber efter, og hvordan du når dertil. Se forskellen på de to mål:
+For at dit mål skal være specifikt, skal det defineres klart og uden tvetydighed. Jo mere *præcis* du er, desto lettere bliver det at forstå, hvad du stræber efter, og hvordan du når dertil. 
+Se forskellen på de følgende to mål:
 
 > [!example] Mål 1  
 > Jeg vil være en dygtig datamatiker.
@@ -32,7 +33,7 @@ For at dit mål skal være specifikt, skal det defineres klart og uden tvetydigh
 > [!example] Mål 2  
 > Jeg vil færdiggøre min datamatikeruddannelse med et gennemsnit på mindst 10 og sikre mig en praktikplads i en virksomhed, der arbejder med .NET, inden juni 2025.
 
-**Det første mål** er vagt og mangler klare kriterier for, hvad det betyder at være en "dygtig datamatiker." Det kan betyde forskellige ting for forskellige mennesker – er det at få høje karakterer, at mestre programmering eller at få et job?
+**Det første mål** er vagt og mangler klare kriterier for, hvad det betyder at være en "*dygtig datamatiker.*" Det kan betyde forskellige ting for forskellige mennesker – er det at få høje karakterer, at mestre programmering eller at få et job?
 
 **Det andet mål** er præcist og sætter en klar retning. Det definerer både, hvad der skal opnås (en uddannelse med et specifikt gennemsnit og en praktikplads), og hvornår det skal ske (juni 2025). 
 

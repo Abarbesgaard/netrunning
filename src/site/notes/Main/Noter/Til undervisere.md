@@ -11,10 +11,10 @@ Denne portefølje fremhæver mine erfaringer og færdigheder inden for **microse
 Jeg har lavet denne side så **du** hurtigt kan finde frem til det, som vil være relevant for dig.
 
 Siden er inddelt i de *fire* emner:
-1. **Microservices**
-2. **It-Sikkerhed**
-3. **Process**
-4. **Projekt**
+1. **[[Main/Noter/Til undervisere#Microservices\|Microservices]]**
+2. **[[Main/Noter/Til undervisere#It-Sikkerhed\|It-Sikkerhed]]**
+3. **[[Main/Noter/Til undervisere#Process\|Process]]**
+4. **[[Main/Noter/Til undervisere#Projekt\|Projekt]]**
 
 ---
 ## Microservices
@@ -56,7 +56,7 @@ Jeg havde fokus på hvordan et trusselsbillede kan se ud for en umiddelbar simpe
 ## Process
 ![Pasted image 20241106095904.png](/img/user/Pasted%20image%2020241106095904.png)
 
-[[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]]hjalp mig med at strukturere mine refleksioner og evalueringer, og overgangen til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] har givet en ny ramme for effektiv opgaveløsning og målrettet fremgang.
+[[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]]hjalp mig med at strukturere mine refleksioner og evalueringer, og overgangen til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] har givet en ny ramme for *effektiv opgaveløsning* og *målrettet fremgang*.
 
 Opsummering og refleksion over læringsforløbet kan du se via følgende link:
 [[Main/Noter/Opsummering af 4. semester\|Opsummering af 4. semester]]

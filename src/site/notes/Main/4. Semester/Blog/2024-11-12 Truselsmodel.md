@@ -15,7 +15,7 @@ Den sikkerhedsmæssige tilgang jeg har læst meget om i forhold til en tradition
  ```
 
 
-![Pasted image 20241119084917.png](/img/user/Pasted%20image%2020241119084917.png)
+![Walled garden.png](/img/user/Walled%20garden.png)
 *Billedet er fra [propertylistings](https://propertylistings.ft.com/propertynews/united-kingdom/7284-wall-encompassing-a-short-history-of-the-walled-garden.html)*
 
 Alt der skulle snakke med appen ude fra skulle igennem muren først. Men når man så var forbi muren var der dømt "fri leg".
