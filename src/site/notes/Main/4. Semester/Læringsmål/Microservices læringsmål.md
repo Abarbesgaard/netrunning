@@ -15,7 +15,7 @@ Jeg kan forklare forskellene mellem **[[Main/Noter/Emner/Backend/Microservice\|m
 
 #Arkitektur #Skalerbarhed #Vedligeholdelse
 #### §3
-Jeg har viden om forskellige **kommunikationsmetoder** mellem [[Main/Noter/Emner/Backend/Microservice\|microservices]], såsom [[Main/Noter/Programmering/REST API\|REST API]]  og [[Main/Noter/Message Brokers\|Message Brokers]] (f.eks. [[Main/Noter/RabbitMQ\|RabbitMQ]]).
+Jeg har viden om **kommunikationsmetoder** mellem [[Main/Noter/Emner/Backend/Microservice\|microservices]], såsom [[Main/Noter/Programmering/REST API\|REST API]]  og [[Main/Noter/Message Brokers\|Message Brokers]] (f.eks. [[Main/Noter/RabbitMQ\|RabbitMQ]]).
 
 #Kommunikationsmetoder #RESTAPI #MessageBrokers
 ### Færdigheder
@@ -36,7 +36,7 @@ Jeg kan evaluere [[Main/Noter/Emner/Backend/Microservice\|microservice-]] og [[M
 ### Kompetencer
 
 #### §7
-Jeg kan *designe* og *implementere* robuste [[Main/Noter/Emner/Backend/Microservice\|microservice-løsninger]], der sikrer høj tilgængelighed ved brug af [[Main/Noter/Message Brokers\|Message Brokers]] .
+Jeg kan *designe* og *implementere* robuste [[Main/Noter/Emner/Backend/Microservice\|microservice-løsninger]], der sikrer [[CAP theorem\|CAP theorem]]høj tilgængelighed ved brug af [[Main/Noter/Message Brokers\|Message Brokers]] .
 
 #Tilgængelighed #MessageBrokers
 #### §8

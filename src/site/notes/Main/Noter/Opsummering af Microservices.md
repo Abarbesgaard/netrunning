@@ -3,7 +3,7 @@
 ---
 
 Igennem mit fokus på [[Main/Noter/Emner/Backend/Microservice\|Microservice]] og især på [[Main/Noter/Message Brokers\|message brokers]] , som [[Main/Noter/RabbitMQ\|RabbitMQ]], har jeg opnået både en dybere teoretisk forståelse og praktisk færdighed i at bygge [[Main/Noter/Distribuerede systemer\|distribuerede systemer]]. 
-Mit læringsarbejde har kredset om at implementere en fleksibel og skalerbar [[Main/Noter/Emner/Backend/Microservice\|microservice-arkitektur]], og jeg har gennem [[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]] (oplevelse, refleksion, abstraktion og eksperimentering) fået skabt en solid viden og kompetencer til fremtidige projekter.
+Mit læringsarbejde har kredset om at implementere en fleksibel og skalerbar [[Main/Noter/Emner/Backend/Microservice\|microservice-arkitektur]], og jeg har gennem [[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]] (*oplevelse*, *refleksion*, *abstraktion* og *eksperimentering*) fået skabt et solidt videns fundament og kompetencer til fremtidige projekter.
 
 ## Læringsmål og opnåelser
 
@@ -11,7 +11,7 @@ Mit læringsarbejde har kredset om at implementere en fleksibel og skalerbar [[M
 
 Jeg har tilegnet mig en grundlæggende forståelse af, hvordan [[Main/Noter/Emner/Backend/Microservice\|microservices]] adskiller sig fra [[Main/Noter/Monolitiske Applikationer\|monolitiske applikationer]], både på strukturelt og organisatorisk niveau. 
 
-*Fordele* ved [[Main/Noter/Emner/Backend/Microservice\|microservices]], såsom modularitet og skalerbarhed, står klart, men også *ulemper* som den øgede kompleksitet i distribution og opsætning af kommunikation mellem tjenester.
+*Fordele* ved [[Main/Noter/Emner/Backend/Microservice\|microservices]], såsom *modularitet* og *skalerbarhed*, står klart, men også *ulemper* som den øgede kompleksitet i distribution og opsætning af kommunikation mellem tjenester.
 
 > [!Important] citat
 > Microservices **køber** dig flere muligheder
@@ -20,7 +20,7 @@ Jeg har tilegnet mig en grundlæggende forståelse af, hvordan [[Main/Noter/Emne
 
 *Kommunikation mellem microservices* er en afgørende faktor i opbygning af et distribueret system, og her har jeg arbejdet med REST [[Main/Noter/API\|API’er]], og [[Main/Noter/Message Brokers\|message brokers]]. 
 
-[[Main/Noter/RabbitMQ\|RabbitMQ]] har været mit primære fokus som  [[Main/Noter/Message Brokers\|message brokers]], hvilket har åbnet mulighederne for asynkron kommunikation og bidraget til at implementere [[Main/Noter/Eventual Consistency\|Eventual Consistency]].
+[[Main/Noter/RabbitMQ\|RabbitMQ]] har været **mit primære fokus** som  [[Main/Noter/Message Brokers\|message brokers]], hvilket har åbnet mulighederne for asynkron kommunikation og bidraget til at implementere [[Main/Noter/Eventual Consistency\|Eventual Consistency]].
 
 ### §4: Eventual Consistency med Message Brokers
 

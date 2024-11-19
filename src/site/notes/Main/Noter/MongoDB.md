@@ -67,7 +67,7 @@ MongoDB tilbyder et bredt udvalg af værktøjer, der gør det nemmere at adminis
 
 Selvom MongoDB har mange fordele, er der også nogle potentielle ulemper:
 
-- **Manglende transaktioner**: MongoDB tilbyder transaktioner, men disse er ofte mere begrænsede sammenlignet med relationelle databaser, hvilket kan være en ulempe for applikationer, der kræver stærke [[ACID\|ACID]]-egenskaber.
+- **Manglende transaktioner**: MongoDB tilbyder transaktioner, men disse er ofte mere begrænsede sammenlignet med relationelle databaser, hvilket kan være en ulempe for applikationer, der kræver stærke [[Main/Noter/ACID\|ACID]]-egenskaber.
     
 - **Øget kompleksitet ved skalerbarhed**: Selvom **MongoDB** understøtter horisontal skalering, kan sharding og datadistribution blive komplekst at håndtere.
     

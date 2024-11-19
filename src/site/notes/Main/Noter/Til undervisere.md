@@ -59,7 +59,7 @@ Jeg havde fokus på hvordan et trusselsbillede kan se ud for en umiddelbar simpe
 [[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]]hjalp mig med at strukturere mine refleksioner og evalueringer, og overgangen til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] har givet en ny ramme for effektiv opgaveløsning og målrettet fremgang.
 
 Opsummering og refleksion over læringsforløbet kan du se via følgende link:
-[[Main/Opsummering af 4. semester\|Opsummering af 4. semester]]
+[[Main/Noter/Opsummering af 4. semester\|Opsummering af 4. semester]]
 
 ---
 ## Projekt

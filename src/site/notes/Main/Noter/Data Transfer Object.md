@@ -3,15 +3,15 @@
 ---
 
 
-### Hvad er en DTO (Data Transfer Object)?
+## Hvad er en DTO (Data Transfer Object)?
 ![Data Transfer Object.png](/img/user/Data%20Transfer%20Object.png)
 
 > [!Important] 
-> En **DTO (Data Transfer Object)** er et designmønster, der bruges til at overføre data mellem forskellige lag eller komponenter i en applikation. DTO'er bruges ofte i situationer, hvor der er behov for at sende data over et netværk, eksempelvis mellem klient og server, eller mellem forskellige microservices i en distribueret applikation.
+> En **DTO (Data Transfer Object)** er et designmønster, der bruges til at overføre data mellem forskellige lag eller komponenter i en applikation. DTO'er bruges ofte i situationer, hvor der er behov for at sende data over et netværk, eksempelvis mellem klient og server, eller mellem forskellige [[Main/Noter/Emner/Backend/Microservice\|microserivces]] i en distribueret applikation.
 
-DTO'er bruges primært til at forenkle og optimere dataoverførsel. De indeholder kun de data, der er nødvendige for den specifikke operation eller transaktion, og de er ofte enklere og lettere end de interne datamodeller, som bruges i systemets forretningslogik.
+DTO'er bruges primært til at forenkle og optimere dataoverførsel. De indeholder kun de data, der er nødvendige for den specifikke operation ell er transaktion, og de er ofte enklere og lettere end de interne datamodeller, som bruges i systemets forretningslogik.
 
-#### Hvorfor bruge DTO'er?
+### Hvorfor bruge DTO'er?
 
 DTO'er anvendes af flere grunde:
 
@@ -20,7 +20,7 @@ DTO'er anvendes af flere grunde:
 - **Separation af bekymringer**: DTO'er giver en klar grænse mellem datamodellerne, som repræsenterer systemets interne tilstand, og de objekter, der sendes over netværket eller til andre lag. Dette gør koden mere modulær og lettere at vedligeholde.
 - **Fleksibilitet**: DTO'er gør det lettere at ændre interne datamodeller uden at påvirke den måde, hvorpå data udveksles med andre systemer.
 
-#### Eksempel på en DTO i C#
+### Eksempel på en DTO i C#
 
 ```csharp
 // DTO for en simpel bruger 
@@ -32,11 +32,11 @@ DTO'er anvendes af flere grunde:
 		public DateTime CreatedAt { get; set; } 
 	}
 ```
+
 Dette DTO objekt kan bruges til at sende data om en bruger mellem lagene i en applikation, f.eks. fra en controller til en view, eller fra en service til en database.
+### Hvordan fungerer en DTO i en Microservice-arkitektur?
 
-#### Hvordan fungerer en DTO i en Microservice-arkitektur?
-
-I en **microservice-arkitektur** bruges DTO'er til at kommunikere mellem de forskellige mikrotjenester. For eksempel, når en service skal hente data fra en anden service, kan det gøre det via en DTO, som indeholder den nødvendige information, men undgår at afsløre interne detaljer om datamodellen.
+I en **microservice-arkitektur** bruges DTO'er til at kommunikere mellem de forskellige [[Main/Noter/Emner/Backend/Microservice\|microserivces]]. For eksempel, når en service skal hente data fra en anden service, kan det gøre det via en DTO, som indeholder *den nødvendige information*, men undgår at afsløre interne detaljer om datamodellen.
 
 > [!example] Eksempel 1
  En **User Service** kunne bruge et **UserDto** til at sende oplysninger om en bruger til en **Notification Service**, som derefter bruger disse data til at sende en e-mail eller SMS.
@@ -44,11 +44,9 @@ I en **microservice-arkitektur** bruges DTO'er til at kommunikere mellem de fors
 > [!Example ] Eksempel 2
 > Når data skal sendes fra et [[Main/Noter/API\|API]] til frontend-applikationen, kan en DTO bruges til at formatere de nødvendige data, som derefter vises i brugergrænsefladen.
 
-
-
 #### Eksempel på brug i en microservice
 
-Lad os sige, vi har to microserivces i en applikation: **User Service** og **Order Service**. **Order Service** har brug for at få oplysninger om brugeren, der har lavet en bestilling. **User Service** sender en DTO til **Order Service**.
+Lad os sige, vi har to [[Main/Noter/Emner/Backend/Microservice\|microserivces]] i en applikation: **User Service** og **Order Service**. **Order Service** har brug for at få oplysninger om brugeren, der har lavet en bestilling. **User Service** sender en DTO til **Order Service**.
 
 **UserService (Controller)**
 
@@ -126,8 +124,10 @@ I dette eksempel sender **UserService** et **UserDto** til **OrderService**, som
 - **Ydeevne**: DTO'er hjælper med at sende kun nødvendige data, hvilket reducerer belastningen på systemet og forbedrer svartiderne.
 - **Sikkerhed**: DTO'er tillader, at interne datamodeller (f.eks. entity- eller databaseklasser) ikke bliver afsløret direkte, hvilket kan forbedre sikkerheden.
 - **Enkel kommunikation**: DTO'er tilbyder en simpel og standardiseret måde at overføre data på tværs af systemer eller applikationslag.
-- **Skalering**: DTO'er hjælper med at håndtere væksten i applikationens kommunikation mellem forskellige services og klienter, især når der er mange mikroservices.
+- **Skalering**: DTO'er hjælper med at håndtere væksten i applikationens kommunikation mellem forskellige [[Main/Noter/Emner/Backend/Microservice\|services]] og klienter, især når der er mange [[Main/Noter/Emner/Backend/Microservice\|microservices]].
 
 #### Konklusion
 
-En **DTO** er et vigtigt værktøj i moderne applikationer, især i **microservices-arkitekturer**, da det gør det muligt at overføre data mellem services på en effektiv og sikker måde. Ved at bruge DTO'er kan man opretholde separation af bekymringer, forbedre ydeevnen, og sikre at kun relevante data bliver delt. DTO'er hjælper med at gøre applikationer mere modulære og lettere at vedligeholde.
+En **DTO** er et vigtigt værktøj i moderne applikationer, især i **microservices-arkitekturer**, da det gør det muligt at overføre data mellem services på en effektiv og sikker måde. 
+
+Ved at bruge DTO'er kan man opretholde [separation af bekymringer,](https://en.wikipedia.org/wiki/Separation_of_concerns) forbedre ydeevnen, og sikre at kun relevante data bliver delt. DTO'er hjælper med at gøre applikationer mere *modulære* og lettere at *vedligeholde*.
