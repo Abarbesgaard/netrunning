@@ -19,11 +19,12 @@ Siden er inddelt i de *fire* emner:
 ---
 ## Microservices
 ![Pasted image 20241114113521.png](/img/user/Pasted%20image%2020241114113521.png)
+
 I løbet af mit 4. semester har jeg fordybet mig i [[Main/Noter/Emner/Backend/Microservice\|microservices]] som arkitektur, hvilket har udmøntet sig i mit eksperiment projekt ["Vita Microservice"](https://github.com/Abarbesgaard/Vita_Microservice) .
 
 Her har jeg arbejdet med [[Main/Noter/RabbitMQ\|RabbitMQ]] som [[Main/Noter/Message Brokers\|message broker]], opsat en [[Main/Noter/API-Gateway\|API-Gateway]] og udviklet CI/CD workflows, der inddrager [[Main/Noter/Docker\|Docker]] og [[Main/Noter/MongoDB\|MongoDB]]. 
 
-Gennem dette arbejde har jeg opnået en dybere forståelse for, hvordan man skaber skalerbare og [[Main/Noter/Distribuerede systemer\|distribuerede systemer]] i praksis.
+Gennem dette arbejde har jeg opnået en dybere forståelse for, hvordan man skaber *skalerbare* [[Main/Noter/Distribuerede systemer\|distribuerede systemer]] i praksis.
 
 ### Læringsmål
 [[Main/4. Semester/Læringsmål/Microservices læringsmål\|Microservices læringsmål]]
