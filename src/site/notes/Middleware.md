@@ -2,10 +2,12 @@
 {"dg-publish":true,"permalink":"/middleware/","created":"2024-11-20T10:24:52.095+01:00"}
 ---
 
-> [!important] Hvad er Middelware
-> Middleware er software, der fungerer som et mellemliggende lag mellem forskellige systemer og applikationer [1](https://en.wikipedia.org/wiki/Middleware) [2](https://www.jitterbit.com/da/blog/what-is-software-integration/). Det beskrives ofte som "software-lim", da det muliggør kommunikation og dataudveksling mellem forskellige softwarekomponenter [1](https://en.wikipedia.org/wiki/Middleware) [3](https://da.wikipedia.org/wiki/Middleware).
+
 ![Pasted image 20241120102650.png](/img/user/Pasted%20image%2020241120102650.png)
 *Billedet er fra [redhat](https://www.redhat.com/en/topics/middleware/what-is-middleware)*
+
+> [!important] Hvad er Middelware
+> Middleware er software, der fungerer som et mellemliggende lag mellem forskellige systemer og applikationer [1](https://en.wikipedia.org/wiki/Middleware) [2](https://www.jitterbit.com/da/blog/what-is-software-integration/). Det beskrives ofte som "software-lim", da det muliggør kommunikation og dataudveksling mellem forskellige softwarekomponenter [1](https://en.wikipedia.org/wiki/Middleware) [3](https://da.wikipedia.org/wiki/Middleware).
 ## Hovedfunktioner
 
 Middleware:
