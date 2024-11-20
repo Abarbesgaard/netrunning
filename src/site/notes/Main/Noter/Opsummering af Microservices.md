@@ -63,3 +63,8 @@ Sidst har eksperimentering og praktisk anvendelse af disse erfaringer hjulpet mi
 I arbejdet med microservices har jeg fået en omfattende viden og praktisk erfaring, især med [[Main/Noter/RabbitMQ\|RabbitMQ]] som [[Main/Noter/Message Brokers\|message broker]]. 
 
 Mine færdigheder er styrket gennem aktiv anvendelse af [[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]], og jeg er nu bedre rustet til at bygge og optimere [[Main/Noter/Distribuerede systemer\|distribuerede systemer]], der er både skalerbare og robuste.
+
+### Sådan implementerede jeg RabbitMQ
+jeg har lavet et lille gennemgang af hvordan jeg fik implemtereret [[Main/Noter/RabbitMQ\|RabbitMQ]]i en [[Main/Noter/Emner/Backend/Microservice\|microservice]].
+
+[[Implementering af RabbitMQ\|Den kan du finde her]]
