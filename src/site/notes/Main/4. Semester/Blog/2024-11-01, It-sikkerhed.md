@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/blog/2024-11-01-it-sikkerhed/","created":"2024-11-01T10:03:33.362+01:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/blog/2024-11-01-it-sikkerhed/","hide":true,"created":"2024-11-01T10:03:33.362+01:00"}
 ---
 
 Ud fra følgende [[Main/Noter/use case indsæt video\|use case]] vil jeg forsøge at finde de domæner den berør og se hvad der er af sikkerhedsudfordringer ved denne.

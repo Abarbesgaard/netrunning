@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/blog/2024-10-24-it-sikkerhed/","created":"2024-10-24T09:12:56.365+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/blog/2024-10-24-it-sikkerhed/","hide":true,"created":"2024-10-24T09:12:56.365+02:00"}
 ---
 
 

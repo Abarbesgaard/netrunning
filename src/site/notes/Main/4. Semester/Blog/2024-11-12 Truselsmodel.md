@@ -18,7 +18,7 @@ Den sikkerhedsmæssige tilgang jeg har læst meget om i forhold til en tradition
 ![Walled garden.png](/img/user/98_Images/Walled%20garden.png)
 *Billedet er fra [propertylistings](https://propertylistings.ft.com/propertynews/united-kingdom/7284-wall-encompassing-a-short-history-of-the-walled-garden.html)*
 
-Alt der skulle snakke med appen ude fra skulle igennem muren først. Men når man så var forbi muren var der dømt "fri leg".
+Alt ekstern kommunikation med appen skulle først passere en sikkerhedsmur. Når denne var krydset, blev al trafik derefter betragtet som *pålidelig*, hvilket tillod *fri adgang internt* i systemet.
 
 > Dette er efterhånden en saga blot.
 
@@ -38,13 +38,13 @@ front2 -- API
 
 *The walled garden* er ikke længere en brugbar metode
 ## En Ny tilgang
-I en [[Main/Noter/Distribuerede systemer\|distribueret app]] , som vi har lavet i vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|projekt]] løste vi denne nye udfordring med følgende tiltag. 
+I en [[Main/Noter/Distribuerede systemer\|distribueret app]], som vi har lavet i vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|projekt]] løste vi denne nye udfordring med følgende tiltag. 
 
 > [!info] Arkitektur
-> Vores app skulle både have en App, til telefonen, og en hjemmeside. Dermed var en [[Main/Noter/API\|API]] et godt valg, da den vil løse vores distribueringsproblematik.
+> Vores app skulle både have en *App*, til telefonen, og en *hjemmeside*. Dermed var en [[Main/Noter/API\|API]] et godt valg, da den vil løse vores distribueringsproblematik.
 
-Vi startede med at gå væk fra konceptet om en "[Walled Garden](https://www.techtarget.com/searchsecurity/definition/walled-garden)" og i stedet bevæge os mod en mere moderne tilgang.
-
+Vi vidste allerede til at starte med grundet at vi skulle have et [[Main/Noter/Distribuerede systemer\|distribueret system]] at noget af sikkerheden vil ligge i en eventuel [[Main/Noter/API\|API]] og/eller en [[Main/Noter/API-Gateway\|API-Gateway]]
+### Gateway
 Vi benyttede os af en [[Main/Noter/API-Gateway\|API-Gateway]]for at skabe en fælles kontaktflade for de kald der opstod til den bagvedliggende [[Main/Noter/API\|API]] (og måske på sigt flere [[Main/Noter/API\|API'er]])
 
 ```plantuml
@@ -64,8 +64,8 @@ Gateway - API
 ```
 
 I vores [[Main/Noter/API-Gateway\|gateway]] gjorde vi følgende tiltag for at styrke sikkerheden i vores backend:
-1. Vi implementerede *Authentication* og *Authorization* i [[Main/Noter/API-Gateway\|gateway]]
-2. Vi udliciterede ansvaret for bruger oprettelse og administration af dette til [[Main/Noter/Supabase\|Supabase]].
+1. Vi implementerede en default  *Authentication* og *Authorization* i [[Main/Noter/API-Gateway\|gateway]]
+2. Vi udliciterede ansvaret for bruger oprettelse og administration af dette til [[Main/Noter/Supabase\|Supabase]]. Vi vil senere bruge den [[Main/Noter/JWT token\|JWT token]] , som [[Main/Noter/Supabase\|Supabase]] laver, til at bekræfte brugerne gennem vores system.
 
 #### Fordele ved Gateway'en
 Fordelene ved at have en [[Main/Noter/API-Gateway\|gateway]] i vores projekt gør at vi kunne have et fælles sted hvor al trafikken ind i vores [[Main/Noter/API\|API]] kunne autoriseres. 
@@ -94,7 +94,7 @@ Men de er dog stadig lavet af mennesker(for nu), så i overvejelsen af hvilken t
 - Bliver man bundet til udbyderen?
 
 ## Hvad ligger kunden værdi på?
-Inden jeg går videre med implementeringen er det vigtigt at man som udvikler kan oplyse kunden om det sikkerhedsudfordringer som en app som de ønsker står over for.
+Inden jeg går videre med implementeringen er det vigtigt at man som udvikler kan oplyse kunden om det *sikkerhedsudfordringer* som en app, som de ønsker, står over for.
 
 Til dette kan man gøre brug af en risiko analyse:
 ![Pasted image 20241113081958.png](/img/user/98_Images/Pasted%20image%2020241113081958.png)
@@ -103,9 +103,14 @@ Til dette kan man gøre brug af en risiko analyse:
 > [!important] Pointe 
 > Her vil man som udvikler kunne præsentere kunden for en stuktureret tilgang til hvordan sikkerheden i appen er truet allerede inden der er reel kode implementeret.
 
-I vores tilfælde bruger vi som sådan ikke personfølsom data i vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|Projekt VitaHus]], men i tilfælde af at dette blev nødvendig vil en sikkerhedstrussel som dette sagtens kunne ende i det røde felt.
+I vores tilfælde bruger vi som sådan ikke personfølsom data i vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|Projekt VitaHus]], men i tilfælde af at dette blev nødvendig vil en sikkerhedstrussel som dette emne sagtens kunne ende i det røde felt.
 
-Dette vil dermed skabe en *prioritering* i forhold til hvad det er som skal sikres først i udviklingen af systemet og give kunden et struktureret overblik over sikkerheden/sårbarhederne i deres system inden koden er skrevet.
+Dette vil dermed skabe en *prioritering* i forhold til hvad det er som skal sikres først i udviklingen af systemet og give kunden et *struktureret overblik* over sikkerheden/sårbarhederne i deres system inden koden er skrevet.
+
+Dette vil gøre 3 ting:
+1. Kunden vil føle sig sikker i forhold til samarbejdet med os som programmører.
+2. Kunden vil kunne fokusere på det der giver værdi for dem.
+3. Det vil være betydeligt billigere at udvikle appen.
 ## Authentication og Authorization
 Vi sørgede for at når der kom et kald til vores [[Main/Noter/API-Gateway\|gateway]]så skulle det være autoriseret for at kunne benytte sig af vores endpoints. 
 I forhold til [OWASP API top 10](https://owasp.org/API-Security/editions/2023/en/0x11-t10/) så rammer denne tilgang flere af punkterne i top 10'en.
@@ -116,14 +121,16 @@ Blandt andet:
 
 ### Forbedringer
 Der hvor vi kunne gøre det bedre var at præcisere endnu mere i forhold til hvad det er for data som den specifikke bruger skal have rettighed til når de laver et kald.
-Er det nok som almindelig bruger at have adgang til dto'er?
+Det er en dialog som vi som udviklere skal tage tidligt i processes. Hvis dette ikke bliver gjort er der større tilbøjelighed til at gå med en *default* løsning for at få det til at fungere.
+
+> Er det nok som almindelig bruger at have adgang til dto'er?
 
 Dette vil gøre at vi levede bedre op til [OWASP API top 10](https://owasp.org/API-Security/editions/2023/en/0x11-t10/).
 
 ## Supabase
 I starten af vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|projekt]]brugte vi [[Main/Noter/Auth0\|Auth0]], til at holde styr på Auth-delen af vores projekt. Vi fandt dog ud af at [[Main/Noter/Auth0\|Auth0]]er brugbart hvis man ønsker at appen skal kunne tilgå på en anden måde en vi ønskede.
 Derfor skiftede vi til at benytte [[Main/Noter/Supabase\|Supabase]]i stedet. 
-Vores Frontend team implementerede en reroute i vores front  der fik lavet en [[Main/Noter/JWT token\|JWT token]]hos [[Main/Noter/Supabase\|Supabase]]som vi så brugte til at verificere brugeren i vores[[Main/Noter/API-Gateway\|gateway]].
+Vores Frontend team implementerede en route i vores front der fik lavet en [[Main/Noter/JWT token\|JWT token]]hos [[Main/Noter/Supabase\|Supabase]]som vi så brugte til at verificere brugeren i vores[[Main/Noter/API-Gateway\|gateway]].
 
 ```plantuml
 actor user
@@ -152,13 +159,13 @@ For vores vedkomne er dette mere held end en faktisk overvejelse.
 
 ## Tanker og Refleksioner
 Meget af det jeg har læst om it sikkerhed i og omkring [[Main/Noter/Emner/Backend/Microservice\|microservices]] har været meget omfattende. 
-Dette bakkes op i bogen af Building Microservices af Sam Newman. Han udtrykker det på følgende måde for at lette byrden for programmører:
+Dette bakkes op i bogen af [Building Microservices af Sam Newman.](https://www.saxo.com/dk/building-microservices_sam-newman_paperback_9781492034025) Han udtrykker det på følgende måde for at lette byrden for programmører:
 
 > Overlad det du kan overlade - til andre.
 
 Med dette mener han at [[Main/Noter/Emner/Backend/Microservice\|microservices]] er sådan et bæst at arbejde med at hvis man selv skulle lave alt fra bunden vil det hurtigt kunne blive alt for *stor* og ikke mindst **dyr** en mundfuld.
 ### Gateway
-For eksempel med den [[Main/Noter/API-Gateway\|gateway]] jeg har opsat til projektet, er meget funktionel og sikkerhedsmæssigt utilstrækkelig. Så hvorfor ikke benytte sig af nogen der har lavet en super løsning allerede?
+Den [[Main/Noter/API-Gateway\|gateway]] jeg har opsat til projektet, implementeret med [[Main/Noter/Yarp\|Yarp]], er meget funktionel og sikkerhedsmæssigt utilstrækkelig. Så hvorfor ikke benytte sig af nogen der har lavet en løsning allerede?
 
 > [!Note] Mulige tredjeparts udbydere
 > Kong
@@ -179,6 +186,6 @@ Vi brugte *feature driven design* fra start og forsøgt så hurtigt som muligt a
 
 Men i forhold til min læring vidste jeg ikke bedre. Jeg startede med at lære om [[Main/Noter/Emner/Backend/Microservice\|microservice arkitektur]] og havde i denne sammenhæng ikke fokus på sikkerheden i systemet. 
 
-Sikkerheds aspektet kom først senere og da det kom var der store dele af systemet der skulle laves om. 
+Sikkerheds aspektet kom først senere, og da det kom var der store dele af systemet der skulle laves om. 
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/blog/2024-10-04-it-sikkerhed/","created":"2024-10-04T08:20:18.569+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/blog/2024-10-04-it-sikkerhed/","hide":true,"created":"2024-10-04T08:20:18.569+02:00"}
 ---
 
 I forhold til IT sikkerhed har jeg gået lidt rundt om den varme grød og ikke rigtig vidst hvordan jeg skulle starte på det projekt. 

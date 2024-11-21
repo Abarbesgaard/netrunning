@@ -13,11 +13,10 @@ Måden vi kan løse denne sikkerhedsudfordring er ved blandt andet:
 1. Ved at skabe *en bedre autorisations mekanisme* der hviler på *user policies* og bruger hierarki.
 2. Ved at bruge en mekanisme som kontrollerer om den bruger, som er logget ind, har rettigheder  til at udføre den handling de gerne vil.
 3. Ved brugen af random GUID'er til at gemme ting og sager.
-4. Ved at skrive tests der evaluerer sårbarheden af auth mekanismen og ikke *deployer* hvis testen fejler.
+4. Ved at skrive *tests* der evaluerer sårbarheden af auth mekanismen og ikke *deployer* hvis testen fejler.
 
 ## Kode eksempler
 
-==Med udgangspunkt ovenstående punkter kan dette løses på følgende måde.==
 ### Opsæt bruger hierarki
 Det første man skal have spurgt sig serv om er om der er brug for flere *slags brugere* end: *Admin*, *Manager* og *User*. 
 Men også hvilke rettigheder disse roller har brug for. Er der nogle rettigheder som kræder en ny form for bruger?

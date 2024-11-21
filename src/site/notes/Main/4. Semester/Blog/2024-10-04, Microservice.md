@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-semester/blog/2024-10-04-microservice/","created":"2024-10-04T10:03:11.700+02:00"}
+{"dg-publish":true,"permalink":"/main/4-semester/blog/2024-10-04-microservice/","hide":true,"created":"2024-10-04T10:03:11.700+02:00"}
 ---
 
 Dette er det første spade stik på  vejen til at gøre [[Main/4. Semester/VitaHus/Projekt VitaHus\|Projekt VitaHus]] til en #Microservice e arkitektur.

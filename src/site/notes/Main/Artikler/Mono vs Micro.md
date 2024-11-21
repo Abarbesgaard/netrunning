@@ -3,7 +3,7 @@
 ---
 
 
-> Hvad er bedst for din virksomhed? Monolith eller Microservices?
+> Hvad er bedst for din virksomhed? [[Main/Noter/Monolitiske Applikationer\|Monolith]] eller [[Main/Noter/Emner/Backend/Microservice\|Microservices]]?
 
 Hvordan afgør man hvilken arkitektur der er bedst for ens virksomhed?
 
@@ -11,32 +11,27 @@ Der er mange faktorer at tage hensyn til, og det er ikke altid lige
 let at finde ud af.
 
 Jeg vil i denne artikel forsøge at give et overblik
-over fordele og ulemper ved de to forskellige arkitekturer, og
+over *fordele* og *ulemper* ved de to forskellige arkitekturer, og
 forhåbentlig gøre det lidt lettere at vælge.
 
-Det første jeg vil gøre er at definere hvad en **Monolith** og en
-**Microservice** er.
+Det første jeg vil gøre er at definere hvad en **[[Main/Noter/Monolitiske Applikationer\|Monolith]]** og en
+**[[Main/Noter/Emner/Backend/Microservice\|Microservice]]** er.
 
 ## Hvad er en Monolith?
 
 ![Monolith_architecture.png](/img/user/98_Images/Monolith_architecture.png)
 
-Dette billede fra *net solutions* viser hvordan alt i applikationen
-er samlet i en stor klump. Dette kan være en god løsning for et mindre projekt
-som ikke har brug for at skalere.
-Så i projektets startfase kan det være en god ide at at få afklaret om projektet
-har grobund for at populært og brugt at mange brugere. Hvis det er tilfældet kan
-det være en god ide at overveje at bruge en Microservice arkitektur, i stedet
-for.
+Dette billede fra *net solutions* viser hvordan alt i applikationen er samlet i en stor klump. Dette kan være en god løsning for et mindre projekt som ikke har brug for at skalere.
 
-### Fordele ved Monolith
+Så i projektets startfase kan det være en god ide at at få afklaret om projektet har grobund for at populært og brugt at mange brugere. Hvis det er tilfældet kan det være en god ide at overveje at bruge en [[Main/Noter/Emner/Backend/Microservice\|Microservice arkitektur]], i stedet for.
+
+### Fordele ved [[Main/Noter/Monolitiske Applikationer\|Monolith]]
 
 - Der er en enkelt kodebase
 - Ikke brug for ekspertise i flere teknologier
 - Nemmere deployment
 
-Der er dog en mellemting inden vi går helt over til Microservices. Nemlig en
-modular monolith. Dette er en monolith der er opdelt i moduler, som hver især
+Der er dog en mellemting inden vi går helt over til Microservices. Nemlig en modular monolith. Dette er en monolith der er opdelt i moduler, som hver især
 har sit eget ansvarsområde.
 
 ## Modular Monolit
