@@ -3,7 +3,7 @@
 ---
 
 ## Hvad er en Reverse Proxy/API Gateway?
-![Reverse proxy.png](/img/user/Reverse%20proxy.png)
+![Reverse proxy.png](/img/user/98_Images/Reverse%20proxy.png)
 
 > [!important] Opsummering 
 > En **reverse proxy** eller **API Gateway** er en server, der står mellem en klient og en række servere, og som fungerer som en mellemmand for at håndtere, omdirigere eller filtrere anmodninger til forskellige backend-tjenester. I stedet for at klienterne interagerer direkte med serverne, kommunikerer de kun med API Gateway'en, som derefter videresender anmodningerne til den rigtige tjeneste og returnerer svaret til klienten.
@@ -45,7 +45,7 @@ Udover at dirigere trafik, kan API Gateway'er også tilbyde ekstra funktionalite
     
 4. **AWS API Gateway**: [AWS API Gateway](https://aws.amazon.com/api-gateway/) er en fuldt administreret service, der giver udviklere mulighed for at oprette, administrere og sikre [[Main/Noter/API\|API'er]] i cloudmiljøer.
 
-![API-gateway example.png](/img/user/API-gateway%20example.png)
+![API-gateway example.png](/img/user/98_Images/API-gateway%20example.png)
 *Billede fra [blog.treblle](https://blog.treblle.com/what-is-an-api-gateway-and-when-do-i-need-one/)*
 ### Fordele ved at bruge en Reverse Proxy/API Gateway
 

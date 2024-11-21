@@ -56,7 +56,7 @@ Hvis valget bliver data først vil dette diagram vise fremgangsmåde:
 Hvis valget bliver kode først vil dette diagram vise fremgangsmåde:
 ![Vitahus, monolit Kode først.png](/img/user/Excalidraw/Vitahus,%20monolit%20Kode%20f%C3%B8rst.png)
 
-Der er også andre metoder så som [[Main/Noter/Strangler fig pattern\|Strangler fig pattern]], [[Parallel Run\|Parallel Run]] og [[Main/Noter/Feature Toggle\|Feature Toggle]]. Men disse er uden for scope, da vores system ikke er så stort endnu og det er et tænkt scenarie.
+Der er også andre metoder så som [[Main/Noter/Strangler fig pattern\|Strangler fig pattern]], [[Main/Noter/Parallel Run\|Parallel Run]] og [[Main/Noter/Feature Toggle\|Feature Toggle]]. Men disse er uden for scope, da vores system ikke er så stort endnu og det er et tænkt scenarie.
 
 Og med dette in mente vil jeg starte dette projekt med - kode først.
 

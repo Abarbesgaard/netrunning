@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/message-brokers/","created":"2024-11-13T08:04:32.981+01:00"}
 ---
 
-![Pasted image 20241114114132.png](/img/user/Pasted%20image%2020241114114132.png)
+![Pasted image 20241114114132.png](/img/user/98_Images/Pasted%20image%2020241114114132.png)
 En **message broker** er en softwarekomponent, der faciliterer asynkron kommunikation mellem forskellige systemkomponenter eller microservices ved at videresende beskeder mellem dem. 
 
 Message brokers kan hjælpe med at øge skalerbarheden, pålideligheden og fleksibiliteten i distribuerede systemer. De agerer som mellemled, hvor beskeder kan modtages, gemmes og videresendes, hvilket skaber en form for _decoupling_, så de kommunikerende systemer ikke behøver at være direkte forbundet eller kende hinandens detaljer.

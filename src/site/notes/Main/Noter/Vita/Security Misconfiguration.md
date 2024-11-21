@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/vita/security-misconfiguration/","created":"2024-11-11T08:56:46.569+01:00"}
 ---
 
-![Security Misconfiguration.png](/img/user/Security%20Misconfiguration.png)> [!NOTE]- Opsummering af SM
+![Security Misconfiguration.png](/img/user/98_Images/Security%20Misconfiguration.png)> [!NOTE]- Opsummering af SM
 API'er og deres understøttende systemer har ofte komplekse konfigurationer, som gør dem mere tilpasselige. Men disse konfigurationer kan være nemme at overse, og hvis sikkerhedsstandarder ikke følges nøje, kan det føre til sårbarheder. Dette kan åbne op for forskellige typer af angreb, da *fejlkonfigurationer* kan misbruges af ondsindede aktører.
 
 For at løse sårbarheder med **Security Misconfiguration** kan man:

@@ -11,7 +11,7 @@ Mit læringsarbejde har kredset om at implementere en fleksibel og skalerbar [[M
 
 Jeg har tilegnet mig en grundlæggende forståelse af, hvordan [[Main/Noter/Emner/Backend/Microservice\|microservices]] adskiller sig fra [[Main/Noter/Monolitiske Applikationer\|monolitiske applikationer]], både på strukturelt og organisatorisk niveau. 
 
-*Fordele* ved [[Main/Noter/Emner/Backend/Microservice\|microservices]], såsom *modularitet* og *skalerbarhed*, står klart, men også *ulemper* som den øgede kompleksitet i distribution og opsætning af kommunikation mellem tjenester.
+*Fordele* ved [[Main/Noter/Emner/Backend/Microservice\|microservices]], såsom *modularitet* og *skalerbarhed*, står klart, men også *ulemper* som den øgede kompleksitet i distribution og opsætning af kommunikation mellem [[Main/Noter/Emner/Backend/Microservice\|services]].
 
 > [!Important] citat
 > Microservices **køber** dig flere muligheder
@@ -67,4 +67,4 @@ Mine færdigheder er styrket gennem aktiv anvendelse af [[Main/Noter/Systemudvik
 ### Sådan implementerede jeg RabbitMQ
 jeg har lavet et lille gennemgang af hvordan jeg fik implemtereret [[Main/Noter/RabbitMQ\|RabbitMQ]]i en [[Main/Noter/Emner/Backend/Microservice\|microservice]].
 
-[[Implementering af RabbitMQ\|Den kan du finde her]]
+[[Main/Noter/Implementering af RabbitMQ\|Den kan du finde her]]

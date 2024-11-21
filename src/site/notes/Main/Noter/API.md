@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/api/","created":"2024-11-11T10:09:44.244+01:00"}
 ---
 
-![APIIII.png](/img/user/APIIII.png)
+![APIIII.png](/img/user/98_Images/APIIII.png)
 ### Hvad er en API?
 
 En **API** (Application Programming Interface) *er en samling af regler og protokoller*, der tillader forskellige softwareapplikationer at kommunikere med hinanden. API'er bruges til at muliggøre dataudveksling og funktionalitet mellem forskellige systemer, uanset om det er mellem forskellige programmer, servere eller tjenester. 

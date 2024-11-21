@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/vita/unsafe-consumption-of-ap-is/","created":"2024-11-11T09:23:09.866+01:00"}
 ---
 
-![Unsafe Consumption of APIs.png](/img/user/Unsafe%20Consumption%20of%20APIs.png)
+![Unsafe Consumption of APIs.png](/img/user/98_Images/Unsafe%20Consumption%20of%20APIs.png)
 > [!Note]- Opsummering af UCoA
 > Udviklere har en *tendens til at stole mere på data modtaget fra tredjeparts-API'er end på brugerinput*, og derfor anvender de ofte svagere sikkerhedsstandarder. For at kompromittere API'er går angribere efter integrerede tredjepartstjenester i stedet for at forsøge at kompromittere selve mål-API'en direkte.
 

@@ -36,7 +36,7 @@ Jeg kan evaluere [[Main/Noter/Emner/Backend/Microservice\|microservice-]] og [[M
 ### Kompetencer
 
 #### §7
-Jeg kan *designe* og *implementere* robuste [[Main/Noter/Emner/Backend/Microservice\|microservice-løsninger]], der sikrer [[CAP theorem\|CAP theorem]]høj tilgængelighed ved brug af [[Main/Noter/Message Brokers\|Message Brokers]] .
+Jeg kan *designe* og *implementere* robuste [[Main/Noter/Emner/Backend/Microservice\|microservice-løsninger]], der sikrer [[Main/Noter/CAP theorem\|CAP theorem]]høj tilgængelighed ved brug af [[Main/Noter/Message Brokers\|Message Brokers]] .
 
 #Tilgængelighed #MessageBrokers
 #### §8

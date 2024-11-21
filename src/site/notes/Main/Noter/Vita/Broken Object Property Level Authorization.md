@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/vita/broken-object-property-level-authorization/","created":"2024-11-06T07:49:50.035+01:00"}
 ---
 
-![Broken Object Level Auth.png](/img/user/Broken%20Object%20Level%20Auth.png)
+![Broken Object Level Auth.png](/img/user/98_Images/Broken%20Object%20Level%20Auth.png)
 > [!NOTE]- Opsummering af BOPLA
 > Et API-endpoint er sårbart, hvis det tillader en bruger at tilgå eller ændre følsomme objektdata *uden autorisation*, kendt som "**Excessive Data Exposure**" og "**Mass Assignment**". Eksempler på angreb viser, hvordan manglende validering kan give adgang til private oplysninger eller uautoriserede ændringer, som at justere bookingpriser eller låse blokeret indhold op. For at forhindre dette bør API'er begrænse data, vælge specifikke egenskaber, der returneres, og implementere skemabaseret validering af adgang til følsomme data.
 

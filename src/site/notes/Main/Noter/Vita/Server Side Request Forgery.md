@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/vita/server-side-request-forgery/","created":"2024-11-11T08:46:27.958+01:00"}
 ---
 
-![Server Side Request Forgery.png](/img/user/Server%20Side%20Request%20Forgery.png)
+![Server Side Request Forgery.png](/img/user/98_Images/Server%20Side%20Request%20Forgery.png)
 > [!NOTE]- Opsummering af SSRF
 > **Server-side request forgery** (SSRF)-sårbarheder kan opstå, når en **API** henter en ekstern ressource uden at *validere den URI*, som brugeren har angivet. Dette gør det muligt for en angriber at tvinge applikationen til at sende en tilpasset forespørgsel til en uventet destination, *selv hvis systemet er beskyttet af en firewall eller en VPN*.
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/supabase/","created":"2024-10-03T11:56:03.864+02:00"}
 ---
 
-![Supabase.png](/img/user/Supabase.png)
+![Supabase.png](/img/user/98_Images/Supabase.png)
 
 **Supabase** er en open-source **backend-as-a-service** (BaaS) platform, der giver udviklere mulighed for hurtigt at bygge og skalere applikationer. 
 

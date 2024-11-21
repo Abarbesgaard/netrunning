@@ -3,9 +3,9 @@
 ---
 
 > [!Important] Opsummering
-> Eventual consistency er en konsistensmodel, der bruges i distribuerede systemer for at opnå høj tilgængelighed. Her er de vigtigste punkter om eventual consistency:
+> **Eventual consistency** er en model, der bruges i [[Main/Noter/Distribuerede systemer\|distribuerede systemer]] for at opnå høj tilgængelighed. 
 
-![Pasted image 20241115093723.png](/img/user/Pasted%20image%2020241115093723.png)
+![Pasted image 20241115093723.png](/img/user/98_Images/Pasted%20image%2020241115093723.png)
 *Billede fra [Designgurus](https://www.designgurus.io/answers/detail/what-is-strong-vs-eventual-consistency)*
 ## Kilder:
 1. [Wiki](https://en.wikipedia.org/wiki/Eventual_consistency)
@@ -13,7 +13,7 @@
 3. [Designgurus](https://www.designgurus.io/answers/detail/what-is-strong-vs-eventual-consistency)
 ## Grundlæggende koncept
 
-**Eventual consistency** garanterer uformelt, at hvis der ikke foretages nye opdateringer til et givet dataelement, vil alle tilgange til det element til sidst returnere den senest opdaterede værdi [1](https://en.wikipedia.org/wiki/Eventual_consistency). Systemet siges at have "konvergeret", når dette er opnået.
+**Eventual consistency** garanterer *uformelt*, at hvis der ikke foretages nye opdateringer til et givet dataelement, vil alle tilgange til det element til sidst returnere den senest opdaterede værdi [1](https://en.wikipedia.org/wiki/Eventual_consistency) . 
 
 ## Karakteristika
 
@@ -51,3 +51,4 @@ I modsætning til stærk konsistens, hvor alle brugere ser de samme data på sam
 ## Konklusion
 
 Valget mellem **eventual consistency** og **stærkere konsistensmodeller** afhænger af de specifikke krav til applikationen. Systemer, der kan tolerere midlertidig inkonsistens til fordel for bedre ydeevne og tilgængelighed, kan drage fordel af eventual consistency.
+

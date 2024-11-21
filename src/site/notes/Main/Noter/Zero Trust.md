@@ -5,7 +5,7 @@
 > [!important] Opsummering 
 > Zero Trust er en sikkerhedsmodel og -strategi, der bygger på princippet om aldrig at stole på nogen eller noget som standard, hverken inden for eller uden for organisationens netværk. Her er de vigtigste aspekter af Zero Trust:
 
-![Pasted image 20241115102445.png](/img/user/Pasted%20image%2020241115102445.png)
+![Pasted image 20241115102445.png](/img/user/98_Images/Pasted%20image%2020241115102445.png)
 *Billedet er fra [Mad devs](https://maddevs.io/blog/what-is-zero-trust-network-architecture/)*
 
 ## Kilder

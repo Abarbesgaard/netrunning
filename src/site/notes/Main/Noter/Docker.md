@@ -6,7 +6,7 @@
 > Docker er en open source-platform, der gør det muligt at opbygge, distribuere og køre software i containere. 
 
 
-![Docker_ong.png](/img/user/Docker_ong.png)
+![Docker_ong.png](/img/user/98_Images/Docker_ong.png)
 
 ## Hvad er Docker?
 
@@ -14,7 +14,7 @@ Docker er en containeriseringsteknologi, der tillader udvikling, distribution og
 
 En container indeholder alt det nødvendige for at køre en applikation, herunder *kode*, *biblioteker*, *systemværktøjer* og *afhængigheder* [2](https://opensource.dk/hvad-er-docker/).
 
-![Docker example 2.png](/img/user/Docker%20example%202.png)
+![Docker example 2.png](/img/user/98_Images/Docker%20example%202.png)
 *Billedet er fra [Docker](https://www.docker.com/resources/what-container/)*
 ## Hvordan fungerer Docker?
 
@@ -33,7 +33,7 @@ Docker Hub fungerer som et centralt lager for Docker-images, hvor udviklere kan 
 - **Skalerbarhed**: Det er nemt at skalere applikationer op eller ned ved at tilføje eller fjerne containere [2](https://opensource.dk/hvad-er-docker/).
 - **Isolering**: Containere kører isoleret fra hinanden, hvilket øger sikkerheden [3](https://kinsta.com/dk/videnbase/hvad-er-docker/).
 
-![Works on my machine.png](/img/user/Works%20on%20my%20machine.png)
+![Works on my machine.png](/img/user/98_Images/Works%20on%20my%20machine.png)
 *Billedet er fra [Activestate](https://www.activestate.com/blog/how-to-eliminate-works-on-my-machine-issues/)*
 ## Anvendelsesområder
 
@@ -43,7 +43,7 @@ Docker bruges primært af udviklere og DevOps-teams til at:
 - Implementere applikationer hurtigt og effektivt [4](https://prohoster.info/da/blog/administrirovanie/ponimaya-docker).
 - Standardisere udviklingsprocesser og infrastruktur [1](https://cybermonkey.dk/cyberpedia/docker-hvad-er-det-hvordan-virker-det-og-hvorfor-b).
 
-![Docker example 1.png](/img/user/Docker%20example%201.png)
+![Docker example 1.png](/img/user/98_Images/Docker%20example%201.png)
 *Billedet fra [dbconvert](https://dbconvert.com/blog/building-docker-images-for-dbconvert-tools/)*
 
 > [!info] opsummering

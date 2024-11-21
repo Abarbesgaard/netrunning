@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/vita/unrestricted-resource-consumption/","created":"2024-11-07T09:05:13.214+01:00"}
 ---
 
-![Unrestricted Resource Consumption.png](/img/user/Unrestricted%20Resource%20Consumption.png)
+![Unrestricted Resource Consumption.png](/img/user/98_Images/Unrestricted%20Resource%20Consumption.png)
 > [!NOTE]- Opsummering af URC
 > At imødekomme API-anmodninger kræver ressourcer som **netværksbåndbredde**, **CPU**, **hukommelse** og **lagerplads**. Andre ressourcer, såsom e-mails/SMS/telefonsamtaler eller biometrisk validering, stilles til rådighed af tjenesteudbydere via API-integrationer og betales per anmodning. *Lykkedes et angreb, kan det føre til service-nedbrud eller øgede driftsomkostninger*.
 

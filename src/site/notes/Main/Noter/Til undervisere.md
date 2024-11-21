@@ -18,7 +18,7 @@ Siden er inddelt i de *fire* emner:
 
 ---
 ## Microservices
-![Pasted image 20241114113521.png](/img/user/Pasted%20image%2020241114113521.png)
+![Pasted image 20241114113521.png](/img/user/98_Images/Pasted%20image%2020241114113521.png)
 
 I løbet af mit 4. semester har jeg fordybet mig i [[Main/Noter/Emner/Backend/Microservice\|microservices]] som arkitektur, hvilket har udmøntet sig i mit eksperiment projekt ["Vita Microservice"](https://github.com/Abarbesgaard/Vita_Microservice) .
 
@@ -40,7 +40,7 @@ Her kan du udforske det personlige projekt, som jeg har brugt til at eksperiment
 
 ---
 ## It-Sikkerhed
-![Pasted image 20241114113642.png](/img/user/Pasted%20image%2020241114113642.png)
+![Pasted image 20241114113642.png](/img/user/98_Images/Pasted%20image%2020241114113642.png)
 ### Læringsmål
 [[Main/4. Semester/Læringsmål/It-Sikkerhedslæringsmål\|It-Sikkerhedslæringsmål]]
 
@@ -55,7 +55,7 @@ Jeg havde fokus på hvordan et trusselsbillede kan se ud for en umiddelbar simpe
 
 ---
 ## Process
-![Pasted image 20241106095904.png](/img/user/Pasted%20image%2020241106095904.png)
+![Pasted image 20241106095904.png](/img/user/98_Images/Pasted%20image%2020241106095904.png)
 
 [[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]]hjalp mig med at strukturere mine refleksioner og evalueringer, og overgangen til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] har givet en ny ramme for *effektiv opgaveløsning* og *målrettet fremgang*.
 
@@ -64,7 +64,7 @@ Opsummering og refleksion over læringsforløbet kan du se via følgende link:
 
 ---
 ## Projekt
-![Pasted image 20241106095930.png](/img/user/Pasted%20image%2020241106095930.png)
+![Pasted image 20241106095930.png](/img/user/98_Images/Pasted%20image%2020241106095930.png)
 Herunder vil du kunne finde alt hvad du skal bruge for at finde ud af hvad vi lavede i vores  projekt: **Vita**.
 
 [[Main/4. Semester/VitaHus/Dev Blog\|Dev Blog]]

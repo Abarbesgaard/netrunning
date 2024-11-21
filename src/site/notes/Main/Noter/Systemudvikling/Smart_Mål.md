@@ -5,7 +5,7 @@
 
 
 ## Hvad er SMART-modellen?
-![Pasted image 20241114063041.png](/img/user/Pasted%20image%2020241114063041.png)
+![Pasted image 20241114063041.png](/img/user/98_Images/Pasted%20image%2020241114063041.png)
 **Kilder**
 [Center for Ledelse - Smart mål](https://www.cfl.dk/artikler/smart-modellen-her-er-5-trin-til-at-na-dine-mal)
 [Brug SMART-mål som GPS i dit projekt, VIAUCL](https://viden.via.dk/evu/brug-smart-maal-som-gps-i-dit-projekt)

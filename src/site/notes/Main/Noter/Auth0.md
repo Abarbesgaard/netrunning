@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/auth0/","created":"2024-10-03T11:59:50.327+02:00"}
 ---
 
-![Auth0.png](/img/user/Auth0.png)
+![Auth0.png](/img/user/98_Images/Auth0.png)
 **Auth0** er en *identitetsplatform*, der tilbyder sikker autentificering og autorisering for applikationer. 
 Den håndterer *login*, *registrering* og *brugeradministration* på tværs af forskellige enheder og platforme. 
 

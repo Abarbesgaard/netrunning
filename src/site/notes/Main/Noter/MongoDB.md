@@ -3,7 +3,7 @@
 ---
 
 
-![Pasted image 20241113164152.png](/img/user/Pasted%20image%2020241113164152.png)
+![Pasted image 20241113164152.png](/img/user/98_Images/Pasted%20image%2020241113164152.png)
 **MongoDB** er en *open-source NoSQL database*, der har vundet stor popularitet blandt udviklere og virksomheder, som ønsker en *fleksibel* og *skalérbar* løsning til deres data. I modsætning til traditionelle SQL-databaser, der anvender tabeller og relationer, bygger MongoDB på et dokumentorienteret system, der lagrer data som [[Main/Noter/JSON\|JSON]]-lignende objekter kaldet "dokumenter." 
 
 Denne tilgang gør MongoDB særligt velegnet til moderne applikationer, hvor data strukturer ofte udvikler sig over tid, og der er behov for hurtig håndtering af store datamængder.
@@ -38,7 +38,7 @@ Denne tilgang gør MongoDB særligt velegnet til moderne applikationer, hvor dat
     
 - **Indbygget replikeringsstøtte**: **MongoDB** understøtter replika-sæt, hvilket betyder, at data replikeres på tværs af flere servere for at opnå høj tilgængelighed og databeskyttelse.
 
-![Pasted image 20241115134046.png](/img/user/Pasted%20image%2020241115134046.png)
+![Pasted image 20241115134046.png](/img/user/98_Images/Pasted%20image%2020241115134046.png)
 *Billede fra [Medium](https://blog.devgenius.io/replication-and-sharding-on-mongodb-498997963167)*
 
 ### Anvendelsesområder for MongoDB

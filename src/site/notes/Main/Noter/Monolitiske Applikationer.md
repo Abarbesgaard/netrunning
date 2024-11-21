@@ -5,7 +5,7 @@
 > [!Important] Opsummering
 > En monolitisk applikation er en softwareløsning, hvor alle komponenter og funktionaliteter er integreret i en enkelt enhed eller blok. Denne arkitekturtype har følgende kendetegn:
 
-![Pasted image 20241115100249.png](/img/user/Pasted%20image%2020241115100249.png)
+![Pasted image 20241115100249.png](/img/user/98_Images/Pasted%20image%2020241115100249.png)
 *Billede fra [Guru99](https://www.guru99.com/da/microservices-tutorial.html)*
 
 ## Kilder

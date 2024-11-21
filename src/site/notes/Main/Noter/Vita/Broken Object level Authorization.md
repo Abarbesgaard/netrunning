@@ -4,7 +4,7 @@
 
 
 ## Broken Object level Authorization
-![2023 Broken Object Level Authorization.png](/img/user/2023%20Broken%20Object%20Level%20Authorization.png)
+![2023 Broken Object Level Authorization.png](/img/user/98_Images/2023%20Broken%20Object%20Level%20Authorization.png)
  
 > [!NOTE]- Opsummering af BOLA
 > API'er er sårbare over for **Broken Object Level Authorization** (*BOLA*), hvis de ikke kontrollerer, om en *bruger* har ret til at tilgå eller ændre specifikke objekter. ***BOLA* opstår, når API’en tillader manipulation af objekters ID'er**, så brugere kan få adgang til andre brugeres data. For at beskytte sig bør API'er validere, at den aktuelle bruger har adgangsrettigheder til hvert objekt. Løsningen omfatter hierarkibaserede adgangskontroller, brug af uforudsigelige GUIDs for objekter, og omfattende tests for at sikre korrekt adgangskontrol.

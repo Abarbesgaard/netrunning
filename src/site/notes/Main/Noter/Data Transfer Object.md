@@ -4,7 +4,7 @@
 
 
 ## Hvad er en DTO (Data Transfer Object)?
-![Data Transfer Object.png](/img/user/Data%20Transfer%20Object.png)
+![Data Transfer Object.png](/img/user/98_Images/Data%20Transfer%20Object.png)
 
 > [!Important] 
 > En **DTO (Data Transfer Object)** er et designmønster, der bruges til at overføre data mellem forskellige lag eller komponenter i en applikation. DTO'er bruges ofte i situationer, hvor der er behov for at sende data over et netværk, eksempelvis mellem klient og server, eller mellem forskellige [[Main/Noter/Emner/Backend/Microservice\|microserivces]] i en distribueret applikation.

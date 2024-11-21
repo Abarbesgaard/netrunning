@@ -19,7 +19,7 @@ Det første jeg vil gøre er at definere hvad en **Monolith** og en
 
 ## Hvad er en Monolith?
 
-![Monolith_architecture.png](/img/user/Monolith_architecture.png)
+![Monolith_architecture.png](/img/user/98_Images/Monolith_architecture.png)
 
 Dette billede fra *net solutions* viser hvordan alt i applikationen
 er samlet i en stor klump. Dette kan være en god løsning for et mindre projekt
@@ -41,7 +41,7 @@ har sit eget ansvarsområde.
 
 ## Modular Monolit
 
-![Modular monolith.png](/img/user/Modular%20monolith.png)
+![Modular monolith.png](/img/user/98_Images/Modular%20monolith.png)
 
 Dette billede fra harrison clarke viser hvordan en monolith kan deles op i moduler.
 Dette er en god mellemting mellem en monolith og microservices.
@@ -64,7 +64,7 @@ udskifte forskellige dele af din applikation, så er Microservices det rigtige v
 Microservices er en arkitektur hvor applikationen er opdelt i flere små
 services. Disse services er inddelt efter deres ansvarsområder/domæner.
 
-![Microservice_Arch.png](/img/user/Microservice_Arch.png)
+![Microservice_Arch.png](/img/user/98_Images/Microservice_Arch.png)
 
 ### Fordele ved Microservices
 
