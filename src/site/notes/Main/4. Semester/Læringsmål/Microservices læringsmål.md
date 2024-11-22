@@ -3,7 +3,7 @@
 ---
 
 ## Læringsmål 
-*change log kan findes i bunden*
+
 ### Viden
 
 #### §1
@@ -21,7 +21,7 @@ Jeg har viden om **kommunikationsmetoder** mellem [[Main/Noter/Emner/Backend/Mic
 ### Færdigheder
 
 #### §4
-Jeg kan implementere et [[Main/Noter/Emner/Backend/Microservice\|microservice-mønster]] for at sigte med [[Main/Noter/Eventual Consistency\|Eventual Consistency]] . Dette for at sikre håndtering af distribuerede transaktioner med minimal dataanomalier.
+Jeg kan implementere et [[Main/Noter/Emner/Backend/Microservice\|microservice-mønster]] for at sigte med [[Main/Noter/Eventual Consistency\|Eventual Consistency]] . Ved at anvende en [[Main/Noter/Message Brokers\|message broker]] som [[Main/Noter/RabbitMQ\|RabbitMQ]]. Dette sikrer en robust håndtering af distribuerede transaktioner og reducerer risikoen for dataanomalier."
 
 #SagaMønster #EventualConsistency #DistribueredeTransaktioner
 #### §5
