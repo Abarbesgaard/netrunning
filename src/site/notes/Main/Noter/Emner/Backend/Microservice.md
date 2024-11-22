@@ -2,29 +2,46 @@
 {"dg-publish":true,"permalink":"/main/noter/emner/backend/microservice/","title":"Microservice","hide":true,"tags":["Backend","Microservice","Projektarbejde"],"created":"2024-09-05T09:15:05.478+02:00"}
 ---
 
+
+
+> [!important] hvad er microservices?
+> En microservice er en arkitektonisk tilgang til softwareudvikling, hvor en applikation opbygges som en samling af små, uafhængige tjenester [1](https://azure.microsoft.com/da-dk/solutions/microservice-applications) [2](https://en.wikipedia.org/wiki/Microservices). 
+
 ![Microservice.png](/img/user/Main/Images/Microservice.png)
 
-**Microservices** er en arkitektur, hvor en applikation opdeles i mindre,
-selvstændige services, der hver især har en specifik funktion.
+Disse tjenester er:
 
-Disse services er løst koblede og kan udvikles, implementeres og skaleres
-uafhængigt af hinanden. Kommunikation mellem microservices sker typisk
-via REST API'er, message brokers eller service mesh.
+1. [[Loose Coupling\|Løst koblede]] og fint granulerede
+2. Kommunikerer via lette protokoller
+3. Organiseret omkring forretningskapabiliteter
+4. Uafhængigt udviklede og implementerede
+5. Kan implementeres med forskellige programmeringssprog og teknologier
 
-## Fordele
+Microservices gør det muligt for teams at udvikle, implementere og skalere deres tjenester uafhængigt af hinanden [2](https://en.wikipedia.org/wiki/Microservices). Dette øger fleksibiliteten og reducerer kompleksiteten i kodebasen ved at mindske afhængigheder mellem komponenter [2](https://en.wikipedia.org/wiki/Microservices).
 
-- Nem opdatering og tilføjelse af funktioner
-- Individuel skalering af komponenter
-- Fremmer agil udvikling med tværfunktionelle teams
+## Fordele ved microservices
+
+- **Modulær struktur**: Gør applikationen lettere at forstå, udvikle og teste [2](https://en.wikipedia.org/wiki/Microservices).
+- **Skalerbarhed**: Individuelle tjenester kan overvåges og skaleres uafhængigt [2](https://en.wikipedia.org/wiki/Microservices).
+- **Teknologisk fleksibilitet**: Forskellige programmeringssprog og teknologier kan bruges til forskellige tjenester [1](https://azure.microsoft.com/da-dk/solutions/microservice-applications) [2](https://en.wikipedia.org/wiki/Microservices).
+- **Hurtigere udvikling**: Muliggør hurtig, hyppig og pålidelig levering af store, komplekse applikationer [3](https://www.cegal.com/da/ordbog/microservices).
+- **Nemmere vedligeholdelse**: Ændringer i én del af applikationen kræver kun genopbygning og genimplementering af den specifikke tjeneste [2](https://en.wikipedia.org/wiki/Microservices).
 
 ## Udfordringer
 
-- Øget kompleksitet i styring og overvågning
-- Kræver DevOps og container-baserede værktøjer som Docker og Kubernetes
-- Risiko for overkomplicering ved for mange eller små services
-- Microservices anbefales kun, når en monolitisk applikation bliver for kompleks.
+Implementering af **microservices** kræver omhyggelig planlægning og infrastruktur. Det indebærer:
 
-## Kilder
+- Behov for et robust infrastrukturelt fundament.
+- Kompleks initial implementering sammenlignet med [[Main/Noter/Monolitiske Applikationer\|monolitiske systemer]].
+- Nødvendigheden af at designe grænseflader omhyggeligt som API'er [2](https://en.wikipedia.org/wiki/Microservices).
 
-[[Main/Noter/Litteratur/Noter/Microservices_Explained\|Microservices Explained - Youtube]]
-[[Main/Noter/Litteratur/Noter/What_Are_Microservices_IBM\|What Are Microservices - IBM]]
+![Pasted image 20241122082637.png](/img/user/Pasted%20image%2020241122082637.png)
+*Billedet er fra [ByteByteGo](https://blog.bytebytego.com/p/a-crash-course-on-microservices-design)*
+
+Microservices er særligt velegnede til virksomheder, der *kræver hyppige opdateringer* og *høj fleksibilitet* i deres softwarearkitektur, såsom [Netflix](https://www.netflix.com/dk-en/), der bruger over 1000 microservices i deres applikationsarkitektur [5](https://www.computerworld.dk/art/247872/microservices-naeste-boelge-inden-for-moderne-software-udvikling).
+
+I forhold til dette er det vigtigt at minde sig selv om Conways lov:
+
+> [!Quote] Melvin Conway
+> Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure. [6](https://martinfowler.com/bliki/ConwaysLaw.html)
+

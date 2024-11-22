@@ -52,6 +52,7 @@ Jeg havde fokus på hvordan et trusselsbillede kan se ud for en umiddelbar simpe
 
 ### Nøglekompetencer 
 - Praktisk erfaring med **OWASP API Top 10** .
+- *Forståelse for* og *erfaring* med at udvikle en trusselsmodel for simple [[Main/Noter/Emner/Backend/Microservice\|Microservices]].
 
 ---
 ## Process
