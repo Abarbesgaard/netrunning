@@ -17,7 +17,7 @@ Det giver udviklere mulighed for at oprette workflows, der kan bygge, teste og d
 
 ## Hvordan det fungerer
 
-1. Workflows defineres i YAML-filer i repositoriet [2](https://www.techchapter.com/da/skills/github-actions/).
+1. Workflows defineres i [[YAML\|YAML]]-filer i repositoriet [2](https://www.techchapter.com/da/skills/github-actions/).
 2. Workflows kan udløses af forskellige hændelser, f.eks. commits eller pull requests [2](https://www.techchapter.com/da/skills/github-actions/).
 3. Actions kører på GitHub-hostede eller self-hosted runners (maskiner) [2](https://www.techchapter.com/da/skills/github-actions/).
 

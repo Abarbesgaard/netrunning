@@ -27,7 +27,7 @@ Med [[GitHub Actions\|GitHub Actions]] kan du:
 
 ## **Opsætning af en Workflow til Pull Requests**
 
-### Opret en YAML-fil til din workflow
+### Opret en [[YAML\|YAML]]-fil til din workflow
 
 I din projektmappe skal du oprette en ny fil i `.github/workflows`-mappen. Navngiv den f.eks. `test-on-pr.yml`.
 
@@ -100,7 +100,6 @@ on:
 ---
 
 #### Jobs
-
 Workflowet består af to jobs: `build` og `test`. De er uafhængige af hinanden, hvilket betyder, at de kan køre parallelt.
 
 ---
