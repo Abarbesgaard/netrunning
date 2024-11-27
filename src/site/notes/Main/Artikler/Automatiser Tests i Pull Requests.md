@@ -27,7 +27,7 @@ Med GitHub Actions kan du:
 
 ## **Opsætning af en Workflow til Pull Requests**
 
-### **1. Opret en YAML-fil til din workflow**
+### Opret en YAML-fil til din workflow
 
 I din projektmappe skal du oprette en ny fil i `.github/workflows`-mappen. Navngiv den f.eks. `test-on-pr.yml`.
 
