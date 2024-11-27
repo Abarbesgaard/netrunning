@@ -8,15 +8,12 @@
 Når det kommer til valg af arkitektur, kan det være svært at afgøre, hvad der er bedst for din virksomhed. Valget mellem en [[Main/Noter/Monolitiske Applikationer\|monolitisk applikation]] og en [[Main/Noter/Emner/Backend/Microservice\|microservice-arkitektur]] afhænger af en række faktorer, såsom *skaleringsbehov*, *udviklingsteamets* *størrelse*, og hvor kompleks applikationen forventes at blive.
 
 ---
-
-I
-
 ## Hvad er en Monolith?
 En **[[Main/Noter/Monolitiske Applikationer\|monolitisk applikation]]** er en enkelt, samlet kodebase, hvor alle funktionaliteter er integreret og afhængige af hinanden.
 
 ![Monolith_architecture.png](/img/user/98_Images/Monolith_architecture.png)
 
-Dette kan være en god løsning for små eller mellemstore projekter, der ikke har behov for omfattende skalering. 
+Dette kan være en god løsning for *små* eller *mellemstore* projekter, der ikke har behov for omfattende skalering. 
 I projektets *startfase* kan det være hensigtsmæssigt at bruge en monolitisk tilgang, da det ofte er hurtigere at udvikle og implementere. Hvis projektet senere kræver mere fleksibilitet eller skalering, kan en overvejelse af [[Main/Noter/Emner/Backend/Microservice\|microservices]] blive relevant.
 
 ### Fordele ved Monolith
@@ -31,7 +28,6 @@ En **modulær monolith** er en monolitisk arkitektur, der er opdelt i separate m
 ![Modular monolith.png](/img/user/98_Images/Modular%20monolith.png)
 
 Denne tilgang fungerer som en overgang mellem [[Main/Noter/Monolitiske Applikationer\|monolith]] og [[Main/Noter/Emner/Backend/Microservice\|microservices]], da modulerne kan behandles næsten som selvstændige services.
-
 ### Fordele ved Modular Monolith
 
 - **Bedre vedligeholdelse:** Opdeling i moduler gør det lettere at lokalisere og rette fejl.
@@ -68,20 +64,20 @@ Valget mellem [[Main/Artikler/Mono vs Micro#Hvad er en Monolith?\|monolith]], [[
 Ved at starte med en modular monolith kan du senere migrere til microservices, hvis behovet opstår.
 
 ## Kilder
-- **Chronosphere: Comparing Monolith and Microservice Architectures for Software Delivery**  
-    Tilgængelig på: [https://chronosphere.io/learn/comparing-monolith-and-microservice-architectures-for-software-delivery/](https://chronosphere.io/learn/comparing-monolith-and-microservice-architectures-for-software-delivery/)
-    
-- **freeCodeCamp: Microservices vs Monoliths Explained**  
-    Tilgængelig på: [https://www.freecodecamp.org/news/microservices-vs-monoliths-explained/](https://www.freecodecamp.org/news/microservices-vs-monoliths-explained/)
-    
-- **AWS: The Difference Between Monolithic and Microservices Architecture**  
-    Tilgængelig på: [https://aws.amazon.com/compare/the-difference-between-monolithic-and-microservices-architecture/](https://aws.amazon.com/compare/the-difference-between-monolithic-and-microservices-architecture/)
-    
-- **N-iX: Microservices vs Monolith: Which Architecture is the Best Choice for Your Business?**  
-    Tilgængelig på: [https://www.n-ix.com/microservices-vs-monolith-which-architecture-best-choice-your-business/](https://www.n-ix.com/microservices-vs-monolith-which-architecture-best-choice-your-business/)
-    
-- **Atlassian: Microservices vs Monolith**  
-    Tilgængelig på: [https://www.atlassian.com/microservices/microservices-architecture/microservices-vs-monolith](https://www.atlassian.com/microservices/microservices-architecture/microservices-vs-monolith)
-    
-- **OpenLegacy: Monolithic Application**  
-    Tilgængelig på: [https://www.openlegacy.com/blog/monolithic-application](https://www.openlegacy.com/blog/monolithic-application)
+> [!source]- Chronosphere: Comparing Monolith and Microservice Architectures for Software Delivery
+>   Tilgængelig på: [https://chronosphere.io/learn/comparing-monolith-and-microservice-architectures-for-software-delivery/](https://chronosphere.io/learn/comparing-monolith-and-microservice-architectures-for-software-delivery/)
+
+> [!source]- freeCodeCamp: Microservices vs Monoliths Explained
+> Tilgængelig på: [https://www.freecodecamp.org/news/microservices-vs-monoliths-explained/](https://www.freecodecamp.org/news/microservices-vs-monoliths-explained/)
+
+> [!source]- AWS: The Difference Between Monolithic and Microservices Architecture
+> Tilgængelig på: [https://aws.amazon.com/compare/the-difference-between-monolithic-and-microservices-architecture/](https://aws.amazon.com/compare/the-difference-between-monolithic-and-microservices-architecture/)
+
+> [!source]- N-iX: Microservices vs Monolith: Which Architecture is the Best Choice for Your Business?
+> Tilgængelig på: [https://www.n-ix.com/microservices-vs-monolith-which-architecture-best-choice-your-business/](https://www.n-ix.com/microservices-vs-monolith-which-architecture-best-choice-your-business/)
+
+> [!source]- Atlassian: Microservices vs Monolith
+> Tilgængelig på: [https://www.atlassian.com/microservices/microservices-architecture/microservices-vs-monolith](https://www.atlassian.com/microservices/microservices-architecture/microservices-vs-monolith)
+
+> [!source]- OpenLegacy: Monolithic Application
+> Tilgængelig på: [https://www.openlegacy.com/blog/monolithic-application](https://www.openlegacy.com/blog/monolithic-application)
