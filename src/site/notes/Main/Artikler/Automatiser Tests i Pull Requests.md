@@ -3,21 +3,21 @@
 ---
 
 
-**At sikre kodekvalitet** er afgørende for succes i ethvert udviklingsprojekt. Automatisering af tests som en del af pull request-processen er en effektiv måde at fange fejl, sikre stabilitet og spare tid. I denne guide viser jeg, hvordan du opsætter GitHub Actions til at køre tests automatisk, hver gang du laver en pull request (PR).
+**At sikre kodekvalitet** er afgørende for succes i ethvert udviklingsprojekt. Automatisering af tests som en del af [[Pull Request\|pull request]]-processen er en effektiv måde at fange fejl, sikre stabilitet og spare tid. I denne guide viser jeg, hvordan du opsætter [[GitHub Actions\|GitHub Actions]] til at køre tests automatisk, hver gang du laver en [[Pull Request\|pull request]] (PR).
 
 Når vi er færdige, vil du have en workflow, der:
 
 1. Kører dine tests automatisk.
-2. Blokerer en PR fra at blive merged, hvis testene fejler.
+2. Blokerer en [[Pull Request\|PR]] fra at blive merged, hvis testene fejler.
 3. Giver dig et solidt grundlag for at *skalere* dit projekt.
 
 ---
 
-## **Hvad er GitHub Actions?**
+## Hvad er [[GitHub Actions?\|GitHub Actions?]]
 
-GitHub Actions er en CI/CD-platform indbygget i [[Main/Noter/GitHub\|GitHub]]. Det gør det muligt at opsætte workflows, der aktiveres ved specifikke hændelser, som f.eks. når en pull request oprettes eller en push laves til et bestemt branch.
+[[GitHub Actions\|GitHub Actions]] er en CI/CD-platform indbygget i [[Main/Noter/GitHub\|GitHub]]. Det gør det muligt at opsætte workflows, der aktiveres ved specifikke hændelser, som f.eks. når en [[Pull Request\|pull request]] oprettes eller en push laves til et bestemt branch.
 
-Med GitHub Actions kan du:
+Med [[GitHub Actions\|GitHub Actions]] kan du:
 
 - Køre tests.
 - Bygge og deploye applikationer.
@@ -77,7 +77,7 @@ jobs:
 ---
 
 ### Forklaring af Workflow-filen
-Denne workflow-fil er designet til at automatisere bygning og testning af en .NET-applikation, hver gang en pull request laves mod enten `main`- eller `develop`-branchen. Den bruger GitHub Actions til at udføre følgende trin:
+Denne workflow-fil er designet til at automatisere bygning og testning af en .NET-applikation, hver gang en [[Pull Request\|pull request]] laves mod enten `main`- eller `develop`-branchen. Den bruger [[GitHub Actions\|GitHub Actions]] til at udføre følgende trin:
 
 ---
 ### **Sektioner Forklaret**
@@ -94,7 +94,7 @@ on:
 		- main       
 		- develop
 ```
-- **`name`**: Angiver navnet på workflowet, så det er let at identificere i GitHub Actions-grænsefladen.
+- **`name`**: Angiver navnet på workflowet, så det er let at identificere i [[GitHub Actions\|GitHub Actions]]-grænsefladen.
 - **`on`**: Definerer, hvornår workflowet skal køre. Her bliver det trigget, når der laves en pull request mod `main`- eller `develop`-branchen.
 
 ---
@@ -191,7 +191,7 @@ dotnet test tests/MyApp.Tests/MyApp.Tests.csproj
 Ved at bruge dette workflow kan du automatisere dine builds og tests, hvilket sparer tid og sikrer høj kodekvalitet. Det er nemt at tilpasse yderligere trin som *code coverage*, *linting* eller *integrationstests* for at styrke din **CI/CD-proces**.
 
 **Hvad tænker du?**  
-Har du erfaring med GitHub Actions, eller mangler der noget i denne guide? Del dine tanker, forslag og spørgsmål i kommentarerne – lad os starte en diskussion om bedste praksis for test-automatisering! 🚀
+Har du erfaring med [[GitHub Actions\|GitHub Actions]], eller mangler der noget i denne guide? Del dine tanker, forslag og spørgsmål i kommentarerne – lad os starte en diskussion om bedste praksis for test-automatisering! 🚀
 
 ## Kilder
 > [!source]- Github Actions
