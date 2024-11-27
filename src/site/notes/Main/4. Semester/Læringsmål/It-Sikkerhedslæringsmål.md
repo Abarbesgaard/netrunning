@@ -20,7 +20,7 @@ Jeg har kendskab til **DDoS-beskyttelse** og værktøjer til overvågning af bel
 
 #### §3
 
-Jeg har indsigt i **sikkerhedsudfordringer i [[Main/Noter/Emner/Backend/Microservice\|microservices]]**, og kan bruge værktøjer som [[Main/Noter/API-Gateway\|API Gateways]], autentificeringsprotokoller og kryptering til at beskytte service-til-service kommunikation.
+Jeg har indsigt i **sikkerhedsudfordringer i [[Main/Noter/Emner/Backend/Microservice\|microservices]]**, og kan bruge løsninger som [[Main/Noter/API-Gateway\|API Gateways]], autentificeringsprotokoller og kryptering.
 
 #Microservices #Autentificering #Kryptering #APIGateway
 
@@ -40,7 +40,7 @@ Jeg kan **integrere [[Main/Noter/API-Gateway\|API Gateways]] og [[Main/Noter/Zer
 
 #### §6
 
-Jeg kan **udføre sikkerhedstests og statisk analyse** gennem CI/CD-pipelines for kontinuerlig beskyttelse af kodebase og applikation.
+Jeg kan **udføre sikkerhedstests og statisk analyse** gennem *CI/CD-pipelines* for kontinuerlig beskyttelse af kodebase og applikation.
 
 #Sikkerhedstest #StatiskAnalyse #CI/CD #Sikkerhed
 
@@ -60,11 +60,11 @@ Jeg kan **forklare og forsvare valg af sikkerhedsmekanismer** baseret på bedste
 
 #### §9
  
-Jeg kan **indarbejde sikkerhedsprincipper i udviklingsprocessen**, herunder automatiserede tests og logning, så sikkerhed bliver en del af kodekulturen og deployment-processen.
+Jeg kan **indarbejde sikkerhedsprincipper i udviklingsprocessen**, herunder *automatiserede tests* og *logning*, så sikkerhed bliver en del af kodekulturen og deployment-processen.
 
 #Sikkerhedsprincipper #AutomatiseredeTests #Kodekultur #Deployment
 
-##### Change log
+## Change log
 *2024-10-29*: læringsmål er rettet til og afventer godkendelse
 *2024-10-28*: Har rakt ud til underviser med henblik på at omformulere nogle af læringsmålene 
 *2024-10-23*: Lavet nogle små rettelser i læringsmålene

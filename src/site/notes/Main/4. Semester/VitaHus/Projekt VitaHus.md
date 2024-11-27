@@ -7,7 +7,7 @@ Dette er overblikket over vores fælles projekt for 4. semester.
 ### Scope
 Dette projekt er lavet til en institution, som har fokus på at få unge mennesker som har truffet nogle dårlige valg, tilbage på ret køl. 
 
-Det produkt vi har afleveret til firmaet ender med at blive en #Monolit, da den belastning som vil være på systemet ikke vil berettige en #Microservice arkitektur.
+Det produkt vi har afleveret til firmaet ender med at blive en [[Main/Noter/Distribuerede systemer\|Distribueret Monolit]], da den belastning som vil være på systemet ikke vil berettige en [[Main/Noter/Emner/Backend/Microservice\|Microservice arkitektur]].
 
 Neden for vil du kunne finde *links* til GitHub hvor vores projekt ligger, *dokumentationen* og til sidst *Dev bloggen* som indeholder nogle af de refleksioner jeg har gjort mig i løbet af projektets levetid på 4. semester.
 

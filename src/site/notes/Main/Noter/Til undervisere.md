@@ -24,7 +24,7 @@ I løbet af mit 4. semester har jeg fordybet mig i [[Main/Noter/Emner/Backend/Mi
 
 Her har jeg arbejdet med [[Main/Noter/RabbitMQ\|RabbitMQ]] som [[Main/Noter/Message Brokers\|message broker]], opsat en [[Main/Noter/API-Gateway\|API-Gateway]] og udviklet CI/CD workflows, der inddrager [[Main/Noter/Docker\|Docker]] og [[Main/Noter/MongoDB\|MongoDB]]. 
 
-Gennem dette arbejde har jeg opnået en dybere forståelse for, hvordan man skaber *skalerbare* [[Main/Noter/Distribuerede systemer\|distribuerede systemer]] i praksis.
+Gennem dette  har jeg opnået en dybere forståelse for, hvordan man skaber *skalerbare* [[Main/Noter/Distribuerede systemer\|distribuerede systemer]] i praksis.
 
 ### Læringsmål
 [[Main/4. Semester/Læringsmål/Microservices læringsmål\|Microservices læringsmål]]
