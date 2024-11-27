@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/noter/litteratur/noter/what-are-microservices-ibm/","title":"What Are Microsevices - IBM","created":"2024-09-06T08:19:23.261+02:00"}
+{"dg-publish":true,"permalink":"/main/noter/litteratur/noter/what-are-microservices-ibm/","title":"What Are Microsevices - IBM","tags":["Microsevices","Programmering"],"created":"2024-09-06T08:19:23.261+02:00"}
 ---
 
 Troværdighed: 4/5

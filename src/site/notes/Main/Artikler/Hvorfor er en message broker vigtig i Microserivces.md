@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/artikler/hvorfor-er-en-message-broker-vigtig-i-microserivces/","dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-11-27T14:38:38.610+01:00"}
+{"dg-publish":true,"permalink":"/main/artikler/hvorfor-er-en-message-broker-vigtig-i-microserivces/","tags":["Microservices","MessageBrokers","SoftwareArchitecture"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-11-27T14:38:38.610+01:00"}
 ---
 
 [[Main/Noter/Emner/Backend/Microservice\|Microservices-arkitektur]] har revolutioneret måden, vi bygger og skalerer applikationer på. Ved at bryde en [[Main/Noter/Monolitiske Applikationer\|monolitisk applikation]] ned i små, *uafhængige services* kan teams opnå større fleksibilitet, skalerbarhed og vedligeholdelse. 

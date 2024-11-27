@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/artikler/copilot-er-magisk/","tags":["Artikel"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-06-19T08:43:14.420+02:00"}
+{"dg-publish":true,"permalink":"/main/artikler/copilot-er-magisk/","tags":["Artikel","Teknologi","Implementering"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-06-19T08:43:14.420+02:00"}
 ---
 
 Se hvad jeg ellers har skrevet [[Main/Artikler/Artikler jeg har skrevet\|her]]

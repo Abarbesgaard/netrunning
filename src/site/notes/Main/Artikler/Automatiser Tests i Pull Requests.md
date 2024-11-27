@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/artikler/automatiser-tests-i-pull-requests/","dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-11-27T10:33:10.380+01:00"}
+{"dg-publish":true,"permalink":"/main/artikler/automatiser-tests-i-pull-requests/","tags":["AutomatedTesting","GitHubActions","CICD"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-11-27T10:33:10.380+01:00"}
 ---
 
 
