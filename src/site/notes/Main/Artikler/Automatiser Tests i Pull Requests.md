@@ -5,7 +5,7 @@
 
 **At sikre kodekvalitet** er afgørende for succes i ethvert udviklingsprojekt. Automatisering af tests som en del af [[Pull Request\|pull request]]-processen er en effektiv måde at fange fejl, sikre stabilitet og spare tid. I denne guide viser jeg, hvordan du opsætter [[GitHub Actions\|GitHub Actions]] til at køre tests automatisk, hver gang du laver en [[Pull Request\|pull request]] (PR).
 
-> [!Faq] Når vi er færdige, vil du have en workflow, der:
+> [!important] Når vi er færdige, vil du have en workflow, der:
 > >[!note] 1
 >Kører dine tests automatisk
 >
@@ -82,9 +82,6 @@ jobs:
 ### Forklaring af Workflow-filen
 Denne workflow-fil er designet til at automatisere bygning og testning af en .NET-applikation, hver gang en [[Pull Request\|pull request]] laves mod enten `main`- eller `develop`-branchen. Den bruger [[GitHub Actions\|GitHub Actions]] til at udføre følgende trin:
 
----
-### **Sektioner Forklaret**
-
 #### Workflow-navn og triggere
 
 ```yaml
@@ -104,7 +101,7 @@ on:
 #### Jobs
 Workflowet består af to jobs: `build` og `test`. De er uafhængige af hinanden, hvilket betyder, at de kan køre parallelt.
 
-##### **Job: Build**
+##### Job: Build
 ```yaml
 jobs:   
 	  build:
