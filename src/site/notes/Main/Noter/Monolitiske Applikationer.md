@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/noter/monolitiske-applikationer/","created":"2024-11-15T10:01:57.240+01:00"}
+{"dg-publish":true,"permalink":"/main/noter/monolitiske-applikationer/","dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-11-15T10:01:57.240+01:00"}
 ---
 
 > [!Important] Opsummering

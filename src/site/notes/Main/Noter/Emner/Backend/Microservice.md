@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/noter/emner/backend/microservice/","title":"Microservice","hide":true,"tags":["Backend","Microservice","Projektarbejde"],"created":"2024-09-05T09:15:05.478+02:00"}
+{"dg-publish":true,"permalink":"/main/noter/emner/backend/microservice/","title":"Microservice","hide":true,"tags":["Backend","Microservice","Projektarbejde"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-09-05T09:15:05.478+02:00"}
 ---
 
 

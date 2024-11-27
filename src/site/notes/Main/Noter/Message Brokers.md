@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/noter/message-brokers/","created":"2024-11-13T08:04:32.981+01:00"}
+{"dg-publish":true,"permalink":"/main/noter/message-brokers/","dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-11-13T08:04:32.981+01:00"}
 ---
 
 
