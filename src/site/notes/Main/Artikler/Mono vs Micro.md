@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/artikler/mono-vs-micro/","title":"Mono vs Micro","tags":["Monolith","Microservices","Architecture"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-09-30T08:26:24.046+02:00"}
+{"dg-publish":true,"permalink":"/main/artikler/mono-vs-micro/","title":"Mono vs Micro","tags":["Monolith","Microservices","Architecture"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-09-30T08:26:24.046+02:00"}
 ---
 
 
