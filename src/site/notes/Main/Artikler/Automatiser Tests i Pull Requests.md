@@ -5,17 +5,20 @@
 
 **At sikre kodekvalitet** er afgørende for succes i ethvert udviklingsprojekt. Automatisering af tests som en del af [[Pull Request\|pull request]]-processen er en effektiv måde at fange fejl, sikre stabilitet og spare tid. I denne guide viser jeg, hvordan du opsætter [[GitHub Actions\|GitHub Actions]] til at køre tests automatisk, hver gang du laver en [[Pull Request\|pull request]] (PR).
 
-Når vi er færdige, vil du have en workflow, der:
-
-1. Kører dine tests automatisk.
-2. Blokerer en [[Pull Request\|PR]] fra at blive merged, hvis testene fejler.
-3. Giver dig et solidt grundlag for at *skalere* dit projekt.
+> [!Faq] Når vi er færdige, vil du have en workflow, der:
+> >[!note] 1
+>Kører dine tests automatisk
+>
+>>[!note] 2
+>Blokerer en [[Pull Request\|PR]] fra at blive merged, hvis testene fejler.
+>
+>>[!note] 3
+>Giver dig et solidt grundlag for at *skalere* dit projekt.
 
 ---
+## Kort om [[GitHub Actions?\|GitHub Actions?]]
 
-## Hvad er [[GitHub Actions?\|GitHub Actions?]]
-
-[[GitHub Actions\|GitHub Actions]] er en CI/CD-platform indbygget i [[Main/Noter/GitHub\|GitHub]]. Det gør det muligt at opsætte workflows, der aktiveres ved specifikke hændelser, som f.eks. når en [[Pull Request\|pull request]] oprettes eller en push laves til et bestemt branch.
+[[GitHub Actions\|GitHub Actions]] er en CI/CD-platform indbygget i [[Main/Noter/GitHub\|GitHub]]. Det gør det muligt at opsætte *workflows*, der aktiveres ved *specifikke hændelser*, som f.eks. når en [[Pull Request\|pull request]] oprettes eller en push laves til et bestemt branch.
 
 Med [[GitHub Actions\|GitHub Actions]] kan du:
 
@@ -98,11 +101,8 @@ on:
 - **`on`**: Definerer, hvornår workflowet skal køre. Her bliver det trigget, når der laves en pull request mod `main`- eller `develop`-branchen.
 
 ---
-
 #### Jobs
 Workflowet består af to jobs: `build` og `test`. De er uafhængige af hinanden, hvilket betyder, at de kan køre parallelt.
-
----
 
 ##### **Job: Build**
 ```yaml
@@ -134,7 +134,6 @@ jobs:
     - **`Build`**: Kompilerer projektet med `dotnet build`. Der bruges `--configuration Release` for at bygge i produktionsmode, og `--no-restore` undgår at gendanne afhængigheder igen, da det allerede er gjort.
 
 ---
-
 ##### **Job: Test**
 
 ```yaml
@@ -161,7 +160,6 @@ test:
     - **`Test`**: Kører tests med `dotnet test`. Du skal angive stien til din `.csproj`-testprojektfil for at sikre, at de korrekte tests køres.
 
 ---
-
 ### **Tilpasning af Stier**
 
 De steder, hvor der står `[Her skal stå stien til din .sln fil]` eller `[Her skal stå stien til din .csproj testfil]`, skal du tilpasse det til din projektstruktur. Eksempler:
@@ -178,7 +176,6 @@ dotnet test tests/MyApp.Tests/MyApp.Tests.csproj
 ```
 
 ---
-
 ### **Fordele ved denne Struktur**
 
 - **Modularitet:** Build og test er separate jobs, hvilket gør workflows nemmere at debugge og vedligeholde.
