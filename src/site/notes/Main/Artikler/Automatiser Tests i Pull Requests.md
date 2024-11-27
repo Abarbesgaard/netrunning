@@ -15,7 +15,7 @@ Når vi er færdige, vil du have en workflow, der:
 
 ## **Hvad er GitHub Actions?**
 
-GitHub Actions er en CI/CD-platform indbygget i GitHub. Det gør det muligt at opsætte workflows, der aktiveres ved specifikke hændelser, som f.eks. når en pull request oprettes eller en push laves til et bestemt branch.
+GitHub Actions er en CI/CD-platform indbygget i [[Main/Noter/GitHub\|GitHub]]. Det gør det muligt at opsætte workflows, der aktiveres ved specifikke hændelser, som f.eks. når en pull request oprettes eller en push laves til et bestemt branch.
 
 Med GitHub Actions kan du:
 
