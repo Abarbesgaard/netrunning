@@ -61,10 +61,6 @@ classDiagram
 	}
 ```
 
-**Regel:**
-
-> **Variation i data => Objekter.**
-
 ---
 
 ### Når polymorfisme giver mening
@@ -130,8 +126,8 @@ move.Use(player); // Gendanner spillerens helbred.
 
 Designbeslutninger om polymorfisme bør baseres på forskellen mellem **data** og **adfærd**:
 
-- Hvis variationen kun er i data, skal du undgå polymorfisme og bruge objekter.
-- Hvis variationen er i adfærd, giver polymorfisme mening.
+- Hvis variationen *kun er i data*, skal du undgå polymorfisme og bruge objekter.
+- Hvis variationen *er i adfærd*, giver polymorfisme mening.
 
 #### De gyldne regler:
 
