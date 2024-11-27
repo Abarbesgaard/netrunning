@@ -1,12 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/main/artikler/data-vs-adaerd/","title":"Data vs Adfærd","tags":["Objektorienteret_Programmering"],"created":"2024-06-19T08:43:14.420+02:00"}
+{"dg-publish":true,"permalink":"/main/artikler/data-vs-adaerd/","title":"Data vs Adfærd","tags":["Objektorienteret_Programmering"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-06-19T08:43:14.420+02:00"}
 ---
 
-# Hvornår skal man bruge Polymorfisme?
+Se hvad jeg ellers har skrevet [[Main/Artikler/Artikler jeg har skrevet\|her]]
 
-Den eneste grund til at have flere forskellige subklasser som arver fra en superklasser er når der er en ændring i **adfærd**.
+---
+## Hvornår skal man bruge Polymorfisme?
 
-Lad os tage udgangspunkt i følgende klasse diagram
+Polymorfisme er en grundpille i objektorienteret programmering (OOP), som muliggør, at forskellige objekter kan reagere forskelligt på samme metodekald. Når vi designer klasser, er det vigtigt at overveje, hvornår polymorfisme giver mening. En grundregel er, at polymorfisme kun bør anvendes, når der er forskel i **adfærd** mellem klasserne.
+### Eksempel: Angreb i et spil
+
+Lad os udforske polymorfisme ved hjælp af et eksempel fra et spil, hvor vi har forskellige typer angreb.
 
 
 ```mermaid
@@ -27,33 +31,20 @@ classDiagram
 	}
 ```
 
-Her kan vi se *2 klasser* og *1 interface*. 
+Her er to klasser: `Thunderbolt` og `Scratch`, der begge arver fra interfacet `IAttack`. På overfladen ser det ud som et fint design. Men hvis vi undersøger det nærmere, har vi kun variation i **data** (fx forskellige værdier for `Name` og `Damage`), mens adfærden forbliver den samme: Begge angreb reducerer spillerens helbredspoint med en bestemt værdi.
 
-De to klasser arver fra interface’et.
+### Når polymorfisme ikke giver mening
 
-Lad os se på hvad præcis **Thunderbolt** og **Scratch** er og gør
+Hvis klasserne kun varierer i deres **data** og ikke i deres **adfærd**, er det bedre at bruge objekter i stedet for polymorfisme.
 
-Forestil dig at alt hvad de to klasser gør er at have et navn og trække en int fra en spillers Health points.
+**Opsummering af fejlscenariet:**
 
-Dette beskriver Christopher i videoen som en ændring i data snarere end en ændring i adfærd. Derfor er det unødvendigt at oprette to underklasser, der arver fra et interface.
+- `Thunderbolt` og `Scratch` udfører præcis den samme handling (reducerer helbredspoint).
+- Forskellen ligger kun i værdier som `Damage`, hvilket kan håndteres gennem simple objekter i stedet for separate klasser.
 
-Det kan opsummeres sådan:
-> [!summary] 
-> Ænding i data => objekter
+#### Bedre løsning uden polymorfisme
 
-Hvis de to klasser ser sådan ud:
-
-*Name*: Tunderbolt
-
-*Damage* : 100
-
-*Name*: Scratch
-
-*Damage* : 10
-
-Gør vi ikke mere end at ændre data.
-
-Så lad os lave klasse diagrammet om så det passer bedre til at have underklasser.
+I stedet for at oprette flere klasser kan vi bruge en enkelt klasse med data, der beskriver angrebstypen:
 
 ```mermaid
 classDiagram
@@ -70,22 +61,15 @@ classDiagram
 	}
 ```
 
-Nu er der placeret metoder i alle kasser. Det må vel kunne ære adfærden for klasserne, for metoder er vel adfærd?  
- 
+**Regel:**
 
-…Tjoe
+> **Variation i data => Objekter.**
 
-Men hvis vi kigger efter i sømmene kan vi forestille os at Use metoden gør det samme som i det første diagram oven for.
+---
 
-fx
+### Når polymorfisme giver mening
 
-_Thunderbolt_ trækker 100 fra Spilleren health points
-
-_Scratch_ trækker 10 fra spillerens Health Points
-
-I bund og grund har de den samme adfærd. 
-
-Alright, sidste forsøg.
+Polymorfisme er værdifuld, når vi har **forskellig adfærd**, dvs. når klasser udfører unikke handlinger. Lad os udvide eksemplet:
 ```mermaid
 classDiagram
 	Attack --|> IMove
@@ -101,29 +85,62 @@ classDiagram
 	}
 ```
 
-Nu er det lavet et interface de hedder _IMove_. Yderligere to klasser som hedder _Attack_ og _Stun_.  
-De to klasser har her 2 vidt forskellig adfærd
+Her introduceres to klasser: `Attack` og `Stun`. De implementerer begge interfacet `IMove`, men deres adfærd er vidt forskellig:
 
-_Attack_ trækker et heltal fra spillerens health points
+- `Attack` reducerer spillerens helbredspoint.
+- `Stun` gendanner spillerens helbred til maksimum.
 
-_Stun_ returnerer spilleres health points til maks.
+Eksempel i kode:
+```csharp
+public interface IMove 
+{ 
+	void Use(IPlayer player); 
+} 
+public class Attack : IMove 
+{
+	public int Damage { get; set; } 
+	public void Use(IPlayer player) 
+	{ 
+		player.Health -= Damage; 
+	} 
+} 
+public class Stun : IMove 
+{ 
+	public void Use(IPlayer player) 
+	{ 
+		player.Health = player.MaxHealth; 
+	} 
+}
+```
+Med dette design kan vi bruge polymorfisme til at håndtere forskellige adfærdsvariationer:
 
-2 forskellige adfærdsmønstre. Her er der en valid case for at opdele det i underklasser.
+```csharp
+IMove move = new Attack { Damage = 50 }; 
+move.Use(player); // Reducerer spillerens helbred.  
 
-> [!important] 
-> Variation i Adfærd => Klasser
+move = new Stun(); 
+move.Use(player); // Gendanner spillerens helbred.
+```
 
-## Opsummering
+>[!important] Huskeregel 
+>Variation i adfærd => Klasser.
 
-Vi har udforsket polymorfisme i objektorienteret programmering og vurderet, hvordan det påvirker designbeslutninger. Diskussionen fokuserede på forskellen mellem data- og adfærdsændringer og betydningen af at afveje kompleksitet mod klarhed og vedligeholdelse i designprocessen. Samlet set understregede analysen behovet for omhyggelig anvendelse af polymorfi for at opnå en effektiv og skalerbar objektorienteret arkitektur. Til allersidst:
+---
+### Opsummering
 
-**Variation i Data => Objekter**
+Designbeslutninger om polymorfisme bør baseres på forskellen mellem **data** og **adfærd**:
 
-**Variation i Adfærd => Klasser**
+- Hvis variationen kun er i data, skal du undgå polymorfisme og bruge objekter.
+- Hvis variationen er i adfærd, giver polymorfisme mening.
 
+#### De gyldne regler:
 
-| Kilder                                                                                                              | Beskrivelse                      |
-| ------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| [_“The only time you should use Polymorphism” af Christopher Okhravi_](https://www.youtube.com/watch?v=YaSMkzmc_sA) | En Fed video om ovenstående emne |
+1. **Variation i Data → Objekter.**  
+    Brug én klasse med forskellige objekter til at repræsentere dataforskelle.
+    
+2. **Variation i Adfærd → Klasser.**  
+    Brug polymorfisme til at repræsentere forskellige adfærdsvariationer gennem arv eller interfaces.
+    
 
+Med disse retningslinjer kan du skabe et mere vedligeholdbart og effektivt system.
 

@@ -1,13 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/main/artikler/lo-b-vs-clean-code/","title":"LoB vs Clean Code","tags":["Objektorienteret_Programmering","Software_Design","Clean_Code","Locality_of_Behaviour"],"created":"2024-08-11T08:05:48.254+02:00"}
+{"dg-publish":true,"permalink":"/main/artikler/lo-b-vs-clean-code/","title":"LoB vs Clean Code","tags":["Objektorienteret_Programmering","Software_Design","Clean_Code","Locality_of_Behaviour"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-08-11T08:05:48.254+02:00"}
 ---
 
+Se hvad jeg ellers har skrevet [[Main/Artikler/Artikler jeg har skrevet\|her]]
 
+---
 ## Hvad er du mest til?
-
-1. At have små funktioner i din kode som implementerer andre små funktioner,
+> [!question] Spørgsmål 1
+>At have små funktioner i din kode som implementerer andre små funktioner,
 som tilsammen skaber én adfærd?
-2. At have en funktion med én adfærd, uden mange små funktioner der opdeler
+
+> [!question] spørgsmål 2
+> At have en funktion med én adfærd, uden mange små funktioner der opdeler
 denne adfærd?
 
 Dette spørgsmål vil jeg prøve at komme med forskellige synsvinkler på der
@@ -17,10 +21,9 @@ principle(LoB)** og **Clean Code principle**.
 ## Hvad er LoB principle?
 
 LoB er defineret ved:
-
+> [!Quote] Carson Gross
 > Adfærden i en enhed af kode bør være så åbenlys som muligt. Ved blot at
 se på denne enhed af kode skal man kunne forstå hele adfærden.
-> – Carson Gross [Gross]
 
 Princippet søger at gøre det lettere for udviklere at forstå og vedligeholde
 kode ved at sikre, at adfærden af et kode element er så tydeligt og let at
@@ -114,9 +117,7 @@ public class ButtonHandler
 }
 ```
 
-> [!tip]
->
-> ### Fordele ved LoB
+### Fordele ved LoB
 
  Der er flere fordele ved at følge Locality of Behaviour (LoB):
 
@@ -125,10 +126,7 @@ public class ButtonHandler
 - Bedre kodekvalitet
 - Øget forståelse
 - Reduceret afhængighed
-
-> [!fail]
->
-> ### Ulemper ved LoB
+### Ulemper ved LoB
 
 Selv om det kan lyde lovende med at gøre det væsentlig lettere at læse koden
 er det stadig nogle udfordringer ved at holde sig hovedsagtligt til LoB:
@@ -227,18 +225,14 @@ public class Calculator
 }
 ```
 
-> [!tip]
->
-> ### Fordele ved Clean Code
+### Fordele ved Clean Code
 
 - Øget læsbarhed
 - Forbedret vedligeholdelighed
 - Øget produktivitet
 - Bedre samarbejde
 
-> [!fail]
->
-> ### Ulemper ved Clean Code
+### Ulemper ved Clean Code
 
 - Tidskrævende
 - Over-engineering

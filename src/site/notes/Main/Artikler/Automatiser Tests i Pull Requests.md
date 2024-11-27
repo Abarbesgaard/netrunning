@@ -27,7 +27,6 @@ Med [[GitHub Actions\|GitHub Actions]] kan du:
 - Automatisere gentagne opgaver i dit udviklingsarbejde.
 
 ---
-
 ## **Opsætning af en Workflow til Pull Requests**
 
 ### Opret en [[YAML\|YAML]]-fil til din workflow
@@ -78,10 +77,8 @@ jobs:
     
 ```
 ---
-
 ### Forklaring af Workflow-filen
 Denne workflow-fil er designet til at automatisere bygning og testning af en .NET-applikation, hver gang en [[Pull Request\|pull request]] laves mod enten `main`- eller `develop`-branchen. Den bruger [[GitHub Actions\|GitHub Actions]] til at udføre følgende trin:
-
 #### Workflow-navn og triggere
 
 ```yaml
