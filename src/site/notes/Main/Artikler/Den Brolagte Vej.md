@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/artikler/den-brolagte-vej/","created":"2024-11-27T06:29:01.110+01:00"}
+{"dg-publish":true,"permalink":"/main/artikler/den-brolagte-vej/","dgShowLocalGraph":"false","created":"2024-11-27T06:29:01.110+01:00"}
 ---
 
 > En Vej til Effektive Microservices
