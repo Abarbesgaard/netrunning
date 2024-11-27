@@ -179,8 +179,6 @@ dotnet test tests/MyApp.Tests/MyApp.Tests.csproj
 - **Parallellitet:** Du kan konfigurere workflows til at køre jobs samtidigt for at spare tid.
 - **Fleksibilitet:** Nem at udvide med flere trin, som f.eks. kodeanalyse, deploy eller integrationstests.
 
-### Afslutning og Call to Action
-
 Ved at bruge dette workflow kan du automatisere dine builds og tests, hvilket sparer tid og sikrer høj kodekvalitet. Det er nemt at tilpasse yderligere trin som *code coverage*, *linting* eller *integrationstests* for at styrke din **CI/CD-proces**.
 
 **Hvad tænker du?**  
