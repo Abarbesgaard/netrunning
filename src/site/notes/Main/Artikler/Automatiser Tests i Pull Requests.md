@@ -188,3 +188,8 @@ Har du erfaring med [[GitHub Actions\|GitHub Actions]], eller mangler der noget 
 > [!source]- Build your first GitHub Actions workflow
 > Tilgængelig på: [youtube](https://www.youtube.com/watch?v=47zYGHwXPmE)
 
+## Andre artikler med samme emne
+| File | Title | Tags |
+| ---- | ----- | ---- |
+
+{ .block-language-dataview}

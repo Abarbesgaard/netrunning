@@ -317,3 +317,10 @@ Prentice Hall.
 
 Alkan, S. (2022, November 3). Clean Code Chapter 3: Functions. Medium.
 [https://medium.com/@seydialkan/clean-code-chapter-3-functions-bfde27c1983a](https://medium.com/@seydialkan/clean-code-chapter-3-functions-bfde27c1983a)
+
+## Andre artikler med samme emne
+| File                                              | Title         | Tags                                              |
+| ------------------------------------------------- | ------------- | ------------------------------------------------- |
+| [[Main/Artikler/Data vs Adærd\|Data vs Adærd]] | Data vs Adærd | <ul><li>#Objektorienteret_Programmering</li></ul> |
+
+{ .block-language-dataview}

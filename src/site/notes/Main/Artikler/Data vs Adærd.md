@@ -140,3 +140,9 @@ Designbeslutninger om polymorfisme bør baseres på forskellen mellem **data** o
 
 Med disse retningslinjer kan du skabe et mere vedligeholdbart og effektivt system.
 
+## Andre artikler med samme emne
+| File                                                      | Title             | Tags                                                                                                                          |
+| --------------------------------------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| [[Main/Artikler/LoB vs Clean Code\|LoB vs Clean Code]] | LoB vs Clean Code | <ul><li>#Objektorienteret_Programmering</li><li>#Software_Design</li><li>#Clean_Code</li><li>#Locality_of_Behaviour</li></ul> |
+
+{ .block-language-dataview}

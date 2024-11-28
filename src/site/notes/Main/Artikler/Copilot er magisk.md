@@ -75,3 +75,10 @@ Harding, W., & Kloster, M. (2024). Coding on Copilot: 2023 Data Shows Downward P
 Tilgner, Aidan. "A Deep Dive Into GitHub Copilot: How GitHub Copilot Works Under the Hood." _Better Programming_, November 10, 2021. Kan findes her: [https://betterprogramming.pub/ai-review-github-copilot-d43afde51a5a](https://betterprogramming.pub/ai-review-github-copilot-d43afde51a5a).
 
 Dreams of Code. "Why I'm No Longer Using Copilot." _Dreams of Code_, YouTube video, 30 March 2024. Accessed April 7, 2024.
+
+## Andre artikler med samme emne
+| File                            | Title | Tags                                                |
+| ------------------------------- | ----- | --------------------------------------------------- |
+| [[Main/Artikler/CORS\|CORS]] | CORS  | <ul><li>#Teknologi</li><li>#Programmering</li></ul> |
+
+{ .block-language-dataview}

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/noter/distribuerede-systemer/","created":"2024-11-15T09:27:37.059+01:00"}
+{"dg-publish":true,"permalink":"/main/noter/distribuerede-systemer/","dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-11-15T09:27:37.059+01:00"}
 ---
 
 > [!important] Opsummering 
