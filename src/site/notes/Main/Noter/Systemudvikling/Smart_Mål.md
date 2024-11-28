@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/noter/systemudvikling/smart-mal/","title":"Smart Mål","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"created":"2024-09-20T10:05:41.522+02:00"}
+{"dg-publish":true,"permalink":"/main/noter/systemudvikling/smart-mal/","title":"Smart Mål","tags":["læringsmål","systemudvikling","projektarbejde","programmering"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-09-20T10:05:41.522+02:00"}
 ---
 
 

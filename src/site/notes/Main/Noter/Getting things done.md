@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/noter/getting-things-done/","created":"2024-11-13T16:56:28.595+01:00"}
+{"dg-publish":true,"permalink":"/main/noter/getting-things-done/","dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-11-13T16:56:28.595+01:00"}
 ---
 
 ![Pasted image 20241112130322.png](/img/user/98_Images/Pasted%20image%2020241112130322.png)

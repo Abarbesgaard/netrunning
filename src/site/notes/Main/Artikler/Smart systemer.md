@@ -27,7 +27,7 @@ For at bygge et effektivt system er det vigtigt at have nogle centrale elementer
 
 - **Refleksion:** Regelmæssig evaluering af, hvor tæt du er på dine mål, og justering af retningen. Jeg bruger værktøjer som Todoist til at holde styr på opgaver og sikre, at de passer ind i et større system, der er fleksibelt nok til at tilpasse sig til ændringer.
     
-- **Værktøjer:** Systemer kræver værktøjer til at holde styr på fremdriften. Jeg bruger to-do lister([Todoist](https://todoist.com/)) og SMART-målene som byggesten i mit system til at måle mine delmål og opdage de opgaver, der virkelig gør en forskel.
+- **Værktøjer:** Systemer kræver værktøjer til at holde styr på fremdriften. Jeg bruger to-do lister([Todoist](https://todoist.com/)) og [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-målene]] som byggesten i mit system til at måle mine delmål og opdage de opgaver, der virkelig gør en forskel.
     
 - **Flow:** Et godt system skal ikke kun handle om at nå mål – det skal også hjælpe med at opretholde flow og produktivitet. I mit tilfælde betyder det at skabe små vaner og opgaver, der holdes simple og giver mig små gevinster på vejen mod større mål.
     
