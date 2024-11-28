@@ -14,6 +14,7 @@
 | [[Main/Artikler/Microservices/Hvorfor er en message broker vigtig i Microserivces\|Hvorfor er en message broker vigtig i Microserivces]] | 27-11-2024 | <ul><li>#Microservices</li><li>#MessageBrokers</li><li>#SoftwareArchitecture</li></ul>                                        |
 | [[Main/Artikler/LoB vs Clean Code\|LoB vs Clean Code]]                                                                                   | 11-08-2024 | <ul><li>#Objektorienteret_Programmering</li><li>#Software_Design</li><li>#Clean_Code</li><li>#Locality_of_Behaviour</li></ul> |
 | [[Main/Artikler/Microservices/Mono vs Micro\|Mono vs Micro]]                                                                             | 30-09-2024 | <ul><li>#Monolith</li><li>#Microservices</li><li>#Architecture</li></ul>                                                      |
+| [[Main/Artikler/Smart systemer\|Smart systemer]]                                                                                         | 28-11-2024 | <ul><li>#SmartSystemer</li><li>#MålSætning</li><li>#Produktivitet</li></ul>                                                   |
 
 { .block-language-dataview}
 
