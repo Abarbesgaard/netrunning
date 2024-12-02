@@ -20,10 +20,6 @@ Opdag nyttige tips og teknikker, der kan hjælpe dig med at få mere præcise og
 [[Advanceret Prompting\|Advanceret Prompting]]
 Dyk ned i avancerede teknikker for prompting, der giver dig mulighed for at finjustere interaktionen med sprogmodellen, skabe mere komplekse forespørgsler og opnå mere nuancerede resultater.
 
-| [[Main/Ai/LLM Instillinger\|LLM Instillinger]] | [[Main/Ai/Hvad er Prompting\|Hvad er Prompting]] | [[Main/Ai/Prompt Elementer\|Prompt Elementer]]     |
-| -------------------- | --------------------- | ------------------------ |
-| [[Main/Ai/Tips og Tricks\|Tips og Tricks]]   |                       | [[Advanceret Prompting\|Advanceret Prompting]] |
-
 ## Kilder
 
 > [!source]- Prompting Guide  
