@@ -5,7 +5,8 @@
 ## Hvad er prompt engineering
 
 > [!important] inspiration
-> Denne guide er kraftigt inspireret af denne [guide](https://www.promptingguide.ai/). Hvis denne bliver mangelfuld på nogen måde vil jeg anbefale den anden.
+> Denne guide er kraftigt inspireret af denne [guide](https://www.promptingguide.ai/). Hvis denne bliver mangelfuld, vil jeg anbefale at kigge på den nævnte kilde som alternativ.
+> jeg vil forsøge så vidt muligt at samle den viden jeg kan om **Prompt Engineering** og gøre det så nemt som muligt at tilgå.
 
 Prompt engineering er et nyt område, hvor man udvikler og forbedrer prompts for at få mest muligt ud af sproglige modeller ([[Main/Noter/Large language model\|Large language model]], LLMs). Det bruges til mange forskellige formål og forskningsprojekter. Med gode færdigheder inden for prompt engineering kan man bedre forstå, hvad store sproglige modeller ([[Main/Noter/Large language model\|LLMs]]) kan – *og ikke kan.*
 
