@@ -7,7 +7,7 @@
 > Skalering er en essentiel del af enhver moderne applikation, især når man arbejder med [[Main/Noter/Distribuerede systemer\|distribuerede systemer]] som [[Main/Noter/Emner/Backend/Microservice\|microservices]]. 
 
 
-![Pasted image 20241128085307.png](/img/user/Pasted%20image%2020241128085307.png)
+![Pasted image 20241128085307.png](/img/user/Main/Images/Pasted%20image%2020241128085307.png)
 *Billedet er fra [medium](https://medium.com/javarevisited/difference-between-horizontal-scalability-vs-vertical-scalability-67455efc91c)*
 
 Når man taler om skalering, refererer man ofte til to hovedmetoder: **horisontal skalering** og **vertikal skalering**. Begge metoder har deres *fordele* og *ulemper*, og det er vigtigt at forstå forskellen og hvornår man bør vælge den ene frem for den anden.
@@ -17,7 +17,7 @@ Når man taler om skalering, refererer man ofte til to hovedmetoder: **horisonta
 
 Vertikal skalering, også kaldet **skalering op**, indebærer at opgradere de ressourcer, der allerede findes på en enkelt server eller instans. Det betyder, at du øger serverens kapacitet ved at tilføje flere CPU-kerner, mere RAM, større lagerplads eller kraftigere netværksforbindelser.
 
-![Pasted image 20241128085417.png](/img/user/Pasted%20image%2020241128085417.png)
+![Pasted image 20241128085417.png](/img/user/Main/Images/Pasted%20image%2020241128085417.png)
 *Billedet er fra [Medium](https://sumeetpanchal-21.medium.com/scaling-strategies-vertical-scaling-horizontal-scaling-and-hybrid-designs-fc42a63af0cb)*
 #### **Fordele ved vertikal skalering:**
 
@@ -35,7 +35,7 @@ Vertikal skalering, også kaldet **skalering op**, indebærer at opgradere de re
 
 Horisontal skalering, også kaldet **skalering ud**, indebærer at tilføje flere servere (eller instanser) til din applikation i stedet for at opgradere en enkelt server. I stedet for at gøre én server kraftigere, distribuerer du arbejdsbelastningen mellem flere servere.
 
-![Pasted image 20241128085532.png](/img/user/Pasted%20image%2020241128085532.png)
+![Pasted image 20241128085532.png](/img/user/Main/Images/Pasted%20image%2020241128085532.png)
 *Billedet er fra [gartsolutions](https://gartsolutions.com/cloud-scalability-horizontal-vs-vertical-scaling-of-it-infrastructures/)*
 #### **Fordele ved horisontal skalering:**
 

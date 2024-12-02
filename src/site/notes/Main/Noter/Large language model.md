@@ -6,7 +6,7 @@
 > [!important] Hvad er en LLM?
 > En Large Language Model (LLM) er en avanceret **kunstig intelligens-teknologi**, der er specialiseret i at behandle, forstå og generere menneskelignende tekst [1](https://aibi.dk/hvad-er-llm.ai) [2](https://da.shaip.com/blog/what-does-large-language-model-llm-mean/).
 
-![Pasted image 20241202091757.png](/img/user/Pasted%20image%2020241202091757.png)
+![Pasted image 20241202091757.png](/img/user/Main/Images/Pasted%20image%2020241202091757.png)
 *Billedet er fra [aidegreeguide](https://aidegreeguide.com/deep-learning/)*
 ## Centrale karakteristika
 

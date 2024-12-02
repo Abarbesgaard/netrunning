@@ -5,7 +5,7 @@
 > [!important] Hvad er Github? 
 > GitHub er en **webbaseret platform** designet til **versionskontrol** og **samarbejde** på softwareprojekter. Den fungerer som et centralt sted for udviklere til at gemme, administrere og dele deres kode ved hjælp af Git, et open source-system til versionsstyring.
 
-![Pasted image 20241127111554.png](/img/user/Pasted%20image%2020241127111554.png)
+![Pasted image 20241127111554.png](/img/user/Main/Images/Pasted%20image%2020241127111554.png)
 
 GitHub muliggør, at flere udviklere kan arbejde på det samme projekt samtidig, hvilket er essentielt for effektivt teamsamarbejde [1](https://itconfidence.dk/encyclopedia/github/) [2](https://yayhosting.dk/ordbog/hvad-er-github).
 ## Funktioner af GitHub

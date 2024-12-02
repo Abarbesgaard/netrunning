@@ -5,10 +5,10 @@
 ## Emner
 Nedenfor kan du finde emner som vil give dig viden om følgende:
 
-[[LLM Instillinger\|LLM Instillinger]]
+[[Main/Ai/LLM Instillinger\|LLM Instillinger]]
 Lær om, hvordan man justerer indstillingerne for store sprogmodeller ([[Main/Noter/Large language model\|LLM]]) for at optimere deres præstation og tilpasse dem til specifikke opgaver og kontekster.
 
-[[Hvad er Prompting\|Hvad er Prompting]]
+[[Main/Ai/Hvad er Prompting\|Hvad er Prompting]]
 Få indsigt i, hvad prompting er, og hvordan man effektivt kan formulere forespørgsler for at få præcise og relevante svar fra [[Main/Noter/Large language model\|LLM'er]].
 
 [[Main/Ai/Prompt Elementer\|Prompt Elementer]]
@@ -20,6 +20,36 @@ Opdag nyttige tips og teknikker, der kan hjælpe dig med at få mere præcise og
 [[Advanceret Prompting\|Advanceret Prompting]]
 Dyk ned i avancerede teknikker for prompting, der giver dig mulighed for at finjustere interaktionen med sprogmodellen, skabe mere komplekse forespørgsler og opnå mere nuancerede resultater.
 
-| [[LLM Instillinger\|LLM Instillinger]] | [[Hvad er Prompting\|Hvad er Prompting]] | [[Main/Ai/Prompt Elementer\|Prompt Elementer]]     |
+| [[Main/Ai/LLM Instillinger\|LLM Instillinger]] | [[Main/Ai/Hvad er Prompting\|Hvad er Prompting]] | [[Main/Ai/Prompt Elementer\|Prompt Elementer]]     |
 | -------------------- | --------------------- | ------------------------ |
 | [[Main/Ai/Tips og Tricks\|Tips og Tricks]]   |                       | [[Advanceret Prompting\|Advanceret Prompting]] |
+
+## Kilder
+
+> [!source]- Prompting Guide  
+> Tilgængelig på: [website](https://www.promptingguide.ai/)
+
+> [!source]- Prompt Engineering GitHub  
+> Tilgængelig på: [github](https://github.com/brexhq/prompt-engineering?tab=readme-ov-file#markdown-tables)
+
+> [!source]- YouTube: Prompt Engineering Overview  
+> Tilgængelig på: [youtube](https://www.youtube.com/watch?v=1c9iyoVIwDs)
+
+> [!source]- YouTube: Introduction to Prompt Engineering  
+> Tilgængelig på: [youtube](https://www.youtube.com/watch?v=_ZvnD73m40o)
+
+> [!source]- YouTube: Advanced Prompting Techniques  
+> Tilgængelig på: [youtube](https://www.youtube.com/watch?v=T9aRN5JkmL8)
+
+### Fra OpenAI
+
+> [!source]- OpenAI Safety Best Practices  
+> Tilgængelig på: [platform](https://platform.openai.com/docs/guides/safety-best-practices)
+
+> [!source]- OpenAI Guide to Prompt Engineering  
+> Tilgængelig på: [platform](https://platform.openai.com/docs/guides/prompt-engineering)
+
+### Sikkerhed
+
+> [!source]- Learn Prompting: Prompt Hacking Introduction  
+> Tilgængelig på: [website](https://learnprompting.org/docs/prompt_hacking/introduction)

@@ -11,7 +11,7 @@
 
 Disse tjenester er:
 
-1. [[Loose Coupling\|Løst koblede]] og fint granulerede
+1. [[Main/Noter/Loose Coupling\|Løst koblede]] og fint granulerede
 2. Kommunikerer via lette protokoller
 3. Organiseret omkring forretningskapabiliteter
 4. Uafhængigt udviklede og implementerede
@@ -35,7 +35,7 @@ Implementering af **microservices** kræver omhyggelig planlægning og infrastru
 - Kompleks initial implementering sammenlignet med [[Main/Noter/Monolitiske Applikationer\|monolitiske systemer]].
 - Nødvendigheden af at designe grænseflader omhyggeligt som API'er [2](https://en.wikipedia.org/wiki/Microservices).
 
-![Pasted image 20241122082637.png](/img/user/Pasted%20image%2020241122082637.png)
+![Pasted image 20241122082637.png](/img/user/Main/Images/Pasted%20image%2020241122082637.png)
 *Billedet er fra [ByteByteGo](https://blog.bytebytego.com/p/a-crash-course-on-microservices-design)*
 
 Microservices er særligt velegnede til virksomheder, der *kræver hyppige opdateringer* og *høj fleksibilitet* i deres softwarearkitektur, såsom [Netflix](https://www.netflix.com/dk-en/), der bruger over 1000 microservices i deres applikationsarkitektur [5](https://www.computerworld.dk/art/247872/microservices-naeste-boelge-inden-for-moderne-software-udvikling).

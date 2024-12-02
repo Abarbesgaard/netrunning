@@ -10,7 +10,7 @@ Men med denne arkitektur opstår også nye udfordringer, især når det gælder 
 
 #### Hvad er en Message Broker?
 
-![Pasted image 20241127145828.png](/img/user/Pasted%20image%2020241127145828.png)
+![Pasted image 20241127145828.png](/img/user/Main/Images/Pasted%20image%2020241127145828.png)
 *Billedet er fra [tsh](https://tsh.io/blog/message-broker/)*
 
 En message broker er et softwaremodul, der gør det muligt for [[Main/Noter/Emner/Backend/Microservice\|microservices]] at kommunikere med hinanden via beskeder. Det fungerer som en mellemmand, der modtager beskeder fra én service og leverer dem til en eller flere modtagere. Eksempler på populære [[Main/Noter/Message Brokers\|message brokers]] inkluderer [[Main/Noter/RabbitMQ\|RabbitMQ]], **Apache Kafka**, **Amazon SQS** og **Azure Service Bus**.
@@ -29,13 +29,13 @@ Uden en message broker kan [[Main/Noter/Emner/Backend/Microservice\|microservice
 ---
 #### Hvordan løser en [[Main/Noter/Message Brokers\|Message Broker]] disse udfordringer?
 
-![Pasted image 20241127145901.png](/img/user/Pasted%20image%2020241127145901.png)
+![Pasted image 20241127145901.png](/img/user/Main/Images/Pasted%20image%2020241127145901.png)
 *Billedet er fra [Medium](https://betterprogramming.pub/why-do-we-need-message-broker-7382ce0e46c6)*
 
 1. **Asynkron Kommunikation**  
     Med en [[Main/Noter/Message Brokers\|message broker]] kan [[Main/Noter/Emner/Backend/Microservice\|microservices]] kommunikere *asynkront*. Dette betyder, at en service kan sende en besked og fortsætte sit arbejde uden at vente på svar. Dette reducerer latenstid og afhængighed mellem services.
     
-2. **[[Loose Coupling\|Løs Kobling]]**  
+2. **[[Main/Noter/Loose Coupling\|Løs Kobling]]**  
     Message brokers tillader services at kommunikere uden at kende hinandens detaljer. Dette gør det nemmere at tilføje, ændre eller fjerne services uden at påvirke hele systemet.
     
 3. **Fejltolerance og Pålidelighed**  
@@ -81,7 +81,7 @@ En [[Main/Noter/Message Brokers\|message broker]] er især værdifuld i følgend
 
 #### Ulemper og Overvejelser
 
-![Pasted image 20241127150243.png](/img/user/Pasted%20image%2020241127150243.png)
+![Pasted image 20241127150243.png](/img/user/Main/Images/Pasted%20image%2020241127150243.png)
 *Billedet er fra [IStock](https://www.istockphoto.com/photos/frustrated-man)*
 
 Selvom en [[Main/Noter/Message Brokers\|message broker]] løser mange problemer, er der også ulemper:

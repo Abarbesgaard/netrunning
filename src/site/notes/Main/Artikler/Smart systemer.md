@@ -23,7 +23,7 @@ I stedet for at se på mål som slutpunkter, har jeg nu ændret mit perspektiv t
 ### Hvordan et "smart system" ser ud
 
 For at bygge et effektivt system er det vigtigt at have nogle centrale elementer på plads:
-![Pasted image 20241128115628.png](/img/user/Pasted%20image%2020241128115628.png)
+![Pasted image 20241128115628.png](/img/user/Main/Images/Pasted%20image%2020241128115628.png)
 
 - **Refleksion:** Regelmæssig evaluering af, hvor tæt du er på dine mål, og justering af retningen. Jeg bruger værktøjer som Todoist til at holde styr på opgaver og sikre, at de passer ind i et større system, der er fleksibelt nok til at tilpasse sig til ændringer.
     
@@ -34,7 +34,7 @@ For at bygge et effektivt system er det vigtigt at have nogle centrale elementer
 
 ## Fyrtårne
 
-![Pasted image 20241128104838.png](/img/user/Pasted%20image%2020241128104838.png)
+![Pasted image 20241128104838.png](/img/user/Main/Images/Pasted%20image%2020241128104838.png)
 
 En vigtig indsigt, jeg har fået, er, at mål ikke længere er det endelige mål. De fungerer som en fyrtårne, der hjælper mig med at holde fokus. Disse tårne er ikke rigide og fastlåst, men flytter sig, som jeg lærer og vokser. Hvad der virkede som et mål for en måned siden, kan være et nyt system i dag.
 

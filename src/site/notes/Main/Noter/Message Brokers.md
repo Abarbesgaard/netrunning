@@ -20,11 +20,11 @@ Hovedformålet med en message broker er at:
 Message brokers understøtter typisk to grundlæggende kommunikationsmønstre:
 
 **Point-to-point messaging**: En besked sendes fra en afsender til en specifik modtager [3](https://www.bigtech.coach/system-components/what-is-a-message-broker)
-![Pasted image 20241122081320.png](/img/user/Pasted%20image%2020241122081320.png)
+![Pasted image 20241122081320.png](/img/user/Main/Images/Pasted%20image%2020241122081320.png)
 
 **Publish/subscribe (pub/sub)**: En afsender publicerer beskeder til et emne, og brokeren distribuerer dem til alle abonnenter på det pågældende emne [3](https://www.bigtech.coach/system-components/what-is-a-message-broker)
 
-![Pasted image 20241122081520.png](/img/user/Pasted%20image%2020241122081520.png)
+![Pasted image 20241122081520.png](/img/user/Main/Images/Pasted%20image%2020241122081520.png)
 *Billedet er fra [AWS](https://aws.amazon.com/what-is/pub-sub-messaging/)*
 
 Ved at bruge en **message broker** kan man opnå løs kobling mellem tjenester i et system, hvilket gør det lettere at *skalere*, *refaktorere* og *implementere* individuelle komponenter uafhængigt af hinanden [3](https://www.bigtech.coach/system-components/what-is-a-message-broker).
