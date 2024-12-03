@@ -27,10 +27,9 @@ Her er en liste over opgaver. Prøv selv at se om du kan løse dem først før d
 En variabel er en navngivet beholder, der bruges til at gemme værdier i et program. Variabler gør det muligt at arbejde med data dynamisk, da værdien kan ændres under programmets kørsel. Hver variabel har en type (fx tal, tekst eller boolean), som definerer, hvilken slags data den kan holde.
 **Eksempel fra programmering**
 I C#:
-> ```csharp
-int age = 25; // En variabel af typen int, der gemmer alderen som et heltal. 
-string name = "Andreas"; // En variabel af typen string, der gemmer et navn.
->```
+>int age = 25; // En variabel af typen int, der gemmer alderen som et heltal. 
+string name = "Andreas"; // En variabel af typen string, der gemmer et navn.`
+>
 
 ### Opgave 2
 - **Formål**: At lære hvordan man får AI til at generere relevante tags.
