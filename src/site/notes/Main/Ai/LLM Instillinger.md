@@ -1,10 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/main/ai/llm-instillinger/","dgHomeLink":"false","dgShowBacklinks":"false","dgEnableSearch":"false","created":"2024-12-02T09:25:06.682+01:00"}
+{"dg-publish":true,"permalink":"/main/ai/llm-instillinger/","dgHomeLink":"false","dgShowBacklinks":"false","dgShowFileTree":"false","dgEnableSearch":"false","created":"2024-12-02T09:25:06.682+01:00"}
 ---
 
 ## Parametre i prompt engineering
 
-Når du designer og tester *prompts*, interagerer du typisk med [[Main/Noter/Large language model\|LLM'er]] via en [[Main/Noter/API\|API]]. Her kan du justere nogle parametre for at opnå forskellige resultater. Justeringen kræver eksperimenter for at finde de rette indstillinger, der passer til dine behov. Her er en forklaring på de mest almindelige parametre:
+Når du designer og tester *prompts*, interagerer du typisk med [[Main/Noter/Large language model\|LLM'er]] via en [[Main/Noter/API\|API]]. Her kan du justere nogle parametre for at opnå forskellige resultater. 
+
+Justeringen kræver eksperimenter for at finde de rette indstillinger, der passer til dine behov. Her er en forklaring på de mest almindelige parametre:
 
 ---
 

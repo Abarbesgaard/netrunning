@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/ai/guide-til-prompt-engineering/","tags":["Prompts","Ai"],"dgHomeLink":"false","dgShowFileTree":"false","dgEnableSearch":"false","created":"2024-12-02T08:19:33.214+01:00"}
+{"dg-publish":true,"permalink":"/main/ai/guide-til-prompt-engineering/","tags":["Prompts","Ai"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowFileTree":"false","dgEnableSearch":"false","created":"2024-12-02T08:19:33.214+01:00"}
 ---
 
 ## Hvad er prompt engineering
@@ -12,11 +12,11 @@ Prompt engineering er et nyt område, hvor man udvikler og forbedrer prompts for
 
 Forskere bruger prompt engineering til at forbedre [[Main/Noter/Large language model\|LLMers]] evner inden for opgaver som at besvare spørgsmål og løse matematiske problemer. Udviklere bruger det til at skabe effektive teknikker, der fungerer sammen med [[Main/Noter/Large language model\|LLM'er]] og andre værktøjer.
 
-## Hvad dækker prompt engineering
+## Hvad prompt engineering dækker over
 
 Det handler ikke kun om at lave prompts, men også om at opbygge færdigheder og teknikker til at arbejde med [[Main/Noter/Large language model\|LLM'er]]. Med prompt engineering kan du:
 
-- Forstå og udnytte [[Main/Noter/Large language model\|LLM'ers]]muligheder bedre.
+- Forstå og udnytte [[Main/Noter/Large language model\|LLM'ers]], som fx [ChatGPT](https://chatgpt.com/) og [Claude](https://www.anthropic.com/claude), muligheder bedre.
 - Forbedre sikkerheden ved brug af [[Main/Noter/Large language model\|LLM'er]].
 - Udvikle nye funktioner, f.eks. ved at integrere [[Main/Noter/Large language model\|LLM'ers]] med viden fra specifikke områder eller eksterne værktøjer.
 
