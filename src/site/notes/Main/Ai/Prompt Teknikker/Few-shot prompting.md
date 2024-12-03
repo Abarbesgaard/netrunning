@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/main/ai/prompt-teknikker/few-shot-prompting/","tags":["⭐⭐"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowFileTree":"false","dgEnableSearch":"false","created":"2024-12-02T11:57:03.978+01:00"}
+{"dg-publish":true,"permalink":"/main/ai/prompt-teknikker/few-shot-prompting/","tags":["⭐"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowFileTree":"false","dgEnableSearch":"false","created":"2024-12-02T11:57:03.978+01:00"}
 ---
 
 > [!important] Sværhedsgrad
-> ⭐⭐
+> ⭐
 
 
 Few-shot prompting er en teknik inden for prompt engineering, hvor du indsætter eksempler i din prompt for at træne modellen til at forstå, hvordan du ønsker, at output skal se ud og lyde.

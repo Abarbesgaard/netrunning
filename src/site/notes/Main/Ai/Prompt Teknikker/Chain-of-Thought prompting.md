@@ -5,9 +5,11 @@
 > [!important] Sværhedsgrad
 > ⭐⭐⭐
 
-Chain-of-thought (CoT) prompting muliggør for modellen at lave komplekse ræsonnement gennem mellemtrin. Det fungerer ved at modellen ikke kun genererer et endeligt svar, men også de mellemtrin, der fører til konklusionen. Dette gør det muligt for modellen at forstå og håndtere mere komplekse opgaver, der kræver ræsonnering, før den giver et svar.
+Chain-of-thought (CoT) prompting muliggør for modellen at lave komplekse ræsonnement. Det fungerer ved at modellen ikke kun genererer et endeligt svar, men også de mellemtrin, der fører til konklusionen. 
 
-CoT prompting kan kombineres med [[Main/Ai/Prompt Teknikker/Few-shot prompting\|Few-shot prompting]] for at opnå bedre resultater på mere komplekse opgaver, hvor det er nødvendigt at gøre ræsonneringsprocessen tydelig og dele den op i forståelige trin. 
+Dette gør det muligt for modellen at forstå og håndtere mere komplekse opgaver, der kræver mere logik, før den giver et svar.
+
+CoT prompting kan kombineres med [[Main/Ai/Prompt Teknikker/Few-shot prompting\|Few-shot prompting]] for at opnå bedre resultater på mere komplekse opgaver, hvor det er nødvendigt at gøre processen tydelig og dele den op i forståelige trin. 
 
 Denne tilgang hjælper modellen med at forstå, hvordan man løser et problem trin for trin, hvilket kan forbedre præstationen, *især* i situationer, der involverer matematiske beregninger, logik og andre komplekse beslutningstagning.
 
@@ -15,20 +17,20 @@ Denne tilgang hjælper modellen med at forstå, hvordan man løser et problem tr
 Hvis vi tager eksemplet med at finde ud af, om de ulige tal i en gruppe summerer til et lige tal, kan CoT prompting hjælpe modellen med at vise sine mellemtrin:
 
 > [!example] eksempel
-The odd numbers in this group add up to an even number: 4, 8, 9, 15, 12, 2, 1.
-A: Adding all the odd numbers (9, 15, 1) gives 25. The answer is False.
-The odd numbers in this group add up to an even number: 17, 10, 19, 4, 8, 12, 24.
-A: Adding all the odd numbers (17, 19) gives 36. The answer is True.
-The odd numbers in this group add up to an even number: 16, 11, 14, 4, 8, 13, 24.
-A: Adding all the odd numbers (11, 13) gives 24. The answer is True.
-The odd numbers in this group add up to an even number: 17, 9, 10, 12, 13, 4, 2.
-A: Adding all the odd numbers (17, 9, 13) gives 39. The answer is False.
-The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1. 
-A:
-_Output:_
-Adding all the odd numbers (15, 5, 13, 7, 1) gives 41. The answer is False.
+De ulige tal i denne gruppe lægges sammen til et lige tal: 4, 8, 9, 15, 12, 2, 1. 
+S: Hvis man lægger alle de ulige tal sammen (9, 15, 1) giver det 25. Svaret er Falsk. 
+De ulige tal i denne gruppe lægges sammen til et lige tal: 17, 10, 19, 4, 8, 12, 24. 
+S: Hvis man lægger alle de ulige tal sammen (17, 19) giver det 36. Svaret er Sandt. 
+De ulige tal i denne gruppe lægges sammen til et lige tal: 16, 11, 14, 4, 8, 13, 24. 
+S: Hvis man lægger alle de ulige tal sammen (11, 13) giver det 24. Svaret er Sandt. 
+De ulige tal i denne gruppe lægges sammen til et lige tal: 17, 9, 10, 12, 13, 4, 2. 
+S: Hvis man lægger alle de ulige tal sammen (17, 9, 13) giver det 39. Svaret er Falsk. 
+De ulige tal i denne gruppe lægges sammen til et lige tal: 15, 32, 5, 13, 82, 7, 1. 
+S: 
+**Output:** 
+Hvis man lægger alle de ulige tal sammen (15, 5, 13, 7, 1) giver det 41. Svaret er Falsk.
 
-Ved at inkludere disse mellemtrin får modellen ikke kun mulighed for at forstå ræsonneringens proces, men også at give et korrekt og begrundet svar. Denne metode er især nyttig, når opgaven er kompleks, og der er behov for en logisk progression for at nå frem til den rigtige løsning.
+Ved at inkludere disse mellemtrin får modellen ikke kun mulighed for at forstå processen, men også at give et korrekt og begrundet svar. Denne metode er især nyttig, *når opgaven er kompleks*, og der er behov for en logisk progression for at nå frem til den rigtige løsning.
 
 ### Kode eksempel
 Jeg forsøgte mig med at lave et kode eksempel med C#.
