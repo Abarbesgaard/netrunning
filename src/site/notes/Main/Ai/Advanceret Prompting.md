@@ -5,7 +5,7 @@
 
 En del af at skrive prompts er at benytte forskellige teknikker til at opnå forskellige mål. Herunder kan du finde et bredt udvalg af teknikker du kan gøre brug af når du prompter en [[Main/Noter/Large language model\|LLM]].
 
-Jeg har valgt at rangere nedenstående teknikker efter hvor kompliceret de er at benytte, med følgende skala:
+Jeg har valgt at rangere nedenstående *prompt teknikker* efter hvor kompliceret de er at benytte, med følgende skala:
 - **⭐ (Lav kompleksitet)**
 - **⭐⭐ (Moderat lav kompleksitet)**
 - **⭐⭐⭐ (Moderat kompleksitet)**
@@ -21,13 +21,9 @@ Jeg har valgt at rangere nedenstående teknikker efter hvor kompliceret de er at
 | [[Main/Ai/Prompt Teknikker/Prompt Chaining\|Prompt Chaining]]                           | Prompt Chaining              | <ul><li>#⭐⭐⭐</li></ul> |
 
 { .block-language-dataview}
-
-
 [[Meta prompting\|Meta prompting]]
 
 [[Self-Consistency\|Self-Consistency]]
-
-[[Main/Ai/Prompt Teknikker/Prompt Chaining\|Prompt Chaining]]
 
 [[Tree of Throughts\|Tree of Throughts]]
 
