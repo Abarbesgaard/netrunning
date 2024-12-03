@@ -21,7 +21,6 @@ Jeg har valgt at rangere nedenstående *prompt teknikker* efter hvor kompliceret
 | [[Main/Ai/Prompt Teknikker/Prompt Chaining\|Prompt Chaining]]                           | Prompt Chaining              | <ul><li>#⭐⭐⭐</li></ul> |
 
 { .block-language-dataview}
-[[Meta prompting\|Meta prompting]]
 
 [[Self-Consistency\|Self-Consistency]]
 
