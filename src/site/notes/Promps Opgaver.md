@@ -40,7 +40,7 @@ string name = "Andreas"; // En variabel af typen string, der gemmer et navn.`
 > [!quote]- Min 1. løsning
 > Det første jeg gjorde var at benytte mig af [[Main/Ai/Prompt Teknikker/Prompt Chaining\|Prompt Chaining]] og stille spørgsmålet til GPT om hvad undervandspolo er. 
 > Herefter benyttede jeg dette svar i en ny chat og benyttede mig af [[Main/Ai/Prompt Teknikker/Generate knowledge prompting\|Generate knowledge prompting]] for at kunne implementere den generelle viden i den næste chat. 
-> Næste trin var at bruge stop sequence og sætte den til `3`. 
+> Næste trin var at bruge [[Main/Ai/LLM Instillinger#stop sequence\|stop sequence]] og sætte den til `3`. 
 > 
 > Det var den lange og bøvlede metode, hvorfor ikke få den selv til at gøre dette?
 > 
@@ -59,8 +59,8 @@ Disse tags dækker de vigtigste aspekter af spillet, som sportens
 unikke karakter (undervand) og den specifikke sportstype (undervandspolo og undervandsrugby).
 > som du nok kan se kræver min prompt lidt mere arbejde da jeg fik en masse tekst jeg ikke skulle bruge.
 
-> [!quote]- min 2. løsning
-> efter at have arbejdet lidt med min prompt kom jeg til følgende løsning:
+> [!quote]- Min 2. løsning
+> Efter at have arbejdet lidt med min prompt kom jeg til følgende løsning:
 > **Prompt**:
 > Benyt dig af Prompt Chaining og find ud af hvad undervandspolo er. Herefter skal du benytte dig af Generate knowledge prompting for at kunne bruge denne viden til at gøre følgende. 
 > Lav 3 tags til undervandspolo 
@@ -76,10 +76,23 @@ unikke karakter (undervand) og den specifikke sportstype (undervandspolo og unde
 - **Spørgsmål**:  
     _Hvordan vil du få AI til at opsummere følgende tekst med maksimalt 30 tokens?_
     - **Instruktion**: Giv en kort tekst og bed AI'en om at opsummere den i 30 tokens. Diskuter hvordan man kan strukturere prompten for at sikre, at opsummeringen bliver kort og præcis.
+    - Du kan finde random tekst [her](https://randomtextgenerator.com/)
 
 > [!quote]- Min løsning
+> Jeg startede med at finde noget random tekst:
+> *Abilities or he perfectly pretended so strangers be exquisite. Oh to another chamber pleased imagine do in. Went me rank at last loud shot an draw. Excellent so to no sincerity smallness. Removal request delight if on he we. Unaffected in we by apartments astonished to decisively themselves. Offended ten old consider speaking.  
+   She suspicion dejection saw instantly. Well deny may real one told yet saw hard dear. Bed chief house rapid right the. Set noisy one state tears which. No girl oh part must fact high my he. Simplicity in excellence melancholy as remarkably discovered. Own partiality motionless was old excellence she inquietude contrasted. Sister giving so wicket cousin of an he rather marked. Of on game part body rich. Adapted mr savings venture it or comfort affixed friends.    
+   Fulfilled direction use continual set him propriety continued. Saw met applauded favourite deficient engrossed concealed and her. Concluded boy perpetual old supposing. Farther related bed and passage comfort civilly. Dashwoods see frankness objection abilities the. As hastened oh produced prospect formerly up am. Placing forming nay looking old married few has. Margaret disposed add screened rendered six say his striking confined.*
+   >
+   Herefter lavede jeg følgende prompt. Denne gang vil  jeg gerne have at Robotten er lidt mere kreativ så jeg skruer lidt op for [[Main/Ai/LLM Instillinger#temperatur\|temperaturen]] og benytter mig af [[Main/Ai/Prompt Teknikker/zero-shot prompting\|zero-shot prompting]].
+   **Prompt**:
+   > Opsumer følgende tekst.
+   > [tekst]
+   > max length 50
+   > temperature 0.7 
 
 > [!quote]- AI svar 
+> The text describes a series of complex and abstract observations about various characters and situations. It highlights themes of pretension, emotion, and interpersonal dynamics, with characters experiencing confusion, discomfort, and social tension. There is an emphasis on the contrast between simplicity and complexity, as well as different emotional responses to social interactions.
 
 ### Opgave 4
 - **Formål**: At få AI til at omformulere tekst på en forståelig og korrekt måde.
@@ -88,14 +101,15 @@ unikke karakter (undervand) og den specifikke sportstype (undervandspolo og unde
     - **Instruktion**: Bed AI'en om at omformulere en kompleks sætning, så den er lettere at forstå. Diskuter hvordan AI'en kan instrueres til at holde sig til en bestemt målgruppe.
 
 > [!quote]- Min løsning
+> Det første jeg gjorde var at se på emnet. Hvilken type af ekspert ville denne opgave kræve? Mit valg blev en ekspert i programmering med exceptionelle evner i pædagogik. Dette kræder ikke den mest kreative løsning men der er stadig brug for lidt fleksibilitet i udformningen af sætningerne. Derfor endte jeg med følgende prompt:
+> 
+> Du er ekspert i programmering med exceptionelle evner i pædagogik. Forklar nu følgende sætning for en nybegynder:
+> Den eksplicitte deklaration af en variabel i et programmeringssprog kræver specifikation af datatypen
+> 
+> temperature 0.5
+
 
 > [!quote]- AI svar 
-### Opgave 5
-- **Formål**: At få AI til at kategorisere et emne korrekt.
-- **Spørgsmål**:  
-    _Hvordan vil du få AI til at angive en passende kategori for et emne som "Mars"?_
-    - **Instruktion**: Bed AI'en om at identificere og tildele en kategori til et emne, f.eks. "Mars". Diskuter hvordan du kan styre AI til at vælge den mest relevante kategori, fx ved at inkludere information om emnets natur (planet, mytologi, etc.).
-
-> [!quote]- Min løsning
-
-> [!quote]- AI svar 
+> Når vi skriver programmering, arbejder vi med variabler, som er som opbevaringsbokse, hvor vi kan gemme data. Hver boks har en bestemt type indhold, som f.eks. tal, tekst eller sandt/falsk-værdier.
+   Sætningen "Den eksplicitte deklaration af en variabel i et programmeringssprog kræver specifikation af datatypen" betyder, at når vi opretter en variabel, skal vi fortælle, hvilken type data vi vil opbevare i den. Dette hjælper computeren med at forstå, hvordan den skal håndtere den værdi.
+   Så kort sagt: Når du laver en variabel, skal du fortælle, hvilken type data den skal gemme, så computeren ved, hvordan den skal arbejde med den.
