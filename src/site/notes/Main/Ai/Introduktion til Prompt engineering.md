@@ -17,9 +17,10 @@ Udforsk de forskellige elementer, der udgør en prompt, og hvordan man strukture
 [[Main/Ai/Tips og Tricks\|Tips og Tricks]]
 Opdag nyttige tips og teknikker, der kan hjælpe dig med at få mere præcise og relevante resultater fra [[Main/Noter/Large language model\|LLM'er]], baseret på erfaring og bedste praksis.
 
-[[Advanceret Prompting\|Advanceret Prompting]]
+[[Main/Ai/Advanceret Prompting\|Advanceret Prompting]]
 Dyk ned i avancerede teknikker for prompting, der giver dig mulighed for at finjustere interaktionen med sprogmodellen, skabe mere komplekse forespørgsler og opnå mere nuancerede resultater.
 
+[[Få bedre prompts\|Få bedre prompts]]
 ## Kilder
 
 > [!source]- Prompting Guide  

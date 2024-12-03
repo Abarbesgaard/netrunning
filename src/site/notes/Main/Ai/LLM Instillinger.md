@@ -8,7 +8,7 @@ Når du designer og tester *prompts*, interagerer du typisk med [[Main/Noter/Lar
 
 ---
 
-### Temperatur
+### temperatur
 
 - **Hvad det gør**: Bestemmer, hvor deterministisk eller kreativ modellen er.
 - **Lave værdier**: Giver mere *præcise* og *forudsigelige* svar, da modellen vælger *det mest sandsynlige næste ord*. Ideelt til faktabaserede opgaver.
@@ -89,10 +89,7 @@ Når du designer og tester *prompts*, interagerer du typisk med [[Main/Noter/Lar
 > - Styrker musklerne.
 > - Reducerer stress.
 
-
-
 ---
-
 ### Frequency Penalty
 
 - **Hvad det gør**: Pålægger en straf for at bruge ord, der allerede er blevet brugt i prompten eller svaret.

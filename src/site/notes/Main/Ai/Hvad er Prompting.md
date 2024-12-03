@@ -37,16 +37,16 @@ Du kan formatere dette til et QA format, som er standard i mange QA-datasets, p�
 Q: <Spørgsmål>?
 A:
 
-Når du prompt'er på denne måde, kaldes det også [[zero-shot prompting\|zero-shot prompting]], dvs. du prompt'er direkte modellen om at give et svar *uden eksempler eller demonstrationer* om opgaven, du vil have den til at udføre. 
+Når du prompt'er på denne måde, kaldes det også [[Main/Ai/Prompt Teknikker/zero-shot prompting\|zero-shot prompting]], dvs. du prompt'er direkte modellen om at give et svar *uden eksempler eller demonstrationer* om opgaven, du vil have den til at udføre. 
 
-Nogle store sprogmodeller har evnen til at udføre [[zero-shot prompting\|zero-shot prompting]], men det afhænger af kompleksiteten og viden om den aktuelle opgave samt de opgaver, modellen er trænet til at udføre godt.
+Nogle store sprogmodeller har evnen til at udføre [[Main/Ai/Prompt Teknikker/zero-shot prompting\|zero-shot prompting]], men det afhænger af kompleksiteten og viden om den aktuelle opgave samt de opgaver, modellen er trænet til at udføre godt.
 
 Et konkret eksempel på en prompt er som følger:
 
 **Prompt**  
 Hvad er prompt engineering?
 
-Givet det standardformat, der er beskrevet ovenfor, er en populær og effektiv teknik til prompting kendt som [[Few-shot prompting\|Few-shot prompting]], hvor du giver eksempler (dvs. demonstrationer). Du kan formatere [[Few-shot prompting\|few-shot prompts]] som følger:
+Givet det standardformat, der er beskrevet ovenfor, er en populær og effektiv teknik til prompting kendt som [[Main/Ai/Prompt Teknikker/Few-shot prompting\|Few-shot prompting]], hvor du giver eksempler (dvs. demonstrationer). Du kan formatere [[Main/Ai/Prompt Teknikker/Few-shot prompting\|few-shot prompts]] som følger:
 
 **Spørgsmål**?  
 **Svar**  
@@ -65,4 +65,4 @@ Sikke et forfærdeligt show! //
 **Output:**  
 Negativ
 
-[[Few-shot prompting\|Few-shot prompts]] muliggør in-context learning, som er sprogmodellernes evne til at lære opgaver givet et par demonstrationer. 
+[[Main/Ai/Prompt Teknikker/Few-shot prompting\|Few-shot prompts]] muliggør in-context learning, som er sprogmodellernes evne til at lære opgaver givet et par demonstrationer. 
