@@ -21,6 +21,8 @@ Opdag nyttige tips og teknikker, der kan hjælpe dig med at få mere præcise og
 Dyk ned i avancerede teknikker for prompting, der giver dig mulighed for at finjustere interaktionen med sprogmodellen, skabe mere komplekse forespørgsler og opnå mere nuancerede resultater.
 
 [[Main/Ai/Få bedre prompts\|Få bedre prompts]]
+
+[[Promps Opgaver\|Promps Opgaver]]
 ## Kilder
 >[!source]- Prompting Guide (dansk) 
 > Tilgængelig på: [website](https://www.syv.ai/prompting-guide)

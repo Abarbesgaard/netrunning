@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/noter/supabase/","created":"2024-10-03T11:56:03.864+02:00"}
+{"dg-publish":true,"permalink":"/main/noter/supabase/","dgHomeLink":"false","dgShowBacklinks":"false","dgShowFileTree":"false","dgEnableSearch":"false","created":"2024-10-03T11:56:03.864+02:00"}
 ---
 
 ![Supabase.png](/img/user/98_Images/Supabase.png)
