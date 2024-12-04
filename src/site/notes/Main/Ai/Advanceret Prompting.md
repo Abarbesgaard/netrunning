@@ -12,13 +12,14 @@ Jeg har valgt at rangere nedenstående *prompt teknikker* efter hvor kompliceret
 - **⭐⭐⭐⭐ (Høj kompleksitet)**
 - **⭐⭐⭐⭐⭐ (Meget høj kompleksitet)**
 
-| File                                                                                       | Title                        | Sværhedsgrad           |
-| ------------------------------------------------------------------------------------------ | ---------------------------- | ---------------------- |
-| [[Main/Ai/Prompt Teknikker/Chain-of-Thought prompting\|Chain-of-Thought prompting]]     | Chain-of-Thought prompting   | <ul><li>#⭐⭐⭐</li></ul> |
-| [[Main/Ai/Prompt Teknikker/Few-shot prompting\|Few-shot prompting]]                     | Few-shot prompting           | <ul><li>#⭐</li></ul>   |
-| [[Main/Ai/Prompt Teknikker/zero-shot prompting\|zero-shot prompting]]                   | zero-shot prompting          | <ul><li>#⭐</li></ul>   |
-| [[Main/Ai/Prompt Teknikker/Generate knowledge prompting\|Generate knowledge prompting]] | Generate knowledge prompting | <ul><li>#⭐⭐</li></ul>  |
-| [[Main/Ai/Prompt Teknikker/Prompt Chaining\|Prompt Chaining]]                           | Prompt Chaining              | <ul><li>#⭐⭐⭐</li></ul> |
+| File                                                                                       | Title                        | Sværhedsgrad            |
+| ------------------------------------------------------------------------------------------ | ---------------------------- | ----------------------- |
+| [[Main/Ai/Prompt Teknikker/Chain-of-Thought prompting\|Chain-of-Thought prompting]]     | Chain-of-Thought prompting   | <ul><li>#⭐⭐⭐</li></ul>  |
+| [[Main/Ai/Prompt Teknikker/Few-shot prompting\|Few-shot prompting]]                     | Few-shot prompting           | <ul><li>#⭐</li></ul>    |
+| [[Main/Ai/Prompt Teknikker/Generate knowledge prompting\|Generate knowledge prompting]] | Generate knowledge prompting | <ul><li>#⭐⭐</li></ul>   |
+| [[Main/Ai/Prompt Teknikker/Prompt Chaining\|Prompt Chaining]]                           | Prompt Chaining              | <ul><li>#⭐⭐⭐</li></ul>  |
+| [[Main/Ai/Prompt Teknikker/zero-shot prompting\|zero-shot prompting]]                   | zero-shot prompting          | <ul><li>#⭐</li></ul>    |
+| [[Main/Ai/Prompt Teknikker/Meta prompting\|Meta prompting]]                             | Meta prompting               | <ul><li>#⭐⭐⭐⭐</li></ul> |
 
 { .block-language-dataview}
 

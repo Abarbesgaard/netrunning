@@ -22,7 +22,7 @@ Dyk ned i avancerede teknikker for prompting, der giver dig mulighed for at finj
 
 [[Main/Ai/Få bedre prompts\|Få bedre prompts]]
 
-[[Promps Opgaver\|Promps Opgaver]]
+[[Main/Ai/Promps Opgaver\|Promps Opgaver]]
 ## Kilder
 >[!source]- Prompting Guide (dansk) 
 > Tilgængelig på: [website](https://www.syv.ai/prompting-guide)
