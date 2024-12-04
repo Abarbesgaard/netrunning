@@ -20,9 +20,9 @@ Opdag nyttige tips og teknikker, der kan hjælpe dig med at få mere præcise og
 [[Main/Ai/Advanceret Prompting\|Advanceret Prompting]]
 Dyk ned i avancerede teknikker for prompting, der giver dig mulighed for at finjustere interaktionen med sprogmodellen, skabe mere komplekse forespørgsler og opnå mere nuancerede resultater.
 
-[[Main/Ai/Få bedre prompts\|Få bedre prompts]]
+[[Main/Ai/Få bedre prompts\|Få bedre prompts]]: Læs hvordan du kan forbedre dine prompts for at få mere præcise og relevante svar fra sprogmodeller, ved at justere formuleringer og kontekst.
 
-[[Main/Ai/Promps Opgaver\|Promps Opgaver]]
+[[Main/Ai/Promps Opgaver\|Promps Opgaver]]: Udforsk konkrete opgaver og scenarier, hvor du kan anvende og eksperimentere med forskellige prompting teknikker for at opnå de bedste resultater.
 ## Kilder
 >[!source]- Prompting Guide (dansk) 
 > Tilgængelig på: [website](https://www.syv.ai/prompting-guide)

@@ -111,7 +111,6 @@ unikke karakter (undervand) og den specifikke sportstype (undervandspolo og unde
 > 
 > temperature 0.5
 
-
 > [!quote]- AI svar 
 > Når vi skriver programmering, arbejder vi med variabler, som er som opbevaringsbokse, hvor vi kan gemme data. Hver boks har en bestemt type indhold, som f.eks. tal, tekst eller sandt/falsk-værdier.
    Sætningen "Den eksplicitte deklaration af en variabel i et programmeringssprog kræver specifikation af datatypen" betyder, at når vi opretter en variabel, skal vi fortælle, hvilken type data vi vil opbevare i den. Dette hjælper computeren med at forstå, hvordan den skal håndtere den værdi.
