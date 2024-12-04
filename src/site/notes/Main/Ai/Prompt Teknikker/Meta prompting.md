@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/main/ai/prompt-teknikker/meta-prompting/","tags":["⭐⭐⭐⭐"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowFileTree":"false","dgEnableSearch":"false","created":"2024-12-03T09:29:36.364+01:00"}
 ---
 
+> [!important] Sværhedsgrad
+> ⭐⭐⭐⭐
+
 > [!important] Hvad er Meta Prompting
 > Meta Prompting er en sofistikeret teknik, hvor man instruerer AI'en om selve måden at tilgå og løse en opgave på. I stedet for blot at stille et spørgsmål, definerer du de strategiske tilgange, tankemønstre og evalueringskriterier, som AI'en skal følge.
 ## Kerneprincippet

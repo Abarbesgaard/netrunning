@@ -20,12 +20,12 @@ Jeg har valgt at rangere nedenstående *prompt teknikker* efter hvor kompliceret
 | [[Main/Ai/Prompt Teknikker/Prompt Chaining\|Prompt Chaining]]                           | Prompt Chaining              | <ul><li>#⭐⭐⭐</li></ul>  |
 | [[Main/Ai/Prompt Teknikker/zero-shot prompting\|zero-shot prompting]]                   | zero-shot prompting          | <ul><li>#⭐</li></ul>    |
 | [[Main/Ai/Prompt Teknikker/Meta prompting\|Meta prompting]]                             | Meta prompting               | <ul><li>#⭐⭐⭐⭐</li></ul> |
+| [[Main/Ai/Prompt Teknikker/Self-Consistency\|Self-Consistency]]                         | Self-Consistency             | <ul><li>#⭐⭐⭐</li></ul>  |
+| [[Main/Ai/Prompt Teknikker/Tree of Throughts\|Tree of Throughts]]                       | Tree of Throughts            | <ul><li>#⭐⭐⭐</li></ul>  |
 
 { .block-language-dataview}
 
-[[Self-Consistency\|Self-Consistency]]
 
-[[Tree of Throughts\|Tree of Throughts]]
 
 [[Retrieval Argumented Generation\|Retrieval Argumented Generation]]
 

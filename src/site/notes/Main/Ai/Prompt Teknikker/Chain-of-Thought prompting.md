@@ -32,64 +32,93 @@ Hvis man lægger alle de ulige tal sammen (15, 5, 13, 7, 1) giver det 41. Svaret
 
 Ved at inkludere disse mellemtrin får modellen ikke kun mulighed for at forstå processen, men også at give et korrekt og begrundet svar. Denne metode er især nyttig, *når opgaven er kompleks*, og der er behov for en logisk progression for at nå frem til den rigtige løsning.
 
-### Kode eksempel
-Jeg forsøgte mig med at lave et kode eksempel med C#.
-> [!Example] prompt
-> lav nu C# kode ud fra følgende: 
-> Step 1: Definér, hvad et primtal er. Et primtal er et tal, der kun kan deles med 1 og sig selv, og som er større end 1. 
-> Step 2: Tjek om 29 er større end 1. 29 er større end 1, så det er muligt, at det er et primtal. Step 3: Prøv at dele 29 med alle tal fra 2 op til kvadratroden af 29. Vi skal kun teste deling med tal op til kvadratroden af 29, fordi hvis 29 kan deles med et tal større end kvadratroden, vil det også kunne deles med et mindre tal. 
-> Step 4: Tjek om 29 kan deles med nogen af disse tal. Vi tester divisionen for 2, 3, 4, 5, 6. 
-> 29 % 2 == 1 (kan ikke deles med 2) 
-> 29 % 3 == 2 (kan ikke deles med 3) 
-> 29 % 4 == 1 (kan ikke deles med 4) 
-> 29 % 5 == 4 (kan ikke deles med 5) 
-> 29 % 6 == 5 (kan ikke deles med 6) 
-> Step 5: Da 29 ikke kan deles med nogen af tallene fra 2 til kvadratroden af 29, er 29 et primtal. 
-> Step 6: Konklusion: 29 er et primtal.
 
-### Output
-```csharp
-using System;
+## Øvelser
+> [!note]- prompt brugt til at lave øvelserne
+> Du er prompting ekspert og skal lave 5 bud på øvelser til Chain-of-Thought Prompting. Øvelserne skal være til for at gøre forståelsen for Chain-of-Thought prompring lettere at forstå. Kom med 5 bud
 
-class Program
-{
-    static void Main()
-    {
-        int number = 29;
-        
-        // Step 1: Check if the number is greater than 1
-        if (number > 1)
-        {
-            bool isPrime = true;
+### 1. Forklaringsstafetten
 
-            // Step 3: Check divisibility up to the square root of the number
-            int limit = (int)Math.Sqrt(number);
+**Formål:** Øve trin-for-trin-logik gennem fælles forklaring.
 
-            for (int i = 2; i <= limit; i++)
-            {
-                // Step 4: Test if the number is divisible by any number from 2 to the square root of the number
-                if (number % i == 0)
-                {
-                    isPrime = false;
-                    break;
-                }
-            }
+**Opgave:**  
+Du får en simpel opgave, fx:  
+_"Hvor mange ben har 3 hunde og 2 katte tilsammen?"_
 
-            // Step 5: Conclusion
-            if (isPrime)
-            {
-                Console.WriteLine($"{number} is a prime number.");
-            }
-            else
-            {
-                Console.WriteLine($"{number} is not a prime number.");
-            }
-        }
-        else
-        {
-            Console.WriteLine($"{number} is not a prime number.");
-        }
-    }
-}
+**Øvelse:**
 
-```
+1. Skriv først en kort prompt: _"Forklar trin for trin, hvordan du når frem til svaret."_
+2. Studér modelens svar, fx:
+    - En hund har 4 ben, så 3 hunde har 12 ben.
+    - En kat har 4 ben, så 2 katte har 8 ben.
+    - Samlet bliver det 12 + 8 = 20.
+3. Gentag med mere komplekse opgaver for at udforske, hvordan modellen håndterer forskellige opgaver.
+
+---
+
+### 2. Hvad sker der bagefter?
+
+**Formål:** Forstå, hvordan sekventiel tænkning fungerer.
+
+**Opgave:**  
+Skriv en prompt som:  
+_"En mand lægger en kop te på bordet. Hvad kan ske som det næste? Forklar trin for trin."_
+
+**Øvelse:**
+
+1. Skriv tre plausible trin-for-trin-scenarier, der fører til forskellige slutresultater, fx:
+    - Trin 1: Koppen vælter, fordi bordet er ujævnt.
+    - Trin 2: Teen løber ud på gulvet.
+    - Trin 3: Han tørrer det op.
+2. Eksperimentér med kreative og realistiske alternativer.
+
+---
+
+### 3. Debugging CoT-logik
+
+**Formål:** Identificere og rette fejl i CoT-processer.
+
+**Opgave:**  
+Præsenter en forkert ræsonneret Chain-of-Thought, fx:  
+_"En hund har 4 ben. 3 hunde har 4 + 3 = 7 ben."_
+
+**Øvelse:**
+
+1. Skriv en prompt som: _"Dette svar er forkert. Forklar hvorfor, og ret det trin for trin."_
+2. Arbejd med modellen om at spotte fejlen og rette den.
+
+---
+
+### 4. Skab din egen kæde
+
+**Formål:** Lære at skabe logiske kæder fra bunden.
+
+**Opgave:**  
+Giv en open-ended opgave, fx:  
+_"Hvordan planlægger man en fest for 10 personer? Forklar trin for trin."_
+
+**Øvelse:**
+
+1. Lad modellen bryde opgaven op i trin, fx:
+    - Bestem dato og tidspunkt.
+    - Lav en gæsteliste.
+    - Find et passende sted.
+2. Eksperimentér med forskellige prompts for at se, hvordan trinnene ændrer sig baseret på promptens formulering.
+
+---
+
+### 5. Konkurrence mellem kort og lang CoT
+
+**Formål:** Sammenligne præcision mellem simple og detaljerede prompts.
+
+**Opgave:**  
+Brug to prompts til samme opgave, fx:  
+_"Hvad er 45 + 27?"_
+
+- Kort prompt: _"Giv mig svaret."_
+- Lang prompt: _"Forklar trin for trin, hvordan du lægger de to tal sammen."_
+
+**Øvelse:**
+
+1. Evaluer forskellene i svarenes kvalitet.
+2. Diskutér, hvornår en Chain-of-Thought er nødvendig, og hvornår en simpel tilgang er tilstrækkelig.
