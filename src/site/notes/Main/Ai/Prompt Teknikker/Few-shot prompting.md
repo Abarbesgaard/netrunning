@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/ai/prompt-teknikker/few-shot-prompting/","tags":["⭐"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowFileTree":"false","dgEnableSearch":"false","created":"2024-12-02T11:57:03.978+01:00"}
+{"dg-publish":true,"permalink":"/main/ai/prompt-teknikker/few-shot-prompting/","tags":["⭐"],"dgHomeLink":"false","dgShowFileTree":"false","dgEnableSearch":"false","created":"2024-12-02T11:57:03.978+01:00"}
 ---
 
 > [!important] Sværhedsgrad
