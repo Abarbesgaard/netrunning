@@ -181,6 +181,9 @@ Ved at bruge dette workflow kan du automatisere dine builds og tests, hvilket sp
 **Hvad tænker du?**  
 Har du erfaring med [[Main/Noter/GitHub Actions\|GitHub Actions]], eller mangler der noget i denne guide? Del dine tanker, forslag og spørgsmål i kommentarerne – lad os starte en diskussion om bedste praksis for test-automatisering! 🚀
 
+### Næste skridt
+Hvis du ønsker at se dine test resultater i din PR vil jeg foreslå dig at følge denne:
+https://github.com/ctrf-io/github-test-reporter
 ## Kilder
 > [!source]- Github Actions
 > Tilgængelig på: [github](https://docs.github.com/en/actions/writing-workflows/quickstart)

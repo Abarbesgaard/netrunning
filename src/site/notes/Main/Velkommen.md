@@ -12,20 +12,23 @@
 
 ## Hvem er jeg på 10 sekunder
 
-Mit navn er **Andreas**, og jeg er i gang med min online datamatiker-uddannelse,
-hvor jeg arbejder med programmeringssprog som **C#**, **SQL**, **XAML**.
-Jeg er passioneret omkring både brætspil og programmering, og jeg elsker at
-bruge tid på disse interesser. Som en del af min uddannelse søger jeg nu efter
-et _studiejob_, hvor jeg kan anvende mine færdigheder i praksis og samtidig
-fortsætte med at forbedre mig kontinuerligt. Jeg er målrettet og engageret i
-mit arbejde og ser frem til at bidrage til et team, hvor jeg kan udvikle mine
-kompetencer yderligere og opnå mine personlige mål.
+Jeg er en passioneret og målrettet datamatikerstuderende med erfaring inden for softwareudvikling og problemløsning. Jeg har stærke kompetencer i **C#**, **SQL**, og **XAML**, og er særligt interesseret i **backend-udvikling**, **microservices**, og **sikkerhed**. Min baggrund som pædagog har styrket mine kommunikationsevner og min evne til at samarbejde effektivt i teams. 
+
+Jeg søger nu et studierelevant job, hvor jeg kan kombinere mine tekniske færdigheder med min kreative tilgang for at levere værdi og vokse som udvikler.
 
 ## Min Disk-Profil
 
 ![Disk-profil.png](/img/user/Main/Images/Disk-profil.png)
 
 ### Andreas Barbesgaard
+## **Tekniske Kompetencer**
+
+- **Programmeringssprog:** C#, SQL
+- **Frameworks & Tools:** ASP.NET Core, RabbitMQ, Docker, Git, MongoDB
+- **DevOps:** GitHub Actions, Docker Compose
+- **Testing:** MSTest, FluentAssertions
+- **UI/UX:** XAML, Design Thinking
+- **Sikkerhed:** Adfærdsdesign
 
 **Datamatiker studerende**
 Aarhus, Region Midtjylland, Danmark
