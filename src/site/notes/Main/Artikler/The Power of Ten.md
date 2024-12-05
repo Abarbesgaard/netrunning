@@ -317,4 +317,4 @@ Al kode skal kompileres fra den første dag af udviklingen med alle kompilatorad
 #treatwarningsaserrors
 ## Det' Kilder
 >[!source]- The Power of 10
-> Tilgængelig på: [website](https://www.syv.ai/prompting-guide)
+> Tilgængelig på: [website](https://spinroot.com/gerard/pdf/P10.pdf)
