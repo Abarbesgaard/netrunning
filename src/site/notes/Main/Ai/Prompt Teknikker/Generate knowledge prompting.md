@@ -135,3 +135,8 @@ General Knowledge Prompting er en kraftfuld metode til at forbedre AI's forståe
     - _Hvilket bjerg er det højeste i verden?_
     - _Hvad er funktionen af grænsen mellem to lande?_
 3. Vurder, hvordan specifikke prompts skaber mere nyttige svar.
+
+
+## Kilder
+> [!source]- General Knowledge prompting
+> Tilgængelig på: [datastorm](https://www.datastrom.ai/kb/prompting-techniques/general-knowledge-prompting)
