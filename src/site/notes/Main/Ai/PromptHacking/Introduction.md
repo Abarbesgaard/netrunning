@@ -6,11 +6,11 @@
 > [!important] Forestil dig
 > At en angriber får adgang til den præcise prompt, der bruges til at generere følsomme data som personlige oplysninger eller sikkerhedsprotokoller – hvordan kunne det blive udnyttet mod dig? Og hvordan vil en sådan prompt se ud?
 
-Prompt-hacking er et begreb, der bruges til at beskrive angreb, som udnytter sårbarheder i store sprogmodeller ([[Main/Noter/Large language model\|LLM'er]]) ved at manipulere deres input eller prompts. I modsætning til traditionel hacking, der typisk udnytter software-sårbarheder, er prompt-hacking baseret på nøje udformede prompts for at narre [[Main/Noter/Large language model\|LLM'en]] til at udføre utilsigtede handlinger.
+Prompt-hacking er et begreb, der bruges til at beskrive angreb, som udnytter sårbarheder i store sprogmodeller ([[Main/Noter/Ai/Large language model\|LLM'er]]) ved at manipulere deres input eller prompts. I modsætning til traditionel hacking, der typisk udnytter software-sårbarheder, er prompt-hacking baseret på nøje udformede prompts for at narre [[Main/Noter/Ai/Large language model\|LLM'en]] til at udføre utilsigtede handlinger.
 
-Der er tre typer af prompt-hacking: *prompt-injektion*, *prompt-leak* og *jailbreaking*. Hver type relaterer sig til lidt forskellige sårbarheder og angrebsmetoder, men de har alle det samme grundprincip, nemlig at manipulere [[Main/Noter/Large language model\|LLM'ens]] prompt for at fremkalde uønsket output.
+Der er tre typer af prompt-hacking: *prompt-injektion*, *prompt-leak* og *jailbreaking*. Hver type relaterer sig til lidt forskellige sårbarheder og angrebsmetoder, men de har alle det samme grundprincip, nemlig at manipulere [[Main/Noter/Ai/Large language model\|LLM'ens]] prompt for at fremkalde uønsket output.
 
-For at beskytte mod prompt-hacking skal der træffes defensive foranstaltninger. Disse omfatter implementering af *prompt-baserede forsvar*, regelmæssig overvågning af  [[Main/Noter/Large language model\|LLM'ens]]  adfærd og output for unormal aktivitet samt brug af finjustering eller andre teknikker. Alt i alt er prompt-hacking en voksende bekymring for sikkerheden af  [[Main/Noter/Large language model\|LLM'er]]  og det er vigtigt at forblive opmærksom og tage proaktive skridt for at beskytte mod denne type angreb.
+For at beskytte mod prompt-hacking skal der træffes defensive foranstaltninger. Disse omfatter implementering af *prompt-baserede forsvar*, regelmæssig overvågning af  [[Main/Noter/Ai/Large language model\|LLM'ens]]  adfærd og output for unormal aktivitet samt brug af finjustering eller andre teknikker. Alt i alt er prompt-hacking en voksende bekymring for sikkerheden af  [[Main/Noter/Ai/Large language model\|LLM'er]]  og det er vigtigt at forblive opmærksom og tage proaktive skridt for at beskytte mod denne type angreb.
 
 | File                                                        | Title          |
 | ----------------------------------------------------------- | -------------- |

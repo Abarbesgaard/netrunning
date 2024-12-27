@@ -2,7 +2,8 @@
 {"dg-publish":true,"permalink":"/main/noter/systemudvikling/kolbs-laeringscirkel/","title":"Kolbs Læringscirkel","hide":true,"tags":["Systemudvikling","Læring"],"created":"2024-09-20T10:05:41.518+02:00"}
 ---
 
-
+![Pasted image 20241217141448.png](/img/user/98_Images/Pasted%20image%2020241217141448.png)
+![Pasted image 20241217141507.png](/img/user/98_Images/Pasted%20image%2020241217141507.png)
 ## De fire faser
 
 ### Erfaring

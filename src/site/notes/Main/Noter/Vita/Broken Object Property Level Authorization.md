@@ -6,7 +6,7 @@
 > [!NOTE]- Opsummering af BOPLA
 > Et API-endpoint er sårbart, hvis det tillader en bruger at tilgå eller ændre følsomme objektdata *uden autorisation*, kendt som "**Excessive Data Exposure**" og "**Mass Assignment**". Eksempler på angreb viser, hvordan manglende validering kan give adgang til private oplysninger eller uautoriserede ændringer, som at justere bookingpriser eller låse blokeret indhold op. For at forhindre dette bør API'er begrænse data, vælge specifikke egenskaber, der returneres, og implementere skemabaseret validering af adgang til følsomme data.
 
-For at løse sårbarheder ved "**Excessive Data Exposure**" og "**Mass Assignment**" i [[Main/Noter/API\|API-endpoints]] kan man:
+For at løse sårbarheder ved "**Excessive Data Exposure**" og "**Mass Assignment**" i [[Main/Noter/Programmering/API\|API-endpoints]] kan man:
 
 1. **Valider brugeradgang til objekt-egenskaber**: Sørg for, at kun autoriserede brugere kan tilgå de eksponerede objektdata. Dette reducerer risikoen for adgang til følsomme oplysninger.
 2. **Begræns data, der returneres**: Undgå generiske metoder som `to_json()` og `to_string()`. Vælg i stedet præcise objekt-egenskaber, der er nødvendige for formålet, og returnér kun dem.
@@ -35,7 +35,7 @@ public class AccessValidator
 ```
 
 #### Hvor bruges dette i en microservice?
-Denne type validering kan implementeres i en *fælles auth-service* eller *som middleware*, der håndterer alle [[Main/Noter/API\|API-requests]] til de relevante endpoints og sikrer, at kun nødvendige egenskaber er tilgængelige for brugeren.
+Denne type validering kan implementeres i en *fælles auth-service* eller *som middleware*, der håndterer alle [[Main/Noter/Programmering/API\|API-requests]] til de relevante endpoints og sikrer, at kun nødvendige egenskaber er tilgængelige for brugeren.
 
 ## Begræns data, der returneres
 For at undgå utilsigtet eksponering af data, kan du kun vælge specifikke egenskaber til responsen i *controlleren*.
@@ -57,7 +57,7 @@ public class UserService
 ```
 
 #### Hvor bruges dette i en microservice?
-Her kan man skabe en [[Main/Noter/Data Transfer Object\|DTO]] for kun at returnere de nødvendige egenskaber i microservices, som typisk håndterer brugerprofiler eller følsomme data. [[Main/Noter/Data Transfer Object\|DTO]]'er hjælper også med at standardisere datainput/output på tværs af services.
+Her kan man skabe en [[Main/Noter/Programmering/Data Transfer Object\|DTO]] for kun at returnere de nødvendige egenskaber i microservices, som typisk håndterer brugerprofiler eller følsomme data. [[Main/Noter/Programmering/Data Transfer Object\|DTO]]'er hjælper også med at standardisere datainput/output på tværs af services.
 
 ## Implementer skemabaseret validering
 Brug en **skemavalidering** som en ekstra sikkerhed, *især hvis API'et modtager inputdata*, hvor kun nogle egenskaber må kunne ændres.

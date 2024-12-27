@@ -41,7 +41,7 @@ app.UseEndpoints(endpoints =>
 ```
 
 #### Hvor det bruges i microservices? 
-**Rate limiting** bruges typisk i **autentificeringstjenester** og [[Main/Noter/API-Gateway\| API-Gateways]] for at forhindre brute force-angreb på login-endpoints.
+**Rate limiting** bruges typisk i **autentificeringstjenester** og [[Main/Noter/Programmering/API-Gateway\| API-Gateways]] for at forhindre brute force-angreb på login-endpoints.
 
 ## Krav om Re-Autentificering ved Følsomme Handlinger
 Ved at kræve **re-autentificering** ved *ændringer af følsomme oplysninger* som e-mail adresser sikres det, at kun autoriserede brugere kan foretage kritiske ændringer, hvilket reducerer risikoen for  misbrug.
@@ -93,7 +93,7 @@ public async Task<IActionResult> Register(UserRegisterModel model)
 **2FA** kan implementeres i **autentificeringstjenester**, og *stærk adgangskodepolitik anvendes i enhver service, der håndterer brugerkonti.*
 
 ## Validér og Beskyt Tokens
-Ved at **validere** og beskytte JWT-tokens forhindres uautoriseret adgang til [[Main/Noter/API\|API’en]], og man sikrer, at kun gyldige og autentiske brugere kan få adgang til beskyttede ressourcer, hvilket reducerer risikoen for angreb som token-forgery og uautoriseret dataadgang.
+Ved at **validere** og beskytte JWT-tokens forhindres uautoriseret adgang til [[Main/Noter/Programmering/API\|API’en]], og man sikrer, at kun gyldige og autentiske brugere kan få adgang til beskyttede ressourcer, hvilket reducerer risikoen for angreb som token-forgery og uautoriseret dataadgang.
 
 ```csharp
 
@@ -123,4 +123,4 @@ builder.services.AddAuthentication(options =>
 ```
 
 #### Hvor det bruges i microservices? 
-**Token-validéringsmekanismer** anvendes i alle services, der kræver autentificering, som f.eks.[[Main/Noter/API-Gateway\|API-gateways]]  og individuelle microservices, der håndterer brugeranmodninger.
+**Token-validéringsmekanismer** anvendes i alle services, der kræver autentificering, som f.eks.[[Main/Noter/Programmering/API-Gateway\|API-gateways]]  og individuelle microservices, der håndterer brugeranmodninger.

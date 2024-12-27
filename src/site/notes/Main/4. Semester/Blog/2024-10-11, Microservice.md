@@ -3,7 +3,7 @@
 ---
 
 
-De sidste par dage har jeg set på hvordan en Message Broker, som fx [[Main/Noter/RabbitMQ\|RabbitMQ]] , fungerer i forhold til microservices.
+De sidste par dage har jeg set på hvordan en Message Broker, som fx [[Main/Noter/Programmering/RabbitMQ\|RabbitMQ]] , fungerer i forhold til microservices.
 
 
 ## Overvejelser og refleksioner
@@ -20,7 +20,7 @@ Her har jeg på skrivende tidspunkt opsat det på følgende måde:
 
 ![Vitahus, simplyfied mq.png](/img/user/Excalidraw/Vitahus,%20simplyfied%20mq.png)
 
-Front: react - sender en request til en af de srvices jeg har på nuværende tidspunkt. Disse sender så beskeden videre til min #MessageBroker [[Main/Noter/RabbitMQ\|RabbitMQ]] som "lagrer" beskeden i en [[Main/Noter/RabbitMQ#Queues\|queue]], som vil blive "tømt" når der er en consumer der modtager en besked om at der er en Message klar til behandling.
+Front: react - sender en request til en af de srvices jeg har på nuværende tidspunkt. Disse sender så beskeden videre til min #MessageBroker [[Main/Noter/Programmering/RabbitMQ\|RabbitMQ]] som "lagrer" beskeden i en [[Main/Noter/Programmering/RabbitMQ#Queues\|queue]], som vil blive "tømt" når der er en consumer der modtager en besked om at der er en Message klar til behandling.
 Denne bliver så behandlet og sendt til den rette database i dette tilfælde MongoDB.
 
 ## Næste Skridt

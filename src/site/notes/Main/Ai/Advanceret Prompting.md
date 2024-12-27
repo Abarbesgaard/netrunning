@@ -3,7 +3,7 @@
 ---
 
 
-En del af at skrive prompts er at benytte forskellige teknikker til at opnå forskellige mål. Herunder kan du finde et bredt udvalg af teknikker du kan gøre brug af når du prompter en [[Main/Noter/Large language model\|LLM]].
+En del af at skrive prompts er at benytte forskellige teknikker til at opnå forskellige mål. Herunder kan du finde et bredt udvalg af teknikker du kan gøre brug af når du prompter en [[Main/Noter/Ai/Large language model\|LLM]].
 
 Jeg har valgt at rangere nedenstående *prompt teknikker* efter hvor kompliceret de er at benytte, med følgende skala:
 - **⭐ (Lav kompleksitet)**

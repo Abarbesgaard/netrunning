@@ -99,12 +99,21 @@ For at sikre, at dit mål bliver opnået, skal det have en klar deadline. Deadli
 > Jeg vil lære at kode i C#.
 
 > [!example] Mål 2  
-> Jeg vil lære at kode i C# og bygge et simpelt [[Main/Noter/API\|API]], som jeg kan fremvise, inden den 31. marts 2025.
+> Jeg vil lære at kode i C# og bygge et simpelt [[Main/Noter/Programmering/API\|API]], som jeg kan fremvise, inden den 31. marts 2025.
 
 **Det første mål** mangler en tidsramme, hvilket gør det svært at prioritere og fastholde fremdriften. Det kan altid "vente til senere."
 
 **Det andet mål** er klart og tidsbestemt, hvilket skaber en følelse af ansvar og presser dig til at handle. Når du ved præcis, hvornår målet skal være opnået, kan du planlægge din indsats mere effektivt og sætte delmål, der hjælper dig med at nå i mål.
 
 En tydelig deadline skaber struktur, motivation og gør dit mål målbart. Vær konkret – skriv datoen ned og følg op regelmæssigt for at sikre, at du holder tidsplanen.
+
+### Men
+Et helt konkret *men* i forhold til Smart mål er at det ret tydeligt er en vandfaldsmodel. Denne tager ikke højde for at du "lige pludselig" skifter retning. I så fald skal du til at skrive hele din smart måls process om. 
+Derfor er et "smart system" bedre.
+
+Det har jeg skrevet om her:
+[[Main/Artikler/Smart systemer\|Smart systemer]]
+
+
 
 

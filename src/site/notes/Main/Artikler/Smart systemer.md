@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/artikler/smart-systemer/","tags":["SmartSystemer","MålSætning","Produktivitet"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-11-28T09:44:05.931+01:00"}
 ---
 
-I starten af mit 4. semester på datamatikeruddannelsen fokuserede jeg meget på, hvordan jeg kunne sætte og nå mål. Som mange andre begyndte jeg med [[Main/Noter/Getting things done\|Getting things done]], en metode, der skulle hjælpe mig med at få styr på opgaverne og holde mig produktiv. Men hurtigt indså jeg, at det ikke var nok.[[Main/Noter/Getting things done\|GTD]]  gav mig overblik og hurtige resultater, men der var noget, der manglede: En langsigtet strategi for at sikre, at mine aktiviteter faktisk bidrog til mine større læringsmål. Derfor besluttede jeg at prøve [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]], som skulle give mig en præcis og målrettet tilgang.
+I starten af mit 4. semester på datamatikeruddannelsen fokuserede jeg meget på, hvordan jeg kunne sætte og nå mål. Som mange andre begyndte jeg med [[Main/Noter/Process/Getting things done\|Getting things done]], en metode, der skulle hjælpe mig med at få styr på opgaverne og holde mig produktiv. Men hurtigt indså jeg, at det ikke var nok.[[Main/Noter/Process/Getting things done\|GTD]]  gav mig overblik og hurtige resultater, men der var noget, der manglede: En langsigtet strategi for at sikre, at mine aktiviteter faktisk bidrog til mine større læringsmål. Derfor besluttede jeg at prøve [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]], som skulle give mig en præcis og målrettet tilgang.
 
 Men nu er jeg nået til en vigtig erkendelse: Selvom [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] hjalp mig med at komme tættere på mine mål, har jeg fundet ud af, at det ikke kun handler om at definere mål, men at skabe **systemer**, der hjælper mig med at opnå dem. 
 
@@ -10,7 +10,7 @@ I denne artikel vil jeg forklare, hvordan jeg har ændret min tilgang fra at fok
 
 ## Fra mål til systemer
 
-I starten var min tilgang til målstyring ganske simpel: Sæt et mål, og arbejde derefter hen imod det. Jeg brugte [[Main/Noter/Getting things done\|GTD]] til at organisere mine opgaver og sætte mig konkrete mål. Det var effektivt i starten, men jeg indså hurtigt, at det kun gav mig *korte spurter af produktivitet*. Jeg blev nødt til at tænke længere frem, ikke kun i form af at opnå mål, men i at skabe systemer, der kunne guide mig frem mod mine mål, samtidig med at de kunne tilpasse sig min læring undervejs.
+I starten var min tilgang til målstyring ganske simpel: Sæt et mål, og arbejde derefter hen imod det. Jeg brugte [[Main/Noter/Process/Getting things done\|GTD]] til at organisere mine opgaver og sætte mig konkrete mål. Det var effektivt i starten, men jeg indså hurtigt, at det kun gav mig *korte spurter af produktivitet*. Jeg blev nødt til at tænke længere frem, ikke kun i form af at opnå mål, men i at skabe systemer, der kunne guide mig frem mod mine mål, samtidig med at de kunne tilpasse sig min læring undervejs.
 
 > **Problemet:** At fokusere på at opnå mål alene er ikke nok. Jeg havde brug for et system, der kunne flytte sig, når mine mål ændrede sig, og som kunne hjælpe mig med at fortsætte, selv når målene ikke var så klare.
 

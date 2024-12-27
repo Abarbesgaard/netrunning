@@ -18,7 +18,7 @@ Prompt-lækage er en form for prompt-injektion, hvor modellen opfordres til at a
 
 Som vist i eksempel **billede 1** (Perez & Ribeiro, 2022) manipulerer angriberen brugerinput for at forsøge at få prompten returneret. Dette adskiller sig fra målkapring (almindelig prompt-injektion), hvor angriberen ændrer brugerinput for at generere ondsindede instruktioner.
 
-![Pasted image 20241205081157.png](/img/user/Pasted%20image%2020241205081157.png)
+![Pasted image 20241205081157.png](/img/user/Main/Images/Pasted%20image%2020241205081157.png)
 *Billedet er fra [Learn Prompting](https://learnprompting.org/docs/prompt_hacking/leaking)
 
 ## Hvorfor er det vigtigt?

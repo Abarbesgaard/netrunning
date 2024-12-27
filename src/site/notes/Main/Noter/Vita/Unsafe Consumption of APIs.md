@@ -7,14 +7,14 @@
 > Udviklere har en *tendens til at stole mere på data modtaget fra tredjeparts-API'er end på brugerinput*, og derfor anvender de ofte svagere sikkerhedsstandarder. For at kompromittere API'er går angribere efter integrerede tredjepartstjenester i stedet for at forsøge at kompromittere selve mål-API'en direkte.
 
 For at løse sårbarheder med **Unsafe Consumption of API's** lan man:
-1. Kryptér interaktion med andre [[Main/Noter/API\|API'er]] via en ubeskyttet kanal
-2. Validerer og Saniterer Ikke Data Hentet Fra Andre [[Main/Noter/API\|API'er]]
+1. Kryptér interaktion med andre [[Main/Noter/Programmering/API\|API'er]] via en ubeskyttet kanal
+2. Validerer og Saniterer Ikke Data Hentet Fra Andre [[Main/Noter/Programmering/API\|API'er]]
 3. Ikke følge omdirigeringer blindt
-4. Begræns antallet af ressourcer tilgængelige til behandling af tredjeparts [[Main/Noter/API\|API-svar]]
+4. Begræns antallet af ressourcer tilgængelige til behandling af tredjeparts [[Main/Noter/Programmering/API\|API-svar]]
 
-## Kryptér interaktion med Andre [[Main/Noter/API\|API'er]] via en ubeskyttet kanal
+## Kryptér interaktion med Andre [[Main/Noter/Programmering/API\|API'er]] via en ubeskyttet kanal
 
-**[[Main/Noter/API\|API'er]] bør altid bruge krypteret kommunikation (TLS/SSL) for at sikre, at følsomme data er beskyttet under transmission**. Ubeskyttede kanaler efterlader data sårbare overfor aflytning og "man-in-the-middle"-angreb.
+**[[Main/Noter/Programmering/API\|API'er]] bør altid bruge krypteret kommunikation (TLS/SSL) for at sikre, at følsomme data er beskyttet under transmission**. Ubeskyttede kanaler efterlader data sårbare overfor aflytning og "man-in-the-middle"-angreb.
 
 
 ```csharp
@@ -31,13 +31,13 @@ var secureResponse = await secureHttpClient.GetAsync("https://api.thirdparty.com
 // Sikker, HTTPS
 ```
 #### Hvor Det Bruges i En Microservice Arkitektur
-I en microservice arkitektur interagerer hver service muligvis med eksterne [[Main/Noter/API\|API'er]] til databerigelse eller tredjepartstjenester. Ved at sikre, at alle interne servicekommunikation bruger HTTPS, garanteres det, at alle data forbliver sikre under overførsel, hvilket reducerer risikoen for datalæk.
+I en microservice arkitektur interagerer hver service muligvis med eksterne [[Main/Noter/Programmering/API\|API'er]] til databerigelse eller tredjepartstjenester. Ved at sikre, at alle interne servicekommunikation bruger HTTPS, garanteres det, at alle data forbliver sikre under overførsel, hvilket reducerer risikoen for datalæk.
 
 ---
 
 ## Validerer og Saniterer Ikke Data Hentet Fra Andre API'er
 
-Når data hentes fra eksterne [[Main/Noter/API\|API'er]], er det nødvendigt at **validere** og **sanitere** dataene, før de bruges, for at forhindre angreb som SQL-injektion, XSS eller andre former for ondsindet datamanipulation.
+Når data hentes fra eksterne [[Main/Noter/Programmering/API\|API'er]], er det nødvendigt at **validere** og **sanitere** dataene, før de bruges, for at forhindre angreb som SQL-injektion, XSS eller andre former for ondsindet datamanipulation.
 
 ```csharp
 
@@ -56,13 +56,13 @@ if (IsValid(unsafeData))
 ```
 
 #### Hvor Det Bruges i En Microservice Arkitektur
-**I microservices interagerer tjenester ofte med flere tredjeparts [[Main/Noter/API\|API'er]] for at hente data**. Tjenesten, der forbruger disse data, skal validere og sanitere input, før de sendes videre til nedstrømskomponenter som databaser eller andre tjenester for at forhindre sikkerhedssårbarheder.
+**I microservices interagerer tjenester ofte med flere tredjeparts [[Main/Noter/Programmering/API\|API'er]] for at hente data**. Tjenesten, der forbruger disse data, skal validere og sanitere input, før de sendes videre til nedstrømskomponenter som databaser eller andre tjenester for at forhindre sikkerhedssårbarheder.
 
 ---
 
 ## Ikke følge omdirigeringer blindt
 
-At følge omdirigeringer blindt kan føre til, at følsomme data bliver eksponeret for ondsindede tredjepartstjenester, hvis mål-[[Main/Noter/API\|API'ens]] omdirigeringer er kompromitteret. Det er vigtigt at begrænse de domæner og URL'er, som omdirigeringer kan pege på.
+At følge omdirigeringer blindt kan føre til, at følsomme data bliver eksponeret for ondsindede tredjepartstjenester, hvis mål-[[Main/Noter/Programmering/API\|API'ens]] omdirigeringer er kompromitteret. Det er vigtigt at begrænse de domæner og URL'er, som omdirigeringer kan pege på.
 
 
 ```csharp
@@ -88,13 +88,13 @@ if (allowedRedirects.Contains(response.Headers.Location.ToString()))
 	}
 ```
 #### Hvor Det Bruges i En Microservice Arkitektur
-Microservices, der interagerer med tredjeparts [[Main/Noter/API\|API'er]], kan modtage svar, der involverer omdirigering. Det er kritisk at sikre, at omdirigeringerne peger på betroede domæner for at forhindre, at følsomme data sendes til ondsindede servere.
+Microservices, der interagerer med tredjeparts [[Main/Noter/Programmering/API\|API'er]], kan modtage svar, der involverer omdirigering. Det er kritisk at sikre, at omdirigeringerne peger på betroede domæner for at forhindre, at følsomme data sendes til ondsindede servere.
 
 ---
 
-## Begræns Antallet af Ressourcer Tilgængelige til Behandling af Tredjeparts [[Main/Noter/API\|API-svar]]
+## Begræns Antallet af Ressourcer Tilgængelige til Behandling af Tredjeparts [[Main/Noter/Programmering/API\|API-svar]]
 
-Ved at begrænse antallet af ressourcer, der er tilgængelige til at behandle svar fra tredjeparts [[Main/Noter/API\|API'er]], kan man forhindre angreb som DoS (Denial of Service) eller udnyttelse af systemressourcer.
+Ved at begrænse antallet af ressourcer, der er tilgængelige til at behandle svar fra tredjeparts [[Main/Noter/Programmering/API\|API'er]], kan man forhindre angreb som DoS (Denial of Service) eller udnyttelse af systemressourcer.
 
 ```csharp
 // Usikker håndtering af API-svar 
@@ -115,4 +115,4 @@ async Task<string> ReadWithLimit(HttpContent content, int maxSize)
 }
 ```
 #### Hvor Det Bruges i En Microservice Arkitektur
-**Når en microservice forbruger et tredjeparts [[Main/Noter/API\|API]], kan svaret være stort.** Det er vigtigt at sætte grænser for svarets størrelse for at forhindre overdreven brug af systemressourcer og potentielle DoS-angreb.
+**Når en microservice forbruger et tredjeparts [[Main/Noter/Programmering/API\|API]], kan svaret være stort.** Det er vigtigt at sætte grænser for svarets størrelse for at forhindre overdreven brug af systemressourcer og potentielle DoS-angreb.

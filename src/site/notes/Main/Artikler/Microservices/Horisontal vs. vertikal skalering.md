@@ -4,7 +4,7 @@
 
 
 > [!important] Information om skalering
-> Skalering er en essentiel del af enhver moderne applikation, især når man arbejder med [[Main/Noter/Distribuerede systemer\|distribuerede systemer]] som [[Main/Noter/Emner/Backend/Microservice\|microservices]]. 
+> Skalering er en essentiel del af enhver moderne applikation, især når man arbejder med [[Main/Noter/Programmering/Distribuerede systemer\|distribuerede systemer]] som [[Main/Noter/Emner/Backend/Microservice\|microservices]]. 
 
 
 ![Pasted image 20241128085307.png](/img/user/Main/Images/Pasted%20image%2020241128085307.png)
@@ -90,7 +90,7 @@ Valget mellem horisontal og vertikal skalering afhænger af flere faktorer:
 > Vertikal skalering er enklere at implementere og kræver færre teknologiske løsninger. Horisontal skalering kræver derimod load balancing, synkronisering og mere sofistikerede systemer.
 
 > [!important] Skalering af tjeneste
-> Hvis du arbejder med [[Main/Noter/Emner/Backend/Microservice\|microservices]] eller [[Main/Noter/Distribuerede systemer\|distribuerede systemer]], vil horisontal skalering være den naturlige vej at gå, da du ofte har brug for flere instanser af hver service.
+> Hvis du arbejder med [[Main/Noter/Emner/Backend/Microservice\|microservices]] eller [[Main/Noter/Programmering/Distribuerede systemer\|distribuerede systemer]], vil horisontal skalering være den naturlige vej at gå, da du ofte har brug for flere instanser af hver service.
 
 ---
 

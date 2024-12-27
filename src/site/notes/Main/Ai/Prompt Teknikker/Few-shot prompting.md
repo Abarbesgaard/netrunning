@@ -8,11 +8,11 @@
 
 Few-shot prompting er en teknik inden for prompt engineering, hvor du indsætter eksempler i din prompt for at træne modellen til at forstå, hvordan du ønsker, at output skal se ud og lyde.
 
-Denne metode bygger på [[Main/Noter/Large language model\|LLM'ers]] evne til at lære og generalisere information fra en lille mængde data. Det gør den særligt nyttig, når du ikke har nok data til at finjustere en model.
+Denne metode bygger på [[Main/Noter/Ai/Large language model\|LLM'ers]] evne til at lære og generalisere information fra en lille mængde data. Det gør den særligt nyttig, når du ikke har nok data til at finjustere en model.
 
 Her er et meget enkelt eksempel på en few-shot prompt.
 
-Målet med prompten er, at[[Main/Noter/Large language model\|LLM'en]] skal bestemme sentimentet i en filmanmeldelse.
+Målet med prompten er, at[[Main/Noter/Ai/Large language model\|LLM'en]] skal bestemme sentimentet i en filmanmeldelse.
 
 ## Eksempel på few-shot prompting
 > [!example] eksempel

@@ -4,7 +4,7 @@
 
 ## Parametre i prompt engineering
 
-Når du designer og tester *prompts*, interagerer du typisk med [[Main/Noter/Large language model\|LLM'er]] via en [[Main/Noter/API\|API]]. Her kan du justere nogle parametre for at opnå forskellige resultater. 
+Når du designer og tester *prompts*, interagerer du typisk med [[Main/Noter/Ai/Large language model\|LLM'er]] via en [[Main/Noter/Programmering/API\|API]]. Her kan du justere nogle parametre for at opnå forskellige resultater. 
 
 Justeringen kræver eksperimenter for at finde de rette indstillinger, der passer til dine behov. Her er en forklaring på de mest almindelige parametre:
 

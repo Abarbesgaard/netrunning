@@ -11,7 +11,7 @@
 
 Disse tjenester er:
 
-1. [[Main/Noter/Loose Coupling\|Løst koblede]] og fint granulerede
+1. [[Main/Noter/Programmering/Loose Coupling\|Løst koblede]] og fint granulerede
 2. Kommunikerer via lette protokoller
 3. Organiseret omkring forretningskapabiliteter
 4. Uafhængigt udviklede og implementerede
@@ -32,7 +32,7 @@ Microservices gør det muligt for teams at udvikle, implementere og skalere dere
 Implementering af **microservices** kræver omhyggelig planlægning og infrastruktur. Det indebærer:
 
 - Behov for et robust infrastrukturelt fundament.
-- Kompleks initial implementering sammenlignet med [[Main/Noter/Monolitiske Applikationer\|monolitiske systemer]].
+- Kompleks initial implementering sammenlignet med [[Main/Noter/Programmering/Monolitiske Applikationer\|monolitiske systemer]].
 - Nødvendigheden af at designe grænseflader omhyggeligt som API'er [2](https://en.wikipedia.org/wiki/Microservices).
 
 ![Pasted image 20241122082637.png](/img/user/Main/Images/Pasted%20image%2020241122082637.png)

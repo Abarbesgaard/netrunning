@@ -2,9 +2,9 @@
 {"dg-publish":true,"permalink":"/main/artikler/microservices/hvorfor-er-en-message-broker-vigtig-i-microserivces/","tags":["Microservices","MessageBrokers","SoftwareArchitecture"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-11-27T14:38:38.610+01:00"}
 ---
 
-[[Main/Noter/Emner/Backend/Microservice\|Microservices-arkitektur]] har revolutioneret måden, vi bygger og skalerer applikationer på. Ved at bryde en [[Main/Noter/Monolitiske Applikationer\|monolitisk applikation]] ned i små, *uafhængige services* kan teams opnå større fleksibilitet, skalerbarhed og vedligeholdelse. 
+[[Main/Noter/Emner/Backend/Microservice\|Microservices-arkitektur]] har revolutioneret måden, vi bygger og skalerer applikationer på. Ved at bryde en [[Main/Noter/Programmering/Monolitiske Applikationer\|monolitisk applikation]] ned i små, *uafhængige services* kan teams opnå større fleksibilitet, skalerbarhed og vedligeholdelse. 
 
-Men med denne arkitektur opstår også nye udfordringer, især når det gælder kommunikation mellem de forskellige services. Her spiller en [[Main/Noter/Message Brokers\|message broker]] en afgørende rolle.
+Men med denne arkitektur opstår også nye udfordringer, især når det gælder kommunikation mellem de forskellige services. Her spiller en [[Main/Noter/Programmering/Message Brokers\|message broker]] en afgørende rolle.
 
 ---
 
@@ -13,7 +13,7 @@ Men med denne arkitektur opstår også nye udfordringer, især når det gælder 
 ![Pasted image 20241127145828.png](/img/user/Main/Images/Pasted%20image%2020241127145828.png)
 *Billedet er fra [tsh](https://tsh.io/blog/message-broker/)*
 
-En message broker er et softwaremodul, der gør det muligt for [[Main/Noter/Emner/Backend/Microservice\|microservices]] at kommunikere med hinanden via beskeder. Det fungerer som en mellemmand, der modtager beskeder fra én service og leverer dem til en eller flere modtagere. Eksempler på populære [[Main/Noter/Message Brokers\|message brokers]] inkluderer [[Main/Noter/RabbitMQ\|RabbitMQ]], **Apache Kafka**, **Amazon SQS** og **Azure Service Bus**.
+En message broker er et softwaremodul, der gør det muligt for [[Main/Noter/Emner/Backend/Microservice\|microservices]] at kommunikere med hinanden via beskeder. Det fungerer som en mellemmand, der modtager beskeder fra én service og leverer dem til en eller flere modtagere. Eksempler på populære [[Main/Noter/Programmering/Message Brokers\|message brokers]] inkluderer [[Main/Noter/Programmering/RabbitMQ\|RabbitMQ]], **Apache Kafka**, **Amazon SQS** og **Azure Service Bus**.
 
 ---
 
@@ -27,25 +27,25 @@ Uden en message broker kan [[Main/Noter/Emner/Backend/Microservice\|microservice
 4. **Fejlhåndtering**: Uden en mellemmand kan det være svært at genlevere beskeder eller håndtere fejl korrekt.
 
 ---
-#### Hvordan løser en [[Main/Noter/Message Brokers\|Message Broker]] disse udfordringer?
+#### Hvordan løser en [[Main/Noter/Programmering/Message Brokers\|Message Broker]] disse udfordringer?
 
 ![Pasted image 20241127145901.png](/img/user/Main/Images/Pasted%20image%2020241127145901.png)
 *Billedet er fra [Medium](https://betterprogramming.pub/why-do-we-need-message-broker-7382ce0e46c6)*
 
 1. **Asynkron Kommunikation**  
-    Med en [[Main/Noter/Message Brokers\|message broker]] kan [[Main/Noter/Emner/Backend/Microservice\|microservices]] kommunikere *asynkront*. Dette betyder, at en service kan sende en besked og fortsætte sit arbejde uden at vente på svar. Dette reducerer latenstid og afhængighed mellem services.
+    Med en [[Main/Noter/Programmering/Message Brokers\|message broker]] kan [[Main/Noter/Emner/Backend/Microservice\|microservices]] kommunikere *asynkront*. Dette betyder, at en service kan sende en besked og fortsætte sit arbejde uden at vente på svar. Dette reducerer latenstid og afhængighed mellem services.
     
-2. **[[Main/Noter/Loose Coupling\|Løs Kobling]]**  
+2. **[[Main/Noter/Programmering/Loose Coupling\|Løs Kobling]]**  
     Message brokers tillader services at kommunikere uden at kende hinandens detaljer. Dette gør det nemmere at tilføje, ændre eller fjerne services uden at påvirke hele systemet.
     
 3. **Fejltolerance og Pålidelighed**  
-    [[Main/Noter/Message Brokers\|Message brokers]] har indbyggede mekanismer til fejlhåndtering, såsom køer til genlevering, *dead letter queues* (DLQ) og beskedlagring, der sikrer, at ingen besked går tabt, selv hvis en service er midlertidigt utilgængelig.
+    [[Main/Noter/Programmering/Message Brokers\|Message brokers]] har indbyggede mekanismer til fejlhåndtering, såsom køer til genlevering, *dead letter queues* (DLQ) og beskedlagring, der sikrer, at ingen besked går tabt, selv hvis en service er midlertidigt utilgængelig.
     
 4. **Skalerbarhed**  
-    Ved hjælp af [[Main/Noter/Message Brokers\|message brokers]] kan arbejdsbyrden fordeles på tværs af flere instanser af en service. Dette gør det muligt at skalere dele af systemet uafhængigt af hinanden.
+    Ved hjælp af [[Main/Noter/Programmering/Message Brokers\|message brokers]] kan arbejdsbyrden fordeles på tværs af flere instanser af en service. Dette gør det muligt at skalere dele af systemet uafhængigt af hinanden.
     
 5. **Broadcast og Pub/Sub**  
-    [[Main/Noter/Message Brokers\|Message brokers]] understøtter forskellige kommunikationsmønstre som **publish/subscribe (pub/sub)**, hvor én besked kan sendes til flere modtagere, og **point-to-point**, hvor en besked leveres til en specifik modtager.
+    [[Main/Noter/Programmering/Message Brokers\|Message brokers]] understøtter forskellige kommunikationsmønstre som **publish/subscribe (pub/sub)**, hvor én besked kan sendes til flere modtagere, og **point-to-point**, hvor en besked leveres til en specifik modtager.
     
 
 ---
@@ -58,9 +58,9 @@ Forestil dig et system til billetbestilling, hvor tre [[Main/Noter/Emner/Backend
 2. **BetalingsService**: Håndterer betaling for ordren.
 3. **NotifikationsService**: Sender en kvittering til brugeren.
 
-Med en [[Main/Noter/Message Brokers\|message broker]] kan denne proces designes *asynkront*:
+Med en [[Main/Noter/Programmering/Message Brokers\|message broker]] kan denne proces designes *asynkront*:
 
-- **OrdreService** sender en besked til [[Main/Noter/Message Brokers\|message brokeren]] om, at en ny ordre er oprettet.
+- **OrdreService** sender en besked til [[Main/Noter/Programmering/Message Brokers\|message brokeren]] om, at en ny ordre er oprettet.
 - **BetalingsService** lytter til denne besked, behandler betalingen og sender en ny besked om betalingsstatus.
 - **NotifikationsService** lytter til betalingsstatus og sender en kvittering, når betalingen er bekræftet.
 
@@ -70,7 +70,7 @@ Denne arkitektur sikrer, at hver service kan fungere uafhængigt og genstarte ve
 
 #### Hvornår skal man bruge en Message Broker?
 
-En [[Main/Noter/Message Brokers\|message broker]] er især værdifuld i følgende scenarier:
+En [[Main/Noter/Programmering/Message Brokers\|message broker]] er især værdifuld i følgende scenarier:
 
 - **Event-drevet arkitektur**: Hvor services reagerer på hændelser.
 - **Høj trafik eller komplekse flows**: Når flere services skal samarbejde om en arbejdsbyrde.
@@ -84,7 +84,7 @@ En [[Main/Noter/Message Brokers\|message broker]] er især værdifuld i følgend
 ![Pasted image 20241127150243.png](/img/user/Main/Images/Pasted%20image%2020241127150243.png)
 *Billedet er fra [IStock](https://www.istockphoto.com/photos/frustrated-man)*
 
-Selvom en [[Main/Noter/Message Brokers\|message broker]] løser mange problemer, er der også ulemper:
+Selvom en [[Main/Noter/Programmering/Message Brokers\|message broker]] løser mange problemer, er der også ulemper:
 
 - **Kompleksitet**: Det tilføjer en ekstra komponent, der skal overvåges og vedligeholdes.
 - **Overhead**: Beskedhåndtering kan introducere ekstra latency og ressourcetræk.
@@ -97,12 +97,12 @@ Selvom en [[Main/Noter/Message Brokers\|message broker]] løser mange problemer,
 
 #### Konklusion
 
-En [[Main/Noter/Message Brokers\|message broker]] er et kraftfuldt værktøj i [[Main/Noter/Emner/Backend/Microservice\|microservices-arkitektur]]. Den løser mange af de udfordringer, der opstår med distribueret kommunikation, og gør det muligt at bygge robuste, skalerbare og fleksible systemer. 
+En [[Main/Noter/Programmering/Message Brokers\|message broker]] er et kraftfuldt værktøj i [[Main/Noter/Emner/Backend/Microservice\|microservices-arkitektur]]. Den løser mange af de udfordringer, der opstår med distribueret kommunikation, og gør det muligt at bygge robuste, skalerbare og fleksible systemer. 
 
-Ved at vælge en [[Main/Noter/Message Brokers\|message broker]], der passer til dine behov, kan du tage det første skridt mod en mere sammenkoblet og pålidelig microservices-arkitektur.
+Ved at vælge en [[Main/Noter/Programmering/Message Brokers\|message broker]], der passer til dine behov, kan du tage det første skridt mod en mere sammenkoblet og pålidelig microservices-arkitektur.
 
-Hvad er dine erfaringer med at bruge [[Main/Noter/Message Brokers\|message brokers]] i [[Main/Noter/Emner/Backend/Microservice\|microservices-arkitektur]]? Har du stået over for nogen af de udfordringer, der nævnes her, eller måske fundet kreative løsninger? 
-Del dine tanker i kommentarfeltet – jeg vil gerne høre om både succeser og udfordringer i dit arbejde med [[Main/Noter/Message Brokers\|message brokers]]! 
+Hvad er dine erfaringer med at bruge [[Main/Noter/Programmering/Message Brokers\|message brokers]] i [[Main/Noter/Emner/Backend/Microservice\|microservices-arkitektur]]? Har du stået over for nogen af de udfordringer, der nævnes her, eller måske fundet kreative løsninger? 
+Del dine tanker i kommentarfeltet – jeg vil gerne høre om både succeser og udfordringer i dit arbejde med [[Main/Noter/Programmering/Message Brokers\|message brokers]]! 
 👇👇👇
 
 ## Kilder

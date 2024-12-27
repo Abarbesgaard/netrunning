@@ -18,7 +18,7 @@ Dette betyder dog en lettere omskrivelse af mine læringsmål så de i højere g
 
 I forhold til [[Main/4. Semester/VitaHus/Projekt VitaHus\|Projekt VitaHus]] , så har jeg haft denne nye tilgang til projektet.
 
-Jeg har taget tilgangen [[Main/Noter/Defence in Depth\|Defence in Depth]] til mig og integreret en umiddelbar #Autentifikation når man rammer vores gateway. Men også hver gang en HTTP get metode benyttes i en controller vil de bekræfte den JWT token der er kommet ind samt de rettigheder denne token bærer med sig.
+Jeg har taget tilgangen [[Main/Noter/Programmering/Defence in Depth\|Defence in Depth]] til mig og integreret en umiddelbar #Autentifikation når man rammer vores gateway. Men også hver gang en HTTP get metode benyttes i en controller vil de bekræfte den JWT token der er kommet ind samt de rettigheder denne token bærer med sig.
 Dette diagram viser et overblik over flowet:
 ![It Sikkerhed, Gateway flow.png](/img/user/Excalidraw/It%20Sikkerhed,%20Gateway%20flow.png)
 

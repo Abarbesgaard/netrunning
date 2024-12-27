@@ -22,7 +22,7 @@ Alt ekstern kommunikation med appen skulle først passere en sikkerhedsmur. Når
 
 > Dette er efterhånden en saga blot.
 
-For det første kan appen nu være [[Main/Noter/Distribuerede systemer\|distribueret]] hvilket gør at muren, som før dækkede **hele** vejen rundt om **hele** appen, nu kun indeholder en del af appen.
+For det første kan appen nu være [[Main/Noter/Programmering/Distribuerede systemer\|distribueret]] hvilket gør at muren, som før dækkede **hele** vejen rundt om **hele** appen, nu kun indeholder en del af appen.
 
 ```plantuml
 title Distribueret app
@@ -38,14 +38,14 @@ front2 -- API
 
 *The walled garden* er ikke længere en brugbar metode
 ## En Ny tilgang
-I en [[Main/Noter/Distribuerede systemer\|distribueret app]], som vi har lavet i vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|projekt]] løste vi denne nye udfordring med følgende tiltag. 
+I en [[Main/Noter/Programmering/Distribuerede systemer\|distribueret app]], som vi har lavet i vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|projekt]] løste vi denne nye udfordring med følgende tiltag. 
 
 > [!info] Arkitektur
-> Vores app skulle både have en *App*, til telefonen, og en *hjemmeside*. Dermed var en [[Main/Noter/API\|API]] et godt valg, da den vil løse vores distribueringsproblematik.
+> Vores app skulle både have en *App*, til telefonen, og en *hjemmeside*. Dermed var en [[Main/Noter/Programmering/API\|API]] et godt valg, da den vil løse vores distribueringsproblematik.
 
-Vi vidste allerede til at starte med grundet at vi skulle have et [[Main/Noter/Distribuerede systemer\|distribueret system]] at noget af sikkerheden vil ligge i en eventuel [[Main/Noter/API\|API]] og/eller en [[Main/Noter/API-Gateway\|API-Gateway]]
+Vi vidste allerede til at starte med grundet at vi skulle have et [[Main/Noter/Programmering/Distribuerede systemer\|distribueret system]] at noget af sikkerheden vil ligge i en eventuel [[Main/Noter/Programmering/API\|API]] og/eller en [[Main/Noter/Programmering/API-Gateway\|API-Gateway]]
 ### Gateway
-Vi benyttede os af en [[Main/Noter/API-Gateway\|API-Gateway]]for at skabe en fælles kontaktflade for de kald der opstod til den bagvedliggende [[Main/Noter/API\|API]] (og måske på sigt flere [[Main/Noter/API\|API'er]])
+Vi benyttede os af en [[Main/Noter/Programmering/API-Gateway\|API-Gateway]]for at skabe en fælles kontaktflade for de kald der opstod til den bagvedliggende [[Main/Noter/Programmering/API\|API]] (og måske på sigt flere [[Main/Noter/Programmering/API\|API'er]])
 
 ```plantuml
 title Distribueret app
@@ -63,12 +63,12 @@ Gateway - API
 
 ```
 
-I vores [[Main/Noter/API-Gateway\|gateway]] gjorde vi følgende tiltag for at styrke sikkerheden i vores backend:
-1. Vi implementerede en default  *Authentication* og *Authorization* i [[Main/Noter/API-Gateway\|gateway]]
-2. Vi udliciterede ansvaret for bruger oprettelse og administration af dette til [[Main/Noter/Supabase\|Supabase]]. Vi vil senere bruge den [[Main/Noter/JWT token\|JWT token]] , som [[Main/Noter/Supabase\|Supabase]] laver, til at bekræfte brugerne gennem vores system.
+I vores [[Main/Noter/Programmering/API-Gateway\|gateway]] gjorde vi følgende tiltag for at styrke sikkerheden i vores backend:
+1. Vi implementerede en default  *Authentication* og *Authorization* i [[Main/Noter/Programmering/API-Gateway\|gateway]]
+2. Vi udliciterede ansvaret for bruger oprettelse og administration af dette til [[Main/Noter/Programmering/Supabase\|Supabase]]. Vi vil senere bruge den [[Main/Noter/Programmering/JWT token\|JWT token]] , som [[Main/Noter/Programmering/Supabase\|Supabase]] laver, til at bekræfte brugerne gennem vores system.
 
 #### Fordele ved Gateway'en
-Fordelene ved at have en [[Main/Noter/API-Gateway\|gateway]] i vores projekt gør at vi kunne have et fælles sted hvor al trafikken ind i vores [[Main/Noter/API\|API]] kunne autoriseres. 
+Fordelene ved at have en [[Main/Noter/Programmering/API-Gateway\|gateway]] i vores projekt gør at vi kunne have et fælles sted hvor al trafikken ind i vores [[Main/Noter/Programmering/API\|API]] kunne autoriseres. 
 
 Vi vil kunne *load balance* vores strøm af trafik gennem systemet.
 
@@ -112,7 +112,7 @@ Dette vil gøre 3 ting:
 2. Kunden vil kunne fokusere på det der giver værdi for dem.
 3. Det vil være betydeligt billigere at udvikle appen.
 ## Authentication og Authorization
-Vi sørgede for at når der kom et kald til vores [[Main/Noter/API-Gateway\|gateway]]så skulle det være autoriseret for at kunne benytte sig af vores endpoints. 
+Vi sørgede for at når der kom et kald til vores [[Main/Noter/Programmering/API-Gateway\|gateway]]så skulle det være autoriseret for at kunne benytte sig af vores endpoints. 
 I forhold til [OWASP API top 10](https://owasp.org/API-Security/editions/2023/en/0x11-t10/) så rammer denne tilgang flere af punkterne i top 10'en.
 Blandt andet:
 [[Main/Noter/Vita/Broken Authentication\|Broken Authentication]]
@@ -128,9 +128,9 @@ Det er en dialog som vi som udviklere skal tage tidligt i processes. Hvis dette 
 Dette vil gøre at vi levede bedre op til [OWASP API top 10](https://owasp.org/API-Security/editions/2023/en/0x11-t10/).
 
 ## Supabase
-I starten af vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|projekt]]brugte vi [[Main/Noter/Auth0\|Auth0]], til at holde styr på Auth-delen af vores projekt. Vi fandt dog ud af at [[Main/Noter/Auth0\|Auth0]]er brugbart hvis man ønsker at appen skal kunne tilgå på en anden måde en vi ønskede.
-Derfor skiftede vi til at benytte [[Main/Noter/Supabase\|Supabase]]i stedet. 
-Vores Frontend team implementerede en route i vores front der fik lavet en [[Main/Noter/JWT token\|JWT token]]hos [[Main/Noter/Supabase\|Supabase]]som vi så brugte til at verificere brugeren i vores[[Main/Noter/API-Gateway\|gateway]].
+I starten af vores [[Main/4. Semester/VitaHus/Projekt VitaHus\|projekt]]brugte vi [[Main/Noter/Programmering/Auth0\|Auth0]], til at holde styr på Auth-delen af vores projekt. Vi fandt dog ud af at [[Main/Noter/Programmering/Auth0\|Auth0]]er brugbart hvis man ønsker at appen skal kunne tilgå på en anden måde en vi ønskede.
+Derfor skiftede vi til at benytte [[Main/Noter/Programmering/Supabase\|Supabase]]i stedet. 
+Vores Frontend team implementerede en route i vores front der fik lavet en [[Main/Noter/Programmering/JWT token\|JWT token]]hos [[Main/Noter/Programmering/Supabase\|Supabase]]som vi så brugte til at verificere brugeren i vores[[Main/Noter/Programmering/API-Gateway\|gateway]].
 
 ```plantuml
 actor user
@@ -150,9 +150,9 @@ api -> api : Claims bekræftes
 api -> user : data
 ```
 
-Ud fra ovenstående kan man argumentere for at vi har benyttet os af princippet **[[Main/Noter/Zero Trust\|Zero Trust]]**. 
+Ud fra ovenstående kan man argumentere for at vi har benyttet os af princippet **[[Main/Noter/Programmering/Zero Trust\|Zero Trust]]**. 
 
-> [!INFORMATION] Hvad er [[Main/Noter/Zero Trust\|Zero Trust]]?
+> [!INFORMATION] Hvad er [[Main/Noter/Programmering/Zero Trust\|Zero Trust]]?
 En sikkerhedsmodel, der går ud fra, at ingen brugere eller enheder kan stoles på – uanset om de befinder sig inden for eller uden for netværksperimeteren.
 
 For vores vedkomne er dette mere held end en faktisk overvejelse.
@@ -165,7 +165,7 @@ Dette bakkes op i bogen af [Building Microservices af Sam Newman.](https://www.s
 
 Med dette mener han at [[Main/Noter/Emner/Backend/Microservice\|microservices]] er sådan et bæst at arbejde med at hvis man selv skulle lave alt fra bunden vil det hurtigt kunne blive alt for *stor* og ikke mindst **dyr** en mundfuld.
 ### Gateway
-Den [[Main/Noter/API-Gateway\|gateway]] jeg har opsat til projektet, implementeret med [[Main/Noter/Yarp\|Yarp]], er meget funktionel og sikkerhedsmæssigt utilstrækkelig. Så hvorfor ikke benytte sig af nogen der har lavet en løsning allerede?
+Den [[Main/Noter/Programmering/API-Gateway\|gateway]] jeg har opsat til projektet, implementeret med [[Main/Noter/Programmering/Yarp\|Yarp]], er meget funktionel og sikkerhedsmæssigt utilstrækkelig. Så hvorfor ikke benytte sig af nogen der har lavet en løsning allerede?
 
 > [!Note] Mulige tredjeparts udbydere
 > Kong

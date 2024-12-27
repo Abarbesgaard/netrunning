@@ -6,16 +6,16 @@
 Nedenfor kan du finde emner som vil give dig viden om følgende:
 
 [[Main/Ai/LLM Instillinger\|LLM Instillinger]]
-Lær om, hvordan man justerer indstillingerne for store sprogmodeller ([[Main/Noter/Large language model\|LLM]]) for at optimere deres præstation og tilpasse dem til specifikke opgaver og kontekster.
+Lær om, hvordan man justerer indstillingerne for store sprogmodeller ([[Main/Noter/Ai/Large language model\|LLM]]) for at optimere deres præstation og tilpasse dem til specifikke opgaver og kontekster.
 
 [[Main/Ai/Hvad er Prompting\|Hvad er Prompting]]
-Få indsigt i, hvad prompting er, og hvordan man effektivt kan formulere forespørgsler for at få præcise og relevante svar fra [[Main/Noter/Large language model\|LLM'er]].
+Få indsigt i, hvad prompting er, og hvordan man effektivt kan formulere forespørgsler for at få præcise og relevante svar fra [[Main/Noter/Ai/Large language model\|LLM'er]].
 
 [[Main/Ai/Prompt Elementer\|Prompt Elementer]]
 Udforsk de forskellige elementer, der udgør en prompt, og hvordan man strukturerer dem for at maksimere effektiviteten i kommunikationen med sprogmodeller.
 
 [[Main/Ai/Tips og Tricks\|Tips og Tricks]]
-Opdag nyttige tips og teknikker, der kan hjælpe dig med at få mere præcise og relevante resultater fra [[Main/Noter/Large language model\|LLM'er]], baseret på erfaring og bedste praksis.
+Opdag nyttige tips og teknikker, der kan hjælpe dig med at få mere præcise og relevante resultater fra [[Main/Noter/Ai/Large language model\|LLM'er]], baseret på erfaring og bedste praksis.
 
 [[Main/Ai/Advanceret Prompting\|Advanceret Prompting]]
 Dyk ned i avancerede teknikker for prompting, der giver dig mulighed for at finjustere interaktionen med sprogmodellen, skabe mere komplekse forespørgsler og opnå mere nuancerede resultater.
@@ -24,7 +24,8 @@ Dyk ned i avancerede teknikker for prompting, der giver dig mulighed for at finj
 
 [[Main/Ai/Promps Opgaver\|Promps Opgaver]]: Udforsk konkrete opgaver og scenarier, hvor du kan anvende og eksperimentere med forskellige prompting teknikker for at opnå de bedste resultater.
 
-[[PromptHacking\|PromptHacking]]: Lær hvad hvordan du kan sikre promps, men også hvordan du kan hacke dem.
+[[Prompt Security\|Prompt Security]]: Lær hvad hvordan du kan sikre promps, men også hvordan du kan hacke dem.
+
 ## Kilder
 >[!source]- Prompting Guide (dansk) 
 > Tilgængelig på: [website](https://www.syv.ai/prompting-guide)

@@ -6,7 +6,7 @@
 En fejl som mange godt kan falde i med It-Sikkerhed omkring microservices er at antage at blot fordi hoveddøren er låst med 4 forskellige typer af låse, overvåget at CCTV og vagthunde står klar. 
 Er det ikke noget værd hvis vinduet bag huset står åbent.
 
-I bogen **building microservices** af [[Main/Noter/Sam Newman\|Sam Newman]], kommer han ind på hvilke foranstaltninger man kan gøre sig i forhold til at skabe et sikkert microservice arkitektur.
+I bogen **building microservices** af [[Main/Noter/Programmering/Sam Newman\|Sam Newman]], kommer han ind på hvilke foranstaltninger man kan gøre sig i forhold til at skabe et sikkert microservice arkitektur.
 
 Han fremlægger  følgende punkter som opmærksomhedpunkter, som han kalder `core principles` der vil hjælpe i arbejdet med sikkerhed i Microservices.
 
@@ -16,7 +16,7 @@ Han fremlægger  følgende punkter som opmærksomhedpunkter, som han kalder `cor
 4. Sikkerhed implementeret i `CI/CD`
 
 ## Least Privilege
-Dette princip bunder den adgang, som en bruger, skal have til systemet. Her siger [[Main/Noter/Sam Newman\|han]] at bruger kun skal adgang til det de som minimum skal bruge for at opfylde deres mål gennem systemet.
+Dette princip bunder den adgang, som en bruger, skal have til systemet. Her siger [[Main/Noter/Programmering/Sam Newman\|han]] at bruger kun skal adgang til det de som minimum skal bruge for at opfylde deres mål gennem systemet.
 Hvis en microservice kun har `read-only` adgang til en database, vil en ondsindet aktør kun have `read-only` adgang og kun til denne database.
 
 ## Defence in depth

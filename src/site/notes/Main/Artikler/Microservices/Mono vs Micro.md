@@ -3,13 +3,13 @@
 ---
 
 
-> Hvad er bedst for dit projekt? [[Main/Noter/Monolitiske Applikationer\|Monolith]] eller [[Main/Noter/Emner/Backend/Microservice\|Microservices]]?
+> Hvad er bedst for dit projekt? [[Main/Noter/Programmering/Monolitiske Applikationer\|Monolith]] eller [[Main/Noter/Emner/Backend/Microservice\|Microservices]]?
 
-Når det kommer til valg af arkitektur, kan det være svært at afgøre, hvad der er bedst for din virksomhed. Valget mellem en [[Main/Noter/Monolitiske Applikationer\|monolitisk applikation]] og en [[Main/Noter/Emner/Backend/Microservice\|microservice-arkitektur]] afhænger af en række faktorer, såsom *skaleringsbehov*, *udviklingsteamets* *størrelse*, og hvor kompleks applikationen forventes at blive.
+Når det kommer til valg af arkitektur, kan det være svært at afgøre, hvad der er bedst for din virksomhed. Valget mellem en [[Main/Noter/Programmering/Monolitiske Applikationer\|monolitisk applikation]] og en [[Main/Noter/Emner/Backend/Microservice\|microservice-arkitektur]] afhænger af en række faktorer, såsom *skaleringsbehov*, *udviklingsteamets* *størrelse*, og hvor kompleks applikationen forventes at blive.
 
 ---
 ## Hvad er en Monolith?
-En **[[Main/Noter/Monolitiske Applikationer\|monolitisk applikation]]** er en enkelt, samlet kodebase, hvor alle funktionaliteter er integreret og afhængige af hinanden.
+En **[[Main/Noter/Programmering/Monolitiske Applikationer\|monolitisk applikation]]** er en enkelt, samlet kodebase, hvor alle funktionaliteter er integreret og afhængige af hinanden.
 
 ![Monolith_architecture.png](/img/user/98_Images/Monolith_architecture.png)
 
@@ -27,7 +27,7 @@ En **modulær monolith** er en monolitisk arkitektur, der er opdelt i separate m
 
 ![Modular monolith.png](/img/user/98_Images/Modular%20monolith.png)
 
-Denne tilgang fungerer som en overgang mellem [[Main/Noter/Monolitiske Applikationer\|monolith]] og [[Main/Noter/Emner/Backend/Microservice\|microservices]], da modulerne kan behandles næsten som selvstændige services.
+Denne tilgang fungerer som en overgang mellem [[Main/Noter/Programmering/Monolitiske Applikationer\|monolith]] og [[Main/Noter/Emner/Backend/Microservice\|microservices]], da modulerne kan behandles næsten som selvstændige services.
 ### Fordele ved Modular Monolith
 
 - **Bedre vedligeholdelse:** Opdeling i moduler gør det lettere at lokalisere og rette fejl.

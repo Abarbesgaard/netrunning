@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/artikler/dormands-monsteret/","dgHomeLink":"false","dgShowBacklinks":"false","dgShowFileTree":"false","dgEnableSearch":"false","created":"2024-12-05T13:05:12.608+01:00"}
+{"dg-publish":true,"permalink":"/main/artikler/dormands-monsteret/","tags":["Mønstre"],"dgHomeLink":"false","dgShowBacklinks":"false","dgShowFileTree":"false","dgEnableSearch":"false","created":"2024-12-05T13:05:12.608+01:00"}
 ---
 
 I softwareudvikling er det vigtigt at sikre, at kun gyldige data slipper gennem systemet. Et effektivt designmønster til dette er **Dørmandens Mønster**. 

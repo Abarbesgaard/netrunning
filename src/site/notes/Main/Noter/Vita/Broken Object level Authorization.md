@@ -22,7 +22,7 @@ Det første man skal have spurgt sig serv om er om der er brug for flere *slags 
 Men også hvilke rettigheder disse roller har brug for. Er der nogle rettigheder som kræder en ny form for bruger?
 ### [Claim Based Authorization](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-8.0)
 Når bruger hierarkiet er på plads kan man opsætte en *[Claim Based Authorization](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-8.0)*
-ved logind tilknyttes *[claims](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-8.0)*(brugerdata) til en [[Main/Noter/JWT token\|JWT token]] . 
+ved logind tilknyttes *[claims](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-8.0)*(brugerdata) til en [[Main/Noter/Programmering/JWT token\|JWT token]] . 
 
 Dette gøres så brugerens *rolle*, *rettigheder* og *adgang* til **ressourcer** kan bekræftes i hver forespørgsel.
 
@@ -37,7 +37,7 @@ var claims = new List<Claim>
 };
 ```
 #### Hvor gøres dette i en Microservice Arkitektur?
-Dette kan gøres i en central *Identity Service*, som fx i vores *User Service*. Denne service vil så kunne blive brugt til at udstede [[Main/Noter/JWT token\|tokens]] med bruger disse **[claims](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-8.0)** som hver services så vil kunne bruge til at verificere.
+Dette kan gøres i en central *Identity Service*, som fx i vores *User Service*. Denne service vil så kunne blive brugt til at udstede [[Main/Noter/Programmering/JWT token\|tokens]] med bruger disse **[claims](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-8.0)** som hver services så vil kunne bruge til at verificere.
 ### Definere Autorisations politik
 En implementering af følgende kan systemet mulighed for at *validere* adgang baseret på de før nævnte claims.
 
@@ -63,7 +63,7 @@ public IActionResult GetSensitiveData() { // Logic to retrieve sensitive data }
 ```
 
 #### Hvor gøres dette i en Microservice Arkitektur?
-*I den enkelte microservice*, der håndterer adgang til specifikke endpoints. Når en service modtager en request med et [[Main/Noter/JWT token\|JWT token]], kan den udtrække og verificere brugerens [claims](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-8.0) og rolle mod policies, før den udfører handlinger.
+*I den enkelte microservice*, der håndterer adgang til specifikke endpoints. Når en service modtager en request med et [[Main/Noter/Programmering/JWT token\|JWT token]], kan den udtrække og verificere brugerens [claims](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-8.0) og rolle mod policies, før den udfører handlinger.
 
 ### Implementer Objektkontrol i Hvert Endpoint
 I selve endpoints skal man tilføje checks for, at finde ud af om brugeren har ret til det specifikke objekt (eksempelvis ved at kontrollere om brugeren ejer objektet eller har den nødvendige hierarkitilladelse).

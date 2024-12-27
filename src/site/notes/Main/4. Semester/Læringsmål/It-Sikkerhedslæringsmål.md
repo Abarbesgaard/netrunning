@@ -8,7 +8,7 @@
 
 #### §1
 
-Jeg har viden om **OWASP Top 10 sikkerhedstrusler** og forstår, hvordan man opbygger forsvarsmekanismer i [[Main/Noter/API\|API'er]] og [[Main/Noter/Emner/Backend/Microservice\|microservices]] for at reducere risici fra starten.
+Jeg har viden om **OWASP Top 10 sikkerhedstrusler** og forstår, hvordan man opbygger forsvarsmekanismer i [[Main/Noter/Programmering/API\|API'er]] og [[Main/Noter/Emner/Backend/Microservice\|microservices]] for at reducere risici fra starten.
 
 #OWASP_Top_10 #API-Sikkerhed #Microservices
 
@@ -20,7 +20,7 @@ Jeg har kendskab til **DDoS-beskyttelse** og værktøjer til overvågning af bel
 
 #### §3
 
-Jeg har indsigt i **sikkerhedsudfordringer i [[Main/Noter/Emner/Backend/Microservice\|microservices]]**, og kan bruge løsninger som [[Main/Noter/API-Gateway\|API Gateways]], autentificeringsprotokoller og kryptering.
+Jeg har indsigt i **sikkerhedsudfordringer i [[Main/Noter/Emner/Backend/Microservice\|microservices]]**, og kan bruge løsninger som [[Main/Noter/Programmering/API-Gateway\|API Gateways]], autentificeringsprotokoller og kryptering.
 
 #Microservices #Autentificering #Kryptering #APIGateway
 
@@ -34,7 +34,7 @@ Jeg kan **bygge sikkerhedsmekanismer ind i kode**, herunder rate limiting, adgan
 
 #### §5
 
-Jeg kan **integrere [[Main/Noter/API-Gateway\|API Gateways]] og [[Main/Noter/Zero Trust\|Zero Trust]]-principper** for at skabe et multi-lags forsvar, der hjælper med adgangskontrol og overvågning.
+Jeg kan **integrere [[Main/Noter/Programmering/API-Gateway\|API Gateways]] og [[Main/Noter/Programmering/Zero Trust\|Zero Trust]]-principper** for at skabe et multi-lags forsvar, der hjælper med adgangskontrol og overvågning.
 
 #ZeroTrust #APIGateway #OAuth2 #Forsvar
 

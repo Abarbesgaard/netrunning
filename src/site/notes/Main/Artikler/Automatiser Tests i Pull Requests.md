@@ -3,14 +3,14 @@
 ---
 
 
-**At sikre kodekvalitet** er afgørende for succes i ethvert udviklingsprojekt. Automatisering af tests som en del af [[Main/Noter/Pull Request\|pull request]]-processen er en effektiv måde at fange fejl, sikre stabilitet og spare tid. I denne guide viser jeg, hvordan du opsætter [[Main/Noter/GitHub Actions\|GitHub Actions]] til at køre tests automatisk, hver gang du laver en [[Main/Noter/Pull Request\|pull request]] (PR).
+**At sikre kodekvalitet** er afgørende for succes i ethvert udviklingsprojekt. Automatisering af tests som en del af [[Main/Noter/Programmering/Pull Request\|pull request]]-processen er en effektiv måde at fange fejl, sikre stabilitet og spare tid. I denne guide viser jeg, hvordan du opsætter [[Main/Noter/Programmering/GitHub Actions\|GitHub Actions]] til at køre tests automatisk, hver gang du laver en [[Main/Noter/Programmering/Pull Request\|pull request]] (PR).
 
 > [!important] Når vi er færdige, vil du have en workflow, der:
 > >[!note] 1
 >Kører dine tests automatisk
 >
 >>[!note] 2
->Blokerer en [[Main/Noter/Pull Request\|PR]] fra at blive merged, hvis testene fejler.
+>Blokerer en [[Main/Noter/Programmering/Pull Request\|PR]] fra at blive merged, hvis testene fejler.
 >
 >>[!note] 3
 >Giver dig et solidt grundlag for at *skalere* dit projekt.
@@ -18,9 +18,9 @@
 ---
 ## Kort om [[GitHub Actions?\|GitHub Actions?]]
 
-[[Main/Noter/GitHub Actions\|GitHub Actions]] er en CI/CD-platform indbygget i [[Main/Noter/GitHub\|GitHub]]. Det gør det muligt at opsætte *workflows*, der aktiveres ved *specifikke hændelser*, som f.eks. når en [[Main/Noter/Pull Request\|pull request]] oprettes eller en push laves til et bestemt branch.
+[[Main/Noter/Programmering/GitHub Actions\|GitHub Actions]] er en CI/CD-platform indbygget i [[Main/Noter/Programmering/GitHub\|GitHub]]. Det gør det muligt at opsætte *workflows*, der aktiveres ved *specifikke hændelser*, som f.eks. når en [[Main/Noter/Programmering/Pull Request\|pull request]] oprettes eller en push laves til et bestemt branch.
 
-Med [[Main/Noter/GitHub Actions\|GitHub Actions]] kan du:
+Med [[Main/Noter/Programmering/GitHub Actions\|GitHub Actions]] kan du:
 
 - Køre tests.
 - Bygge og deploye applikationer.
@@ -29,7 +29,7 @@ Med [[Main/Noter/GitHub Actions\|GitHub Actions]] kan du:
 ---
 ## **Opsætning af en Workflow til Pull Requests**
 
-### Opret en [[Main/Noter/YAML\|YAML]]-fil til din workflow
+### Opret en [[Main/Noter/Programmering/YAML\|YAML]]-fil til din workflow
 
 I din projektmappe skal du oprette en ny fil i `.github/workflows`-mappen. Navngiv den f.eks. `test-on-pr.yml`.
 
@@ -78,7 +78,7 @@ jobs:
 ```
 ---
 ### Forklaring af Workflow-filen
-Denne workflow-fil er designet til at automatisere bygning og testning af en .NET-applikation, hver gang en [[Main/Noter/Pull Request\|pull request]] laves mod enten `main`- eller `develop`-branchen. Den bruger [[Main/Noter/GitHub Actions\|GitHub Actions]] til at udføre følgende trin:
+Denne workflow-fil er designet til at automatisere bygning og testning af en .NET-applikation, hver gang en [[Main/Noter/Programmering/Pull Request\|pull request]] laves mod enten `main`- eller `develop`-branchen. Den bruger [[Main/Noter/Programmering/GitHub Actions\|GitHub Actions]] til at udføre følgende trin:
 #### Workflow-navn og triggere
 
 ```yaml
@@ -91,7 +91,7 @@ on:
 		- main       
 		- develop
 ```
-- **`name`**: Angiver navnet på workflowet, så det er let at identificere i [[Main/Noter/GitHub Actions\|GitHub Actions]]-grænsefladen.
+- **`name`**: Angiver navnet på workflowet, så det er let at identificere i [[Main/Noter/Programmering/GitHub Actions\|GitHub Actions]]-grænsefladen.
 - **`on`**: Definerer, hvornår workflowet skal køre. Her bliver det trigget, når der laves en pull request mod `main`- eller `develop`-branchen.
 
 ---
@@ -179,7 +179,7 @@ dotnet test tests/MyApp.Tests/MyApp.Tests.csproj
 Ved at bruge dette workflow kan du automatisere dine builds og tests, hvilket sparer tid og sikrer høj kodekvalitet. Det er nemt at tilpasse yderligere trin som *code coverage*, *linting* eller *integrationstests* for at styrke din **CI/CD-proces**.
 
 **Hvad tænker du?**  
-Har du erfaring med [[Main/Noter/GitHub Actions\|GitHub Actions]], eller mangler der noget i denne guide? Del dine tanker, forslag og spørgsmål i kommentarerne – lad os starte en diskussion om bedste praksis for test-automatisering! 🚀
+Har du erfaring med [[Main/Noter/Programmering/GitHub Actions\|GitHub Actions]], eller mangler der noget i denne guide? Del dine tanker, forslag og spørgsmål i kommentarerne – lad os starte en diskussion om bedste praksis for test-automatisering! 🚀
 
 ### Næste skridt
 Hvis du ønsker at se dine test resultater i din PR vil jeg foreslå dig at følge denne:

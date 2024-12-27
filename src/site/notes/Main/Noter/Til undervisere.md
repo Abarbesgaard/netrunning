@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/noter/til-undervisere/","tags":["gardenEntry"],"created":"2024-11-06T08:03:50.650+01:00"}
+{"dg-publish":true,"permalink":"/main/noter/til-undervisere/","created":"2024-11-06T08:03:50.650+01:00"}
 ---
 
 ## Velkommen.
@@ -22,9 +22,9 @@ Siden er inddelt i de *fire* emner:
 
 I løbet af mit 4. semester har jeg fordybet mig i [[Main/Noter/Emner/Backend/Microservice\|microservices]] som arkitektur, hvilket har udmøntet sig i mit eksperiment projekt ["Vita Microservice"](https://github.com/Abarbesgaard/Vita_Microservice) .
 
-Her har jeg arbejdet med [[Main/Noter/RabbitMQ\|RabbitMQ]] som [[Main/Noter/Message Brokers\|message broker]], opsat en [[Main/Noter/API-Gateway\|API-Gateway]] og udviklet CI/CD workflows, der inddrager [[Main/Noter/Docker\|Docker]] og [[Main/Noter/MongoDB\|MongoDB]]. 
+Her har jeg arbejdet med [[Main/Noter/Programmering/RabbitMQ\|RabbitMQ]] som [[Main/Noter/Programmering/Message Brokers\|message broker]], opsat en [[Main/Noter/Programmering/API-Gateway\|API-Gateway]] og udviklet CI/CD workflows, der inddrager [[Main/Noter/Programmering/Docker\|Docker]] og [[Main/Noter/Programmering/MongoDB\|MongoDB]]. 
 
-Gennem dette  har jeg opnået en dybere forståelse for, hvordan man skaber *skalerbare* [[Main/Noter/Distribuerede systemer\|distribuerede systemer]] i praksis.
+Gennem dette  har jeg opnået en dybere forståelse for, hvordan man skaber *skalerbare* [[Main/Noter/Programmering/Distribuerede systemer\|distribuerede systemer]] i praksis.
 
 ### Læringsmål
 [[Main/4. Semester/Læringsmål/Microservices læringsmål\|Microservices læringsmål]]
@@ -34,9 +34,9 @@ Her kan du udforske det personlige projekt, som jeg har brugt til at eksperiment
 
 [[Main/Noter/Opsummering af Microservices\|Opsummering af Microservices]]
 ### Nøglekompetencer 
-- Erfaring med [[Main/Noter/RabbitMQ\|RabbitMQ]]og [[Main/Noter/Message Brokers\|Message Brokers]].
-- Opsætning af [[Main/Noter/API-Gateway\|API-Gateway]].
-- CI/CD workflows til [[Main/Noter/Docker\|Docker]] og [[Main/Noter/MongoDB\|MongoDB]]-integration.
+- Erfaring med [[Main/Noter/Programmering/RabbitMQ\|RabbitMQ]]og [[Main/Noter/Programmering/Message Brokers\|Message Brokers]].
+- Opsætning af [[Main/Noter/Programmering/API-Gateway\|API-Gateway]].
+- CI/CD workflows til [[Main/Noter/Programmering/Docker\|Docker]] og [[Main/Noter/Programmering/MongoDB\|MongoDB]]-integration.
 
 ---
 ## It-Sikkerhed
@@ -44,7 +44,7 @@ Her kan du udforske det personlige projekt, som jeg har brugt til at eksperiment
 ### Læringsmål
 [[Main/4. Semester/Læringsmål/It-Sikkerhedslæringsmål\|It-Sikkerhedslæringsmål]]
 
-Jeg havde fokus på hvordan [[Main/Noter/OWASP\|OWASP]] API top 10 kan se ud direkte i koden:
+Jeg havde fokus på hvordan [[Main/Noter/Teknologi/OWASP\|OWASP]] API top 10 kan se ud direkte i koden:
 [[Main/4. Semester/Blog/2024-11-04 OWASP\|link til dette]]
 
 Jeg havde fokus på hvordan et trusselsbillede kan se ud for en umiddelbar simpel Microservice
