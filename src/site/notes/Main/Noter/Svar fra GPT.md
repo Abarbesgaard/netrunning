@@ -54,8 +54,7 @@ public string Title { get; set; } = string.Empty;
 public bool IsCompleted { get; set; } }
     ```
 4. Opret en DbContext:
-    
-    csharp
+
 ```csharp
     public class TodoContext : DbContext 
     {     
@@ -64,7 +63,8 @@ public bool IsCompleted { get; set; } }
     }     
     public DbSet<TodoItem> TodoItems { get; set; } }
     ```
-5. Tilføj en controller for CRUD-operationer.
+
+1. Tilføj en controller for CRUD-operationer.
 
 ---
 
@@ -80,9 +80,6 @@ public bool IsCompleted { get; set; } }
         ```
 1. Kør migrationer:
     
-    bash
-    
-    CopyEdit
     ```bash
     dotnet ef migrations add InitialCreate dotnet ef database update
     ```
@@ -94,7 +91,6 @@ public bool IsCompleted { get; set; } }
 
 1. Opret en React-app med Vite:
     
-    bash
  ```bash
     npm create vite@latest todo-list --template react-ts
     ```
@@ -146,7 +142,7 @@ axios.get('/api/todos').then(response => setTodos(response.data));
 </div>    
 ); 
 };  
-    export default TodoList;`
+    export default TodoList;
     
 ```
 ---
