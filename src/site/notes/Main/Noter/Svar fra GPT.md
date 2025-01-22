@@ -34,76 +34,86 @@ At lave en todoliste-app er en god øvelse! Her er en enkel plan for, hvordan du
 
 #### 1. **Opsæt backend i C#**
 
-1. Opret en ASP.NET Core Web API:
+Opret en ASP.NET Core Web API:
 
-    ```bash
-    dotnet new webapi -n TodoListApi
-    ```
-2. Installer Entity Framework Core til MSSQL:
+```bash
+dotnet new webapi -n TodoListApi
+```
 
-    ```bash
-    dotnet add package Microsoft.EntityFrameworkCore.SqlServer dotnet add package Microsoft.EntityFrameworkCore.Tools
-    ```
-3. Definér en model for opgaver:
 
-    ```Csharp
+Installer Entity Framework Core til MSSQL:
+
+```bash
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer dotnet add package Microsoft.EntityFrameworkCore.Tools
+```
+
+Definér en model for opgaver:
+
+
+```Csharp
 public class TodoItem 
 {     
 public int Id { get; set; }     
 public string Title { get; set; } = string.Empty;     
-public bool IsCompleted { get; set; } }
-    ```
-4. Opret en DbContext:
+public bool IsCompleted { get; set; } 
+}
+```
+
+Opret en DbContext:
 
 ```csharp
-    public class TodoContext : DbContext 
-    {     
-    public TodoContext(DbContextOptions<TodoContext> options) : base(options) 
-    { 
-    }     
-    public DbSet<TodoItem> TodoItems { get; set; } }
-    ```
+public class TodoContext : DbContext 
+{     
+public TodoContext(DbContextOptions<TodoContext> options) : base(options) 
+{ 
+}     
+public DbSet<TodoItem> TodoItems { get; set; } }
+```
 
-1. Tilføj en controller for CRUD-operationer.
+Tilføj en controller for CRUD-operationer.
 
 ---
 
 #### 2. **Opsæt MSSQL-database**
 
-1. Tilføj en forbindelse til din database i `appsettings.json`:
-    
+Tilføj en forbindelse til din database i `appsettings.json`:
+
 ```json
-    "ConnectionStrings": 
-    {     
-    "DefaultConnection": "Server=localhost;Database=TodoDb;Trusted_Connection=True;" 
-    }
-        ```
-1. Kør migrationer:
-    
-    ```bash
-    dotnet ef migrations add InitialCreate dotnet ef database update
-    ```
-    
+"ConnectionStrings": 
+{     
+"DefaultConnection": "Server=localhost;Database=TodoDb;Trusted_Connection=True;" 
+}
+```
+
+Kør migrationer:
+
+```bash
+dotnet ef migrations add InitialCreate dotnet ef database update
+
+```
+
 
 ---
 
 #### 3. **Byg frontend i React**
 
-1. Opret en React-app med Vite:
-    
- ```bash
-    npm create vite@latest todo-list --template react-ts
-    ```
-2. Installer Axios for at lave API-kald:
-    
+Opret en React-app med Vite:
+
 ```bash
-    `npm install axios`
-    ```
-3. Lav en simpel todoliste-komponent:
-    
+npm create vite@latest todo-list --template react-ts
+```
+
+Installer Axios for at lave API-kald:
+
+```bash
+npm install axios
+```
+
+Lav en simpel todoliste-komponent:
+
 ```js
-    import { useState, useEffect } from 'react'; 
-    import axios from 'axios'; 
+import { useState, useEffect } from 'react'; 
+import axios from 'axios'; 
 
 const TodoList = () => {     
 const [todos, setTodos] = useState([]);     
@@ -145,29 +155,32 @@ axios.get('/api/todos').then(response => setTodos(response.data));
     export default TodoList;
     
 ```
+
 ---
 
 #### 4. **Kobl frontend og backend sammen**
 
-- Opsæt en proxy i `vite.config.ts` for at videresende API-kald til din backend:
-    
+Opsæt en proxy i `vite.config.ts` for at videresende API-kald til din backend:
+   
 ```js
-    server: {     
-    proxy: {         
-    '/api': 'http://localhost:5000'     
-    } 
-    }
+server: {     
+proxy: {         
+'/api': 'http://localhost:5000'     
+} 
+}
 ```
 
 ---
 
 #### 5. **Tilføj styling med Tailwind CSS**
 
-1. Installer Tailwind CSS:
-    ```bash
-    npm install -D tailwindcss postcss autoprefixer npx tailwindcss init
-    ```
-2. Konfigurer Tailwind og tilføj styles.
+Installer Tailwind CSS:
+
+```bash
+npm install -D tailwindcss postcss autoprefixer npx tailwindcss init
+```
+
+Konfigurer Tailwind og tilføj styles.
 
 ---
 
