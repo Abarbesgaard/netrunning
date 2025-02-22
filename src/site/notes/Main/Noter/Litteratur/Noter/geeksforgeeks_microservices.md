@@ -84,7 +84,7 @@ uafhængige tjenester.
 
 ## 8. Hvordan flytte fra Monolitisk til Microservices?
 
-![MONO to Micro.png](/img/user/98_Images/MONO%20to%20Micro.png)
+![MONO to Micro.png](/img/user/Resource/98_Images/MONO%20to%20Micro.png)
 
 - **Evaluér Monolit:** Forstå den nuværende applikation og identificer komponenter.
 - **Definér Microservices:** Opdel monolit i forretningsfunktioner.

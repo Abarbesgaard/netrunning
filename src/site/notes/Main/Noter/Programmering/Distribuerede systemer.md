@@ -6,7 +6,7 @@
 > Distributed systems er *en samling af computerprogrammer* eller komponenter, der *arbejder sammen på tværs af flere separate computere* eller enheder for at opnå et fælles mål. 
 
 
-![Pasted image 20241115093329.png](/img/user/98_Images/Pasted%20image%2020241115093329.png)
+![Pasted image 20241115093329.png](/img/user/Resource/98_Images/Pasted%20image%2020241115093329.png)
 *Billede fra [Atlassian*](https://www.atlassian.com/microservices/microservices-architecture/distributed-architecture)
 ## Kilder:
 1. [Atlassian - What is a distributed system](https://www.atlassian.com/microservices/microservices-architecture/distributed-architecture)

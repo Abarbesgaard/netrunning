@@ -15,7 +15,7 @@ Den sikkerhedsmæssige tilgang jeg har læst meget om i forhold til en tradition
  ```
 
 
-![Walled garden.png](/img/user/98_Images/Walled%20garden.png)
+![Walled garden.png](/img/user/Resource/98_Images/Walled%20garden.png)
 *Billedet er fra [propertylistings](https://propertylistings.ft.com/propertynews/united-kingdom/7284-wall-encompassing-a-short-history-of-the-walled-garden.html)*
 
 Alt ekstern kommunikation med appen skulle først passere en sikkerhedsmur. Når denne var krydset, blev al trafik derefter betragtet som *pålidelig*, hvilket tillod *fri adgang internt* i systemet.
@@ -97,7 +97,7 @@ Men de er dog stadig lavet af mennesker(for nu), så i overvejelsen af hvilken t
 Inden jeg går videre med implementeringen er det vigtigt at man som udvikler kan oplyse kunden om det *sikkerhedsudfordringer* som en app, som de ønsker, står over for.
 
 Til dette kan man gøre brug af en risiko analyse:
-![Pasted image 20241113081958.png](/img/user/98_Images/Pasted%20image%2020241113081958.png)
+![Pasted image 20241113081958.png](/img/user/Resource/98_Images/Pasted%20image%2020241113081958.png)
 [*kilde: risikoanalyse fra center for ledelse*](https://www.cfl.dk/artikler/risikoanalyse)
 
 > [!important] Pointe 

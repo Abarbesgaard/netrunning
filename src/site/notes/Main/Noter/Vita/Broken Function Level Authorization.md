@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/vita/broken-function-level-authorization/","created":"2024-11-07T09:19:35.648+01:00"}
 ---
 
-![Broken Function Level Authorization.png](/img/user/98_Images/Broken%20Function%20Level%20Authorization.png)
+![Broken Function Level Authorization.png](/img/user/Resource/98_Images/Broken%20Function%20Level%20Authorization.png)
 > [!NOTE]- Opsummering af BFLA
 > **Komplekse adgangskontrolpolitikker** med forskellige *hierarkier*, *grupper* og *roller* samt en uklar adskillelse mellem administrative og almindelige funktioner har en tendens til at føre til autorisationsfejl. Ved at udnytte disse problemer kan angribere få adgang til andre brugeres ressourcer og/eller administrative funktioner.
 

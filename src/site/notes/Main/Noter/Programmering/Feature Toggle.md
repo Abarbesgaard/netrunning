@@ -3,7 +3,7 @@
 ---
 
 
-![Feature Toggle.png](/img/user/98_Images/Feature%20Toggle.png)
+![Feature Toggle.png](/img/user/Resource/98_Images/Feature%20Toggle.png)
 Feature toggles, også kendt som **feature flags** eller **feature switches**, er en teknik inden for softwareudvikling, der giver udviklere mulighed for at aktivere eller deaktivere specifikke funktioner i en applikation uden at skulle deployere ny kode. Dette gør det muligt at styre, hvilke funktioner der er tilgængelige for brugerne i realtid.
 
 ## Nøglefunktioner

@@ -3,7 +3,7 @@
 ---
 
 
-![Pasted image 20241120102650.png](/img/user/98_Images/Pasted%20image%2020241120102650.png)
+![Pasted image 20241120102650.png](/img/user/Resource/98_Images/Pasted%20image%2020241120102650.png)
 *Billedet er fra [redhat](https://www.redhat.com/en/topics/middleware/what-is-middleware)*
 
 > [!important] Hvad er Middelware

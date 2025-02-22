@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/process/getting-things-done/","dgHomeLink":"false","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false","created":"2024-11-13T16:56:28.595+01:00"}
 ---
 
-![Pasted image 20241112130322.png](/img/user/98_Images/Pasted%20image%2020241112130322.png)
+![Pasted image 20241112130322.png](/img/user/Resource/98_Images/Pasted%20image%2020241112130322.png)
 _Getting Things Done_ (GTD) er en populær produktivitetsmetode udviklet af David Allen, der hjælper med at skabe struktur og fokus i hverdagen. GTD er ideel for dem, der ofte føler sig overvældet af opgaver og ønsker at få bedre kontrol over deres tid og mentale energi. Metoden bygger på tanken om, at man frigør sit sind til kreativt og fokuseret arbejde, når man har et pålideligt system til at håndtere alle sine forpligtelser og idéer.
 
 ### De 5 Trin i GTD

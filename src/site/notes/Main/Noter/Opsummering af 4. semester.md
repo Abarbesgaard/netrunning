@@ -47,7 +47,7 @@ Jeg brugte [[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirk
 
 > [!note] [[Main/Noter/Process/Getting things done\|GTD-Metoden]] hang ikke godt nok sammen med mine læringsplaner.
 
-![Pasted image 20241112130322.png](/img/user/98_Images/Pasted%20image%2020241112130322.png)
+![Pasted image 20241112130322.png](/img/user/Resource/98_Images/Pasted%20image%2020241112130322.png)
 
 Derfor skiftede jeg til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] efter efterårs ferien, hvilket skabte en klarere ramme for både mine *ambitioner* og *tidsplan*.
 
@@ -59,7 +59,7 @@ Derfor skiftede jeg til [[Main/Noter/Systemudvikling/Smart_Mål\|SMART-mål]] ef
 
 [[Main/Noter/Systemudvikling/Kolbs Læringscirkel\|Kolbs Læringscirkel]] blev således en integreret del af *min proces* og har hjulpet mig med at forfine og fokusere på realistiske læringsmål. Denne strukturerede fremgangsmåde gav mig en målrettet udvikling gennem hele semesteret.
 ### Smart mål
-![Pasted image 20241114063041.png](/img/user/98_Images/Pasted%20image%2020241114063041.png)
+![Pasted image 20241114063041.png](/img/user/Resource/98_Images/Pasted%20image%2020241114063041.png)
 
 ### Eksempel
 

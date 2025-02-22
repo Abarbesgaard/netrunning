@@ -11,7 +11,7 @@ Når det kommer til valg af arkitektur, kan det være svært at afgøre, hvad de
 ## Hvad er en Monolith?
 En **[[Main/Noter/Programmering/Monolitiske Applikationer\|monolitisk applikation]]** er en enkelt, samlet kodebase, hvor alle funktionaliteter er integreret og afhængige af hinanden.
 
-![Monolith_architecture.png](/img/user/98_Images/Monolith_architecture.png)
+![Monolith_architecture.png](/img/user/Resource/98_Images/Monolith_architecture.png)
 
 Dette kan være en god løsning for *små* eller *mellemstore* projekter, der ikke har behov for omfattende skalering. 
 I projektets *startfase* kan det være hensigtsmæssigt at bruge en monolitisk tilgang, da det ofte er hurtigere at udvikle og implementere. Hvis projektet senere kræver mere fleksibilitet eller skalering, kan en overvejelse af [[Main/Noter/Emner/Backend/Microservice\|microservices]] blive relevant.
@@ -25,7 +25,7 @@ I projektets *startfase* kan det være hensigtsmæssigt at bruge en monolitisk t
 ## Modular Monolit
 En **modulær monolith** er en monolitisk arkitektur, der er opdelt i separate moduler. Hvert modul har sit eget ansvarsområde, hvilket gør det lettere at udvikle, teste og vedligeholde.
 
-![Modular monolith.png](/img/user/98_Images/Modular%20monolith.png)
+![Modular monolith.png](/img/user/Resource/98_Images/Modular%20monolith.png)
 
 Denne tilgang fungerer som en overgang mellem [[Main/Noter/Programmering/Monolitiske Applikationer\|monolith]] og [[Main/Noter/Emner/Backend/Microservice\|microservices]], da modulerne kan behandles næsten som selvstændige services.
 ### Fordele ved Modular Monolith
@@ -39,7 +39,7 @@ Denne tilgang fungerer som en overgang mellem [[Main/Noter/Programmering/Monolit
 **[[Main/Noter/Emner/Backend/Microservice\|Microservices]]** er en arkitektur, hvor applikationen opdeles i mindre, selvstændige services. Hver service repræsenterer et domæne eller ansvarsområde og kan udvikles, implementeres og vedligeholdes uafhængigt.
 
 
-![Microservice_Arch.png](/img/user/98_Images/Microservice_Arch.png)
+![Microservice_Arch.png](/img/user/Resource/98_Images/Microservice_Arch.png)
 
 Denne tilgang er ideel for komplekse applikationer, der skal skaleres op, eller hvor dele af applikationen skal kunne udskiftes uden at påvirke resten af systemet.
 

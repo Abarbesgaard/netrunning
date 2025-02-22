@@ -6,7 +6,7 @@
 > OAuth 2.0 er en **autorisationsprotokol**, der giver tredjepartsapplikationer begrænset adgang til brugerdata på andre tjenester uden at kende brugerens adgangskode [1](https://auth0.com/intro-to-iam/what-is-oauth-2) [5](https://itconfidence.dk/encyclopedia/oauth/) [6](https://cybermonkey.dk/cyberpedia/oauth-2-0-en-moderne-standard-for-sikker-adgang).
 
 
-![Pasted image 20241121095748.png](/img/user/98_Images/Pasted%20image%2020241121095748.png)
+![Pasted image 20241121095748.png](/img/user/Resource/98_Images/Pasted%20image%2020241121095748.png)
 *Billedet er fra [Prismatic](https://prismatic.io/docs/getting-started/oauth2/what-is-oauth2/)*
 
 Den erstattede OAuth 1.0 i 2012 og er nu industristandarden for online autorisation [1](https://auth0.com/intro-to-iam/what-is-oauth-2).

@@ -6,7 +6,7 @@
 > JWT (JSON Web Token) er en åben standard til sikker overførsel af information mellem forskellige systemer som signerede JSON-objekter [1](https://workos.com/blog/json-web-tokens) [3](https://en.wikipedia.org/wiki/JSON_Web_Token).
 
 
-![Pasted image 20241121092639.png](/img/user/98_Images/Pasted%20image%2020241121092639.png)
+![Pasted image 20241121092639.png](/img/user/Resource/98_Images/Pasted%20image%2020241121092639.png)
 *Billedet er fra [SuperTokens](https://supertokens.com/blog/what-is-jwt)*
 ## Dele i et JWT Token
 Et JWT består af tre dele:

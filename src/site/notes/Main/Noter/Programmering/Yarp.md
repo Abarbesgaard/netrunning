@@ -5,7 +5,7 @@
 > [!important] Hvad er YARP
 > YARP (Yet Another Reverse Proxy) er et open-source bibliotek udviklet af Microsoft til at implementere reverse proxy-funktionalitet i .NET-applikationer [1](https://www.partech.nl/en/publications/2022/03/what-is-yarp) [2](https://dev.to/hossien014/what-is-yarp-vs-nginx-4m59). Det er designet til at være meget fleksibelt og tilpasningsdygtigt, så udviklere kan bygge skræddersyede reverse proxies ved hjælp af .NET-teknologier [2](https://dev.to/hossien014/what-is-yarp-vs-nginx-4m59).
 
-![Pasted image 20241121101048.png](/img/user/98_Images/Pasted%20image%2020241121101048.png)
+![Pasted image 20241121101048.png](/img/user/Resource/98_Images/Pasted%20image%2020241121101048.png)
 *Billedet er fra [Kinsta](https://kinsta.com/blog/reverse-proxy/)*
 ## Hovedfunktioner
 

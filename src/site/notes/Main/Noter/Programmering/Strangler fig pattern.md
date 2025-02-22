@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/programmering/strangler-fig-pattern/","created":"2024-10-07T08:16:42.230+02:00"}
 ---
 
-![Strangler fig pattern.png](/img/user/98_Images/Strangler%20fig%20pattern.png)
+![Strangler fig pattern.png](/img/user/Resource/98_Images/Strangler%20fig%20pattern.png)
 Strangler fig-mønsteret er et softwarearkitekturkoncept, der blev introduceret af Martin Fowler. Det beskriver en metode til gradvist at erstatte gamle systemer med nye ved at indføre nye funktioner, mens de eksisterende stadig er i drift. Navnet stammer fra strangler fig-planten, som vokser omkring et værts træ og til sidst erstatter det.
 
 ## Nøgleelementer

@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/programmering/auth0/","created":"2024-10-03T11:59:50.327+02:00"}
 ---
 
-![Auth0.png](/img/user/98_Images/Auth0.png)
+![Auth0.png](/img/user/Resource/98_Images/Auth0.png)
 Auth0 er en identitets- og adgangsstyringsplatform (IAM), som virksomheder og webudviklere bruger til at verificere brugeres identitet, før de får adgang til hjemmesider og applikationer [1](https://www.weareplanet.com/blog/what-is-auth0) [2](https://auth0.com/docs/get-started/identity-fundamentals/introduction-to-auth0).
 
 1. **Single Sign-On** (SSO): Tillader brugere at logge ind på flere applikationer med samme loginoplysninger [1](https://www.weareplanet.com/blog/what-is-auth0).

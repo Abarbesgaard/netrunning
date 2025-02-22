@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/noter/vita/improper-inventory-management/","created":"2024-11-11T09:10:59.182+01:00"}
 ---
 
-![Improper Inventory Management.png](/img/user/98_Images/Improper%20Inventory%20Management.png)
+![Improper Inventory Management.png](/img/user/Resource/98_Images/Improper%20Inventory%20Management.png)
 > [!Note]- Opsummering af IIM
 > **API'er har ofte flere endepunkter** end traditionelle webapplikationer, hvilket gør korrekt og opdateret dokumentation særligt vigtig. En ordentlig opgørelse over hosts og implementerede API-versioner er også vigtig for at minimere problemer som forældede API-versioner og eksponerede debug-endepunkter.
 

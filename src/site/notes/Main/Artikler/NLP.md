@@ -10,7 +10,7 @@ Da det nye år begyndte, startede jeg i praktik hos en lille virksomhed, og det 
 
 Frontend er generelt ikke mit speciale, men det har været en øjenåbnende oplevelse at lære, hvordan tingene fungerer på den side af skærmen. Det har givet mig en bedre forståelse for, hvorfor frontend-udviklere ofte kan blive frustrerede over deres værktøjer.
 
-  ![Pasted image 20250122090711.png](/img/user/Pasted%20image%2020250122090711.png)
+  ![Pasted image 20250122090711.png](/img/user/Resource/98_Images/Pasted%20image%2020250122090711.png)
 *Billede til at fastholde læserens opmærksomhed*
 
 Men læringskurven har været stejl. Frontend-programmeringens strukturer og mønstre er begyndt at falde på plads, men det har ikke været uden kamp. Dette har fået mig til at reflektere over, om det nogensinde vil blive lettere at arbejde med kode – og om der er teknologier i horisonten, der kan gøre programmering mere intuitiv.
@@ -64,7 +64,7 @@ Mens NLP står overfor mange udfordringer, er der en anden teknologi, der muligv
 Neuralink arbejder på at skabe en direkte forbindelse mellem hjernen og computere. I februar 2024 blev det rapporteret, at en patient kunne styre en mus alene ved hjælp af tanker. Dette åbner for muligheden for, at vi i fremtiden kan programmere eller interagere med maskiner blot ved at tænke det.
 
 
-![Pasted image 20250122092443.png](/img/user/Pasted%20image%2020250122092443.png)
+![Pasted image 20250122092443.png](/img/user/Resource/98_Images/Pasted%20image%2020250122092443.png)
 Men hvor Neuralink potentielt kunne eliminere behovet for at udtrykke os med ord, bringer det også nye udfordringer. Hvordan sikrer vi, at maskinen forstår vores tanker korrekt? Og hvad sker der, hvis vi tænker noget tilfældigt eller tvetydigt?
 
 ---

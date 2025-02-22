@@ -3,7 +3,7 @@
 ---
 
 ## Broken Authentication
-![Broken Auth.png](/img/user/98_Images/Broken%20Auth.png)
+![Broken Auth.png](/img/user/Resource/98_Images/Broken%20Auth.png)
 
 > [!note]- Opsummering af Broken Auth
 > API-sikkerhed er afgørende, især ved autentificering og følsomme operationer som "glemt adgangskode". En API betragtes som sårbar, hvis den tillader credential stuffing, mangler beskyttelse mod brute force-angreb, tillader svage adgangskoder, sender følsomme oplysninger i URL'en, og ikke kræver bekræftelse af brugerens identitet ved ændringer af følsomme data. Mikroservices er også udsatte, hvis de kan tilgås uden autentificering eller bruger svage tokens. For at forhindre disse sårbarheder bør man implementere strenge autentificeringsprotokoller, kræve re-autentificering ved kritiske ændringer, beskytte mod brute force-angreb og sikre, at API-nøgler kun anvendes til autentificering af API-klienter.

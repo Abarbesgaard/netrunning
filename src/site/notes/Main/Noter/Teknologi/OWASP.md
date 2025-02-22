@@ -3,7 +3,7 @@
 ---
 
 
-![OWASp.png](/img/user/98_Images/OWASp.png)
+![OWASp.png](/img/user/Resource/98_Images/OWASp.png)
 ## OWASP (Open Web Application Security Project) 
 OWASP, eller Open Web Application Security Project, er en global non-profit organisation, som arbejder for at forbedre sikkerheden i software. OWASP tilbyder gratis værktøjer, dokumentation og fællesskabsbaserede projekter, som hjælper udviklere, sikkerhedseksperter og virksomheder med at identificere og reducere sikkerhedstrusler i applikationer. Et af de mest kendte initiativer er OWASP Top 10, en liste over de mest kritiske sikkerhedstrusler mod webapplikationer, der opdateres løbende for at afspejle nye sikkerhedsrisici og tendenser.
 ## **Nøgleområder for OWASP**

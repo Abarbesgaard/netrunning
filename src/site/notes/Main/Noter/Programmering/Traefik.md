@@ -8,7 +8,7 @@
 
 
 
-![traefik example.png](/img/user/98_Images/traefik%20example.png)
+![traefik example.png](/img/user/Resource/98_Images/traefik%20example.png)
 *Billedet er fra [traefik](https://traefik.io/traefik/)*
 ## Hovedfunktioner
 

@@ -5,7 +5,7 @@
 > [!Important] Opsummering
 > **Eventual consistency** er en model, der bruges i [[Main/Noter/Programmering/Distribuerede systemer\|distribuerede systemer]] for at opnå høj tilgængelighed. 
 
-![Pasted image 20241115093723.png](/img/user/98_Images/Pasted%20image%2020241115093723.png)
+![Pasted image 20241115093723.png](/img/user/Resource/98_Images/Pasted%20image%2020241115093723.png)
 *Billede fra [Designgurus](https://www.designgurus.io/answers/detail/what-is-strong-vs-eventual-consistency)*
 ## Kilder:
 1. [Wiki](https://en.wikipedia.org/wiki/Eventual_consistency)
