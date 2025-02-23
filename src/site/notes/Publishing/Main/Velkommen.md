@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/publishing/main/velkommen/","title":"Velkommen","tags":["gardenEntry"],"created":"2024-08-12T12:40:26.955+02:00"}
+{"dg-publish":true,"permalink":"/publishing/main/velkommen/","title":"Velkommen","tags":["gardenEntry"],"dgHomeLink":"true","dgShowBacklinks":"true","dgShowLocalGraph":"true","dgShowFileTree":"true","dgEnableSearch":"true","dgShowToc":"true","created":"2024-08-12T12:40:26.955+02:00"}
 ---
 
 
