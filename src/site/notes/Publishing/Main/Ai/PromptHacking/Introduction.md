@@ -12,8 +12,9 @@ Der er tre typer af prompt-hacking: *prompt-injektion*, *prompt-leak* og *jailbr
 
 For at beskytte mod prompt-hacking skal der træffes defensive foranstaltninger. Disse omfatter implementering af *prompt-baserede forsvar*, regelmæssig overvågning af  [[Publishing/Main/Noter/Ai/Large language model\|LLM'ens]]  adfærd og output for unormal aktivitet samt brug af finjustering eller andre teknikker. Alt i alt er prompt-hacking en voksende bekymring for sikkerheden af  [[Publishing/Main/Noter/Ai/Large language model\|LLM'er]]  og det er vigtigt at forblive opmærksom og tage proaktive skridt for at beskytte mod denne type angreb.
 
-| File | Title |
-| ---- | ----- |
+| File                                                                   | Title          |
+| ---------------------------------------------------------------------- | -------------- |
+| [[Publishing/Main/Ai/PromptHacking/Prompt Leaking\|Prompt Leaking]] | Prompt Leaking |
 
 { .block-language-dataview}
 ## Kilder
